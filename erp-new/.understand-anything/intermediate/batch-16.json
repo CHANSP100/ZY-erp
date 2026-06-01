@@ -1,0 +1,490 @@
+{
+  "nodes": [
+    {
+      "id": "file:client-vue/src/components/erp/ErpPrintDialog.vue",
+      "type": "file",
+      "name": "ErpPrintDialog.vue",
+      "filePath": "client-vue/src/components/erp/ErpPrintDialog.vue",
+      "summary": "Source file ErpPrintDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpPrintTemplateDialog.vue",
+      "type": "file",
+      "name": "ErpPrintTemplateDialog.vue",
+      "filePath": "client-vue/src/components/erp/ErpPrintTemplateDialog.vue",
+      "summary": "Source file ErpPrintTemplateDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpQueryBar.vue",
+      "type": "file",
+      "name": "ErpQueryBar.vue",
+      "filePath": "client-vue/src/components/erp/ErpQueryBar.vue",
+      "summary": "Source file ErpQueryBar.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpQueryBarField.vue",
+      "type": "file",
+      "name": "ErpQueryBarField.vue",
+      "filePath": "client-vue/src/components/erp/ErpQueryBarField.vue",
+      "summary": "Source file ErpQueryBarField.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpQueryField.vue",
+      "type": "file",
+      "name": "ErpQueryField.vue",
+      "filePath": "client-vue/src/components/erp/ErpQueryField.vue",
+      "summary": "Source file ErpQueryField.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpQueryPanel.vue",
+      "type": "file",
+      "name": "ErpQueryPanel.vue",
+      "filePath": "client-vue/src/components/erp/ErpQueryPanel.vue",
+      "summary": "Source file ErpQueryPanel.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpToolBar.vue",
+      "type": "file",
+      "name": "ErpToolBar.vue",
+      "filePath": "client-vue/src/components/erp/ErpToolBar.vue",
+      "summary": "Source file ErpToolBar.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ExtFieldControl.vue",
+      "type": "file",
+      "name": "ExtFieldControl.vue",
+      "filePath": "client-vue/src/components/erp/ExtFieldControl.vue",
+      "summary": "Source file ExtFieldControl.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "client-vue/src/components/erp/index.ts",
+      "summary": "Source file index.ts in the client-vue area of erp-new.",
+      "tags": [
+        "entry-point",
+        "barrel",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/kingdee/ErpBillLineTable.vue",
+      "type": "file",
+      "name": "ErpBillLineTable.vue",
+      "filePath": "client-vue/src/components/erp/kingdee/ErpBillLineTable.vue",
+      "summary": "Source file ErpBillLineTable.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/kingdee/ErpBillLineToolbar.vue",
+      "type": "file",
+      "name": "ErpBillLineToolbar.vue",
+      "filePath": "client-vue/src/components/erp/kingdee/ErpBillLineToolbar.vue",
+      "summary": "Source file ErpBillLineToolbar.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/kingdee/ErpKingdeeBillEdit.vue",
+      "type": "file",
+      "name": "ErpKingdeeBillEdit.vue",
+      "filePath": "client-vue/src/components/erp/kingdee/ErpKingdeeBillEdit.vue",
+      "summary": "Source file ErpKingdeeBillEdit.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/kingdee/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "client-vue/src/components/erp/kingdee/index.ts",
+      "summary": "Source file index.ts in the client-vue area of erp-new.",
+      "tags": [
+        "entry-point",
+        "barrel",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/SunlikeSqlEditor.vue",
+      "type": "file",
+      "name": "SunlikeSqlEditor.vue",
+      "filePath": "client-vue/src/components/erp/SunlikeSqlEditor.vue",
+      "summary": "Source file SunlikeSqlEditor.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/lookup/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "client-vue/src/components/lookup/index.ts",
+      "summary": "Source file index.ts in the client-vue area of erp-new.",
+      "tags": [
+        "entry-point",
+        "barrel",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/LookupDialog.vue",
+      "type": "file",
+      "name": "LookupDialog.vue",
+      "filePath": "client-vue/src/components/LookupDialog.vue",
+      "summary": "Source file LookupDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/LookupDialogHeaderMenu.vue",
+      "type": "file",
+      "name": "LookupDialogHeaderMenu.vue",
+      "filePath": "client-vue/src/components/LookupDialogHeaderMenu.vue",
+      "summary": "Source file LookupDialogHeaderMenu.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/LookupField.vue",
+      "type": "file",
+      "name": "LookupField.vue",
+      "filePath": "client-vue/src/components/LookupField.vue",
+      "summary": "Source file LookupField.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/LookupPicker.vue",
+      "type": "file",
+      "name": "LookupPicker.vue",
+      "filePath": "client-vue/src/components/LookupPicker.vue",
+      "summary": "Source file LookupPicker.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/PrdtUtEditDialog.vue",
+      "type": "file",
+      "name": "PrdtUtEditDialog.vue",
+      "filePath": "client-vue/src/components/PrdtUtEditDialog.vue",
+      "summary": "Source file PrdtUtEditDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/PrdtUtLookupDialog.vue",
+      "type": "file",
+      "name": "PrdtUtLookupDialog.vue",
+      "filePath": "client-vue/src/components/PrdtUtLookupDialog.vue",
+      "summary": "Source file PrdtUtLookupDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/composables/billExtFieldReload.ts",
+      "type": "file",
+      "name": "billExtFieldReload.ts",
+      "filePath": "client-vue/src/composables/billExtFieldReload.ts",
+      "summary": "billExtFieldReload.ts with 1 function(s) and 0 class(es); exports 2 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/billExtFieldReload.ts:useBillExtFieldReload",
+      "type": "function",
+      "name": "useBillExtFieldReload",
+      "filePath": "client-vue/src/composables/billExtFieldReload.ts",
+      "lineRange": [
+        6,
+        12
+      ],
+      "summary": "Function useBillExtFieldReload defined in billExtFieldReload.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/composables/useBillLineAddRows.ts",
+      "type": "file",
+      "name": "useBillLineAddRows.ts",
+      "filePath": "client-vue/src/composables/useBillLineAddRows.ts",
+      "summary": "useBillLineAddRows.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useBillLineAddRows.ts:useBillLineAddRows",
+      "type": "function",
+      "name": "useBillLineAddRows",
+      "filePath": "client-vue/src/composables/useBillLineAddRows.ts",
+      "lineRange": [
+        2,
+        8
+      ],
+      "summary": "Function useBillLineAddRows defined in useBillLineAddRows.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/composables/useErpBillEditDelete.ts",
+      "type": "file",
+      "name": "useErpBillEditDelete.ts",
+      "filePath": "client-vue/src/composables/useErpBillEditDelete.ts",
+      "summary": "useErpBillEditDelete.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useErpBillEditDelete.ts:useErpBillEditDelete",
+      "type": "function",
+      "name": "useErpBillEditDelete",
+      "filePath": "client-vue/src/composables/useErpBillEditDelete.ts",
+      "lineRange": [
+        6,
+        90
+      ],
+      "summary": "Function useErpBillEditDelete defined in useErpBillEditDelete.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/useFormEnterNav.ts",
+      "type": "file",
+      "name": "useFormEnterNav.ts",
+      "filePath": "client-vue/src/composables/useFormEnterNav.ts",
+      "summary": "useFormEnterNav.ts with 12 function(s) and 0 class(es); exports 5 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useFormEnterNav.ts:isNavFocusable",
+      "type": "function",
+      "name": "isNavFocusable",
+      "filePath": "client-vue/src/composables/useFormEnterNav.ts",
+      "lineRange": [
+        33,
+        42
+      ],
+      "summary": "Function isNavFocusable defined in useFormEnterNav.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useFormEnterNav.ts:collectEnterNavFocusables",
+      "type": "function",
+      "name": "collectEnterNavFocusables",
+      "filePath": "client-vue/src/composables/useFormEnterNav.ts",
+      "lineRange": [
+        44,
+        48
+      ],
+      "summary": "Function collectEnterNavFocusables defined in useFormEnterNav.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useFormEnterNav.ts:focusNextInEnterNavZone",
+      "type": "function",
+      "name": "focusNextInEnterNavZone",
+      "filePath": "client-vue/src/composables/useFormEnterNav.ts",
+      "lineRange": [
+        73,
+        122
+      ],
+      "summary": "Function focusNextInEnterNavZone defined in useFormEnterNav.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:client-vue/src/composables/useFormEnterNav.ts:useFormEnterNav",
+      "type": "function",
+      "name": "useFormEnterNav",
+      "filePath": "client-vue/src/composables/useFormEnterNav.ts",
+      "lineRange": [
+        145,
+        191
+      ],
+      "summary": "Function useFormEnterNav defined in useFormEnterNav.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:client-vue/src/composables/billExtFieldReload.ts",
+      "target": "function:client-vue/src/composables/billExtFieldReload.ts:useBillExtFieldReload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/billExtFieldReload.ts",
+      "target": "function:client-vue/src/composables/billExtFieldReload.ts:useBillExtFieldReload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useBillLineAddRows.ts",
+      "target": "function:client-vue/src/composables/useBillLineAddRows.ts:useBillLineAddRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useBillLineAddRows.ts",
+      "target": "function:client-vue/src/composables/useBillLineAddRows.ts:useBillLineAddRows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpBillEditDelete.ts",
+      "target": "function:client-vue/src/composables/useErpBillEditDelete.ts:useErpBillEditDelete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpBillEditDelete.ts",
+      "target": "function:client-vue/src/composables/useErpBillEditDelete.ts:useErpBillEditDelete",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useFormEnterNav.ts",
+      "target": "function:client-vue/src/composables/useFormEnterNav.ts:isNavFocusable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useFormEnterNav.ts",
+      "target": "function:client-vue/src/composables/useFormEnterNav.ts:isNavFocusable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useFormEnterNav.ts",
+      "target": "function:client-vue/src/composables/useFormEnterNav.ts:collectEnterNavFocusables",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useFormEnterNav.ts",
+      "target": "function:client-vue/src/composables/useFormEnterNav.ts:collectEnterNavFocusables",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useFormEnterNav.ts",
+      "target": "function:client-vue/src/composables/useFormEnterNav.ts:focusNextInEnterNavZone",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useFormEnterNav.ts",
+      "target": "function:client-vue/src/composables/useFormEnterNav.ts:focusNextInEnterNavZone",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useFormEnterNav.ts",
+      "target": "function:client-vue/src/composables/useFormEnterNav.ts:useFormEnterNav",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useFormEnterNav.ts",
+      "target": "function:client-vue/src/composables/useFormEnterNav.ts:useFormEnterNav",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

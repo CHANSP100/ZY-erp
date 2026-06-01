@@ -1,0 +1,608 @@
+{
+  "nodes": [
+    {
+      "id": "document:client-vue/src/config/fields/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "client-vue/src/config/fields/README.md",
+      "summary": "Documentation file README.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/lookups/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "client-vue/src/config/lookups/index.ts",
+      "summary": "Source file index.ts in the client-vue area of erp-new.",
+      "tags": [
+        "entry-point",
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/detailGridFieldKey.ts",
+      "type": "file",
+      "name": "detailGridFieldKey.ts",
+      "filePath": "client-vue/src/utils/detailGridFieldKey.ts",
+      "summary": "detailGridFieldKey.ts with 2 function(s) and 0 class(es); exports 2 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/detailGridFieldKey.ts:resolveLineFieldKey",
+      "type": "function",
+      "name": "resolveLineFieldKey",
+      "filePath": "client-vue/src/utils/detailGridFieldKey.ts",
+      "lineRange": [
+        7,
+        13
+      ],
+      "summary": "Function resolveLineFieldKey defined in detailGridFieldKey.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/detailGridFieldKey.ts:isBillLineGridColumn",
+      "type": "function",
+      "name": "isBillLineGridColumn",
+      "filePath": "client-vue/src/utils/detailGridFieldKey.ts",
+      "lineRange": [
+        16,
+        22
+      ],
+      "summary": "Function isBillLineGridColumn defined in detailGridFieldKey.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/exportExcel.ts",
+      "type": "file",
+      "name": "exportExcel.ts",
+      "filePath": "client-vue/src/utils/exportExcel.ts",
+      "summary": "exportExcel.ts with 5 function(s) and 0 class(es); exports 6 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/exportExcel.ts:escapeHtml",
+      "type": "function",
+      "name": "escapeHtml",
+      "filePath": "client-vue/src/utils/exportExcel.ts",
+      "lineRange": [
+        6,
+        12
+      ],
+      "summary": "Function escapeHtml defined in exportExcel.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/exportExcel.ts:exportRowsToExcel",
+      "type": "function",
+      "name": "exportRowsToExcel",
+      "filePath": "client-vue/src/utils/exportExcel.ts",
+      "lineRange": [
+        15,
+        38
+      ],
+      "summary": "Function exportRowsToExcel defined in exportExcel.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/exportExcel.ts:buildPrintTableHtml",
+      "type": "function",
+      "name": "buildPrintTableHtml",
+      "filePath": "client-vue/src/utils/exportExcel.ts",
+      "lineRange": [
+        40,
+        49
+      ],
+      "summary": "Function buildPrintTableHtml defined in exportExcel.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/exportExcel.ts:renderPrintHtml",
+      "type": "function",
+      "name": "renderPrintHtml",
+      "filePath": "client-vue/src/utils/exportExcel.ts",
+      "lineRange": [
+        52,
+        65
+      ],
+      "summary": "Function renderPrintHtml defined in exportExcel.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/exportExcel.ts:openPrintPreview",
+      "type": "function",
+      "name": "openPrintPreview",
+      "filePath": "client-vue/src/utils/exportExcel.ts",
+      "lineRange": [
+        73,
+        94
+      ],
+      "summary": "Function openPrintPreview defined in exportExcel.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:client-vue/src/utils/printRender.ts",
+      "type": "file",
+      "name": "printRender.ts",
+      "filePath": "client-vue/src/utils/printRender.ts",
+      "summary": "printRender.ts with 5 function(s) and 0 class(es); exports 6 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/printRender.ts:inferDocNoFromRows",
+      "type": "function",
+      "name": "inferDocNoFromRows",
+      "filePath": "client-vue/src/utils/printRender.ts",
+      "lineRange": [
+        22,
+        30
+      ],
+      "summary": "Function inferDocNoFromRows defined in printRender.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/printRender.ts:resolveQrcodeText",
+      "type": "function",
+      "name": "resolveQrcodeText",
+      "filePath": "client-vue/src/utils/printRender.ts",
+      "lineRange": [
+        32,
+        37
+      ],
+      "summary": "Function resolveQrcodeText defined in printRender.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/printRender.ts:buildQrcodeImgHtml",
+      "type": "function",
+      "name": "buildQrcodeImgHtml",
+      "filePath": "client-vue/src/utils/printRender.ts",
+      "lineRange": [
+        39,
+        54
+      ],
+      "summary": "Function buildQrcodeImgHtml defined in printRender.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/printRender.ts:renderPrintHtmlAsync",
+      "type": "function",
+      "name": "renderPrintHtmlAsync",
+      "filePath": "client-vue/src/utils/printRender.ts",
+      "lineRange": [
+        62,
+        86
+      ],
+      "summary": "Function renderPrintHtmlAsync defined in printRender.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:client-vue/src/views/AreaPage.vue",
+      "type": "file",
+      "name": "AreaPage.vue",
+      "filePath": "client-vue/src/views/AreaPage.vue",
+      "summary": "Source file AreaPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/BomFormView.vue",
+      "type": "file",
+      "name": "BomFormView.vue",
+      "filePath": "client-vue/src/views/BomFormView.vue",
+      "summary": "Source file BomFormView.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/BomPage.vue",
+      "type": "file",
+      "name": "BomPage.vue",
+      "filePath": "client-vue/src/views/BomPage.vue",
+      "summary": "Source file BomPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/CustPage.vue",
+      "type": "file",
+      "name": "CustPage.vue",
+      "filePath": "client-vue/src/views/CustPage.vue",
+      "summary": "Source file CustPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/DeptPage.vue",
+      "type": "file",
+      "name": "DeptPage.vue",
+      "filePath": "client-vue/src/views/DeptPage.vue",
+      "summary": "Source file DeptPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/IndxPage.vue",
+      "type": "file",
+      "name": "IndxPage.vue",
+      "filePath": "client-vue/src/views/IndxPage.vue",
+      "summary": "Source file IndxPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/LoginPage.vue",
+      "type": "file",
+      "name": "LoginPage.vue",
+      "filePath": "client-vue/src/views/LoginPage.vue",
+      "summary": "Source file LoginPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/ManufacturingOrderFormView.vue",
+      "type": "file",
+      "name": "ManufacturingOrderFormView.vue",
+      "filePath": "client-vue/src/views/ManufacturingOrderFormView.vue",
+      "summary": "Source file ManufacturingOrderFormView.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/ManufacturingOrderPage.vue",
+      "type": "file",
+      "name": "ManufacturingOrderPage.vue",
+      "filePath": "client-vue/src/views/ManufacturingOrderPage.vue",
+      "summary": "Source file ManufacturingOrderPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/MaterialIssueFormView.vue",
+      "type": "file",
+      "name": "MaterialIssueFormView.vue",
+      "filePath": "client-vue/src/views/MaterialIssueFormView.vue",
+      "summary": "Source file MaterialIssueFormView.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/MaterialIssuePage.vue",
+      "type": "file",
+      "name": "MaterialIssuePage.vue",
+      "filePath": "client-vue/src/views/MaterialIssuePage.vue",
+      "summary": "Source file MaterialIssuePage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/PermissionSettingsPage.vue",
+      "type": "file",
+      "name": "PermissionSettingsPage.vue",
+      "filePath": "client-vue/src/views/PermissionSettingsPage.vue",
+      "summary": "Source file PermissionSettingsPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/PlaceholderView.vue",
+      "type": "file",
+      "name": "PlaceholderView.vue",
+      "filePath": "client-vue/src/views/PlaceholderView.vue",
+      "summary": "Source file PlaceholderView.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/ProductionPlanFormView.vue",
+      "type": "file",
+      "name": "ProductionPlanFormView.vue",
+      "filePath": "client-vue/src/views/ProductionPlanFormView.vue",
+      "summary": "Source file ProductionPlanFormView.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/ProductionPlanPage.vue",
+      "type": "file",
+      "name": "ProductionPlanPage.vue",
+      "filePath": "client-vue/src/views/ProductionPlanPage.vue",
+      "summary": "Source file ProductionPlanPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/ProductionRequirementFormView.vue",
+      "type": "file",
+      "name": "ProductionRequirementFormView.vue",
+      "filePath": "client-vue/src/views/ProductionRequirementFormView.vue",
+      "summary": "Source file ProductionRequirementFormView.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/ProductionRequirementPage.vue",
+      "type": "file",
+      "name": "ProductionRequirementPage.vue",
+      "filePath": "client-vue/src/views/ProductionRequirementPage.vue",
+      "summary": "Source file ProductionRequirementPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/ProductPage.vue",
+      "type": "file",
+      "name": "ProductPage.vue",
+      "filePath": "client-vue/src/views/ProductPage.vue",
+      "summary": "Source file ProductPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/PurchaseAllowancePage.vue",
+      "type": "file",
+      "name": "PurchaseAllowancePage.vue",
+      "filePath": "client-vue/src/views/PurchaseAllowancePage.vue",
+      "summary": "Source file PurchaseAllowancePage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/PurchaseOrderPage.vue",
+      "type": "file",
+      "name": "PurchaseOrderPage.vue",
+      "filePath": "client-vue/src/views/PurchaseOrderPage.vue",
+      "summary": "Source file PurchaseOrderPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:client-vue/src/utils/detailGridFieldKey.ts",
+      "target": "function:client-vue/src/utils/detailGridFieldKey.ts:resolveLineFieldKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/detailGridFieldKey.ts",
+      "target": "function:client-vue/src/utils/detailGridFieldKey.ts:resolveLineFieldKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/detailGridFieldKey.ts",
+      "target": "function:client-vue/src/utils/detailGridFieldKey.ts:isBillLineGridColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/detailGridFieldKey.ts",
+      "target": "function:client-vue/src/utils/detailGridFieldKey.ts:isBillLineGridColumn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:escapeHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:escapeHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:exportRowsToExcel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:exportRowsToExcel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:buildPrintTableHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:buildPrintTableHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:renderPrintHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:renderPrintHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:openPrintPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/exportExcel.ts",
+      "target": "function:client-vue/src/utils/exportExcel.ts:openPrintPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/printRender.ts",
+      "target": "file:client-vue/src/utils/exportExcel.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/printRender.ts",
+      "target": "function:client-vue/src/utils/printRender.ts:inferDocNoFromRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/printRender.ts",
+      "target": "function:client-vue/src/utils/printRender.ts:inferDocNoFromRows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/printRender.ts",
+      "target": "function:client-vue/src/utils/printRender.ts:resolveQrcodeText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/printRender.ts",
+      "target": "function:client-vue/src/utils/printRender.ts:resolveQrcodeText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/printRender.ts",
+      "target": "function:client-vue/src/utils/printRender.ts:buildQrcodeImgHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/printRender.ts",
+      "target": "function:client-vue/src/utils/printRender.ts:buildQrcodeImgHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/printRender.ts",
+      "target": "function:client-vue/src/utils/printRender.ts:renderPrintHtmlAsync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/printRender.ts",
+      "target": "function:client-vue/src/utils/printRender.ts:renderPrintHtmlAsync",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

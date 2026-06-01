@@ -1,0 +1,763 @@
+{
+  "scriptCompleted": true,
+  "stats": {
+    "filesScanned": 297,
+    "filesWithImports": 122,
+    "totalEdges": 334
+  },
+  "importMap": {
+    ".cursor/rules/sunlike9-dev01-baseline.mdc": [],
+    ".understand-anything/.understandignore": [],
+    "开机启动ERP.bat": [],
+    "启动开发.bat": [],
+    "启动ERP.bat": [],
+    "client-vue/index.html": [],
+    "client-vue/package.json": [],
+    "client-vue/src/api/index.ts": [
+      "client-vue/src/api/types.ts"
+    ],
+    "client-vue/src/api/types.ts": [],
+    "client-vue/src/App.vue": [],
+    "client-vue/src/components/BilSpcEditDialog.vue": [],
+    "client-vue/src/components/BilSpcSalesLookupDialog.vue": [],
+    "client-vue/src/components/erp/detailGrid/index.ts": [],
+    "client-vue/src/components/erp/DetailGridHeaderMenu.vue": [],
+    "client-vue/src/components/erp/ErpArchiveExtFields.vue": [],
+    "client-vue/src/components/erp/ErpBasePage.vue": [],
+    "client-vue/src/components/erp/ErpBillAuditMeta.vue": [],
+    "client-vue/src/components/erp/ErpBillEditDialog.vue": [],
+    "client-vue/src/components/erp/ErpBillHeadExtFields.vue": [],
+    "client-vue/src/components/erp/ErpBillLineTable.vue": [],
+    "client-vue/src/components/erp/ErpBillPage.vue": [],
+    "client-vue/src/components/erp/ErpBillQueryField.vue": [],
+    "client-vue/src/components/erp/ErpBillToolbar.vue": [],
+    "client-vue/src/components/erp/ErpBillTree.vue": [],
+    "client-vue/src/components/erp/ErpCategoryTree.vue": [],
+    "client-vue/src/components/erp/ErpDataTable.vue": [],
+    "client-vue/src/components/erp/ErpDetailGrid.vue": [],
+    "client-vue/src/components/erp/ErpEditDialog.vue": [],
+    "client-vue/src/components/erp/ErpEnterNavZone.vue": [],
+    "client-vue/src/components/erp/ErpExtFieldZone.vue": [],
+    "client-vue/src/components/erp/ErpFormSection.vue": [],
+    "client-vue/src/components/erp/ErpGridDesignDialog.vue": [],
+    "client-vue/src/components/erp/ErpListPage.vue": [],
+    "client-vue/src/components/erp/ErpPrintDialog.vue": [],
+    "client-vue/src/components/erp/ErpPrintTemplateDialog.vue": [],
+    "client-vue/src/components/erp/ErpQueryBar.vue": [],
+    "client-vue/src/components/erp/ErpQueryBarField.vue": [],
+    "client-vue/src/components/erp/ErpQueryField.vue": [],
+    "client-vue/src/components/erp/ErpQueryPanel.vue": [],
+    "client-vue/src/components/erp/ErpToolBar.vue": [],
+    "client-vue/src/components/erp/ExtFieldControl.vue": [],
+    "client-vue/src/components/erp/index.ts": [],
+    "client-vue/src/components/erp/kingdee/ErpBillLineTable.vue": [],
+    "client-vue/src/components/erp/kingdee/ErpBillLineToolbar.vue": [],
+    "client-vue/src/components/erp/kingdee/ErpKingdeeBillEdit.vue": [],
+    "client-vue/src/components/erp/kingdee/index.ts": [],
+    "client-vue/src/components/erp/SunlikeSqlEditor.vue": [],
+    "client-vue/src/components/lookup/index.ts": [],
+    "client-vue/src/components/LookupDialog.vue": [],
+    "client-vue/src/components/LookupDialogHeaderMenu.vue": [],
+    "client-vue/src/components/LookupField.vue": [],
+    "client-vue/src/components/LookupPicker.vue": [],
+    "client-vue/src/components/PrdtUtEditDialog.vue": [],
+    "client-vue/src/components/PrdtUtLookupDialog.vue": [],
+    "client-vue/src/composables/billExtFieldReload.ts": [],
+    "client-vue/src/composables/useArchiveExtFields.ts": [
+      "client-vue/src/composables/useExtFieldColumns.ts"
+    ],
+    "client-vue/src/composables/useAuth.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts"
+    ],
+    "client-vue/src/composables/useBillLineAddRows.ts": [],
+    "client-vue/src/composables/useBillLineWhLookup.ts": [
+      "client-vue/src/api/index.ts"
+    ],
+    "client-vue/src/composables/useBomBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/detailGridRegistry.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/config/prdtTwId.ts",
+      "client-vue/src/utils/billAudit.ts"
+    ],
+    "client-vue/src/composables/useDetailGridColumnHeader.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/composables/useErpUser.ts",
+      "client-vue/src/config/detailGridRegistry.ts"
+    ],
+    "client-vue/src/composables/useErpBillEditDelete.ts": [],
+    "client-vue/src/composables/useErpDetailGrid.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/composables/useErpUser.ts",
+      "client-vue/src/config/detailGridRegistry.ts"
+    ],
+    "client-vue/src/composables/useErpTabs.ts": [
+      "client-vue/src/config/menuRegistry.ts"
+    ],
+    "client-vue/src/composables/useErpUser.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/composables/useAuth.ts"
+    ],
+    "client-vue/src/composables/useExtFieldColumns.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/utils/extFieldRuntime.ts"
+    ],
+    "client-vue/src/composables/useFormEnterNav.ts": [],
+    "client-vue/src/composables/useLookupDialogColumns.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/types/lookup.ts"
+    ],
+    "client-vue/src/composables/useManufacturingOrderBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts"
+    ],
+    "client-vue/src/composables/useMaterialIssueBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts"
+    ],
+    "client-vue/src/composables/usePermissions.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/composables/useAuth.ts",
+      "client-vue/src/config/menuRegistry.ts"
+    ],
+    "client-vue/src/composables/useProductionPlanBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts"
+    ],
+    "client-vue/src/composables/useProductionRequirementBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts"
+    ],
+    "client-vue/src/composables/usePurchaseRequisitionBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts"
+    ],
+    "client-vue/src/composables/useSalesOrderBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/detailGridRegistry.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/soBillStatus.ts",
+      "client-vue/src/utils/tax.ts"
+    ],
+    "client-vue/src/composables/useWarehouseDepositBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts",
+      "client-vue/src/utils/sunlike.ts"
+    ],
+    "client-vue/src/config/detailGridRegistry.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/sunlike.ts"
+    ],
+    "client-vue/src/config/fields/bomBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/bomDetail.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasArea.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasCust.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasDept.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasECA.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasIndx.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasSalm.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasWh.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/index.ts": [],
+    "client-vue/src/config/fields/invBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/jhBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/mlBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/mmBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/moBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/mpBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/poBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/poDetail.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/README.md": [],
+    "client-vue/src/config/fields/soBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/soDetail.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/sqBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/types.ts": [],
+    "client-vue/src/config/lookups/helpers.ts": [
+      "client-vue/src/types/lookup.ts"
+    ],
+    "client-vue/src/config/lookups/index.ts": [],
+    "client-vue/src/config/lookups/presets.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/types/lookup.ts"
+    ],
+    "client-vue/src/config/lookups/resolve.ts": [
+      "client-vue/src/config/lookups/helpers.ts",
+      "client-vue/src/config/lookups/presets.ts",
+      "client-vue/src/types/lookup.ts"
+    ],
+    "client-vue/src/config/menuRegistry.ts": [],
+    "client-vue/src/config/prdtTwId.ts": [],
+    "client-vue/src/layouts/MainLayout.vue": [],
+    "client-vue/src/main.ts": [
+      "client-vue/src/App.vue",
+      "client-vue/src/router/index.ts",
+      "client-vue/src/styles/element-variables.scss",
+      "client-vue/src/styles/erp-ui.scss",
+      "client-vue/src/styles/kingdee-order.scss",
+      "client-vue/src/styles/login.scss"
+    ],
+    "client-vue/src/router/index.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/composables/useAuth.ts",
+      "client-vue/src/config/menuRegistry.ts",
+      "client-vue/src/layouts/MainLayout.vue"
+    ],
+    "client-vue/src/styles/element-variables.scss": [],
+    "client-vue/src/styles/erp-ui.scss": [],
+    "client-vue/src/styles/kingdee-order.scss": [],
+    "client-vue/src/styles/login.scss": [],
+    "client-vue/src/types/lookup.ts": [],
+    "client-vue/src/utils/billAudit.ts": [
+      "client-vue/src/api/types.ts"
+    ],
+    "client-vue/src/utils/billExtPayload.ts": [],
+    "client-vue/src/utils/billLineCurrLookup.ts": [
+      "client-vue/src/api/index.ts"
+    ],
+    "client-vue/src/utils/billLinePaste.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/types.ts",
+      "client-vue/src/utils/extFieldRuntime.ts"
+    ],
+    "client-vue/src/utils/billLinePasteLookup.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/utils/billLinePaste.ts",
+      "client-vue/src/utils/extFieldRuntime.ts",
+      "client-vue/src/utils/lookupFilter.ts"
+    ],
+    "client-vue/src/utils/billLineProductLookup.ts": [
+      "client-vue/src/api/index.ts"
+    ],
+    "client-vue/src/utils/billLineWhLookup.ts": [
+      "client-vue/src/api/index.ts"
+    ],
+    "client-vue/src/utils/detailGridFieldKey.ts": [],
+    "client-vue/src/utils/exportExcel.ts": [],
+    "client-vue/src/utils/extFieldRuntime.ts": [
+      "client-vue/src/api/types.ts"
+    ],
+    "client-vue/src/utils/lookupFilter.ts": [],
+    "client-vue/src/utils/prdtSavePayload.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/prdtTwId.ts",
+      "client-vue/src/utils/billExtPayload.ts",
+      "client-vue/src/utils/sunlike.ts"
+    ],
+    "client-vue/src/utils/printRender.ts": [
+      "client-vue/src/utils/exportExcel.ts"
+    ],
+    "client-vue/src/utils/soBillStatus.ts": [],
+    "client-vue/src/utils/sunlike.ts": [],
+    "client-vue/src/utils/sunlikeSqlExpr.ts": [
+      "client-vue/src/config/fields/poBill.ts",
+      "client-vue/src/config/fields/soBill.ts",
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/utils/tax.ts": [],
+    "client-vue/src/views/AreaPage.vue": [],
+    "client-vue/src/views/BomFormView.vue": [],
+    "client-vue/src/views/BomPage.vue": [],
+    "client-vue/src/views/CustPage.vue": [],
+    "client-vue/src/views/DeptPage.vue": [],
+    "client-vue/src/views/IndxPage.vue": [],
+    "client-vue/src/views/LoginPage.vue": [],
+    "client-vue/src/views/ManufacturingOrderFormView.vue": [],
+    "client-vue/src/views/ManufacturingOrderPage.vue": [],
+    "client-vue/src/views/MaterialIssueFormView.vue": [],
+    "client-vue/src/views/MaterialIssuePage.vue": [],
+    "client-vue/src/views/PermissionSettingsPage.vue": [],
+    "client-vue/src/views/PlaceholderView.vue": [],
+    "client-vue/src/views/ProductionPlanFormView.vue": [],
+    "client-vue/src/views/ProductionPlanPage.vue": [],
+    "client-vue/src/views/ProductionRequirementFormView.vue": [],
+    "client-vue/src/views/ProductionRequirementPage.vue": [],
+    "client-vue/src/views/ProductPage.vue": [],
+    "client-vue/src/views/PurchaseAllowancePage.vue": [],
+    "client-vue/src/views/PurchaseOrderPage.vue": [],
+    "client-vue/src/views/PurchaseReceiptPage.vue": [],
+    "client-vue/src/views/PurchaseRequisitionFormView.vue": [],
+    "client-vue/src/views/PurchaseRequisitionPage.vue": [],
+    "client-vue/src/views/PurchaseReturnPage.vue": [],
+    "client-vue/src/views/SalesAllowancePage.vue": [],
+    "client-vue/src/views/SalesOrderFormView.vue": [],
+    "client-vue/src/views/SalesOrderPage.vue": [],
+    "client-vue/src/views/SalesReturnPage.vue": [],
+    "client-vue/src/views/SalesShipmentPage.vue": [],
+    "client-vue/src/views/SalmPage.vue": [],
+    "client-vue/src/views/WarehouseDepositFormView.vue": [],
+    "client-vue/src/views/WarehouseDepositPage.vue": [],
+    "client-vue/src/views/WhPage.vue": [],
+    "client-vue/src/vite-env.d.ts": [],
+    "client-vue/tsconfig.app.json": [],
+    "client-vue/tsconfig.json": [],
+    "client-vue/tsconfig.tsbuildinfo": [],
+    "client-vue/vite.config.ts": [],
+    "client/eslint.config.js": [],
+    "client/index.html": [],
+    "client/package.json": [],
+    "client/README.md": [],
+    "client/src/api.ts": [],
+    "client/src/App.css": [],
+    "client/src/App.tsx": [
+      "client/src/api.ts",
+      "client/src/App.css",
+      "client/src/pages/CustPage.tsx",
+      "client/src/pages/DeptPage.tsx",
+      "client/src/pages/IndxPage.tsx",
+      "client/src/pages/PrdtPage.tsx",
+      "client/src/pages/SalesOrderPage.tsx",
+      "client/src/pages/SalesReturnPage.tsx",
+      "client/src/pages/SalesShipmentPage.tsx",
+      "client/src/pages/SalmPage.tsx",
+      "client/src/pages/WhPage.tsx"
+    ],
+    "client/src/components/LookupField.tsx": [],
+    "client/src/components/LookupModal.tsx": [],
+    "client/src/index.css": [],
+    "client/src/main.tsx": [
+      "client/src/App.tsx",
+      "client/src/index.css"
+    ],
+    "client/src/pages/CustPage.tsx": [
+      "client/src/api.ts",
+      "client/src/components/LookupField.tsx",
+      "client/src/components/LookupModal.tsx"
+    ],
+    "client/src/pages/DeptPage.tsx": [
+      "client/src/api.ts"
+    ],
+    "client/src/pages/IndxPage.tsx": [
+      "client/src/api.ts"
+    ],
+    "client/src/pages/PrdtPage.tsx": [
+      "client/src/api.ts"
+    ],
+    "client/src/pages/SalesOrderPage.tsx": [
+      "client/src/api.ts",
+      "client/src/components/LookupField.tsx",
+      "client/src/components/LookupModal.tsx"
+    ],
+    "client/src/pages/SalesReturnPage.tsx": [
+      "client/src/api.ts",
+      "client/src/components/LookupField.tsx",
+      "client/src/components/LookupModal.tsx"
+    ],
+    "client/src/pages/SalesShipmentPage.tsx": [
+      "client/src/api.ts",
+      "client/src/components/LookupField.tsx",
+      "client/src/components/LookupModal.tsx"
+    ],
+    "client/src/pages/SalmPage.tsx": [
+      "client/src/api.ts",
+      "client/src/components/LookupField.tsx",
+      "client/src/components/LookupModal.tsx"
+    ],
+    "client/src/pages/WhPage.tsx": [
+      "client/src/api.ts",
+      "client/src/components/LookupField.tsx",
+      "client/src/components/LookupModal.tsx"
+    ],
+    "client/tsconfig.app.json": [],
+    "client/tsconfig.json": [],
+    "client/tsconfig.node.json": [],
+    "client/vite.config.ts": [],
+    "docs/01_中类_功能说明.md": [],
+    "docs/02_货品_功能说明.md": [],
+    "docs/02_货品基础资料_功能说明.md": [],
+    "docs/02_客户供应商区域_功能说明.md": [],
+    "docs/03_客户厂商_功能说明.md": [],
+    "docs/04_受订单_功能说明.md": [],
+    "docs/05_销货单_功能说明.md": [],
+    "docs/06_部门_功能说明.md": [],
+    "docs/06_销货折让_功能说明.md": [],
+    "docs/07_仓库_功能说明.md": [],
+    "docs/08_销货退回_功能说明.md": [],
+    "docs/09_进货单_功能说明.md": [],
+    "docs/09_员工_功能说明.md": [],
+    "docs/10_进货退回_功能说明.md": [],
+    "docs/11_进货折让_功能说明.md": [],
+    "docs/11_请购单_功能说明.md": [],
+    "docs/12_采购单_功能说明.md": [],
+    "docs/12_权限设置_功能说明.md": [],
+    "docs/13_扩展字段与_Z表_功能说明.md": [],
+    "docs/14_BOM物料配方输入_功能说明.md": [],
+    "docs/15_生产领料_功能说明.md": [],
+    "docs/16_缴库单_功能说明.md": [],
+    "docs/16_生产计划_功能说明.md": [],
+    "docs/17_生产需求分析单_功能说明.md": [],
+    "docs/后续资料完善清单.md": [],
+    "docs/DEV_01_SUNLIKE9_核心业务基准规范.md": [],
+    "package.json": [],
+    "README.md": [],
+    "scripts/write-cursor-rule.cjs": [],
+    "server/auth.js": [
+      "server/permissions.js",
+      "server/pswdMssqlAuth.js"
+    ],
+    "server/authMiddleware.js": [
+      "server/auth.js"
+    ],
+    "server/billAuditMeta.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/billExtFieldHook.js": [
+      "server/extFieldPersist.js"
+    ],
+    "server/bomOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/data/db-connection.json": [],
+    "server/data/erp.sqlite": [],
+    "server/data/erp.sqlite-shm": [],
+    "server/data/erp.sqlite-wal": [],
+    "server/db.js": [
+      "server/billAuditMeta.js"
+    ],
+    "server/dbConnectionConfig.js": [],
+    "server/encoding.js": [],
+    "server/env.example": [],
+    "server/extField.js": [
+      "server/db.js",
+      "server/gridConfig.js",
+      "server/menuTableRegistry.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/extFieldPersist.js": [
+      "server/extField.js",
+      "server/gridConfig.js",
+      "server/menuTableRegistry.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/sunlikeSqlExpr.js"
+    ],
+    "server/fix_sqlite_encoding.js": [
+      "server/db.js",
+      "server/encoding.js"
+    ],
+    "server/gridConfig.js": [
+      "server/db.js",
+      "server/extField.js",
+      "server/menuTableRegistry.js",
+      "server/permissions.js",
+      "server/sunlikeSqlExpr.js"
+    ],
+    "server/import_from_db11.js": [
+      "server/db.js",
+      "server/encoding.js"
+    ],
+    "server/index.js": [
+      "server/auth.js",
+      "server/authMiddleware.js",
+      "server/bomOrdersRoutes.js",
+      "server/db.js",
+      "server/dbConnectionConfig.js",
+      "server/extField.js",
+      "server/gridConfig.js",
+      "server/jhOrdersRoutes.js",
+      "server/mlOrdersRoutes.js",
+      "server/mmOrdersRoutes.js",
+      "server/moOrdersRoutes.js",
+      "server/mpOrdersRoutes.js",
+      "server/mssqlPool.js",
+      "server/permissions.js",
+      "server/permissionsRoutes.js",
+      "server/printTemplate.js",
+      "server/pswdMssqlAuth.js",
+      "server/repositories/indxRepository.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/routes/areaRoutes.js",
+      "server/routes/bilSpcRoutes.js",
+      "server/routes/curRoutes.js",
+      "server/routes/custRoutes.js",
+      "server/routes/deptRoutes.js",
+      "server/routes/indxRoutes.js",
+      "server/routes/mfPosRoutes.js",
+      "server/routes/mfPssRoutes.js",
+      "server/routes/prdtRoutes.js",
+      "server/routes/salmRoutes.js",
+      "server/routes/whRoutes.js",
+      "server/sqOrdersRoutes.js"
+    ],
+    "server/jhOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/menuTableRegistry.js": [],
+    "server/mlOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/mmOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/moOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/mpOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/mssqlPool.js": [
+      "server/dbConnectionConfig.js"
+    ],
+    "server/package.json": [],
+    "server/permissions.js": [
+      "server/db.js"
+    ],
+    "server/permissionsRoutes.js": [
+      "server/authMiddleware.js",
+      "server/permissions.js"
+    ],
+    "server/poOrdersRoutes.js": [
+      "server/sqPoTransfer.js"
+    ],
+    "server/printTemplate.js": [
+      "server/db.js"
+    ],
+    "server/pswdMssqlAuth.js": [
+      "server/dbConnectionConfig.js",
+      "server/encoding.js",
+      "server/mssqlPool.js",
+      "server/permissions.js"
+    ],
+    "server/repositories/areaRepository.js": [
+      "server/encoding.js",
+      "server/mssqlPool.js",
+      "server/repositories/mssqlRow.js"
+    ],
+    "server/repositories/indxRepository.js": [
+      "server/encoding.js",
+      "server/mssqlPool.js",
+      "server/repositories/mssqlRow.js"
+    ],
+    "server/repositories/mssqlHelpers.js": [
+      "server/encoding.js",
+      "server/mssqlPool.js"
+    ],
+    "server/repositories/mssqlNextNo.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/repositories/mssqlRow.js": [],
+    "server/repositories/prdtPic.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/areaRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/areaRepository.js"
+    ],
+    "server/routes/bilSpcRoutes.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/curRoutes.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/custRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/deptRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/indxRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/indxRepository.js",
+      "server/utils/indxKndResolver.js"
+    ],
+    "server/routes/mfPosRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/extField.js",
+      "server/extFieldPersist.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js",
+      "server/sqPoTransferMssql.js"
+    ],
+    "server/routes/mfPssRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/routes/prdtRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/indxRepository.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js",
+      "server/repositories/prdtPic.js",
+      "server/utils/indxKndResolver.js",
+      "server/utils/prdtSaveDefaults.js"
+    ],
+    "server/routes/salmRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/whRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/permissions.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/scripts/_check_faseca_pic_cols.js": [
+      "server/db.js"
+    ],
+    "server/scripts/_dict_mo_out.txt": [],
+    "server/scripts/_dict_mo.js": [
+      "server/mssqlPool.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/scripts/_dict_mp23.js": [
+      "server/mssqlPool.js"
+    ],
+    "server/scripts/_gen_mo_mapping.js": [],
+    "server/scripts/_probe_face_tables.js": [
+      "server/mssqlPool.js"
+    ],
+    "server/scripts/_probe_mp23_labels.js": [
+      "server/dbConnectionConfig.js"
+    ],
+    "server/scripts/_probe_mp23.js": [
+      "server/dbConnectionConfig.js"
+    ],
+    "server/scripts/_query_faseca_menu.js": [
+      "server/mssqlPool.js"
+    ],
+    "server/scripts/_test_cust_list.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/scripts/_test_ext_on_pic_body.js": [
+      "server/billExtFieldHook.js"
+    ],
+    "server/scripts/_test_prdt_create_with_pic.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/indxRepository.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js",
+      "server/repositories/prdtPic.js"
+    ],
+    "server/scripts/_test_prdt_pic_save.js": [
+      "server/mssqlPool.js",
+      "server/repositories/prdtPic.js"
+    ],
+    "server/scripts/_test_prdt_pic_tx.js": [
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/prdtPic.js"
+    ],
+    "server/scripts/_test_save_prdt_pic_fn.js": [
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/prdtPic.js"
+    ],
+    "server/sqOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/sqPoTransfer.js": [],
+    "server/sqPoTransferMssql.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/sunlikePwd.js": [],
+    "server/sunlikeSqlExpr.js": [],
+    "server/uploads/1779706934207-_________U9__________________1.xlsm": [],
+    "server/uploads/1779811437163-_________U9__________________1.xlsm": [],
+    "server/uploads/1779811970340-_________U9__________________1.xlsm": [],
+    "server/uploads/1779811983099-SQLQuery1.sql": [],
+    "server/utils/indxKndResolver.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/indxRepository.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/utils/prdtSaveDefaults.js": [
+      "server/utils/indxKndResolver.js"
+    ]
+  }
+}

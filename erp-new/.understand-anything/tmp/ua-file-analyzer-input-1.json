@@ -1,0 +1,355 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "client-vue/src/api/index.ts",
+      "language": "typescript",
+      "sizeLines": 829,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/api/types.ts",
+      "language": "typescript",
+      "sizeLines": 939,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useArchiveExtFields.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useAuth.ts",
+      "language": "typescript",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useBillLineWhLookup.ts",
+      "language": "typescript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useBomBill.ts",
+      "language": "typescript",
+      "sizeLines": 980,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "language": "typescript",
+      "sizeLines": 332,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useErpDetailGrid.ts",
+      "language": "typescript",
+      "sizeLines": 719,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useErpUser.ts",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useExtFieldColumns.ts",
+      "language": "typescript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useManufacturingOrderBill.ts",
+      "language": "typescript",
+      "sizeLines": 440,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useMaterialIssueBill.ts",
+      "language": "typescript",
+      "sizeLines": 481,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/usePermissions.ts",
+      "language": "typescript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useProductionPlanBill.ts",
+      "language": "typescript",
+      "sizeLines": 436,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useProductionRequirementBill.ts",
+      "language": "typescript",
+      "sizeLines": 444,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "language": "typescript",
+      "sizeLines": 394,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useSalesOrderBill.ts",
+      "language": "typescript",
+      "sizeLines": 734,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useWarehouseDepositBill.ts",
+      "language": "typescript",
+      "sizeLines": 460,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/detailGridRegistry.ts",
+      "language": "typescript",
+      "sizeLines": 517,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/index.ts",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/prdtTwId.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billAudit.ts",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billExtPayload.ts",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLineCurrLookup.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLinePaste.ts",
+      "language": "typescript",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLinePasteLookup.ts",
+      "language": "typescript",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLineProductLookup.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLineWhLookup.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/extFieldRuntime.ts",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/lookupFilter.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/prdtSavePayload.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/soBillStatus.ts",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/sunlike.ts",
+      "language": "typescript",
+      "sizeLines": 388,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/tax.ts",
+      "language": "typescript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "client-vue/src/api/index.ts": [
+      "client-vue/src/api/types.ts"
+    ],
+    "client-vue/src/api/types.ts": [],
+    "client-vue/src/composables/useArchiveExtFields.ts": [
+      "client-vue/src/composables/useExtFieldColumns.ts"
+    ],
+    "client-vue/src/composables/useAuth.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts"
+    ],
+    "client-vue/src/composables/useBillLineWhLookup.ts": [
+      "client-vue/src/api/index.ts"
+    ],
+    "client-vue/src/composables/useBomBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/detailGridRegistry.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/config/prdtTwId.ts",
+      "client-vue/src/utils/billAudit.ts"
+    ],
+    "client-vue/src/composables/useDetailGridColumnHeader.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/composables/useErpUser.ts",
+      "client-vue/src/config/detailGridRegistry.ts"
+    ],
+    "client-vue/src/composables/useErpDetailGrid.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/composables/useErpUser.ts",
+      "client-vue/src/config/detailGridRegistry.ts"
+    ],
+    "client-vue/src/composables/useErpUser.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/composables/useAuth.ts"
+    ],
+    "client-vue/src/composables/useExtFieldColumns.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/utils/extFieldRuntime.ts"
+    ],
+    "client-vue/src/composables/useManufacturingOrderBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts"
+    ],
+    "client-vue/src/composables/useMaterialIssueBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts"
+    ],
+    "client-vue/src/composables/usePermissions.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/composables/useAuth.ts",
+      "client-vue/src/config/menuRegistry.ts"
+    ],
+    "client-vue/src/composables/useProductionPlanBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts"
+    ],
+    "client-vue/src/composables/useProductionRequirementBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts"
+    ],
+    "client-vue/src/composables/usePurchaseRequisitionBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts"
+    ],
+    "client-vue/src/composables/useSalesOrderBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/detailGridRegistry.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/soBillStatus.ts",
+      "client-vue/src/utils/tax.ts"
+    ],
+    "client-vue/src/composables/useWarehouseDepositBill.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/billAudit.ts",
+      "client-vue/src/utils/billExtPayload.ts",
+      "client-vue/src/utils/sunlike.ts"
+    ],
+    "client-vue/src/config/detailGridRegistry.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/index.ts",
+      "client-vue/src/utils/sunlike.ts"
+    ],
+    "client-vue/src/config/fields/index.ts": [],
+    "client-vue/src/config/prdtTwId.ts": [],
+    "client-vue/src/utils/billAudit.ts": [
+      "client-vue/src/api/types.ts"
+    ],
+    "client-vue/src/utils/billExtPayload.ts": [],
+    "client-vue/src/utils/billLineCurrLookup.ts": [
+      "client-vue/src/api/index.ts"
+    ],
+    "client-vue/src/utils/billLinePaste.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/fields/types.ts",
+      "client-vue/src/utils/extFieldRuntime.ts"
+    ],
+    "client-vue/src/utils/billLinePasteLookup.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/utils/billLinePaste.ts",
+      "client-vue/src/utils/extFieldRuntime.ts",
+      "client-vue/src/utils/lookupFilter.ts"
+    ],
+    "client-vue/src/utils/billLineProductLookup.ts": [
+      "client-vue/src/api/index.ts"
+    ],
+    "client-vue/src/utils/billLineWhLookup.ts": [
+      "client-vue/src/api/index.ts"
+    ],
+    "client-vue/src/utils/extFieldRuntime.ts": [
+      "client-vue/src/api/types.ts"
+    ],
+    "client-vue/src/utils/lookupFilter.ts": [],
+    "client-vue/src/utils/prdtSavePayload.ts": [
+      "client-vue/src/api/types.ts",
+      "client-vue/src/config/prdtTwId.ts",
+      "client-vue/src/utils/billExtPayload.ts",
+      "client-vue/src/utils/sunlike.ts"
+    ],
+    "client-vue/src/utils/soBillStatus.ts": [],
+    "client-vue/src/utils/sunlike.ts": [],
+    "client-vue/src/utils/tax.ts": []
+  }
+}

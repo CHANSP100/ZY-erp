@@ -1,0 +1,802 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/01_中类_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 30,
+      "nonEmptyLines": 22,
+      "sections": [
+        {
+          "heading": "中类代号（OthHZYQD / 表 INDX）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "界面",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "字段（首期）",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "验收清单",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "未做（待您补充资料后迭代）",
+          "level": 2,
+          "line": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/02_客户供应商区域_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 24,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "客户供应商区域（FasECG / 表 AREA）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "界面",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "字段（首期）",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "业务规则",
+          "level": 2,
+          "line": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "docs/02_货品_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 24,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "02 货品（FasECA / PRDT + PRDT_PIC）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路径",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "列表页",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "弹窗",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "验收",
+          "level": 2,
+          "line": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/02_货品基础资料_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 27,
+      "sections": [
+        {
+          "heading": "货品基础资料（FasECA / 表 PRDT）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "操作流程（与您的 `02货品基础资料.txt` 对齐）",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "首期字段",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "流水号规则（已实现）",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "验收清单",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "未做（PRDT 共 170 字段，首期仅 15 项）",
+          "level": 2,
+          "line": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "docs/03_客户厂商_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 34,
+      "nonEmptyLines": 26,
+      "sections": [
+        {
+          "heading": "03 客户厂商资料（FasEA / CUST）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路径",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "首期字段",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "验收",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "未做（二期）",
+          "level": 2,
+          "line": 32
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/04_受订单_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 27,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "04 受订单（InvAD / MF_POS + TF_POS）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路径",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "首期字段",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "验收",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "未做（二期）",
+          "level": 2,
+          "line": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/05_销货单_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 28,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "05 销货单（InvCA / MF_PSS + TF_PSS）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路径",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "首期功能",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "验收",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "二期再优化",
+          "level": 2,
+          "line": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/06_部门_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 30,
+      "nonEmptyLines": 22,
+      "sections": [
+        {
+          "heading": "部门（FasED / 表 DEPT）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "界面",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "字段（首期）",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "验收清单",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "未做",
+          "level": 2,
+          "line": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/06_销货折让_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 21,
+      "nonEmptyLines": 14,
+      "sections": [
+        {
+          "heading": "06 销货折让（InvCC / MF_PSS + TF_PSS，PS_ID=SD）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路径",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "本期功能",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "验收",
+          "level": 2,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "docs/07_仓库_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 32,
+      "nonEmptyLines": 24,
+      "sections": [
+        {
+          "heading": "仓库（FasECB / 表 MY_WH）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "界面",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "字段（首期）",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "验收清单",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "未做",
+          "level": 2,
+          "line": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/08_销货退回_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 28,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "销货退回（InvCB / MF_PSS + TF_PSS）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路径",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "首期功能",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "验收",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "未做",
+          "level": 2,
+          "line": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/09_员工_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 24,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "员工资料（FasEB / 表 SALM）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路径",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "首期字段",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "验收",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "未做",
+          "level": 2,
+          "line": 22
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/09_进货单_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 22,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "进货单（InvBA / MF_PSS + TF_PSS）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "业务要点",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "验收",
+          "level": 2,
+          "line": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "docs/10_进货退回_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 18,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "进货退回（InvBB / MF_PSS + TF_PSS）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "业务要点",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "验收清单",
+          "level": 2,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "docs/11_请购单_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 30,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "请购单（InvAQ）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "本期",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "转出采购单（已实现）",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "二期",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "字段对照",
+          "level": 2,
+          "line": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/11_进货折让_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 18,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "进货折让（InvBC / MF_PSS + TF_PSS）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "业务要点",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "验收清单",
+          "level": 2,
+          "line": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "docs/12_权限设置_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 39,
+      "nonEmptyLines": 28,
+      "sections": [
+        {
+          "heading": "12 权限设置（SysAuth）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路由",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "功能",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "权限生效",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "演示账号",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "登入",
+          "level": 2,
+          "line": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "docs/12_采购单_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 23,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "采购单（InvAF / MF_POS + TF_POS）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "业务要点",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "验收",
+          "level": 2,
+          "line": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "docs/13_扩展字段与_Z表_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 46,
+      "nonEmptyLines": 30,
+      "sections": [
+        {
+          "heading": "扩展字段与 _Z 表 — 功能说明",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "功能概述",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "三类场景",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "验收步骤",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "验收结论",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "下拉框（select）",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "二期待办",
+          "level": 2,
+          "line": 43
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/14_BOM物料配方输入_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 41,
+      "nonEmptyLines": 30,
+      "sections": [
+        {
+          "heading": "BOM物料配方输入 — 功能说明（FasECF）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路由与 API",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "功能清单",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "验收要点",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "验收结论",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "启动",
+          "level": 2,
+          "line": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "client-vue/src/App.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/composables/useErpTabs.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 99,
+      "nonEmptyLines": 88,
+      "functions": [
+        {
+          "name": "tabTitleForPath",
+          "startLine": 33,
+          "endLine": 35,
+          "params": [
+            "path",
+            "fallback"
+          ]
+        },
+        {
+          "name": "useErpTabs",
+          "startLine": 39,
+          "endLine": 99,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "MENU_TAB_TITLES",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "tabTitleForPath",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "useErpTabs",
+          "line": 39,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "tabTitleForPath",
+          "callee": "menuTitleForPath",
+          "lineNumber": 34
+        },
+        {
+          "caller": "useErpTabs",
+          "callee": "useRoute",
+          "lineNumber": 40
+        },
+        {
+          "caller": "useErpTabs",
+          "callee": "useRouter",
+          "lineNumber": 41
+        },
+        {
+          "caller": "openTab",
+          "callee": "tabTitleForPath",
+          "lineNumber": 44
+        },
+        {
+          "caller": "openTab",
+          "callee": "String",
+          "lineNumber": 44
+        },
+        {
+          "caller": "openTab",
+          "callee": "tabs.value.some",
+          "lineNumber": 45
+        },
+        {
+          "caller": "openTab",
+          "callee": "tabs.value.push",
+          "lineNumber": 46
+        },
+        {
+          "caller": "openTab",
+          "callee": "router.push",
+          "lineNumber": 49
+        },
+        {
+          "caller": "switchTab",
+          "callee": "router.push",
+          "lineNumber": 55
+        },
+        {
+          "caller": "closeTab",
+          "callee": "tabs.value.findIndex",
+          "lineNumber": 60
+        },
+        {
+          "caller": "closeTab",
+          "callee": "tabs.value.splice",
+          "lineNumber": 63
+        },
+        {
+          "caller": "closeTab",
+          "callee": "openTab",
+          "lineNumber": 65
+        },
+        {
+          "caller": "closeTab",
+          "callee": "Math.min",
+          "lineNumber": 69
+        },
+        {
+          "caller": "closeTab",
+          "callee": "router.push",
+          "lineNumber": 70
+        },
+        {
+          "caller": "syncTabFromRoute",
+          "callee": "menuTitleForPath",
+          "lineNumber": 78
+        },
+        {
+          "caller": "syncTabFromRoute",
+          "callee": "path.startsWith",
+          "lineNumber": 80
+        },
+        {
+          "caller": "syncTabFromRoute",
+          "callee": "path.startsWith",
+          "lineNumber": 81
+        },
+        {
+          "caller": "syncTabFromRoute",
+          "callee": "tabTitleForPath",
+          "lineNumber": 86
+        },
+        {
+          "caller": "syncTabFromRoute",
+          "callee": "String",
+          "lineNumber": 86
+        },
+        {
+          "caller": "syncTabFromRoute",
+          "callee": "tabs.value.some",
+          "lineNumber": 87
+        },
+        {
+          "caller": "syncTabFromRoute",
+          "callee": "tabs.value.push",
+          "lineNumber": 88
+        },
+        {
+          "caller": "useErpTabs",
+          "callee": "watch",
+          "lineNumber": 92
+        },
+        {
+          "caller": "useErpTabs",
+          "callee": "syncTabFromRoute",
+          "lineNumber": 94
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/menuRegistry.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 168,
+      "nonEmptyLines": 78,
+      "functions": [
+        {
+          "name": "pathToPgm",
+          "startLine": 111,
+          "endLine": 127,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "menuTitleForPath",
+          "startLine": 131,
+          "endLine": 145,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "listTabForPath",
+          "startLine": 149,
+          "endLine": 167,
+          "params": [
+            "path"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "MENU_ROUTES",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "MENU_GROUP_LABEL",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "pathToPgm",
+          "line": 111,
+          "isDefault": false
+        },
+        {
+          "name": "menuTitleForPath",
+          "line": 131,
+          "isDefault": false
+        },
+        {
+          "name": "listTabForPath",
+          "line": 149,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "pathToPgm",
+          "callee": "path.startsWith",
+          "lineNumber": 113
+        },
+        {
+          "caller": "pathToPgm",
+          "callee": "MENU_ROUTES.find",
+          "lineNumber": 115
+        },
+        {
+          "caller": "pathToPgm",
+          "callee": "m.children?.some",
+          "lineNumber": 121
+        },
+        {
+          "caller": "menuTitleForPath",
+          "callee": "m.children?.find",
+          "lineNumber": 135
+        },
+        {
+          "caller": "listTabForPath",
+          "callee": "m.children?.find",
+          "lineNumber": 155
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/layouts/MainLayout.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 301,
+      "nonEmptyLines": 147,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/main.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 14,
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/router/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 94,
+      "nonEmptyLines": 89,
+      "functions": [
+        {
+          "name": "canAccessRoute",
+          "startLine": 66,
+          "endLine": 74,
+          "params": [
+            "path"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "canAccessRoute",
+          "callee": "pathToPgm",
+          "lineNumber": 70
+        },
+        {
+          "caller": "canAccessRoute",
+          "callee": "u.permissions?.menus.find",
+          "lineNumber": 72
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

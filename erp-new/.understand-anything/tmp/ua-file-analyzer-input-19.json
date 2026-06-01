@@ -1,0 +1,86 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "server/env.example",
+      "language": "example",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/package.json",
+      "language": "json",
+      "sizeLines": 23,
+      "fileCategory": "config"
+    },
+    {
+      "path": "server/poOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_dict_mo_out.txt",
+      "language": "txt",
+      "sizeLines": 59,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/scripts/_gen_mo_mapping.js",
+      "language": "javascript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sqPoTransfer.js",
+      "language": "javascript",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sunlikePwd.js",
+      "language": "javascript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/uploads/1779706934207-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "sizeLines": 5015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/uploads/1779811437163-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "sizeLines": 5015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/uploads/1779811970340-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "sizeLines": 5015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/uploads/1779811983099-SQLQuery1.sql",
+      "language": "sql",
+      "sizeLines": 46,
+      "fileCategory": "data"
+    }
+  ],
+  "batchImportData": {
+    "server/env.example": [],
+    "server/package.json": [],
+    "server/poOrdersRoutes.js": [
+      "server/sqPoTransfer.js"
+    ],
+    "server/scripts/_dict_mo_out.txt": [],
+    "server/scripts/_gen_mo_mapping.js": [],
+    "server/sqPoTransfer.js": [],
+    "server/sunlikePwd.js": [],
+    "server/uploads/1779706934207-_________U9__________________1.xlsm": [],
+    "server/uploads/1779811437163-_________U9__________________1.xlsm": [],
+    "server/uploads/1779811970340-_________U9__________________1.xlsm": [],
+    "server/uploads/1779811983099-SQLQuery1.sql": []
+  }
+}

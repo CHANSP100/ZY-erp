@@ -1,0 +1,5481 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 22,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "server/auth.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 124,
+      "nonEmptyLines": 108,
+      "functions": [
+        {
+          "name": "createToken",
+          "startLine": 15,
+          "endLine": 19,
+          "params": [
+            "usrId"
+          ]
+        },
+        {
+          "name": "getSession",
+          "startLine": 21,
+          "endLine": 30,
+          "params": [
+            "token"
+          ]
+        },
+        {
+          "name": "revokeToken",
+          "startLine": 32,
+          "endLine": 34,
+          "params": [
+            "token"
+          ]
+        },
+        {
+          "name": "finishLogin",
+          "startLine": 36,
+          "endLine": 45,
+          "params": [
+            "usrId"
+          ]
+        },
+        {
+          "name": "loginSqlite",
+          "startLine": 47,
+          "endLine": 52,
+          "params": [
+            "usrId"
+          ]
+        },
+        {
+          "name": "login",
+          "startLine": 54,
+          "endLine": 93,
+          "params": [
+            "usrId",
+            "_password"
+          ]
+        },
+        {
+          "name": "resolveUserFromRequest",
+          "startLine": 95,
+          "endLine": 106,
+          "params": [
+            "req"
+          ]
+        },
+        {
+          "name": "resolveUserWithPermissions",
+          "startLine": 108,
+          "endLine": 115,
+          "params": [
+            "req"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createToken",
+          "callee": "crypto.randomBytes(32).toString",
+          "lineNumber": 16
+        },
+        {
+          "caller": "createToken",
+          "callee": "crypto.randomBytes",
+          "lineNumber": 16
+        },
+        {
+          "caller": "createToken",
+          "callee": "sessions.set",
+          "lineNumber": 17
+        },
+        {
+          "caller": "createToken",
+          "callee": "Date.now",
+          "lineNumber": 17
+        },
+        {
+          "caller": "getSession",
+          "callee": "sessions.get",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getSession",
+          "callee": "Date.now",
+          "lineNumber": 25
+        },
+        {
+          "caller": "getSession",
+          "callee": "sessions.delete",
+          "lineNumber": 26
+        },
+        {
+          "caller": "revokeToken",
+          "callee": "sessions.delete",
+          "lineNumber": 33
+        },
+        {
+          "caller": "finishLogin",
+          "callee": "getUserRow",
+          "lineNumber": 37
+        },
+        {
+          "caller": "finishLogin",
+          "callee": "isUserDisabled",
+          "lineNumber": 38
+        },
+        {
+          "caller": "finishLogin",
+          "callee": "rowToUser",
+          "lineNumber": 41
+        },
+        {
+          "caller": "finishLogin",
+          "callee": "createToken",
+          "lineNumber": 42
+        },
+        {
+          "caller": "finishLogin",
+          "callee": "getPermissionSummary",
+          "lineNumber": 43
+        },
+        {
+          "caller": "loginSqlite",
+          "callee": "getUserRow",
+          "lineNumber": 48
+        },
+        {
+          "caller": "loginSqlite",
+          "callee": "isUserDisabled",
+          "lineNumber": 50
+        },
+        {
+          "caller": "loginSqlite",
+          "callee": "finishLogin",
+          "lineNumber": 51
+        },
+        {
+          "caller": "login",
+          "callee": "String(usrId || '').trim",
+          "lineNumber": 55
+        },
+        {
+          "caller": "login",
+          "callee": "String",
+          "lineNumber": 55
+        },
+        {
+          "caller": "login",
+          "callee": "getAuthMode",
+          "lineNumber": 58
+        },
+        {
+          "caller": "login",
+          "callee": "loginSqlite",
+          "lineNumber": 62
+        },
+        {
+          "caller": "login",
+          "callee": "loginSqlite",
+          "lineNumber": 67
+        },
+        {
+          "caller": "login",
+          "callee": "authenticateViaMssql",
+          "lineNumber": 73
+        },
+        {
+          "caller": "login",
+          "callee": "finishLogin",
+          "lineNumber": 75
+        },
+        {
+          "caller": "login",
+          "callee": "loginSqlite",
+          "lineNumber": 78
+        },
+        {
+          "caller": "login",
+          "callee": "console.error",
+          "lineNumber": 83
+        },
+        {
+          "caller": "login",
+          "callee": "loginSqlite",
+          "lineNumber": 85
+        },
+        {
+          "caller": "resolveUserFromRequest",
+          "callee": "String(auth).startsWith",
+          "lineNumber": 97
+        },
+        {
+          "caller": "resolveUserFromRequest",
+          "callee": "String",
+          "lineNumber": 97
+        },
+        {
+          "caller": "resolveUserFromRequest",
+          "callee": "String(auth).slice(7).trim",
+          "lineNumber": 98
+        },
+        {
+          "caller": "resolveUserFromRequest",
+          "callee": "String(auth).slice",
+          "lineNumber": 98
+        },
+        {
+          "caller": "resolveUserFromRequest",
+          "callee": "String",
+          "lineNumber": 98
+        },
+        {
+          "caller": "resolveUserFromRequest",
+          "callee": "getSession",
+          "lineNumber": 99
+        },
+        {
+          "caller": "resolveUserFromRequest",
+          "callee": "getUserRow",
+          "lineNumber": 101
+        },
+        {
+          "caller": "resolveUserFromRequest",
+          "callee": "isUserDisabled",
+          "lineNumber": 102
+        },
+        {
+          "caller": "resolveUserFromRequest",
+          "callee": "rowToUser",
+          "lineNumber": 103
+        },
+        {
+          "caller": "resolveUserWithPermissions",
+          "callee": "resolveUserFromRequest",
+          "lineNumber": 109
+        },
+        {
+          "caller": "resolveUserWithPermissions",
+          "callee": "getPermissionSummary",
+          "lineNumber": 113
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/authMiddleware.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 16,
+      "functions": [
+        {
+          "name": "erpUserMiddleware",
+          "startLine": 3,
+          "endLine": 10,
+          "params": [
+            "req",
+            "res",
+            "next"
+          ]
+        },
+        {
+          "name": "requireAdmin",
+          "startLine": 12,
+          "endLine": 17,
+          "params": [
+            "req",
+            "res",
+            "next"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "erpUserMiddleware",
+          "callee": "resolveUserFromRequest",
+          "lineNumber": 4
+        },
+        {
+          "caller": "erpUserMiddleware",
+          "callee": "res.status(401).json",
+          "lineNumber": 6
+        },
+        {
+          "caller": "erpUserMiddleware",
+          "callee": "res.status",
+          "lineNumber": 6
+        },
+        {
+          "caller": "erpUserMiddleware",
+          "callee": "next",
+          "lineNumber": 9
+        },
+        {
+          "caller": "requireAdmin",
+          "callee": "res.status(403).json",
+          "lineNumber": 14
+        },
+        {
+          "caller": "requireAdmin",
+          "callee": "res.status",
+          "lineNumber": 14
+        },
+        {
+          "caller": "requireAdmin",
+          "callee": "next",
+          "lineNumber": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/dbConnectionConfig.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 280,
+      "nonEmptyLines": 255,
+      "functions": [
+        {
+          "name": "normalizeLoginType",
+          "startLine": 25,
+          "endLine": 29,
+          "params": [
+            "val"
+          ]
+        },
+        {
+          "name": "normalizeInput",
+          "startLine": 31,
+          "endLine": 42,
+          "params": []
+        },
+        {
+          "name": "buildServerAddress",
+          "startLine": 44,
+          "endLine": 51,
+          "params": [
+            "config"
+          ]
+        },
+        {
+          "name": "configHash",
+          "startLine": 53,
+          "endLine": 59,
+          "params": [
+            "config"
+          ]
+        },
+        {
+          "name": "loadConfigFile",
+          "startLine": 61,
+          "endLine": 69,
+          "params": []
+        },
+        {
+          "name": "loadConfig",
+          "startLine": 71,
+          "endLine": 98,
+          "params": []
+        },
+        {
+          "name": "getEditorConfig",
+          "startLine": 100,
+          "endLine": 114,
+          "params": []
+        },
+        {
+          "name": "toPublicConfig",
+          "startLine": 116,
+          "endLine": 132,
+          "params": [
+            "config"
+          ]
+        },
+        {
+          "name": "buildMssqlConfig",
+          "startLine": 134,
+          "endLine": 164,
+          "params": [
+            "config",
+            "database"
+          ]
+        },
+        {
+          "name": "formatConnectionError",
+          "startLine": 166,
+          "endLine": 190,
+          "params": [
+            "err"
+          ]
+        },
+        {
+          "name": "testDatabaseConnection",
+          "startLine": 192,
+          "endLine": 219,
+          "params": [
+            "config",
+            "database"
+          ]
+        },
+        {
+          "name": "testBusinessConnection",
+          "startLine": 221,
+          "endLine": 230,
+          "params": [
+            "config"
+          ]
+        },
+        {
+          "name": "validateConfigInput",
+          "startLine": 232,
+          "endLine": 239,
+          "params": [
+            "config"
+          ]
+        },
+        {
+          "name": "saveConfig",
+          "startLine": 241,
+          "endLine": 263,
+          "params": [
+            "config"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "normalizeLoginType",
+          "callee": "String(val || '').trim().toLowerCase",
+          "lineNumber": 26
+        },
+        {
+          "caller": "normalizeLoginType",
+          "callee": "String(val || '').trim",
+          "lineNumber": 26
+        },
+        {
+          "caller": "normalizeLoginType",
+          "callee": "String",
+          "lineNumber": 26
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String(raw.server ?? DEFAULTS.server).trim",
+          "lineNumber": 33
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String",
+          "lineNumber": 33
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String(raw.port ?? DEFAULTS.port).trim",
+          "lineNumber": 34
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String",
+          "lineNumber": 34
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "normalizeLoginType",
+          "lineNumber": 35
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String(raw.businessDatabase ?? raw.business_database ?? DEFAULTS.businessDatabase).trim",
+          "lineNumber": 36
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String",
+          "lineNumber": 36
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String(raw.systemDatabase ?? raw.system_database ?? DEFAULTS.systemDatabase).trim",
+          "lineNumber": 37
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String",
+          "lineNumber": 37
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String(raw.user ?? DEFAULTS.user).trim",
+          "lineNumber": 38
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String",
+          "lineNumber": 38
+        },
+        {
+          "caller": "normalizeInput",
+          "callee": "String",
+          "lineNumber": 39
+        },
+        {
+          "caller": "buildServerAddress",
+          "callee": "normalizeInput",
+          "lineNumber": 45
+        },
+        {
+          "caller": "buildServerAddress",
+          "callee": "server.includes",
+          "lineNumber": 49
+        },
+        {
+          "caller": "buildServerAddress",
+          "callee": "server.includes",
+          "lineNumber": 49
+        },
+        {
+          "caller": "configHash",
+          "callee": "normalizeInput",
+          "lineNumber": 54
+        },
+        {
+          "caller": "configHash",
+          "callee": "crypto\r\n    .createHash('sha256')\r\n    .update(`${c.server}|${c.port}|${c.loginType}|${c.businessDatabase}|${c.systemDatabase}|${c.user}|${c.password}`)\r\n    .digest",
+          "lineNumber": 55
+        },
+        {
+          "caller": "configHash",
+          "callee": "crypto\r\n    .createHash('sha256')\r\n    .update",
+          "lineNumber": 55
+        },
+        {
+          "caller": "configHash",
+          "callee": "crypto\r\n    .createHash",
+          "lineNumber": 55
+        },
+        {
+          "caller": "loadConfigFile",
+          "callee": "fs.existsSync",
+          "lineNumber": 63
+        },
+        {
+          "caller": "loadConfigFile",
+          "callee": "JSON.parse",
+          "lineNumber": 64
+        },
+        {
+          "caller": "loadConfigFile",
+          "callee": "fs.readFileSync",
+          "lineNumber": 64
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "loadConfigFile",
+          "lineNumber": 72
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "normalizeLoginType",
+          "lineNumber": 87
+        },
+        {
+          "caller": "getEditorConfig",
+          "callee": "loadConfig",
+          "lineNumber": 101
+        },
+        {
+          "caller": "toPublicConfig",
+          "callee": "loadConfig",
+          "lineNumber": 117
+        },
+        {
+          "caller": "toPublicConfig",
+          "callee": "normalizeInput",
+          "lineNumber": 118
+        },
+        {
+          "caller": "buildMssqlConfig",
+          "callee": "normalizeInput",
+          "lineNumber": 135
+        },
+        {
+          "caller": "buildMssqlConfig",
+          "callee": "buildServerAddress",
+          "lineNumber": 137
+        },
+        {
+          "caller": "buildMssqlConfig",
+          "callee": "Number",
+          "lineNumber": 139
+        },
+        {
+          "caller": "buildMssqlConfig",
+          "callee": "Number",
+          "lineNumber": 140
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "String",
+          "lineNumber": 167
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "msg.toLowerCase",
+          "lineNumber": 168
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 170
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 170
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 173
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 173
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 176
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 176
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 176
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 179
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 179
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 182
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 182
+        },
+        {
+          "caller": "formatConnectionError",
+          "callee": "lower.includes",
+          "lineNumber": 185
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "String(database || '').trim",
+          "lineNumber": 193
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "String",
+          "lineNumber": 193
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "sql.connect",
+          "lineNumber": 198
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "buildMssqlConfig",
+          "lineNumber": 198
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "pool.request().query",
+          "lineNumber": 199
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "pool.request",
+          "lineNumber": 199
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "String",
+          "lineNumber": 203
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "String(row.version || '').split",
+          "lineNumber": 204
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "String",
+          "lineNumber": 204
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "buildServerAddress",
+          "lineNumber": 205
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "normalizeInput",
+          "lineNumber": 206
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "formatConnectionError",
+          "lineNumber": 209
+        },
+        {
+          "caller": "testDatabaseConnection",
+          "callee": "pool.close",
+          "lineNumber": 213
+        },
+        {
+          "caller": "testBusinessConnection",
+          "callee": "normalizeInput",
+          "lineNumber": 222
+        },
+        {
+          "caller": "testBusinessConnection",
+          "callee": "testDatabaseConnection",
+          "lineNumber": 229
+        },
+        {
+          "caller": "validateConfigInput",
+          "callee": "normalizeInput",
+          "lineNumber": 233
+        },
+        {
+          "caller": "saveConfig",
+          "callee": "validateConfigInput",
+          "lineNumber": 242
+        },
+        {
+          "caller": "saveConfig",
+          "callee": "normalizeInput",
+          "lineNumber": 245
+        },
+        {
+          "caller": "saveConfig",
+          "callee": "configHash",
+          "lineNumber": 250
+        },
+        {
+          "caller": "saveConfig",
+          "callee": "new Date().toISOString",
+          "lineNumber": 255
+        },
+        {
+          "caller": "saveConfig",
+          "callee": "path.dirname",
+          "lineNumber": 259
+        },
+        {
+          "caller": "saveConfig",
+          "callee": "fs.existsSync",
+          "lineNumber": 260
+        },
+        {
+          "caller": "saveConfig",
+          "callee": "fs.mkdirSync",
+          "lineNumber": 260
+        },
+        {
+          "caller": "saveConfig",
+          "callee": "fs.writeFileSync",
+          "lineNumber": 261
+        },
+        {
+          "caller": "saveConfig",
+          "callee": "JSON.stringify",
+          "lineNumber": 261
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 14,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/encoding.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 43,
+      "functions": [
+        {
+          "name": "hasCjk",
+          "startLine": 7,
+          "endLine": 9,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "fixZhEncoding",
+          "startLine": 12,
+          "endLine": 30,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "fixRow",
+          "startLine": 33,
+          "endLine": 43,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "fixRows",
+          "startLine": 45,
+          "endLine": 47,
+          "params": [
+            "rows"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "hasCjk",
+          "callee": "/[\\u3400-\\u9fff]/.test",
+          "lineNumber": 8
+        },
+        {
+          "caller": "fixZhEncoding",
+          "callee": "Buffer.isBuffer",
+          "lineNumber": 14
+        },
+        {
+          "caller": "fixZhEncoding",
+          "callee": "iconv.decode(value, 'cp950').trim",
+          "lineNumber": 15
+        },
+        {
+          "caller": "fixZhEncoding",
+          "callee": "iconv.decode",
+          "lineNumber": 15
+        },
+        {
+          "caller": "fixZhEncoding",
+          "callee": "value.trim",
+          "lineNumber": 18
+        },
+        {
+          "caller": "fixZhEncoding",
+          "callee": "hasCjk",
+          "lineNumber": 20
+        },
+        {
+          "caller": "fixZhEncoding",
+          "callee": "iconv.decode",
+          "lineNumber": 23
+        },
+        {
+          "caller": "fixZhEncoding",
+          "callee": "Buffer.from",
+          "lineNumber": 23
+        },
+        {
+          "caller": "fixZhEncoding",
+          "callee": "hasCjk",
+          "lineNumber": 24
+        },
+        {
+          "caller": "fixZhEncoding",
+          "callee": "/[\\u0080-\\u009f]/.test",
+          "lineNumber": 25
+        },
+        {
+          "caller": "fixRow",
+          "callee": "Object.keys",
+          "lineNumber": 36
+        },
+        {
+          "caller": "fixRow",
+          "callee": "Buffer.isBuffer",
+          "lineNumber": 38
+        },
+        {
+          "caller": "fixRow",
+          "callee": "fixZhEncoding",
+          "lineNumber": 39
+        },
+        {
+          "caller": "fixRows",
+          "callee": "rows.map",
+          "lineNumber": 46
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/fix_sqlite_encoding.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 53,
+      "nonEmptyLines": 49,
+      "functions": [
+        {
+          "name": "fixTable",
+          "startLine": 21,
+          "endLine": 39,
+          "params": [
+            "table",
+            "cols"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fixTable",
+          "callee": "db.prepare(`PRAGMA table_info(${table})`).all().find",
+          "lineNumber": 22
+        },
+        {
+          "caller": "fixTable",
+          "callee": "db.prepare(`PRAGMA table_info(${table})`).all",
+          "lineNumber": 22
+        },
+        {
+          "caller": "fixTable",
+          "callee": "db.prepare",
+          "lineNumber": 22
+        },
+        {
+          "caller": "fixTable",
+          "callee": "console.warn",
+          "lineNumber": 24
+        },
+        {
+          "caller": "fixTable",
+          "callee": "db.prepare(`SELECT ${pk}, ${cols.join(', ')} FROM ${table}`).all",
+          "lineNumber": 27
+        },
+        {
+          "caller": "fixTable",
+          "callee": "db.prepare",
+          "lineNumber": 27
+        },
+        {
+          "caller": "fixTable",
+          "callee": "cols.join",
+          "lineNumber": 27
+        },
+        {
+          "caller": "fixTable",
+          "callee": "cols.map((c) => `${c} = ?`).join",
+          "lineNumber": 29
+        },
+        {
+          "caller": "fixTable",
+          "callee": "cols.map",
+          "lineNumber": 29
+        },
+        {
+          "caller": "fixTable",
+          "callee": "db.prepare",
+          "lineNumber": 30
+        },
+        {
+          "caller": "fixTable",
+          "callee": "cols.map",
+          "lineNumber": 32
+        },
+        {
+          "caller": "fixTable",
+          "callee": "fixZhEncoding",
+          "lineNumber": 32
+        },
+        {
+          "caller": "fixTable",
+          "callee": "cols.some",
+          "lineNumber": 33
+        },
+        {
+          "caller": "fixTable",
+          "callee": "upd.run",
+          "lineNumber": 34
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/import_from_db11.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 269,
+      "nonEmptyLines": 242,
+      "functions": [
+        {
+          "name": "main",
+          "startLine": 19,
+          "endLine": 264,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "main",
+          "callee": "sql.connect",
+          "lineNumber": 20
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 21
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 23
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 25
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 25
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 33
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 35
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 35
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 43
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 45
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 45
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 53
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 66
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 68
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 68
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 81
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 81
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 94
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 96
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 96
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 105
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 107
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 107
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 116
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 118
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 118
+        },
+        {
+          "caller": "main",
+          "callee": "fixRows",
+          "lineNumber": 127
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request().query",
+          "lineNumber": 129
+        },
+        {
+          "caller": "main",
+          "callee": "pool.request",
+          "lineNumber": 129
+        },
+        {
+          "caller": "main",
+          "callee": "pool.close",
+          "lineNumber": 138
+        },
+        {
+          "caller": "main",
+          "callee": "db.transaction",
+          "lineNumber": 140
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM tf_pss').run",
+          "lineNumber": 141
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 141
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM mf_pss').run",
+          "lineNumber": 142
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 142
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM tf_pos').run",
+          "lineNumber": 143
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 143
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM mf_pos').run",
+          "lineNumber": 144
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 144
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM cust').run",
+          "lineNumber": 145
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 145
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM salm').run",
+          "lineNumber": 146
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 146
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM prdt').run",
+          "lineNumber": 147
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 147
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM indx').run",
+          "lineNumber": 148
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 148
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM my_wh').run",
+          "lineNumber": 149
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 149
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare('DELETE FROM dept').run",
+          "lineNumber": 150
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 150
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 152
+        },
+        {
+          "caller": "main",
+          "callee": "insDept.run",
+          "lineNumber": 156
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 159
+        },
+        {
+          "caller": "main",
+          "callee": "insIndx.run",
+          "lineNumber": 162
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 164
+        },
+        {
+          "caller": "main",
+          "callee": "insWh.run",
+          "lineNumber": 168
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 171
+        },
+        {
+          "caller": "main",
+          "callee": "insPrdt.run",
+          "lineNumber": 176
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 182
+        },
+        {
+          "caller": "main",
+          "callee": "insCust.run",
+          "lineNumber": 188
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 194
+        },
+        {
+          "caller": "main",
+          "callee": "insSalm.run",
+          "lineNumber": 199
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 205
+        },
+        {
+          "caller": "main",
+          "callee": "insMf.run",
+          "lineNumber": 211
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 217
+        },
+        {
+          "caller": "main",
+          "callee": "insTf.run",
+          "lineNumber": 222
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 228
+        },
+        {
+          "caller": "main",
+          "callee": "insMfPss.run",
+          "lineNumber": 234
+        },
+        {
+          "caller": "main",
+          "callee": "db.prepare",
+          "lineNumber": 240
+        },
+        {
+          "caller": "main",
+          "callee": "insTfPss.run",
+          "lineNumber": 245
+        },
+        {
+          "caller": "main",
+          "callee": "tx",
+          "lineNumber": 252
+        },
+        {
+          "caller": "main",
+          "callee": "mfPssRows.filter",
+          "lineNumber": 254
+        },
+        {
+          "caller": "main",
+          "callee": "mfPssRows.filter",
+          "lineNumber": 255
+        },
+        {
+          "caller": "main",
+          "callee": "tfPssRows.filter",
+          "lineNumber": 256
+        },
+        {
+          "caller": "main",
+          "callee": "tfPssRows.filter",
+          "lineNumber": 257
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 258
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/mssqlPool.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 78,
+      "nonEmptyLines": 68,
+      "functions": [
+        {
+          "name": "poolFingerprint",
+          "startLine": 12,
+          "endLine": 16,
+          "params": [
+            "kind"
+          ]
+        },
+        {
+          "name": "getMssqlConfig",
+          "startLine": 18,
+          "endLine": 21,
+          "params": []
+        },
+        {
+          "name": "getSystemMssqlConfig",
+          "startLine": 23,
+          "endLine": 26,
+          "params": []
+        },
+        {
+          "name": "closePoolEntry",
+          "startLine": 28,
+          "endLine": 38,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "closePool",
+          "startLine": 40,
+          "endLine": 42,
+          "params": []
+        },
+        {
+          "name": "connectPool",
+          "startLine": 44,
+          "endLine": 61,
+          "params": [
+            "kind"
+          ]
+        },
+        {
+          "name": "getPool",
+          "startLine": 63,
+          "endLine": 65,
+          "params": []
+        },
+        {
+          "name": "getSystemPool",
+          "startLine": 67,
+          "endLine": 69,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "poolFingerprint",
+          "callee": "loadConfig",
+          "lineNumber": 13
+        },
+        {
+          "caller": "getMssqlConfig",
+          "callee": "loadConfig",
+          "lineNumber": 19
+        },
+        {
+          "caller": "getMssqlConfig",
+          "callee": "buildMssqlConfig",
+          "lineNumber": 20
+        },
+        {
+          "caller": "getSystemMssqlConfig",
+          "callee": "loadConfig",
+          "lineNumber": 24
+        },
+        {
+          "caller": "getSystemMssqlConfig",
+          "callee": "buildMssqlConfig",
+          "lineNumber": 25
+        },
+        {
+          "caller": "closePoolEntry",
+          "callee": "pool.close",
+          "lineNumber": 32
+        },
+        {
+          "caller": "closePool",
+          "callee": "Promise.all",
+          "lineNumber": 41
+        },
+        {
+          "caller": "closePool",
+          "callee": "closePoolEntry",
+          "lineNumber": 41
+        },
+        {
+          "caller": "closePool",
+          "callee": "closePoolEntry",
+          "lineNumber": 41
+        },
+        {
+          "caller": "connectPool",
+          "callee": "poolFingerprint",
+          "lineNumber": 46
+        },
+        {
+          "caller": "connectPool",
+          "callee": "closePoolEntry(entry).catch",
+          "lineNumber": 48
+        },
+        {
+          "caller": "connectPool",
+          "callee": "closePoolEntry",
+          "lineNumber": 48
+        },
+        {
+          "caller": "connectPool",
+          "callee": "getSystemMssqlConfig",
+          "lineNumber": 52
+        },
+        {
+          "caller": "connectPool",
+          "callee": "getMssqlConfig",
+          "lineNumber": 52
+        },
+        {
+          "caller": "connectPool",
+          "callee": "sql.connect(cfg).catch",
+          "lineNumber": 54
+        },
+        {
+          "caller": "connectPool",
+          "callee": "sql.connect",
+          "lineNumber": 54
+        },
+        {
+          "caller": "getPool",
+          "callee": "connectPool",
+          "lineNumber": 64
+        },
+        {
+          "caller": "getSystemPool",
+          "callee": "connectPool",
+          "lineNumber": 68
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/permissions.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 583,
+      "nonEmptyLines": 542,
+      "functions": [
+        {
+          "name": "yn",
+          "startLine": 71,
+          "endLine": 73,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "flagOn",
+          "startLine": 75,
+          "endLine": 77,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "todayStr",
+          "startLine": 79,
+          "endLine": 81,
+          "params": []
+        },
+        {
+          "name": "initPermissionsSchema",
+          "startLine": 83,
+          "endLine": 127,
+          "params": []
+        },
+        {
+          "name": "seedDefaultPermissions",
+          "startLine": 129,
+          "endLine": 157,
+          "params": []
+        },
+        {
+          "name": "rowToUser",
+          "startLine": 159,
+          "endLine": 174,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "getUserRow",
+          "startLine": 176,
+          "endLine": 183,
+          "params": [
+            "usrId"
+          ]
+        },
+        {
+          "name": "isUserDisabled",
+          "startLine": 185,
+          "endLine": 190,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "listMenuPermissions",
+          "startLine": 192,
+          "endLine": 210,
+          "params": [
+            "usrId"
+          ]
+        },
+        {
+          "name": "getPermissionSummary",
+          "startLine": 212,
+          "endLine": 244,
+          "params": [
+            "usrId",
+            "isAdmin"
+          ]
+        },
+        {
+          "name": "hasMenuFlag",
+          "startLine": 246,
+          "endLine": 253,
+          "params": [
+            "usrId",
+            "isAdmin",
+            "pgm",
+            "flag"
+          ]
+        },
+        {
+          "name": "resolveApiPgm",
+          "startLine": 255,
+          "endLine": 267,
+          "params": [
+            "path"
+          ]
+        },
+        {
+          "name": "methodToFlag",
+          "startLine": 269,
+          "endLine": 276,
+          "params": [
+            "method"
+          ]
+        },
+        {
+          "name": "apiPermissionGuard",
+          "startLine": 278,
+          "endLine": 305,
+          "params": [
+            "req",
+            "res",
+            "next"
+          ]
+        },
+        {
+          "name": "listUsersFull",
+          "startLine": 307,
+          "endLine": 315,
+          "params": []
+        },
+        {
+          "name": "createUser",
+          "startLine": 317,
+          "endLine": 342,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "seedUserMenus",
+          "startLine": 344,
+          "endLine": 353,
+          "params": [
+            "usrId",
+            "isAdmin"
+          ]
+        },
+        {
+          "name": "updateUser",
+          "startLine": 355,
+          "endLine": 381,
+          "params": [
+            "usrId",
+            "payload"
+          ]
+        },
+        {
+          "name": "deleteUser",
+          "startLine": 383,
+          "endLine": 387,
+          "params": [
+            "usrId"
+          ]
+        },
+        {
+          "name": "saveMenuPermissions",
+          "startLine": 389,
+          "endLine": 412,
+          "params": [
+            "usrId",
+            "rows"
+          ]
+        },
+        {
+          "name": "copyMenuPermissions",
+          "startLine": 414,
+          "endLine": 429,
+          "params": [
+            "fromUsr",
+            "toUsr"
+          ]
+        },
+        {
+          "name": "listDeproDeps",
+          "startLine": 431,
+          "endLine": 437,
+          "params": [
+            "deproNo"
+          ]
+        },
+        {
+          "name": "getDeproSet",
+          "startLine": 439,
+          "endLine": 443,
+          "params": [
+            "deproNo"
+          ]
+        },
+        {
+          "name": "saveDeproSet",
+          "startLine": 445,
+          "endLine": 461,
+          "params": [
+            "deproNo",
+            "lines"
+          ]
+        },
+        {
+          "name": "listUserWh",
+          "startLine": 463,
+          "endLine": 465,
+          "params": [
+            "usrId"
+          ]
+        },
+        {
+          "name": "saveUserWh",
+          "startLine": 467,
+          "endLine": 478,
+          "params": [
+            "usrId",
+            "whList"
+          ]
+        },
+        {
+          "name": "deptFilterClause",
+          "startLine": 481,
+          "endLine": 488,
+          "params": [
+            "usrId",
+            "isAdmin"
+          ]
+        },
+        {
+          "name": "whAllowedSet",
+          "startLine": 491,
+          "endLine": 496,
+          "params": [
+            "usrId",
+            "isAdmin"
+          ]
+        },
+        {
+          "name": "syncUserFromMssql",
+          "startLine": 499,
+          "endLine": 530,
+          "params": [
+            "profile"
+          ]
+        },
+        {
+          "name": "syncMenuFromPswd1",
+          "startLine": 533,
+          "endLine": 553,
+          "params": [
+            "usrId",
+            "menuRows"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "todayStr",
+          "callee": "new Date().toISOString().slice",
+          "lineNumber": 80
+        },
+        {
+          "caller": "todayStr",
+          "callee": "new Date().toISOString",
+          "lineNumber": 80
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "db.exec",
+          "lineNumber": 84
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "db.prepare('PRAGMA table_info(sys_user)').all().map",
+          "lineNumber": 109
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "db.prepare('PRAGMA table_info(sys_user)').all",
+          "lineNumber": 109
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "db.prepare",
+          "lineNumber": 109
+        },
+        {
+          "caller": "addCol",
+          "callee": "db.exec",
+          "lineNumber": 112
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "cols.includes",
+          "lineNumber": 117
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "addCol",
+          "lineNumber": 117
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "cols.includes",
+          "lineNumber": 118
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "addCol",
+          "lineNumber": 118
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "cols.includes",
+          "lineNumber": 119
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "addCol",
+          "lineNumber": 119
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "cols.includes",
+          "lineNumber": 120
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "addCol",
+          "lineNumber": 120
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "cols.includes",
+          "lineNumber": 121
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "addCol",
+          "lineNumber": 121
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "cols.includes",
+          "lineNumber": 122
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "addCol",
+          "lineNumber": 122
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "cols.includes",
+          "lineNumber": 123
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "addCol",
+          "lineNumber": 123
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "cols.includes",
+          "lineNumber": 124
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "addCol",
+          "lineNumber": 124
+        },
+        {
+          "caller": "initPermissionsSchema",
+          "callee": "seedDefaultPermissions",
+          "lineNumber": 126
+        },
+        {
+          "caller": "seedDefaultPermissions",
+          "callee": "db.prepare('SELECT usr_id, is_admin FROM sys_user').all",
+          "lineNumber": 130
+        },
+        {
+          "caller": "seedDefaultPermissions",
+          "callee": "db.prepare",
+          "lineNumber": 130
+        },
+        {
+          "caller": "seedDefaultPermissions",
+          "callee": "db.prepare",
+          "lineNumber": 131
+        },
+        {
+          "caller": "seedDefaultPermissions",
+          "callee": "ins.run",
+          "lineNumber": 148
+        },
+        {
+          "caller": "seedDefaultPermissions",
+          "callee": "ins.run",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getUserRow",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT usr_id, name, is_admin, pwd, dep, b_dat, e_dat, depro_no, rem, mng, tel1, e_mail\r\n       FROM sys_user WHERE usr_id = ?`\r\n    )\r\n    .get",
+          "lineNumber": 177
+        },
+        {
+          "caller": "getUserRow",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 177
+        },
+        {
+          "caller": "isUserDisabled",
+          "callee": "String(row.e_dat || '').slice",
+          "lineNumber": 187
+        },
+        {
+          "caller": "isUserDisabled",
+          "callee": "String",
+          "lineNumber": 187
+        },
+        {
+          "caller": "isUserDisabled",
+          "callee": "todayStr",
+          "lineNumber": 189
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT pgm, dsp, apd, upd, del, prt FROM sys_user_menu WHERE usr_id = ? ORDER BY pgm`\r\n    )\r\n    .all",
+          "lineNumber": 193
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 193
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "Object.fromEntries",
+          "lineNumber": 198
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "rows.map",
+          "lineNumber": 198
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "ALL_PGMS.map",
+          "lineNumber": 199
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 203
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 204
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 205
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 206
+        },
+        {
+          "caller": "listMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 207
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "ALL_PGMS.map",
+          "lineNumber": 216
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "listDeproDeps",
+          "lineNumber": 230
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "db.prepare('SELECT depro_no FROM sys_user WHERE usr_id = ?').get",
+          "lineNumber": 231
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "db.prepare",
+          "lineNumber": 231
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "db.prepare('SELECT dep FROM sys_user WHERE usr_id = ?').get",
+          "lineNumber": 233
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "db.prepare",
+          "lineNumber": 233
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "db.prepare('SELECT wh FROM sys_user_wh WHERE usr_id = ?').all",
+          "lineNumber": 234
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "db.prepare",
+          "lineNumber": 234
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "whRows.map",
+          "lineNumber": 235
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "listMenuPermissions",
+          "lineNumber": 238
+        },
+        {
+          "caller": "getPermissionSummary",
+          "callee": "[userDep, ...deps].filter",
+          "lineNumber": 239
+        },
+        {
+          "caller": "hasMenuFlag",
+          "callee": "db\r\n    .prepare(`SELECT ${col} AS v FROM sys_user_menu WHERE usr_id = ? AND pgm = ?`)\r\n    .get",
+          "lineNumber": 249
+        },
+        {
+          "caller": "hasMenuFlag",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 249
+        },
+        {
+          "caller": "hasMenuFlag",
+          "callee": "flagOn",
+          "lineNumber": 252
+        },
+        {
+          "caller": "resolveApiPgm",
+          "callee": "path.startsWith",
+          "lineNumber": 257
+        },
+        {
+          "caller": "resolveApiPgm",
+          "callee": "path.startsWith",
+          "lineNumber": 259
+        },
+        {
+          "caller": "resolveApiPgm",
+          "callee": "path.split",
+          "lineNumber": 260
+        },
+        {
+          "caller": "resolveApiPgm",
+          "callee": "path.startsWith",
+          "lineNumber": 263
+        },
+        {
+          "caller": "resolveApiPgm",
+          "callee": "path.split",
+          "lineNumber": 264
+        },
+        {
+          "caller": "methodToFlag",
+          "callee": "String(method || 'GET').toUpperCase",
+          "lineNumber": 270
+        },
+        {
+          "caller": "methodToFlag",
+          "callee": "String",
+          "lineNumber": 270
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "SKIP_API_PREFIXES.some",
+          "lineNumber": 280
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "path.startsWith",
+          "lineNumber": 280
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "next",
+          "lineNumber": 281
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "path.startsWith",
+          "lineNumber": 283
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "next",
+          "lineNumber": 284
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "res.status(401).json",
+          "lineNumber": 287
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "res.status",
+          "lineNumber": 287
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "next",
+          "lineNumber": 288
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "resolveApiPgm",
+          "lineNumber": 290
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "next",
+          "lineNumber": 291
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "path.startsWith",
+          "lineNumber": 293
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "path.includes",
+          "lineNumber": 293
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "res.status(403).json",
+          "lineNumber": 294
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "res.status",
+          "lineNumber": 294
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "path.startsWith",
+          "lineNumber": 296
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "['POST', 'PUT', 'DELETE'].includes",
+          "lineNumber": 296
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "res.status(403).json",
+          "lineNumber": 297
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "res.status",
+          "lineNumber": 297
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "methodToFlag",
+          "lineNumber": 300
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "hasMenuFlag",
+          "lineNumber": 301
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "res.status(403).json",
+          "lineNumber": 302
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "res.status",
+          "lineNumber": 302
+        },
+        {
+          "caller": "apiPermissionGuard",
+          "callee": "next",
+          "lineNumber": 304
+        },
+        {
+          "caller": "listUsersFull",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT usr_id, name, is_admin, dep, b_dat, e_dat, depro_no, rem, mng, tel1, e_mail\r\n       FROM sys_user ORDER BY is_admin DESC, usr_id`\r\n    )\r\n    .all()\r\n    .map",
+          "lineNumber": 308
+        },
+        {
+          "caller": "listUsersFull",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT usr_id, name, is_admin, dep, b_dat, e_dat, depro_no, rem, mng, tel1, e_mail\r\n       FROM sys_user ORDER BY is_admin DESC, usr_id`\r\n    )\r\n    .all",
+          "lineNumber": 308
+        },
+        {
+          "caller": "listUsersFull",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 308
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.usr_id || '').trim",
+          "lineNumber": 318
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 318
+        },
+        {
+          "caller": "createUser",
+          "callee": "db.prepare('SELECT 1 FROM sys_user WHERE usr_id = ?').get",
+          "lineNumber": 320
+        },
+        {
+          "caller": "createUser",
+          "callee": "db.prepare",
+          "lineNumber": 320
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 322
+        },
+        {
+          "caller": "createUser",
+          "callee": "db.prepare(\r\n    `INSERT INTO sys_user (usr_id, name, pwd, is_admin, dep, b_dat, e_dat, depro_no, rem, mng, tel1, e_mail)\r\n     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`\r\n  ).run",
+          "lineNumber": 323
+        },
+        {
+          "caller": "createUser",
+          "callee": "db.prepare",
+          "lineNumber": 323
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.name || '').trim",
+          "lineNumber": 328
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 328
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.dep || '').trim",
+          "lineNumber": 331
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 331
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.b_dat || '').trim",
+          "lineNumber": 332
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 332
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.e_dat || '').trim",
+          "lineNumber": 333
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 333
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.depro_no || '').trim",
+          "lineNumber": 334
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 334
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.rem || '').trim",
+          "lineNumber": 335
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 335
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.mng || '').trim",
+          "lineNumber": 336
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 336
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.tel1 || '').trim",
+          "lineNumber": 337
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 337
+        },
+        {
+          "caller": "createUser",
+          "callee": "String(payload.e_mail || '').trim",
+          "lineNumber": 338
+        },
+        {
+          "caller": "createUser",
+          "callee": "String",
+          "lineNumber": 338
+        },
+        {
+          "caller": "createUser",
+          "callee": "seedUserMenus",
+          "lineNumber": 340
+        },
+        {
+          "caller": "createUser",
+          "callee": "rowToUser",
+          "lineNumber": 341
+        },
+        {
+          "caller": "createUser",
+          "callee": "getUserRow",
+          "lineNumber": 341
+        },
+        {
+          "caller": "seedUserMenus",
+          "callee": "db.prepare",
+          "lineNumber": 345
+        },
+        {
+          "caller": "seedUserMenus",
+          "callee": "ins.run",
+          "lineNumber": 350
+        },
+        {
+          "caller": "seedUserMenus",
+          "callee": "ins.run",
+          "lineNumber": 351
+        },
+        {
+          "caller": "updateUser",
+          "callee": "getUserRow",
+          "lineNumber": 356
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 358
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 358
+        },
+        {
+          "caller": "updateUser",
+          "callee": "db.prepare(\r\n    `UPDATE sys_user SET name=?, pwd=?, is_admin=?, dep=?, b_dat=?, e_dat=?, depro_no=?, rem=?, mng=?, tel1=?, e_mail=?\r\n     WHERE usr_id=?`\r\n  ).run",
+          "lineNumber": 359
+        },
+        {
+          "caller": "updateUser",
+          "callee": "db.prepare",
+          "lineNumber": 359
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String(payload.name ?? row.name).trim",
+          "lineNumber": 363
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 363
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String(payload.dep ?? row.dep ?? '').trim",
+          "lineNumber": 366
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 366
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String(payload.b_dat ?? row.b_dat ?? '').trim",
+          "lineNumber": 367
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 367
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String(payload.e_dat ?? row.e_dat ?? '').trim",
+          "lineNumber": 368
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 368
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String(payload.depro_no ?? row.depro_no ?? '').trim",
+          "lineNumber": 369
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 369
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String(payload.rem ?? row.rem ?? '').trim",
+          "lineNumber": 370
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 370
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String(payload.mng ?? row.mng ?? '').trim",
+          "lineNumber": 371
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 371
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String(payload.tel1 ?? row.tel1 ?? '').trim",
+          "lineNumber": 372
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 372
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String(payload.e_mail ?? row.e_mail ?? '').trim",
+          "lineNumber": 373
+        },
+        {
+          "caller": "updateUser",
+          "callee": "String",
+          "lineNumber": 373
+        },
+        {
+          "caller": "updateUser",
+          "callee": "db.prepare('DELETE FROM sys_user_menu WHERE usr_id = ?').run",
+          "lineNumber": 377
+        },
+        {
+          "caller": "updateUser",
+          "callee": "db.prepare",
+          "lineNumber": 377
+        },
+        {
+          "caller": "updateUser",
+          "callee": "seedUserMenus",
+          "lineNumber": 378
+        },
+        {
+          "caller": "updateUser",
+          "callee": "rowToUser",
+          "lineNumber": 380
+        },
+        {
+          "caller": "updateUser",
+          "callee": "getUserRow",
+          "lineNumber": 380
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "db.prepare('DELETE FROM sys_user_menu WHERE usr_id = ?').run",
+          "lineNumber": 384
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "db.prepare",
+          "lineNumber": 384
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "db.prepare('DELETE FROM sys_user_wh WHERE usr_id = ?').run",
+          "lineNumber": 385
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "db.prepare",
+          "lineNumber": 385
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "db.prepare('DELETE FROM sys_user WHERE usr_id = ?').run",
+          "lineNumber": 386
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "db.prepare",
+          "lineNumber": 386
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "db.prepare",
+          "lineNumber": 390
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "db.prepare",
+          "lineNumber": 391
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "db.transaction",
+          "lineNumber": 395
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "del.run",
+          "lineNumber": 396
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "ALL_PGMS.includes",
+          "lineNumber": 398
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "ins.run",
+          "lineNumber": 399
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "yn",
+          "lineNumber": 402
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "yn",
+          "lineNumber": 403
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "yn",
+          "lineNumber": 404
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "yn",
+          "lineNumber": 405
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "yn",
+          "lineNumber": 406
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "tx",
+          "lineNumber": 410
+        },
+        {
+          "caller": "saveMenuPermissions",
+          "callee": "listMenuPermissions",
+          "lineNumber": 411
+        },
+        {
+          "caller": "copyMenuPermissions",
+          "callee": "db\r\n    .prepare('SELECT pgm, dsp, apd, upd, del, prt FROM sys_user_menu WHERE usr_id = ?')\r\n    .all",
+          "lineNumber": 415
+        },
+        {
+          "caller": "copyMenuPermissions",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 415
+        },
+        {
+          "caller": "copyMenuPermissions",
+          "callee": "saveMenuPermissions",
+          "lineNumber": 418
+        },
+        {
+          "caller": "copyMenuPermissions",
+          "callee": "rows.map",
+          "lineNumber": 420
+        },
+        {
+          "caller": "copyMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 422
+        },
+        {
+          "caller": "copyMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 423
+        },
+        {
+          "caller": "copyMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 424
+        },
+        {
+          "caller": "copyMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 425
+        },
+        {
+          "caller": "copyMenuPermissions",
+          "callee": "flagOn",
+          "lineNumber": 426
+        },
+        {
+          "caller": "listDeproDeps",
+          "callee": "db\r\n    .prepare('SELECT dep FROM sys_depro_set WHERE depro_no = ? ORDER BY itm')\r\n    .all(deproNo)\r\n    .map",
+          "lineNumber": 433
+        },
+        {
+          "caller": "listDeproDeps",
+          "callee": "db\r\n    .prepare('SELECT dep FROM sys_depro_set WHERE depro_no = ? ORDER BY itm')\r\n    .all",
+          "lineNumber": 433
+        },
+        {
+          "caller": "listDeproDeps",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 433
+        },
+        {
+          "caller": "getDeproSet",
+          "callee": "db\r\n    .prepare('SELECT depro_no, itm, dep, rem FROM sys_depro_set WHERE depro_no = ? ORDER BY itm')\r\n    .all",
+          "lineNumber": 440
+        },
+        {
+          "caller": "getDeproSet",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 440
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "String(deproNo || '').trim",
+          "lineNumber": 446
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "String",
+          "lineNumber": 446
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "db.transaction",
+          "lineNumber": 448
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "db.prepare('DELETE FROM sys_depro_set WHERE depro_no = ?').run",
+          "lineNumber": 449
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "db.prepare",
+          "lineNumber": 449
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "db.prepare",
+          "lineNumber": 450
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "(lines || []).forEach",
+          "lineNumber": 453
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "String(ln.dep || '').trim",
+          "lineNumber": 454
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "String",
+          "lineNumber": 454
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "ins.run",
+          "lineNumber": 456
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "String(ln.rem || '').trim",
+          "lineNumber": 456
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "String",
+          "lineNumber": 456
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "tx",
+          "lineNumber": 459
+        },
+        {
+          "caller": "saveDeproSet",
+          "callee": "getDeproSet",
+          "lineNumber": 460
+        },
+        {
+          "caller": "listUserWh",
+          "callee": "db.prepare('SELECT wh FROM sys_user_wh WHERE usr_id = ? ORDER BY wh').all(usrId).map",
+          "lineNumber": 464
+        },
+        {
+          "caller": "listUserWh",
+          "callee": "db.prepare('SELECT wh FROM sys_user_wh WHERE usr_id = ? ORDER BY wh').all",
+          "lineNumber": 464
+        },
+        {
+          "caller": "listUserWh",
+          "callee": "db.prepare",
+          "lineNumber": 464
+        },
+        {
+          "caller": "saveUserWh",
+          "callee": "db.transaction",
+          "lineNumber": 468
+        },
+        {
+          "caller": "saveUserWh",
+          "callee": "db.prepare('DELETE FROM sys_user_wh WHERE usr_id = ?').run",
+          "lineNumber": 469
+        },
+        {
+          "caller": "saveUserWh",
+          "callee": "db.prepare",
+          "lineNumber": 469
+        },
+        {
+          "caller": "saveUserWh",
+          "callee": "db.prepare",
+          "lineNumber": 470
+        },
+        {
+          "caller": "saveUserWh",
+          "callee": "String(wh || '').trim",
+          "lineNumber": 472
+        },
+        {
+          "caller": "saveUserWh",
+          "callee": "String",
+          "lineNumber": 472
+        },
+        {
+          "caller": "saveUserWh",
+          "callee": "ins.run",
+          "lineNumber": 473
+        },
+        {
+          "caller": "saveUserWh",
+          "callee": "tx",
+          "lineNumber": 476
+        },
+        {
+          "caller": "saveUserWh",
+          "callee": "listUserWh",
+          "lineNumber": 477
+        },
+        {
+          "caller": "deptFilterClause",
+          "callee": "db.prepare('SELECT dep, depro_no FROM sys_user WHERE usr_id = ?').get",
+          "lineNumber": 483
+        },
+        {
+          "caller": "deptFilterClause",
+          "callee": "db.prepare",
+          "lineNumber": 483
+        },
+        {
+          "caller": "deptFilterClause",
+          "callee": "[row?.dep, ...listDeproDeps(row?.depro_no || '')].filter",
+          "lineNumber": 484
+        },
+        {
+          "caller": "deptFilterClause",
+          "callee": "listDeproDeps",
+          "lineNumber": 484
+        },
+        {
+          "caller": "deptFilterClause",
+          "callee": "deps.map(() => '?').join",
+          "lineNumber": 486
+        },
+        {
+          "caller": "deptFilterClause",
+          "callee": "deps.map",
+          "lineNumber": 486
+        },
+        {
+          "caller": "whAllowedSet",
+          "callee": "listUserWh",
+          "lineNumber": 493
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.usr_id || '').trim",
+          "lineNumber": 500
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 500
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "getUserRow",
+          "lineNumber": 502
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 503
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.name || usrId).trim",
+          "lineNumber": 506
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 506
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.dep || '').trim",
+          "lineNumber": 509
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 509
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.b_dat || '').trim",
+          "lineNumber": 510
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 510
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.e_dat || '').trim",
+          "lineNumber": 511
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 511
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.depro_no || '').trim",
+          "lineNumber": 512
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 512
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.rem || '').trim",
+          "lineNumber": 513
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 513
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.mng || '').trim",
+          "lineNumber": 514
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 514
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.tel1 || '').trim",
+          "lineNumber": 515
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 515
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String(profile.e_mail || '').trim",
+          "lineNumber": 516
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "String",
+          "lineNumber": 516
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "db.prepare(\r\n      `INSERT INTO sys_user (usr_id, name, pwd, is_admin, dep, b_dat, e_dat, depro_no, rem, mng, tel1, e_mail)\r\n       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`\r\n    ).run",
+          "lineNumber": 519
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "db.prepare",
+          "lineNumber": 519
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "db.prepare(\r\n      `UPDATE sys_user SET name=?, pwd=?, is_admin=?, dep=?, b_dat=?, e_dat=?, depro_no=?, rem=?, mng=?, tel1=?, e_mail=?\r\n       WHERE usr_id=?`\r\n    ).run",
+          "lineNumber": 524
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "db.prepare",
+          "lineNumber": 524
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "rowToUser",
+          "lineNumber": 529
+        },
+        {
+          "caller": "syncUserFromMssql",
+          "callee": "getUserRow",
+          "lineNumber": 529
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "ALL_PGMS.map",
+          "lineNumber": 534
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "p.toUpperCase",
+          "lineNumber": 534
+        },
+        {
+          "caller": "tf",
+          "callee": "String(v || 'F').trim().toUpperCase",
+          "lineNumber": 535
+        },
+        {
+          "caller": "tf",
+          "callee": "String(v || 'F').trim",
+          "lineNumber": 535
+        },
+        {
+          "caller": "tf",
+          "callee": "String",
+          "lineNumber": 535
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "db.prepare",
+          "lineNumber": 536
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "db.prepare('DELETE FROM sys_user_menu WHERE usr_id = ?').run",
+          "lineNumber": 540
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "db.prepare",
+          "lineNumber": 540
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "pgmMap.get",
+          "lineNumber": 543
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "String(r.pgm || '').trim().toUpperCase",
+          "lineNumber": 543
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "String(r.pgm || '').trim",
+          "lineNumber": 543
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "String",
+          "lineNumber": 543
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "touched.add",
+          "lineNumber": 545
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "ins.run",
+          "lineNumber": 546
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "tf",
+          "lineNumber": 546
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "tf",
+          "lineNumber": 546
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "tf",
+          "lineNumber": 546
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "tf",
+          "lineNumber": 546
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "tf",
+          "lineNumber": 546
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "touched.has",
+          "lineNumber": 549
+        },
+        {
+          "caller": "syncMenuFromPswd1",
+          "callee": "ins.run",
+          "lineNumber": 550
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 30,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/permissionsRoutes.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 99,
+      "nonEmptyLines": 85,
+      "functions": [
+        {
+          "name": "registerPermissionsRoutes",
+          "startLine": 18,
+          "endLine": 97,
+          "params": [
+            "app"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.get",
+          "lineNumber": 19
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 20
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.get",
+          "lineNumber": 23
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 25
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "getPermissionSummary",
+          "lineNumber": 25
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.get",
+          "lineNumber": 28
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 29
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "listUsersFull",
+          "lineNumber": 29
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.post",
+          "lineNumber": 32
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status(201).json",
+          "lineNumber": 34
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status",
+          "lineNumber": 34
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "createUser",
+          "lineNumber": 34
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 36
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status",
+          "lineNumber": 36
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.put",
+          "lineNumber": 40
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "updateUser",
+          "lineNumber": 42
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status(404).json",
+          "lineNumber": 43
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status",
+          "lineNumber": 43
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 44
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 46
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status",
+          "lineNumber": 46
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.delete",
+          "lineNumber": 50
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 52
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status",
+          "lineNumber": 52
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "deleteUser",
+          "lineNumber": 54
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 55
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.get",
+          "lineNumber": 58
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 59
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "listMenuPermissions",
+          "lineNumber": 59
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.put",
+          "lineNumber": 62
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 64
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "saveMenuPermissions",
+          "lineNumber": 64
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.post",
+          "lineNumber": 67
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "String(req.body?.from_usr_id || '').trim",
+          "lineNumber": 68
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "String",
+          "lineNumber": 68
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 69
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status",
+          "lineNumber": 69
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 71
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "copyMenuPermissions",
+          "lineNumber": 71
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 73
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status",
+          "lineNumber": 73
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.get",
+          "lineNumber": 77
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 78
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "getDeproSet",
+          "lineNumber": 78
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.put",
+          "lineNumber": 81
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 83
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "saveDeproSet",
+          "lineNumber": 83
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 85
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.status",
+          "lineNumber": 85
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.get",
+          "lineNumber": 89
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 90
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "listUserWh",
+          "lineNumber": 90
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "app.put",
+          "lineNumber": 93
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "res.json",
+          "lineNumber": 95
+        },
+        {
+          "caller": "registerPermissionsRoutes",
+          "callee": "saveUserWh",
+          "lineNumber": 95
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/pswdMssqlAuth.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 207,
+      "nonEmptyLines": 190,
+      "functions": [
+        {
+          "name": "getAuthMode",
+          "startLine": 12,
+          "endLine": 18,
+          "params": []
+        },
+        {
+          "name": "isPswdUnavailableError",
+          "startLine": 20,
+          "endLine": 23,
+          "params": [
+            "err"
+          ]
+        },
+        {
+          "name": "markPswdUnavailable",
+          "startLine": 25,
+          "endLine": 30,
+          "params": [
+            "err"
+          ]
+        },
+        {
+          "name": "resetMssqlPswdCache",
+          "startLine": 32,
+          "endLine": 34,
+          "params": []
+        },
+        {
+          "name": "getDefaultCompno",
+          "startLine": 36,
+          "endLine": 40,
+          "params": []
+        },
+        {
+          "name": "isCompBoss",
+          "startLine": 42,
+          "endLine": 45,
+          "params": [
+            "val"
+          ]
+        },
+        {
+          "name": "isUserExpired",
+          "startLine": 47,
+          "endLine": 57,
+          "params": [
+            "eDat"
+          ]
+        },
+        {
+          "name": "normalizePswdRow",
+          "startLine": 59,
+          "endLine": 76,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "queryPswdUser",
+          "startLine": 78,
+          "endLine": 121,
+          "params": [
+            "usrId",
+            "compno"
+          ]
+        },
+        {
+          "name": "fetchPswdUser",
+          "startLine": 123,
+          "endLine": 136,
+          "params": [
+            "usrId",
+            "compno"
+          ]
+        },
+        {
+          "name": "fetchPswd1Menus",
+          "startLine": 138,
+          "endLine": 162,
+          "params": [
+            "usrId",
+            "compno"
+          ]
+        },
+        {
+          "name": "authenticateViaMssql",
+          "startLine": 167,
+          "endLine": 198,
+          "params": [
+            "usrId"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAuthMode",
+          "callee": "loadConfig",
+          "lineNumber": 13
+        },
+        {
+          "caller": "getAuthMode",
+          "callee": "String(process.env.AUTH_MODE || 'sqlite').toLowerCase",
+          "lineNumber": 15
+        },
+        {
+          "caller": "getAuthMode",
+          "callee": "String",
+          "lineNumber": 15
+        },
+        {
+          "caller": "isPswdUnavailableError",
+          "callee": "String(err?.message || err || '').toLowerCase",
+          "lineNumber": 21
+        },
+        {
+          "caller": "isPswdUnavailableError",
+          "callee": "String",
+          "lineNumber": 21
+        },
+        {
+          "caller": "isPswdUnavailableError",
+          "callee": "msg.includes",
+          "lineNumber": 22
+        },
+        {
+          "caller": "isPswdUnavailableError",
+          "callee": "msg.includes",
+          "lineNumber": 22
+        },
+        {
+          "caller": "markPswdUnavailable",
+          "callee": "isPswdUnavailableError",
+          "lineNumber": 26
+        },
+        {
+          "caller": "markPswdUnavailable",
+          "callee": "console.warn",
+          "lineNumber": 28
+        },
+        {
+          "caller": "getDefaultCompno",
+          "callee": "loadConfig",
+          "lineNumber": 37
+        },
+        {
+          "caller": "getDefaultCompno",
+          "callee": "String(saved.compno).trim",
+          "lineNumber": 38
+        },
+        {
+          "caller": "getDefaultCompno",
+          "callee": "String",
+          "lineNumber": 38
+        },
+        {
+          "caller": "getDefaultCompno",
+          "callee": "String(process.env.MSSQL_COMPNO || '').trim",
+          "lineNumber": 39
+        },
+        {
+          "caller": "getDefaultCompno",
+          "callee": "String",
+          "lineNumber": 39
+        },
+        {
+          "caller": "isCompBoss",
+          "callee": "String(val || '').trim().toUpperCase",
+          "lineNumber": 43
+        },
+        {
+          "caller": "isCompBoss",
+          "callee": "String(val || '').trim",
+          "lineNumber": 43
+        },
+        {
+          "caller": "isCompBoss",
+          "callee": "String",
+          "lineNumber": 43
+        },
+        {
+          "caller": "isUserExpired",
+          "callee": "String(eDat).trim",
+          "lineNumber": 49
+        },
+        {
+          "caller": "isUserExpired",
+          "callee": "String",
+          "lineNumber": 49
+        },
+        {
+          "caller": "isUserExpired",
+          "callee": "Number.isNaN",
+          "lineNumber": 52
+        },
+        {
+          "caller": "isUserExpired",
+          "callee": "d.getTime",
+          "lineNumber": 52
+        },
+        {
+          "caller": "isUserExpired",
+          "callee": "today.setHours",
+          "lineNumber": 54
+        },
+        {
+          "caller": "isUserExpired",
+          "callee": "d.setHours",
+          "lineNumber": 55
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.COMPNO || '').trim",
+          "lineNumber": 62
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 62
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.USR || '').trim",
+          "lineNumber": 63
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 63
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.NAME || '').trim",
+          "lineNumber": 64
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 64
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.PWD || '').trim",
+          "lineNumber": 65
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 65
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.DEP || '').trim",
+          "lineNumber": 66
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 66
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.DEPRO_NO || '').trim",
+          "lineNumber": 67
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 67
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.B_DAT).trim",
+          "lineNumber": 68
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 68
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.E_DAT).trim",
+          "lineNumber": 69
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 69
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.REM || '').trim",
+          "lineNumber": 70
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 70
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.MNG || '').trim",
+          "lineNumber": 71
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 71
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.TEL1 || '').trim",
+          "lineNumber": 72
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 72
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String(row.E_MAIL || '').trim",
+          "lineNumber": 73
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "String",
+          "lineNumber": 73
+        },
+        {
+          "caller": "normalizePswdRow",
+          "callee": "isCompBoss",
+          "lineNumber": 74
+        },
+        {
+          "caller": "queryPswdUser",
+          "callee": "getSystemPool",
+          "lineNumber": 79
+        },
+        {
+          "caller": "queryPswdUser",
+          "callee": "pool.request",
+          "lineNumber": 80
+        },
+        {
+          "caller": "queryPswdUser",
+          "callee": "req.input",
+          "lineNumber": 81
+        },
+        {
+          "caller": "queryPswdUser",
+          "callee": "sql.NVarChar",
+          "lineNumber": 81
+        },
+        {
+          "caller": "queryPswdUser",
+          "callee": "req.input",
+          "lineNumber": 117
+        },
+        {
+          "caller": "queryPswdUser",
+          "callee": "sql.NVarChar",
+          "lineNumber": 117
+        },
+        {
+          "caller": "queryPswdUser",
+          "callee": "req.query",
+          "lineNumber": 118
+        },
+        {
+          "caller": "queryPswdUser",
+          "callee": "fixRows",
+          "lineNumber": 119
+        },
+        {
+          "caller": "queryPswdUser",
+          "callee": "normalizePswdRow",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fetchPswdUser",
+          "callee": "String(compno || '').trim",
+          "lineNumber": 126
+        },
+        {
+          "caller": "fetchPswdUser",
+          "callee": "String",
+          "lineNumber": 126
+        },
+        {
+          "caller": "fetchPswdUser",
+          "callee": "queryPswdUser",
+          "lineNumber": 128
+        },
+        {
+          "caller": "fetchPswdUser",
+          "callee": "queryPswdUser",
+          "lineNumber": 131
+        },
+        {
+          "caller": "fetchPswdUser",
+          "callee": "markPswdUnavailable",
+          "lineNumber": 133
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "getSystemPool",
+          "lineNumber": 139
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "pool.request",
+          "lineNumber": 140
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "req.input",
+          "lineNumber": 141
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "sql.NVarChar",
+          "lineNumber": 141
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "req.input",
+          "lineNumber": 142
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "sql.NVarChar",
+          "lineNumber": 142
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "req.query",
+          "lineNumber": 143
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "(result.recordset || []).map",
+          "lineNumber": 154
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.PGM || '').trim",
+          "lineNumber": 155
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String",
+          "lineNumber": 155
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.DSP || 'F').trim().toUpperCase",
+          "lineNumber": 156
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.DSP || 'F').trim",
+          "lineNumber": 156
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String",
+          "lineNumber": 156
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.APD || 'F').trim().toUpperCase",
+          "lineNumber": 157
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.APD || 'F').trim",
+          "lineNumber": 157
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String",
+          "lineNumber": 157
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.UPD || 'F').trim().toUpperCase",
+          "lineNumber": 158
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.UPD || 'F').trim",
+          "lineNumber": 158
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String",
+          "lineNumber": 158
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.DEL || 'F').trim().toUpperCase",
+          "lineNumber": 159
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.DEL || 'F').trim",
+          "lineNumber": 159
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String",
+          "lineNumber": 159
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.PRT || 'F').trim().toUpperCase",
+          "lineNumber": 160
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String(r.PRT || 'F').trim",
+          "lineNumber": 160
+        },
+        {
+          "caller": "fetchPswd1Menus",
+          "callee": "String",
+          "lineNumber": 160
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "String(options.compno || getDefaultCompno()).trim",
+          "lineNumber": 168
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "String",
+          "lineNumber": 168
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "getDefaultCompno",
+          "lineNumber": 168
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "fetchPswdUser",
+          "lineNumber": 169
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "isUserExpired",
+          "lineNumber": 173
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "syncUserFromMssql",
+          "lineNumber": 178
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "String(process.env.SYNC_PSWD1_ON_LOGIN || 'true').toLowerCase",
+          "lineNumber": 181
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "String",
+          "lineNumber": 181
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "fetchPswd1Menus",
+          "lineNumber": 183
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "syncMenuFromPswd1",
+          "lineNumber": 185
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "seedUserMenus",
+          "lineNumber": 187
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "console.warn",
+          "lineNumber": 190
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "seedUserMenus",
+          "lineNumber": 191
+        },
+        {
+          "caller": "authenticateViaMssql",
+          "callee": "seedUserMenus",
+          "lineNumber": 194
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 12,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/repositories/areaRepository.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 116,
+      "nonEmptyLines": 105,
+      "functions": [
+        {
+          "name": "mapRows",
+          "startLine": 19,
+          "endLine": 21,
+          "params": [
+            "recordset"
+          ]
+        },
+        {
+          "name": "listAll",
+          "startLine": 23,
+          "endLine": 27,
+          "params": []
+        },
+        {
+          "name": "getByNo",
+          "startLine": 29,
+          "endLine": 35,
+          "params": [
+            "areaNo"
+          ]
+        },
+        {
+          "name": "exists",
+          "startLine": 37,
+          "endLine": 43,
+          "params": [
+            "areaNo"
+          ]
+        },
+        {
+          "name": "isUsedByCust",
+          "startLine": 45,
+          "endLine": 51,
+          "params": [
+            "areaNo"
+          ]
+        },
+        {
+          "name": "hasChild",
+          "startLine": 53,
+          "endLine": 59,
+          "params": [
+            "areaNo"
+          ]
+        },
+        {
+          "name": "create",
+          "startLine": 61,
+          "endLine": 75,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "update",
+          "startLine": 77,
+          "endLine": 97,
+          "params": [
+            "areaNo",
+            "payload"
+          ]
+        },
+        {
+          "name": "remove",
+          "startLine": 99,
+          "endLine": 105,
+          "params": [
+            "areaNo"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "mapRows",
+          "callee": "fixRows(recordset || []).map",
+          "lineNumber": 20
+        },
+        {
+          "caller": "mapRows",
+          "callee": "fixRows",
+          "lineNumber": 20
+        },
+        {
+          "caller": "listAll",
+          "callee": "getPool",
+          "lineNumber": 24
+        },
+        {
+          "caller": "listAll",
+          "callee": "pool.request().query",
+          "lineNumber": 25
+        },
+        {
+          "caller": "listAll",
+          "callee": "pool.request",
+          "lineNumber": 25
+        },
+        {
+          "caller": "listAll",
+          "callee": "mapRows",
+          "lineNumber": 26
+        },
+        {
+          "caller": "getByNo",
+          "callee": "getPool",
+          "lineNumber": 30
+        },
+        {
+          "caller": "getByNo",
+          "callee": "pool.request",
+          "lineNumber": 31
+        },
+        {
+          "caller": "getByNo",
+          "callee": "req.input",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getByNo",
+          "callee": "sql.NVarChar",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getByNo",
+          "callee": "req.query",
+          "lineNumber": 33
+        },
+        {
+          "caller": "getByNo",
+          "callee": "mapRows",
+          "lineNumber": 34
+        },
+        {
+          "caller": "exists",
+          "callee": "getPool",
+          "lineNumber": 38
+        },
+        {
+          "caller": "exists",
+          "callee": "pool.request",
+          "lineNumber": 39
+        },
+        {
+          "caller": "exists",
+          "callee": "req.input",
+          "lineNumber": 40
+        },
+        {
+          "caller": "exists",
+          "callee": "sql.NVarChar",
+          "lineNumber": 40
+        },
+        {
+          "caller": "exists",
+          "callee": "req.query",
+          "lineNumber": 41
+        },
+        {
+          "caller": "isUsedByCust",
+          "callee": "getPool",
+          "lineNumber": 46
+        },
+        {
+          "caller": "isUsedByCust",
+          "callee": "pool.request",
+          "lineNumber": 47
+        },
+        {
+          "caller": "isUsedByCust",
+          "callee": "req.input",
+          "lineNumber": 48
+        },
+        {
+          "caller": "isUsedByCust",
+          "callee": "sql.NVarChar",
+          "lineNumber": 48
+        },
+        {
+          "caller": "isUsedByCust",
+          "callee": "req.query",
+          "lineNumber": 49
+        },
+        {
+          "caller": "hasChild",
+          "callee": "getPool",
+          "lineNumber": 54
+        },
+        {
+          "caller": "hasChild",
+          "callee": "pool.request",
+          "lineNumber": 55
+        },
+        {
+          "caller": "hasChild",
+          "callee": "req.input",
+          "lineNumber": 56
+        },
+        {
+          "caller": "hasChild",
+          "callee": "sql.NVarChar",
+          "lineNumber": 56
+        },
+        {
+          "caller": "hasChild",
+          "callee": "req.query",
+          "lineNumber": 57
+        },
+        {
+          "caller": "create",
+          "callee": "normalizeAreaPayload",
+          "lineNumber": 62
+        },
+        {
+          "caller": "create",
+          "callee": "getPool",
+          "lineNumber": 63
+        },
+        {
+          "caller": "create",
+          "callee": "pool.request",
+          "lineNumber": 64
+        },
+        {
+          "caller": "create",
+          "callee": "req.input",
+          "lineNumber": 65
+        },
+        {
+          "caller": "create",
+          "callee": "sql.NVarChar",
+          "lineNumber": 65
+        },
+        {
+          "caller": "create",
+          "callee": "req.input",
+          "lineNumber": 66
+        },
+        {
+          "caller": "create",
+          "callee": "sql.NVarChar",
+          "lineNumber": 66
+        },
+        {
+          "caller": "create",
+          "callee": "req.input",
+          "lineNumber": 67
+        },
+        {
+          "caller": "create",
+          "callee": "sql.NVarChar",
+          "lineNumber": 67
+        },
+        {
+          "caller": "create",
+          "callee": "req.input",
+          "lineNumber": 68
+        },
+        {
+          "caller": "create",
+          "callee": "req.input",
+          "lineNumber": 69
+        },
+        {
+          "caller": "create",
+          "callee": "sql.NVarChar",
+          "lineNumber": 69
+        },
+        {
+          "caller": "create",
+          "callee": "req.query",
+          "lineNumber": 70
+        },
+        {
+          "caller": "create",
+          "callee": "getByNo",
+          "lineNumber": 74
+        },
+        {
+          "caller": "update",
+          "callee": "getByNo",
+          "lineNumber": 78
+        },
+        {
+          "caller": "update",
+          "callee": "normalizeAreaPayload",
+          "lineNumber": 80
+        },
+        {
+          "caller": "update",
+          "callee": "getPool",
+          "lineNumber": 81
+        },
+        {
+          "caller": "update",
+          "callee": "pool.request",
+          "lineNumber": 82
+        },
+        {
+          "caller": "update",
+          "callee": "req.input",
+          "lineNumber": 83
+        },
+        {
+          "caller": "update",
+          "callee": "sql.NVarChar",
+          "lineNumber": 83
+        },
+        {
+          "caller": "update",
+          "callee": "req.input",
+          "lineNumber": 84
+        },
+        {
+          "caller": "update",
+          "callee": "sql.NVarChar",
+          "lineNumber": 84
+        },
+        {
+          "caller": "update",
+          "callee": "req.input",
+          "lineNumber": 85
+        },
+        {
+          "caller": "update",
+          "callee": "sql.NVarChar",
+          "lineNumber": 85
+        },
+        {
+          "caller": "update",
+          "callee": "req.input",
+          "lineNumber": 86
+        },
+        {
+          "caller": "update",
+          "callee": "req.input",
+          "lineNumber": 87
+        },
+        {
+          "caller": "update",
+          "callee": "sql.NVarChar",
+          "lineNumber": 87
+        },
+        {
+          "caller": "update",
+          "callee": "req.query",
+          "lineNumber": 88
+        },
+        {
+          "caller": "update",
+          "callee": "getByNo",
+          "lineNumber": 96
+        },
+        {
+          "caller": "remove",
+          "callee": "getPool",
+          "lineNumber": 100
+        },
+        {
+          "caller": "remove",
+          "callee": "pool.request",
+          "lineNumber": 101
+        },
+        {
+          "caller": "remove",
+          "callee": "req.input",
+          "lineNumber": 102
+        },
+        {
+          "caller": "remove",
+          "callee": "sql.NVarChar",
+          "lineNumber": 102
+        },
+        {
+          "caller": "remove",
+          "callee": "req.query",
+          "lineNumber": 103
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/repositories/mssqlRow.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 76,
+      "nonEmptyLines": 67,
+      "functions": [
+        {
+          "name": "str",
+          "startLine": 4,
+          "endLine": 7,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "normalizeIndxRow",
+          "startLine": 9,
+          "endLine": 18,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "normalizeIndxUp",
+          "startLine": 23,
+          "endLine": 26,
+          "params": [
+            "val"
+          ]
+        },
+        {
+          "name": "normalizeIndxPayload",
+          "startLine": 28,
+          "endLine": 36,
+          "params": []
+        },
+        {
+          "name": "normalizeAreaRow",
+          "startLine": 38,
+          "endLine": 47,
+          "params": [
+            "row"
+          ]
+        },
+        {
+          "name": "normalizeAreaUp",
+          "startLine": 51,
+          "endLine": 54,
+          "params": [
+            "val"
+          ]
+        },
+        {
+          "name": "normalizeAreaPayload",
+          "startLine": 56,
+          "endLine": 64,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "str",
+          "callee": "String(v).trim",
+          "lineNumber": 6
+        },
+        {
+          "caller": "str",
+          "callee": "String",
+          "lineNumber": 6
+        },
+        {
+          "caller": "normalizeIndxRow",
+          "callee": "str",
+          "lineNumber": 12
+        },
+        {
+          "caller": "normalizeIndxRow",
+          "callee": "str",
+          "lineNumber": 13
+        },
+        {
+          "caller": "normalizeIndxRow",
+          "callee": "str",
+          "lineNumber": 14
+        },
+        {
+          "caller": "normalizeIndxRow",
+          "callee": "str",
+          "lineNumber": 15
+        },
+        {
+          "caller": "normalizeIndxRow",
+          "callee": "str",
+          "lineNumber": 16
+        },
+        {
+          "caller": "normalizeIndxUp",
+          "callee": "str",
+          "lineNumber": 24
+        },
+        {
+          "caller": "normalizeIndxPayload",
+          "callee": "str",
+          "lineNumber": 30
+        },
+        {
+          "caller": "normalizeIndxPayload",
+          "callee": "str",
+          "lineNumber": 31
+        },
+        {
+          "caller": "normalizeIndxPayload",
+          "callee": "normalizeIndxUp",
+          "lineNumber": 32
+        },
+        {
+          "caller": "normalizeIndxPayload",
+          "callee": "str",
+          "lineNumber": 33
+        },
+        {
+          "caller": "normalizeIndxPayload",
+          "callee": "str",
+          "lineNumber": 34
+        },
+        {
+          "caller": "normalizeAreaRow",
+          "callee": "str",
+          "lineNumber": 41
+        },
+        {
+          "caller": "normalizeAreaRow",
+          "callee": "str",
+          "lineNumber": 42
+        },
+        {
+          "caller": "normalizeAreaRow",
+          "callee": "str",
+          "lineNumber": 43
+        },
+        {
+          "caller": "normalizeAreaRow",
+          "callee": "str",
+          "lineNumber": 44
+        },
+        {
+          "caller": "normalizeAreaRow",
+          "callee": "str",
+          "lineNumber": 45
+        },
+        {
+          "caller": "normalizeAreaUp",
+          "callee": "str",
+          "lineNumber": 52
+        },
+        {
+          "caller": "normalizeAreaPayload",
+          "callee": "str",
+          "lineNumber": 58
+        },
+        {
+          "caller": "normalizeAreaPayload",
+          "callee": "str",
+          "lineNumber": 59
+        },
+        {
+          "caller": "normalizeAreaPayload",
+          "callee": "normalizeAreaUp",
+          "lineNumber": 60
+        },
+        {
+          "caller": "normalizeAreaPayload",
+          "callee": "str",
+          "lineNumber": 61
+        },
+        {
+          "caller": "normalizeAreaPayload",
+          "callee": "str",
+          "lineNumber": 62
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/repositories/prdtPic.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 122,
+      "nonEmptyLines": 109,
+      "functions": [
+        {
+          "name": "nimage",
+          "startLine": 11,
+          "endLine": 14,
+          "params": [
+            "buffer"
+          ]
+        },
+        {
+          "name": "normalizePicPath",
+          "startLine": 16,
+          "endLine": 23,
+          "params": [
+            "val"
+          ]
+        },
+        {
+          "name": "parsePicSaveValue",
+          "startLine": 26,
+          "endLine": 38,
+          "params": [
+            "val"
+          ]
+        },
+        {
+          "name": "savePrdtPic",
+          "startLine": 40,
+          "endLine": 88,
+          "params": [
+            "tx",
+            "prdNo",
+            "pic",
+            "cadimg"
+          ]
+        },
+        {
+          "name": "picUrlForRow",
+          "startLine": 90,
+          "endLine": 92,
+          "params": [
+            "prdNo",
+            "field"
+          ]
+        },
+        {
+          "name": "guessMime",
+          "startLine": 106,
+          "endLine": 113,
+          "params": [
+            "buf"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "normalizePicPath",
+          "callee": "String(val).trim",
+          "lineNumber": 17
+        },
+        {
+          "caller": "normalizePicPath",
+          "callee": "String",
+          "lineNumber": 17
+        },
+        {
+          "caller": "normalizePicPath",
+          "callee": "s.indexOf",
+          "lineNumber": 18
+        },
+        {
+          "caller": "normalizePicPath",
+          "callee": "s.slice(uploadsAt).split",
+          "lineNumber": 19
+        },
+        {
+          "caller": "normalizePicPath",
+          "callee": "s.slice",
+          "lineNumber": 19
+        },
+        {
+          "caller": "normalizePicPath",
+          "callee": "s.indexOf",
+          "lineNumber": 20
+        },
+        {
+          "caller": "normalizePicPath",
+          "callee": "s.slice(apiAt).split",
+          "lineNumber": 21
+        },
+        {
+          "caller": "normalizePicPath",
+          "callee": "s.slice",
+          "lineNumber": 21
+        },
+        {
+          "caller": "parsePicSaveValue",
+          "callee": "normalizePicPath",
+          "lineNumber": 28
+        },
+        {
+          "caller": "parsePicSaveValue",
+          "callee": "s.startsWith",
+          "lineNumber": 30
+        },
+        {
+          "caller": "parsePicSaveValue",
+          "callee": "s.startsWith",
+          "lineNumber": 31
+        },
+        {
+          "caller": "parsePicSaveValue",
+          "callee": "s.replace(/^\\//, '').replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "parsePicSaveValue",
+          "callee": "s.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "parsePicSaveValue",
+          "callee": "path.join",
+          "lineNumber": 33
+        },
+        {
+          "caller": "parsePicSaveValue",
+          "callee": "fs.existsSync",
+          "lineNumber": 34
+        },
+        {
+          "caller": "parsePicSaveValue",
+          "callee": "fs.readFileSync",
+          "lineNumber": 35
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "parsePicSaveValue",
+          "lineNumber": 41
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "parsePicSaveValue",
+          "lineNumber": 42
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "tx.queryOne",
+          "lineNumber": 45
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nstr",
+          "lineNumber": 46
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nstr",
+          "lineNumber": 50
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.push",
+          "lineNumber": 54
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nimage",
+          "lineNumber": 55
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.push",
+          "lineNumber": 57
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.push",
+          "lineNumber": 62
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nimage",
+          "lineNumber": 63
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.push",
+          "lineNumber": 65
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "tx.exec",
+          "lineNumber": 71
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.join",
+          "lineNumber": 71
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "cols.push",
+          "lineNumber": 76
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "vals.push",
+          "lineNumber": 77
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nimage",
+          "lineNumber": 78
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "cols.push",
+          "lineNumber": 81
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "vals.push",
+          "lineNumber": 82
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nimage",
+          "lineNumber": 83
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "tx.exec",
+          "lineNumber": 86
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "cols.join",
+          "lineNumber": 86
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "vals.join",
+          "lineNumber": 86
+        },
+        {
+          "caller": "picUrlForRow",
+          "callee": "encodeURIComponent",
+          "lineNumber": 91
+        },
+        {
+          "caller": "guessMime",
+          "callee": "buf.slice(0, 4).toString",
+          "lineNumber": 111
+        },
+        {
+          "caller": "guessMime",
+          "callee": "buf.slice",
+          "lineNumber": 111
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_dict_mo.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 47,
+      "nonEmptyLines": 43,
+      "functions": [
+        {
+          "name": "dictFld",
+          "startLine": 4,
+          "endLine": 19,
+          "params": [
+            "table"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "dictFld",
+          "callee": "getSystemPool",
+          "lineNumber": 5
+        },
+        {
+          "caller": "dictFld",
+          "callee": "pool.request().query",
+          "lineNumber": 6
+        },
+        {
+          "caller": "dictFld",
+          "callee": "pool.request",
+          "lineNumber": 6
+        },
+        {
+          "caller": "dictFld",
+          "callee": "console.log",
+          "lineNumber": 10
+        },
+        {
+          "caller": "dictFld",
+          "callee": "cols.recordset.map((c) => c.COLUMN_NAME).join",
+          "lineNumber": 10
+        },
+        {
+          "caller": "dictFld",
+          "callee": "cols.recordset.map",
+          "lineNumber": 10
+        },
+        {
+          "caller": "dictFld",
+          "callee": "pool.request().query",
+          "lineNumber": 11
+        },
+        {
+          "caller": "dictFld",
+          "callee": "pool.request",
+          "lineNumber": 11
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_dict_mp23.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "dictFld",
+          "startLine": 3,
+          "endLine": 13,
+          "params": [
+            "table"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "dictFld",
+          "callee": "getSystemPool",
+          "lineNumber": 4
+        },
+        {
+          "caller": "dictFld",
+          "callee": "pool.request().query",
+          "lineNumber": 5
+        },
+        {
+          "caller": "dictFld",
+          "callee": "pool.request",
+          "lineNumber": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_probe_face_tables.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 87,
+      "nonEmptyLines": 79,
+      "functions": [
+        {
+          "name": "cols",
+          "startLine": 3,
+          "endLine": 11,
+          "params": [
+            "pool",
+            "table"
+          ]
+        },
+        {
+          "name": "sample",
+          "startLine": 13,
+          "endLine": 16,
+          "params": [
+            "pool",
+            "sql"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "cols",
+          "callee": "pool.request().query",
+          "lineNumber": 4
+        },
+        {
+          "caller": "cols",
+          "callee": "pool.request",
+          "lineNumber": 4
+        },
+        {
+          "caller": "sample",
+          "callee": "pool.request().query",
+          "lineNumber": 14
+        },
+        {
+          "caller": "sample",
+          "callee": "pool.request",
+          "lineNumber": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_probe_mp23.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 48,
+      "functions": [
+        {
+          "name": "cols",
+          "startLine": 4,
+          "endLine": 15,
+          "params": [
+            "dbName",
+            "table"
+          ]
+        },
+        {
+          "name": "dict",
+          "startLine": 17,
+          "endLine": 25,
+          "params": [
+            "dbName",
+            "table"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "cols",
+          "callee": "sql.connect",
+          "lineNumber": 5
+        },
+        {
+          "caller": "cols",
+          "callee": "buildMssqlConfig",
+          "lineNumber": 5
+        },
+        {
+          "caller": "cols",
+          "callee": "loadConfig",
+          "lineNumber": 5
+        },
+        {
+          "caller": "cols",
+          "callee": "pool.request().query",
+          "lineNumber": 6
+        },
+        {
+          "caller": "cols",
+          "callee": "pool.request",
+          "lineNumber": 6
+        },
+        {
+          "caller": "cols",
+          "callee": "pool.close",
+          "lineNumber": 13
+        },
+        {
+          "caller": "dict",
+          "callee": "sql.connect",
+          "lineNumber": 18
+        },
+        {
+          "caller": "dict",
+          "callee": "buildMssqlConfig",
+          "lineNumber": 18
+        },
+        {
+          "caller": "dict",
+          "callee": "loadConfig",
+          "lineNumber": 18
+        },
+        {
+          "caller": "dict",
+          "callee": "pool.request().query",
+          "lineNumber": 19
+        },
+        {
+          "caller": "dict",
+          "callee": "pool.request",
+          "lineNumber": 19
+        },
+        {
+          "caller": "dict",
+          "callee": "pool.close",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_probe_mp23_labels.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 36,
+      "functions": [
+        {
+          "name": "query",
+          "startLine": 4,
+          "endLine": 9,
+          "params": [
+            "dbName",
+            "sqlText"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "query",
+          "callee": "sql.connect",
+          "lineNumber": 5
+        },
+        {
+          "caller": "query",
+          "callee": "buildMssqlConfig",
+          "lineNumber": 5
+        },
+        {
+          "caller": "query",
+          "callee": "loadConfig",
+          "lineNumber": 5
+        },
+        {
+          "caller": "query",
+          "callee": "pool.request().query",
+          "lineNumber": 6
+        },
+        {
+          "caller": "query",
+          "callee": "pool.request",
+          "lineNumber": 6
+        },
+        {
+          "caller": "query",
+          "callee": "pool.close",
+          "lineNumber": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_query_faseca_menu.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 23,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_test_prdt_pic_save.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 78,
+      "nonEmptyLines": 69,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_test_prdt_pic_tx.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 22,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_test_save_prdt_pic_fn.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 70,
+      "nonEmptyLines": 63,
+      "functions": [
+        {
+          "name": "savePrdtPic",
+          "startLine": 6,
+          "endLine": 54,
+          "params": [
+            "tx",
+            "prdNo",
+            "pic",
+            "cadimg"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "savePrdtPic",
+          "callee": "parsePicSaveValue",
+          "lineNumber": 7
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "parsePicSaveValue",
+          "lineNumber": 8
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "tx.queryOne",
+          "lineNumber": 11
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nstr",
+          "lineNumber": 12
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nstr",
+          "lineNumber": 16
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.push",
+          "lineNumber": 20
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nimage",
+          "lineNumber": 21
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.push",
+          "lineNumber": 23
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.push",
+          "lineNumber": 28
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nimage",
+          "lineNumber": 29
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.push",
+          "lineNumber": 31
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "tx.exec",
+          "lineNumber": 37
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "sets.join",
+          "lineNumber": 37
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "cols.push",
+          "lineNumber": 42
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "vals.push",
+          "lineNumber": 43
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nimage",
+          "lineNumber": 44
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "cols.push",
+          "lineNumber": 47
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "vals.push",
+          "lineNumber": 48
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "nimage",
+          "lineNumber": 49
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "tx.exec",
+          "lineNumber": 52
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "cols.join",
+          "lineNumber": 52
+        },
+        {
+          "caller": "savePrdtPic",
+          "callee": "vals.join",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

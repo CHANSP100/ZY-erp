@@ -1,0 +1,35 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "client-vue/index.html",
+      "language": "html",
+      "sizeLines": 12,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client-vue/package.json",
+      "language": "json",
+      "sizeLines": 26,
+      "fileCategory": "config"
+    },
+    {
+      "path": "client-vue/tsconfig.app.json",
+      "language": "json",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "client-vue/tsconfig.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "client-vue/index.html": [],
+    "client-vue/package.json": [],
+    "client-vue/tsconfig.app.json": [],
+    "client-vue/tsconfig.json": []
+  }
+}

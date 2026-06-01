@@ -1,0 +1,13 @@
+{
+  "server": "127.0.0.1",
+  "port": "",
+  "loginType": "sql",
+  "businessDatabase": "DB_11",
+  "systemDatabase": "SUNSYSTEM",
+  "user": "SA",
+  "password": "2285",
+  "authMode": "hybrid",
+  "saved": true,
+  "testedAt": "2026-05-26T15:27:57.957Z",
+  "configHash": "984e2f01d80f8da6d16d0e526ee0e996da1c74754880ff2b029cce5e4101171f"
+}

@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "file:client-vue/src/views/PurchaseReceiptPage.vue",
+      "type": "file",
+      "name": "PurchaseReceiptPage.vue",
+      "filePath": "client-vue/src/views/PurchaseReceiptPage.vue",
+      "summary": "Source file PurchaseReceiptPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/PurchaseRequisitionFormView.vue",
+      "type": "file",
+      "name": "PurchaseRequisitionFormView.vue",
+      "filePath": "client-vue/src/views/PurchaseRequisitionFormView.vue",
+      "summary": "Source file PurchaseRequisitionFormView.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/PurchaseRequisitionPage.vue",
+      "type": "file",
+      "name": "PurchaseRequisitionPage.vue",
+      "filePath": "client-vue/src/views/PurchaseRequisitionPage.vue",
+      "summary": "Source file PurchaseRequisitionPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/PurchaseReturnPage.vue",
+      "type": "file",
+      "name": "PurchaseReturnPage.vue",
+      "filePath": "client-vue/src/views/PurchaseReturnPage.vue",
+      "summary": "Source file PurchaseReturnPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/SalesAllowancePage.vue",
+      "type": "file",
+      "name": "SalesAllowancePage.vue",
+      "filePath": "client-vue/src/views/SalesAllowancePage.vue",
+      "summary": "Source file SalesAllowancePage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/SalesOrderFormView.vue",
+      "type": "file",
+      "name": "SalesOrderFormView.vue",
+      "filePath": "client-vue/src/views/SalesOrderFormView.vue",
+      "summary": "Source file SalesOrderFormView.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/SalesOrderPage.vue",
+      "type": "file",
+      "name": "SalesOrderPage.vue",
+      "filePath": "client-vue/src/views/SalesOrderPage.vue",
+      "summary": "Source file SalesOrderPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/SalesReturnPage.vue",
+      "type": "file",
+      "name": "SalesReturnPage.vue",
+      "filePath": "client-vue/src/views/SalesReturnPage.vue",
+      "summary": "Source file SalesReturnPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/SalesShipmentPage.vue",
+      "type": "file",
+      "name": "SalesShipmentPage.vue",
+      "filePath": "client-vue/src/views/SalesShipmentPage.vue",
+      "summary": "Source file SalesShipmentPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/SalmPage.vue",
+      "type": "file",
+      "name": "SalmPage.vue",
+      "filePath": "client-vue/src/views/SalmPage.vue",
+      "summary": "Source file SalmPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/WarehouseDepositFormView.vue",
+      "type": "file",
+      "name": "WarehouseDepositFormView.vue",
+      "filePath": "client-vue/src/views/WarehouseDepositFormView.vue",
+      "summary": "Source file WarehouseDepositFormView.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/WarehouseDepositPage.vue",
+      "type": "file",
+      "name": "WarehouseDepositPage.vue",
+      "filePath": "client-vue/src/views/WarehouseDepositPage.vue",
+      "summary": "Source file WarehouseDepositPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/views/WhPage.vue",
+      "type": "file",
+      "name": "WhPage.vue",
+      "filePath": "client-vue/src/views/WhPage.vue",
+      "summary": "Source file WhPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/vite-env.d.ts",
+      "type": "file",
+      "name": "vite-env.d.ts",
+      "filePath": "client-vue/src/vite-env.d.ts",
+      "summary": "Source file vite-env.d.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/tsconfig.tsbuildinfo",
+      "type": "file",
+      "name": "tsconfig.tsbuildinfo",
+      "filePath": "client-vue/tsconfig.tsbuildinfo",
+      "summary": "Source file tsconfig.tsbuildinfo in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/vite.config.ts",
+      "type": "file",
+      "name": "vite.config.ts",
+      "filePath": "client-vue/vite.config.ts",
+      "summary": "Source file vite.config.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client/eslint.config.js",
+      "type": "file",
+      "name": "eslint.config.js",
+      "filePath": "client/eslint.config.js",
+      "summary": "Source file eslint.config.js in the client area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client/src/App.css",
+      "type": "file",
+      "name": "App.css",
+      "filePath": "client/src/App.css",
+      "summary": "Source file App.css in the client area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client/src/index.css",
+      "type": "file",
+      "name": "index.css",
+      "filePath": "client/src/index.css",
+      "summary": "Source file index.css in the client area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client/vite.config.ts",
+      "type": "file",
+      "name": "vite.config.ts",
+      "filePath": "client/vite.config.ts",
+      "summary": "Source file vite.config.ts in the client area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/write-cursor-rule.cjs",
+      "type": "file",
+      "name": "write-cursor-rule.cjs",
+      "filePath": "scripts/write-cursor-rule.cjs",
+      "summary": "Source file write-cursor-rule.cjs in the scripts area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:server/data/db-connection.json",
+      "type": "config",
+      "name": "db-connection.json",
+      "filePath": "server/data/db-connection.json",
+      "summary": "Configuration file db-connection.json defining build/runtime settings.",
+      "tags": [
+        "configuration",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/data/erp.sqlite",
+      "type": "file",
+      "name": "erp.sqlite",
+      "filePath": "server/data/erp.sqlite",
+      "summary": "Source file erp.sqlite in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/data/erp.sqlite-shm",
+      "type": "file",
+      "name": "erp.sqlite-shm",
+      "filePath": "server/data/erp.sqlite-shm",
+      "summary": "Source file erp.sqlite-shm in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/data/erp.sqlite-wal",
+      "type": "file",
+      "name": "erp.sqlite-wal",
+      "filePath": "server/data/erp.sqlite-wal",
+      "summary": "Source file erp.sqlite-wal in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

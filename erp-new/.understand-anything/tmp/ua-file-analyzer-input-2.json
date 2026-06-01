@@ -1,0 +1,397 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "server/billAuditMeta.js",
+      "language": "javascript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/billExtFieldHook.js",
+      "language": "javascript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/bomOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 513,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/db.js",
+      "language": "javascript",
+      "sizeLines": 1284,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/index.js",
+      "language": "javascript",
+      "sizeLines": 405,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/jhOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 409,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/mlOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 384,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/mmOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 393,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/moOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 372,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/mpOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 730,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/printTemplate.js",
+      "language": "javascript",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/indxRepository.js",
+      "language": "javascript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/mssqlHelpers.js",
+      "language": "javascript",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/mssqlNextNo.js",
+      "language": "javascript",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/areaRoutes.js",
+      "language": "javascript",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/bilSpcRoutes.js",
+      "language": "javascript",
+      "sizeLines": 146,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/curRoutes.js",
+      "language": "javascript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/custRoutes.js",
+      "language": "javascript",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/deptRoutes.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/indxRoutes.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/mfPosRoutes.js",
+      "language": "javascript",
+      "sizeLines": 499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/mfPssRoutes.js",
+      "language": "javascript",
+      "sizeLines": 1277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/prdtRoutes.js",
+      "language": "javascript",
+      "sizeLines": 384,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/salmRoutes.js",
+      "language": "javascript",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/whRoutes.js",
+      "language": "javascript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_check_faseca_pic_cols.js",
+      "language": "javascript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_cust_list.js",
+      "language": "javascript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_ext_on_pic_body.js",
+      "language": "javascript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_prdt_create_with_pic.js",
+      "language": "javascript",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sqOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 314,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sqPoTransferMssql.js",
+      "language": "javascript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/utils/indxKndResolver.js",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/utils/prdtSaveDefaults.js",
+      "language": "javascript",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/billAuditMeta.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/billExtFieldHook.js": [
+      "server/extFieldPersist.js"
+    ],
+    "server/bomOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/db.js": [
+      "server/billAuditMeta.js"
+    ],
+    "server/index.js": [
+      "server/auth.js",
+      "server/authMiddleware.js",
+      "server/bomOrdersRoutes.js",
+      "server/db.js",
+      "server/dbConnectionConfig.js",
+      "server/extField.js",
+      "server/gridConfig.js",
+      "server/jhOrdersRoutes.js",
+      "server/mlOrdersRoutes.js",
+      "server/mmOrdersRoutes.js",
+      "server/moOrdersRoutes.js",
+      "server/mpOrdersRoutes.js",
+      "server/mssqlPool.js",
+      "server/permissions.js",
+      "server/permissionsRoutes.js",
+      "server/printTemplate.js",
+      "server/pswdMssqlAuth.js",
+      "server/repositories/indxRepository.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/routes/areaRoutes.js",
+      "server/routes/bilSpcRoutes.js",
+      "server/routes/curRoutes.js",
+      "server/routes/custRoutes.js",
+      "server/routes/deptRoutes.js",
+      "server/routes/indxRoutes.js",
+      "server/routes/mfPosRoutes.js",
+      "server/routes/mfPssRoutes.js",
+      "server/routes/prdtRoutes.js",
+      "server/routes/salmRoutes.js",
+      "server/routes/whRoutes.js",
+      "server/sqOrdersRoutes.js"
+    ],
+    "server/jhOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/mlOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/mmOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/moOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/mpOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/printTemplate.js": [
+      "server/db.js"
+    ],
+    "server/repositories/indxRepository.js": [
+      "server/encoding.js",
+      "server/mssqlPool.js",
+      "server/repositories/mssqlRow.js"
+    ],
+    "server/repositories/mssqlHelpers.js": [
+      "server/encoding.js",
+      "server/mssqlPool.js"
+    ],
+    "server/repositories/mssqlNextNo.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/areaRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/areaRepository.js"
+    ],
+    "server/routes/bilSpcRoutes.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/curRoutes.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/custRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/deptRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/indxRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/indxRepository.js",
+      "server/utils/indxKndResolver.js"
+    ],
+    "server/routes/mfPosRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/extField.js",
+      "server/extFieldPersist.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js",
+      "server/sqPoTransferMssql.js"
+    ],
+    "server/routes/mfPssRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/routes/prdtRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/indxRepository.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js",
+      "server/repositories/prdtPic.js",
+      "server/utils/indxKndResolver.js",
+      "server/utils/prdtSaveDefaults.js"
+    ],
+    "server/routes/salmRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/routes/whRoutes.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/permissions.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/scripts/_check_faseca_pic_cols.js": [
+      "server/db.js"
+    ],
+    "server/scripts/_test_cust_list.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/scripts/_test_ext_on_pic_body.js": [
+      "server/billExtFieldHook.js"
+    ],
+    "server/scripts/_test_prdt_create_with_pic.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/indxRepository.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js",
+      "server/repositories/prdtPic.js"
+    ],
+    "server/sqOrdersRoutes.js": [
+      "server/billAuditMeta.js",
+      "server/billExtFieldHook.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/mssqlNextNo.js"
+    ],
+    "server/sqPoTransferMssql.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/utils/indxKndResolver.js": [
+      "server/billExtFieldHook.js",
+      "server/db.js",
+      "server/repositories/indxRepository.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/utils/prdtSaveDefaults.js": [
+      "server/utils/indxKndResolver.js"
+    ]
+  }
+}

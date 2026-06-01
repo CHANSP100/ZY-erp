@@ -1,0 +1,294 @@
+{
+  "nodes": [
+    {
+      "id": "file:client-vue/src/App.vue",
+      "type": "file",
+      "name": "App.vue",
+      "filePath": "client-vue/src/App.vue",
+      "summary": "Source file App.vue in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/composables/useErpTabs.ts",
+      "type": "file",
+      "name": "useErpTabs.ts",
+      "filePath": "client-vue/src/composables/useErpTabs.ts",
+      "summary": "useErpTabs.ts with 2 function(s) and 0 class(es); exports 3 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useErpTabs.ts:tabTitleForPath",
+      "type": "function",
+      "name": "tabTitleForPath",
+      "filePath": "client-vue/src/composables/useErpTabs.ts",
+      "lineRange": [
+        33,
+        35
+      ],
+      "summary": "Function tabTitleForPath defined in useErpTabs.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useErpTabs.ts:useErpTabs",
+      "type": "function",
+      "name": "useErpTabs",
+      "filePath": "client-vue/src/composables/useErpTabs.ts",
+      "lineRange": [
+        39,
+        99
+      ],
+      "summary": "Function useErpTabs defined in useErpTabs.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/config/menuRegistry.ts",
+      "type": "file",
+      "name": "menuRegistry.ts",
+      "filePath": "client-vue/src/config/menuRegistry.ts",
+      "summary": "menuRegistry.ts with 3 function(s) and 0 class(es); exports 5 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/menuRegistry.ts:pathToPgm",
+      "type": "function",
+      "name": "pathToPgm",
+      "filePath": "client-vue/src/config/menuRegistry.ts",
+      "lineRange": [
+        111,
+        127
+      ],
+      "summary": "Function pathToPgm defined in menuRegistry.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/config/menuRegistry.ts:menuTitleForPath",
+      "type": "function",
+      "name": "menuTitleForPath",
+      "filePath": "client-vue/src/config/menuRegistry.ts",
+      "lineRange": [
+        131,
+        145
+      ],
+      "summary": "Function menuTitleForPath defined in menuRegistry.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/menuRegistry.ts:listTabForPath",
+      "type": "function",
+      "name": "listTabForPath",
+      "filePath": "client-vue/src/config/menuRegistry.ts",
+      "lineRange": [
+        149,
+        167
+      ],
+      "summary": "Function listTabForPath defined in menuRegistry.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:client-vue/src/layouts/MainLayout.vue",
+      "type": "file",
+      "name": "MainLayout.vue",
+      "filePath": "client-vue/src/layouts/MainLayout.vue",
+      "summary": "Source file MainLayout.vue in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "client-vue/src/main.ts",
+      "summary": "Source file main.ts in the client-vue area of erp-new.",
+      "tags": [
+        "entry-point"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/router/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "client-vue/src/router/index.ts",
+      "summary": "index.ts with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "entry-point"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:client-vue/src/composables/useErpTabs.ts",
+      "target": "file:client-vue/src/config/menuRegistry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpTabs.ts",
+      "target": "function:client-vue/src/composables/useErpTabs.ts:tabTitleForPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpTabs.ts",
+      "target": "function:client-vue/src/composables/useErpTabs.ts:tabTitleForPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpTabs.ts",
+      "target": "function:client-vue/src/composables/useErpTabs.ts:useErpTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpTabs.ts",
+      "target": "function:client-vue/src/composables/useErpTabs.ts:useErpTabs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/menuRegistry.ts",
+      "target": "function:client-vue/src/config/menuRegistry.ts:pathToPgm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/menuRegistry.ts",
+      "target": "function:client-vue/src/config/menuRegistry.ts:pathToPgm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/menuRegistry.ts",
+      "target": "function:client-vue/src/config/menuRegistry.ts:menuTitleForPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/menuRegistry.ts",
+      "target": "function:client-vue/src/config/menuRegistry.ts:menuTitleForPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/menuRegistry.ts",
+      "target": "function:client-vue/src/config/menuRegistry.ts:listTabForPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/menuRegistry.ts",
+      "target": "function:client-vue/src/config/menuRegistry.ts:listTabForPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/main.ts",
+      "target": "file:client-vue/src/App.vue",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/main.ts",
+      "target": "file:client-vue/src/router/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/main.ts",
+      "target": "file:client-vue/src/styles/element-variables.scss",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/main.ts",
+      "target": "file:client-vue/src/styles/erp-ui.scss",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/main.ts",
+      "target": "file:client-vue/src/styles/kingdee-order.scss",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/main.ts",
+      "target": "file:client-vue/src/styles/login.scss",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/router/index.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/router/index.ts",
+      "target": "file:client-vue/src/composables/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/router/index.ts",
+      "target": "file:client-vue/src/config/menuRegistry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/router/index.ts",
+      "target": "file:client-vue/src/layouts/MainLayout.vue",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

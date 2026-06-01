@@ -1,0 +1,4287 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/billAuditMeta.js",
+      "type": "file",
+      "name": "billAuditMeta.js",
+      "filePath": "server/billAuditMeta.js",
+      "summary": "billAuditMeta.js with 6 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/billAuditMeta.js:billAuditFields",
+      "type": "function",
+      "name": "billAuditFields",
+      "filePath": "server/billAuditMeta.js",
+      "lineRange": [
+        15,
+        25
+      ],
+      "summary": "Function billAuditFields defined in billAuditMeta.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/billAuditMeta.js:registerBillAuditRoutes",
+      "type": "function",
+      "name": "registerBillAuditRoutes",
+      "filePath": "server/billAuditMeta.js",
+      "lineRange": [
+        56,
+        93
+      ],
+      "summary": "Function registerBillAuditRoutes defined in billAuditMeta.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/billExtFieldHook.js",
+      "type": "file",
+      "name": "billExtFieldHook.js",
+      "filePath": "server/billExtFieldHook.js",
+      "summary": "billExtFieldHook.js with 5 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/bomOrdersRoutes.js",
+      "type": "file",
+      "name": "bomOrdersRoutes.js",
+      "filePath": "server/bomOrdersRoutes.js",
+      "summary": "bomOrdersRoutes.js with 14 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/bomOrdersRoutes.js:insertTfBomLine",
+      "type": "function",
+      "name": "insertTfBomLine",
+      "filePath": "server/bomOrdersRoutes.js",
+      "lineRange": [
+        52,
+        71
+      ],
+      "summary": "Function insertTfBomLine defined in bomOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/bomOrdersRoutes.js:mfBomHeadParams",
+      "type": "function",
+      "name": "mfBomHeadParams",
+      "filePath": "server/bomOrdersRoutes.js",
+      "lineRange": [
+        78,
+        95
+      ],
+      "summary": "Function mfBomHeadParams defined in bomOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/bomOrdersRoutes.js:assertUniqueProductVersion",
+      "type": "function",
+      "name": "assertUniqueProductVersion",
+      "filePath": "server/bomOrdersRoutes.js",
+      "lineRange": [
+        97,
+        111
+      ],
+      "summary": "Function assertUniqueProductVersion defined in bomOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/bomOrdersRoutes.js:buildBomTreeNode",
+      "type": "function",
+      "name": "buildBomTreeNode",
+      "filePath": "server/bomOrdersRoutes.js",
+      "lineRange": [
+        133,
+        160
+      ],
+      "summary": "Function buildBomTreeNode defined in bomOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/bomOrdersRoutes.js:buildBomRecipeTree",
+      "type": "function",
+      "name": "buildBomRecipeTree",
+      "filePath": "server/bomOrdersRoutes.js",
+      "lineRange": [
+        162,
+        208
+      ],
+      "summary": "Function buildBomRecipeTree defined in bomOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/bomOrdersRoutes.js:loadBomByProduct",
+      "type": "function",
+      "name": "loadBomByProduct",
+      "filePath": "server/bomOrdersRoutes.js",
+      "lineRange": [
+        210,
+        257
+      ],
+      "summary": "Function loadBomByProduct defined in bomOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/bomOrdersRoutes.js:registerBomOrdersRoutes",
+      "type": "function",
+      "name": "registerBomOrdersRoutes",
+      "filePath": "server/bomOrdersRoutes.js",
+      "lineRange": [
+        260,
+        511
+      ],
+      "summary": "Function registerBomOrdersRoutes defined in bomOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/db.js",
+      "type": "file",
+      "name": "db.js",
+      "filePath": "server/db.js",
+      "summary": "db.js with 46 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/db.js:rowToDept",
+      "type": "function",
+      "name": "rowToDept",
+      "filePath": "server/db.js",
+      "lineRange": [
+        338,
+        348
+      ],
+      "summary": "Function rowToDept defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/db.js:rowToWh",
+      "type": "function",
+      "name": "rowToWh",
+      "filePath": "server/db.js",
+      "lineRange": [
+        350,
+        363
+      ],
+      "summary": "Function rowToWh defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/db.js:buildDeptTree",
+      "type": "function",
+      "name": "buildDeptTree",
+      "filePath": "server/db.js",
+      "lineRange": [
+        365,
+        388
+      ],
+      "summary": "Function buildDeptTree defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToPrdt",
+      "type": "function",
+      "name": "rowToPrdt",
+      "filePath": "server/db.js",
+      "lineRange": [
+        400,
+        436
+      ],
+      "summary": "Function rowToPrdt defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:nextPrdNo",
+      "type": "function",
+      "name": "nextPrdNo",
+      "filePath": "server/db.js",
+      "lineRange": [
+        447,
+        471
+      ],
+      "summary": "Function nextPrdNo defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:buildAreaTree",
+      "type": "function",
+      "name": "buildAreaTree",
+      "filePath": "server/db.js",
+      "lineRange": [
+        483,
+        517
+      ],
+      "summary": "Function buildAreaTree defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:buildIndxTree",
+      "type": "function",
+      "name": "buildIndxTree",
+      "filePath": "server/db.js",
+      "lineRange": [
+        519,
+        548
+      ],
+      "summary": "Function buildIndxTree defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToCust",
+      "type": "function",
+      "name": "rowToCust",
+      "filePath": "server/db.js",
+      "lineRange": [
+        550,
+        573
+      ],
+      "summary": "Function rowToCust defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToSalm",
+      "type": "function",
+      "name": "rowToSalm",
+      "filePath": "server/db.js",
+      "lineRange": [
+        575,
+        597
+      ],
+      "summary": "Function rowToSalm defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToMfPos",
+      "type": "function",
+      "name": "rowToMfPos",
+      "filePath": "server/db.js",
+      "lineRange": [
+        599,
+        623
+      ],
+      "summary": "Function rowToMfPos defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfPos",
+      "type": "function",
+      "name": "rowToTfPos",
+      "filePath": "server/db.js",
+      "lineRange": [
+        625,
+        649
+      ],
+      "summary": "Function rowToTfPos defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:nextOsNo",
+      "type": "function",
+      "name": "nextOsNo",
+      "filePath": "server/db.js",
+      "lineRange": [
+        652,
+        666
+      ],
+      "summary": "Function nextOsNo defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/db.js:nextPsNo",
+      "type": "function",
+      "name": "nextPsNo",
+      "filePath": "server/db.js",
+      "lineRange": [
+        669,
+        683
+      ],
+      "summary": "Function nextPsNo defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/db.js:rowToMfPss",
+      "type": "function",
+      "name": "rowToMfPss",
+      "filePath": "server/db.js",
+      "lineRange": [
+        685,
+        718
+      ],
+      "summary": "Function rowToMfPss defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfPss",
+      "type": "function",
+      "name": "rowToTfPss",
+      "filePath": "server/db.js",
+      "lineRange": [
+        720,
+        749
+      ],
+      "summary": "Function rowToTfPss defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:calcLineAmounts",
+      "type": "function",
+      "name": "calcLineAmounts",
+      "filePath": "server/db.js",
+      "lineRange": [
+        751,
+        766
+      ],
+      "summary": "Function calcLineAmounts defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:sumOrder",
+      "type": "function",
+      "name": "sumOrder",
+      "filePath": "server/db.js",
+      "lineRange": [
+        768,
+        780
+      ],
+      "summary": "Function sumOrder defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/db.js:nextSqNo",
+      "type": "function",
+      "name": "nextSqNo",
+      "filePath": "server/db.js",
+      "lineRange": [
+        783,
+        795
+      ],
+      "summary": "Function nextSqNo defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/db.js:rowToMfSq",
+      "type": "function",
+      "name": "rowToMfSq",
+      "filePath": "server/db.js",
+      "lineRange": [
+        797,
+        819
+      ],
+      "summary": "Function rowToMfSq defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfSq",
+      "type": "function",
+      "name": "rowToTfSq",
+      "filePath": "server/db.js",
+      "lineRange": [
+        821,
+        843
+      ],
+      "summary": "Function rowToTfSq defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToMfMo",
+      "type": "function",
+      "name": "rowToMfMo",
+      "filePath": "server/db.js",
+      "lineRange": [
+        859,
+        887
+      ],
+      "summary": "Function rowToMfMo defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfMo",
+      "type": "function",
+      "name": "rowToTfMo",
+      "filePath": "server/db.js",
+      "lineRange": [
+        889,
+        906
+      ],
+      "summary": "Function rowToTfMo defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToMfBom",
+      "type": "function",
+      "name": "rowToMfBom",
+      "filePath": "server/db.js",
+      "lineRange": [
+        908,
+        929
+      ],
+      "summary": "Function rowToMfBom defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfBom",
+      "type": "function",
+      "name": "rowToTfBom",
+      "filePath": "server/db.js",
+      "lineRange": [
+        931,
+        947
+      ],
+      "summary": "Function rowToTfBom defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToMfMl",
+      "type": "function",
+      "name": "rowToMfMl",
+      "filePath": "server/db.js",
+      "lineRange": [
+        960,
+        987
+      ],
+      "summary": "Function rowToMfMl defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfMl",
+      "type": "function",
+      "name": "rowToTfMl",
+      "filePath": "server/db.js",
+      "lineRange": [
+        989,
+        1008
+      ],
+      "summary": "Function rowToTfMl defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToMfMm",
+      "type": "function",
+      "name": "rowToMfMm",
+      "filePath": "server/db.js",
+      "lineRange": [
+        1015,
+        1033
+      ],
+      "summary": "Function rowToMfMm defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfMm",
+      "type": "function",
+      "name": "rowToTfMm",
+      "filePath": "server/db.js",
+      "lineRange": [
+        1035,
+        1056
+      ],
+      "summary": "Function rowToTfMm defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToMfJh",
+      "type": "function",
+      "name": "rowToMfJh",
+      "filePath": "server/db.js",
+      "lineRange": [
+        1064,
+        1084
+      ],
+      "summary": "Function rowToMfJh defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfJh",
+      "type": "function",
+      "name": "rowToTfJh",
+      "filePath": "server/db.js",
+      "lineRange": [
+        1086,
+        1108
+      ],
+      "summary": "Function rowToTfJh defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToMfMp",
+      "type": "function",
+      "name": "rowToMfMp",
+      "filePath": "server/db.js",
+      "lineRange": [
+        1115,
+        1129
+      ],
+      "summary": "Function rowToMfMp defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/db.js:rowToTfMp1",
+      "type": "function",
+      "name": "rowToTfMp1",
+      "filePath": "server/db.js",
+      "lineRange": [
+        1131,
+        1158
+      ],
+      "summary": "Function rowToTfMp1 defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfMp2",
+      "type": "function",
+      "name": "rowToTfMp2",
+      "filePath": "server/db.js",
+      "lineRange": [
+        1160,
+        1182
+      ],
+      "summary": "Function rowToTfMp2 defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:rowToTfMp3",
+      "type": "function",
+      "name": "rowToTfMp3",
+      "filePath": "server/db.js",
+      "lineRange": [
+        1184,
+        1206
+      ],
+      "summary": "Function rowToTfMp3 defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/db.js:normalizeMpLine",
+      "type": "function",
+      "name": "normalizeMpLine",
+      "filePath": "server/db.js",
+      "lineRange": [
+        1208,
+        1222
+      ],
+      "summary": "Function normalizeMpLine defined in db.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/index.js",
+      "type": "file",
+      "name": "index.js",
+      "filePath": "server/index.js",
+      "summary": "index.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "entry-point",
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/jhOrdersRoutes.js",
+      "type": "file",
+      "name": "jhOrdersRoutes.js",
+      "filePath": "server/jhOrdersRoutes.js",
+      "summary": "jhOrdersRoutes.js with 6 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/jhOrdersRoutes.js:mfJhHeadParams",
+      "type": "function",
+      "name": "mfJhHeadParams",
+      "filePath": "server/jhOrdersRoutes.js",
+      "lineRange": [
+        68,
+        84
+      ],
+      "summary": "Function mfJhHeadParams defined in jhOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/jhOrdersRoutes.js:insertTfJhLine",
+      "type": "function",
+      "name": "insertTfJhLine",
+      "filePath": "server/jhOrdersRoutes.js",
+      "lineRange": [
+        86,
+        115
+      ],
+      "summary": "Function insertTfJhLine defined in jhOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/jhOrdersRoutes.js:applyJhSoMark",
+      "type": "function",
+      "name": "applyJhSoMark",
+      "filePath": "server/jhOrdersRoutes.js",
+      "lineRange": [
+        117,
+        133
+      ],
+      "summary": "Function applyJhSoMark defined in jhOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/jhOrdersRoutes.js:registerJhOrdersRoutes",
+      "type": "function",
+      "name": "registerJhOrdersRoutes",
+      "filePath": "server/jhOrdersRoutes.js",
+      "lineRange": [
+        136,
+        407
+      ],
+      "summary": "Function registerJhOrdersRoutes defined in jhOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/mlOrdersRoutes.js",
+      "type": "file",
+      "name": "mlOrdersRoutes.js",
+      "filePath": "server/mlOrdersRoutes.js",
+      "summary": "mlOrdersRoutes.js with 7 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mlOrdersRoutes.js:mfMlHeadParams",
+      "type": "function",
+      "name": "mfMlHeadParams",
+      "filePath": "server/mlOrdersRoutes.js",
+      "lineRange": [
+        66,
+        88
+      ],
+      "summary": "Function mfMlHeadParams defined in mlOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mlOrdersRoutes.js:insertTfMlLine",
+      "type": "function",
+      "name": "insertTfMlLine",
+      "filePath": "server/mlOrdersRoutes.js",
+      "lineRange": [
+        90,
+        116
+      ],
+      "summary": "Function insertTfMlLine defined in mlOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mlOrdersRoutes.js:applyMlWriteback",
+      "type": "function",
+      "name": "applyMlWriteback",
+      "filePath": "server/mlOrdersRoutes.js",
+      "lineRange": [
+        118,
+        155
+      ],
+      "summary": "Function applyMlWriteback defined in mlOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mlOrdersRoutes.js:registerMlOrdersRoutes",
+      "type": "function",
+      "name": "registerMlOrdersRoutes",
+      "filePath": "server/mlOrdersRoutes.js",
+      "lineRange": [
+        158,
+        382
+      ],
+      "summary": "Function registerMlOrdersRoutes defined in mlOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/mmOrdersRoutes.js",
+      "type": "file",
+      "name": "mmOrdersRoutes.js",
+      "filePath": "server/mmOrdersRoutes.js",
+      "summary": "mmOrdersRoutes.js with 9 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mmOrdersRoutes.js:mfMmHeadParams",
+      "type": "function",
+      "name": "mfMmHeadParams",
+      "filePath": "server/mmOrdersRoutes.js",
+      "lineRange": [
+        51,
+        65
+      ],
+      "summary": "Function mfMmHeadParams defined in mmOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mmOrdersRoutes.js:insertTfMmLine",
+      "type": "function",
+      "name": "insertTfMmLine",
+      "filePath": "server/mmOrdersRoutes.js",
+      "lineRange": [
+        67,
+        92
+      ],
+      "summary": "Function insertTfMmLine defined in mmOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mmOrdersRoutes.js:aggregateByMo",
+      "type": "function",
+      "name": "aggregateByMo",
+      "filePath": "server/mmOrdersRoutes.js",
+      "lineRange": [
+        102,
+        112
+      ],
+      "summary": "Function aggregateByMo defined in mmOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mmOrdersRoutes.js:buildOverDepositWarnings",
+      "type": "function",
+      "name": "buildOverDepositWarnings",
+      "filePath": "server/mmOrdersRoutes.js",
+      "lineRange": [
+        114,
+        138
+      ],
+      "summary": "Function buildOverDepositWarnings defined in mmOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mmOrdersRoutes.js:applyMmWriteback",
+      "type": "function",
+      "name": "applyMmWriteback",
+      "filePath": "server/mmOrdersRoutes.js",
+      "lineRange": [
+        140,
+        172
+      ],
+      "summary": "Function applyMmWriteback defined in mmOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mmOrdersRoutes.js:registerMmOrdersRoutes",
+      "type": "function",
+      "name": "registerMmOrdersRoutes",
+      "filePath": "server/mmOrdersRoutes.js",
+      "lineRange": [
+        175,
+        391
+      ],
+      "summary": "Function registerMmOrdersRoutes defined in mmOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/moOrdersRoutes.js",
+      "type": "file",
+      "name": "moOrdersRoutes.js",
+      "filePath": "server/moOrdersRoutes.js",
+      "summary": "moOrdersRoutes.js with 5 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/moOrdersRoutes.js:insertTfMoLine",
+      "type": "function",
+      "name": "insertTfMoLine",
+      "filePath": "server/moOrdersRoutes.js",
+      "lineRange": [
+        47,
+        70
+      ],
+      "summary": "Function insertTfMoLine defined in moOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/moOrdersRoutes.js:mfMoHeadParams",
+      "type": "function",
+      "name": "mfMoHeadParams",
+      "filePath": "server/moOrdersRoutes.js",
+      "lineRange": [
+        72,
+        95
+      ],
+      "summary": "Function mfMoHeadParams defined in moOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/moOrdersRoutes.js:registerMoOrdersRoutes",
+      "type": "function",
+      "name": "registerMoOrdersRoutes",
+      "filePath": "server/moOrdersRoutes.js",
+      "lineRange": [
+        98,
+        370
+      ],
+      "summary": "Function registerMoOrdersRoutes defined in moOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/mpOrdersRoutes.js",
+      "type": "file",
+      "name": "mpOrdersRoutes.js",
+      "filePath": "server/mpOrdersRoutes.js",
+      "summary": "mpOrdersRoutes.js with 21 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:loadStockInWhs",
+      "type": "function",
+      "name": "loadStockInWhs",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        100,
+        112
+      ],
+      "summary": "Function loadStockInWhs defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:loadQtyOnWay",
+      "type": "function",
+      "name": "loadQtyOnWay",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        124,
+        134
+      ],
+      "summary": "Function loadQtyOnWay defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:loadQtyOnPrc",
+      "type": "function",
+      "name": "loadQtyOnPrc",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        136,
+        146
+      ],
+      "summary": "Function loadQtyOnPrc defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:mfMpHeadParams",
+      "type": "function",
+      "name": "mfMpHeadParams",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        158,
+        170
+      ],
+      "summary": "Function mfMpHeadParams defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:insertTfMp1Line",
+      "type": "function",
+      "name": "insertTfMp1Line",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        172,
+        207
+      ],
+      "summary": "Function insertTfMp1Line defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:insertTfMp2Line",
+      "type": "function",
+      "name": "insertTfMp2Line",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        209,
+        237
+      ],
+      "summary": "Function insertTfMp2Line defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:insertTfMp3Line",
+      "type": "function",
+      "name": "insertTfMp3Line",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        239,
+        267
+      ],
+      "summary": "Function insertTfMp3Line defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:applyMpSoMark",
+      "type": "function",
+      "name": "applyMpSoMark",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        276,
+        288
+      ],
+      "summary": "Function applyMpSoMark defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:runMpAnalysis",
+      "type": "function",
+      "name": "runMpAnalysis",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        290,
+        389
+      ],
+      "summary": "Function runMpAnalysis defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:persistMpBill",
+      "type": "function",
+      "name": "persistMpBill",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        391,
+        400
+      ],
+      "summary": "Function persistMpBill defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:updateMpBill",
+      "type": "function",
+      "name": "updateMpBill",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        402,
+        412
+      ],
+      "summary": "Function updateMpBill defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mpOrdersRoutes.js:registerMpOrdersRoutes",
+      "type": "function",
+      "name": "registerMpOrdersRoutes",
+      "filePath": "server/mpOrdersRoutes.js",
+      "lineRange": [
+        422,
+        728
+      ],
+      "summary": "Function registerMpOrdersRoutes defined in mpOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/printTemplate.js",
+      "type": "file",
+      "name": "printTemplate.js",
+      "filePath": "server/printTemplate.js",
+      "summary": "printTemplate.js with 8 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/printTemplate.js:initPrintTemplateSchema",
+      "type": "function",
+      "name": "initPrintTemplateSchema",
+      "filePath": "server/printTemplate.js",
+      "lineRange": [
+        45,
+        91
+      ],
+      "summary": "Function initPrintTemplateSchema defined in printTemplate.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/printTemplate.js:rowToTpl",
+      "type": "function",
+      "name": "rowToTpl",
+      "filePath": "server/printTemplate.js",
+      "lineRange": [
+        93,
+        102
+      ],
+      "summary": "Function rowToTpl defined in printTemplate.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/printTemplate.js:createTemplate",
+      "type": "function",
+      "name": "createTemplate",
+      "filePath": "server/printTemplate.js",
+      "lineRange": [
+        122,
+        139
+      ],
+      "summary": "Function createTemplate defined in printTemplate.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/printTemplate.js:updateTemplate",
+      "type": "function",
+      "name": "updateTemplate",
+      "filePath": "server/printTemplate.js",
+      "lineRange": [
+        141,
+        157
+      ],
+      "summary": "Function updateTemplate defined in printTemplate.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/repositories/indxRepository.js",
+      "type": "file",
+      "name": "indxRepository.js",
+      "filePath": "server/repositories/indxRepository.js",
+      "summary": "indxRepository.js with 10 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/indxRepository.js:create",
+      "type": "function",
+      "name": "create",
+      "filePath": "server/repositories/indxRepository.js",
+      "lineRange": [
+        67,
+        82
+      ],
+      "summary": "Function create defined in indxRepository.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/indxRepository.js:update",
+      "type": "function",
+      "name": "update",
+      "filePath": "server/repositories/indxRepository.js",
+      "lineRange": [
+        84,
+        104
+      ],
+      "summary": "Function update defined in indxRepository.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/repositories/mssqlHelpers.js",
+      "type": "file",
+      "name": "mssqlHelpers.js",
+      "filePath": "server/repositories/mssqlHelpers.js",
+      "summary": "mssqlHelpers.js with 12 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlHelpers.js:bindInputs",
+      "type": "function",
+      "name": "bindInputs",
+      "filePath": "server/repositories/mssqlHelpers.js",
+      "lineRange": [
+        41,
+        51
+      ],
+      "summary": "Function bindInputs defined in mssqlHelpers.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/repositories/mssqlHelpers.js:withTransaction",
+      "type": "function",
+      "name": "withTransaction",
+      "filePath": "server/repositories/mssqlHelpers.js",
+      "lineRange": [
+        78,
+        113
+      ],
+      "summary": "Function withTransaction defined in mssqlHelpers.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/repositories/mssqlNextNo.js",
+      "type": "file",
+      "name": "mssqlNextNo.js",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "summary": "mssqlNextNo.js with 10 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlNextNo.js:nextOsNo",
+      "type": "function",
+      "name": "nextOsNo",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "lineRange": [
+        7,
+        22
+      ],
+      "summary": "Function nextOsNo defined in mssqlNextNo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlNextNo.js:nextPsNo",
+      "type": "function",
+      "name": "nextPsNo",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "lineRange": [
+        24,
+        39
+      ],
+      "summary": "Function nextPsNo defined in mssqlNextNo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlNextNo.js:nextSqNo",
+      "type": "function",
+      "name": "nextSqNo",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "lineRange": [
+        41,
+        56
+      ],
+      "summary": "Function nextSqNo defined in mssqlNextNo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlNextNo.js:nextPrdNo",
+      "type": "function",
+      "name": "nextPrdNo",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "lineRange": [
+        58,
+        78
+      ],
+      "summary": "Function nextPrdNo defined in mssqlNextNo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlNextNo.js:nextMoNo",
+      "type": "function",
+      "name": "nextMoNo",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "lineRange": [
+        80,
+        95
+      ],
+      "summary": "Function nextMoNo defined in mssqlNextNo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlNextNo.js:nextMlNo",
+      "type": "function",
+      "name": "nextMlNo",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "lineRange": [
+        97,
+        113
+      ],
+      "summary": "Function nextMlNo defined in mssqlNextNo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlNextNo.js:nextMmNo",
+      "type": "function",
+      "name": "nextMmNo",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "lineRange": [
+        115,
+        131
+      ],
+      "summary": "Function nextMmNo defined in mssqlNextNo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlNextNo.js:nextJhNo",
+      "type": "function",
+      "name": "nextJhNo",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "lineRange": [
+        133,
+        148
+      ],
+      "summary": "Function nextJhNo defined in mssqlNextNo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlNextNo.js:nextMpNo",
+      "type": "function",
+      "name": "nextMpNo",
+      "filePath": "server/repositories/mssqlNextNo.js",
+      "lineRange": [
+        150,
+        165
+      ],
+      "summary": "Function nextMpNo defined in mssqlNextNo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/routes/areaRoutes.js",
+      "type": "file",
+      "name": "areaRoutes.js",
+      "filePath": "server/routes/areaRoutes.js",
+      "summary": "areaRoutes.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/areaRoutes.js:registerAreaRoutes",
+      "type": "function",
+      "name": "registerAreaRoutes",
+      "filePath": "server/routes/areaRoutes.js",
+      "lineRange": [
+        8,
+        110
+      ],
+      "summary": "Function registerAreaRoutes defined in areaRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/routes/bilSpcRoutes.js",
+      "type": "file",
+      "name": "bilSpcRoutes.js",
+      "filePath": "server/routes/bilSpcRoutes.js",
+      "summary": "bilSpcRoutes.js with 4 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/bilSpcRoutes.js:listBilSpc",
+      "type": "function",
+      "name": "listBilSpc",
+      "filePath": "server/routes/bilSpcRoutes.js",
+      "lineRange": [
+        20,
+        31
+      ],
+      "summary": "Function listBilSpc defined in bilSpcRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/bilSpcRoutes.js:isBilSpcReferenced",
+      "type": "function",
+      "name": "isBilSpcReferenced",
+      "filePath": "server/routes/bilSpcRoutes.js",
+      "lineRange": [
+        33,
+        42
+      ],
+      "summary": "Function isBilSpcReferenced defined in bilSpcRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/bilSpcRoutes.js:registerBilSpcRoutes",
+      "type": "function",
+      "name": "registerBilSpcRoutes",
+      "filePath": "server/routes/bilSpcRoutes.js",
+      "lineRange": [
+        44,
+        144
+      ],
+      "summary": "Function registerBilSpcRoutes defined in bilSpcRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/routes/curRoutes.js",
+      "type": "file",
+      "name": "curRoutes.js",
+      "filePath": "server/routes/curRoutes.js",
+      "summary": "curRoutes.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/curRoutes.js:registerCurRoutes",
+      "type": "function",
+      "name": "registerCurRoutes",
+      "filePath": "server/routes/curRoutes.js",
+      "lineRange": [
+        5,
+        28
+      ],
+      "summary": "Function registerCurRoutes defined in curRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/routes/custRoutes.js",
+      "type": "file",
+      "name": "custRoutes.js",
+      "filePath": "server/routes/custRoutes.js",
+      "summary": "custRoutes.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/custRoutes.js:registerCustRoutes",
+      "type": "function",
+      "name": "registerCustRoutes",
+      "filePath": "server/routes/custRoutes.js",
+      "lineRange": [
+        13,
+        146
+      ],
+      "summary": "Function registerCustRoutes defined in custRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/routes/deptRoutes.js",
+      "type": "file",
+      "name": "deptRoutes.js",
+      "filePath": "server/routes/deptRoutes.js",
+      "summary": "deptRoutes.js with 2 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/deptRoutes.js:registerDeptRoutes",
+      "type": "function",
+      "name": "registerDeptRoutes",
+      "filePath": "server/routes/deptRoutes.js",
+      "lineRange": [
+        16,
+        114
+      ],
+      "summary": "Function registerDeptRoutes defined in deptRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/routes/indxRoutes.js",
+      "type": "file",
+      "name": "indxRoutes.js",
+      "filePath": "server/routes/indxRoutes.js",
+      "summary": "indxRoutes.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/indxRoutes.js:registerIndxRoutes",
+      "type": "function",
+      "name": "registerIndxRoutes",
+      "filePath": "server/routes/indxRoutes.js",
+      "lineRange": [
+        5,
+        114
+      ],
+      "summary": "Function registerIndxRoutes defined in indxRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/routes/mfPosRoutes.js",
+      "type": "file",
+      "name": "mfPosRoutes.js",
+      "filePath": "server/routes/mfPosRoutes.js",
+      "summary": "mfPosRoutes.js with 8 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPosRoutes.js:insertTfPosLineSimple",
+      "type": "function",
+      "name": "insertTfPosLineSimple",
+      "filePath": "server/routes/mfPosRoutes.js",
+      "lineRange": [
+        61,
+        86
+      ],
+      "summary": "Function insertTfPosLineSimple defined in mfPosRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPosRoutes.js:mfPosHeadParams",
+      "type": "function",
+      "name": "mfPosHeadParams",
+      "filePath": "server/routes/mfPosRoutes.js",
+      "lineRange": [
+        88,
+        110
+      ],
+      "summary": "Function mfPosHeadParams defined in mfPosRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPosRoutes.js:resolveBilFields",
+      "type": "function",
+      "name": "resolveBilFields",
+      "filePath": "server/routes/mfPosRoutes.js",
+      "lineRange": [
+        112,
+        123
+      ],
+      "summary": "Function resolveBilFields defined in mfPosRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/mfPosRoutes.js:registerMfPosRoutes",
+      "type": "function",
+      "name": "registerMfPosRoutes",
+      "filePath": "server/routes/mfPosRoutes.js",
+      "lineRange": [
+        125,
+        478
+      ],
+      "summary": "Function registerMfPosRoutes defined in mfPosRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/routes/mfPosRoutes.js:registerAllMfPosRoutes",
+      "type": "function",
+      "name": "registerAllMfPosRoutes",
+      "filePath": "server/routes/mfPosRoutes.js",
+      "lineRange": [
+        480,
+        497
+      ],
+      "summary": "Function registerAllMfPosRoutes defined in mfPosRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/routes/mfPssRoutes.js",
+      "type": "file",
+      "name": "mfPssRoutes.js",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "summary": "mfPssRoutes.js with 22 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:registerPssAuditRoutes",
+      "type": "function",
+      "name": "registerPssAuditRoutes",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        41,
+        52
+      ],
+      "summary": "Function registerPssAuditRoutes defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:mfPssHeadBind",
+      "type": "function",
+      "name": "mfPssHeadBind",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        54,
+        85
+      ],
+      "summary": "Function mfPssHeadBind defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:headBindToParams",
+      "type": "function",
+      "name": "headBindToParams",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        87,
+        116
+      ],
+      "summary": "Function headBindToParams defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:lineInputs",
+      "type": "function",
+      "name": "lineInputs",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        118,
+        143
+      ],
+      "summary": "Function lineInputs defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:insertTfPssLines",
+      "type": "function",
+      "name": "insertTfPssLines",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        145,
+        167
+      ],
+      "summary": "Function insertTfPssLines defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:insertSimpleReturnLines",
+      "type": "function",
+      "name": "insertSimpleReturnLines",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        169,
+        209
+      ],
+      "summary": "Function insertSimpleReturnLines defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:reverseSaQtyPsOnDelete",
+      "type": "function",
+      "name": "reverseSaQtyPsOnDelete",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        211,
+        226
+      ],
+      "summary": "Function reverseSaQtyPsOnDelete defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:reverseSbQtyRtnOnDelete",
+      "type": "function",
+      "name": "reverseSbQtyRtnOnDelete",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        228,
+        243
+      ],
+      "summary": "Function reverseSbQtyRtnOnDelete defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:reversePcQtyPsOnDelete",
+      "type": "function",
+      "name": "reversePcQtyPsOnDelete",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        245,
+        260
+      ],
+      "summary": "Function reversePcQtyPsOnDelete defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:reversePbQtyRtnOnDelete",
+      "type": "function",
+      "name": "reversePbQtyRtnOnDelete",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        262,
+        277
+      ],
+      "summary": "Function reversePbQtyRtnOnDelete defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:deleteMfPssBill",
+      "type": "function",
+      "name": "deleteMfPssBill",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        279,
+        288
+      ],
+      "summary": "Function deleteMfPssBill defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:registerSalesShipmentsRoutes",
+      "type": "function",
+      "name": "registerSalesShipmentsRoutes",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        319,
+        520
+      ],
+      "summary": "Function registerSalesShipmentsRoutes defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:registerSalesReturnsRoutes",
+      "type": "function",
+      "name": "registerSalesReturnsRoutes",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        522,
+        744
+      ],
+      "summary": "Function registerSalesReturnsRoutes defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:registerSalesAllowancesRoutes",
+      "type": "function",
+      "name": "registerSalesAllowancesRoutes",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        746,
+        881
+      ],
+      "summary": "Function registerSalesAllowancesRoutes defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:registerMfPssCrud",
+      "type": "function",
+      "name": "registerMfPssCrud",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        883,
+        1169
+      ],
+      "summary": "Function registerMfPssCrud defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:registerPurchaseReceiptExtraRoutes",
+      "type": "function",
+      "name": "registerPurchaseReceiptExtraRoutes",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        1171,
+        1238
+      ],
+      "summary": "Function registerPurchaseReceiptExtraRoutes defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/routes/mfPssRoutes.js:registerMfPssRoutes",
+      "type": "function",
+      "name": "registerMfPssRoutes",
+      "filePath": "server/routes/mfPssRoutes.js",
+      "lineRange": [
+        1240,
+        1275
+      ],
+      "summary": "Function registerMfPssRoutes defined in mfPssRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/routes/prdtRoutes.js",
+      "type": "file",
+      "name": "prdtRoutes.js",
+      "filePath": "server/routes/prdtRoutes.js",
+      "summary": "prdtRoutes.js with 6 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/prdtRoutes.js:mapPrdtRow",
+      "type": "function",
+      "name": "mapPrdtRow",
+      "filePath": "server/routes/prdtRoutes.js",
+      "lineRange": [
+        27,
+        46
+      ],
+      "summary": "Function mapPrdtRow defined in prdtRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/routes/prdtRoutes.js:preparePrdtBody",
+      "type": "function",
+      "name": "preparePrdtBody",
+      "filePath": "server/routes/prdtRoutes.js",
+      "lineRange": [
+        48,
+        60
+      ],
+      "summary": "Function preparePrdtBody defined in prdtRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/prdtRoutes.js:bindPrdtInputs",
+      "type": "function",
+      "name": "bindPrdtInputs",
+      "filePath": "server/routes/prdtRoutes.js",
+      "lineRange": [
+        62,
+        106
+      ],
+      "summary": "Function bindPrdtInputs defined in prdtRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/routes/prdtRoutes.js:listPrdtUnits",
+      "type": "function",
+      "name": "listPrdtUnits",
+      "filePath": "server/routes/prdtRoutes.js",
+      "lineRange": [
+        138,
+        148
+      ],
+      "summary": "Function listPrdtUnits defined in prdtRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/prdtRoutes.js:registerPrdtRoutes",
+      "type": "function",
+      "name": "registerPrdtRoutes",
+      "filePath": "server/routes/prdtRoutes.js",
+      "lineRange": [
+        150,
+        382
+      ],
+      "summary": "Function registerPrdtRoutes defined in prdtRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/routes/salmRoutes.js",
+      "type": "file",
+      "name": "salmRoutes.js",
+      "filePath": "server/routes/salmRoutes.js",
+      "summary": "salmRoutes.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/salmRoutes.js:registerSalmRoutes",
+      "type": "function",
+      "name": "registerSalmRoutes",
+      "filePath": "server/routes/salmRoutes.js",
+      "lineRange": [
+        18,
+        135
+      ],
+      "summary": "Function registerSalmRoutes defined in salmRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/routes/whRoutes.js",
+      "type": "file",
+      "name": "whRoutes.js",
+      "filePath": "server/routes/whRoutes.js",
+      "summary": "whRoutes.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/routes/whRoutes.js:registerWhRoutes",
+      "type": "function",
+      "name": "registerWhRoutes",
+      "filePath": "server/routes/whRoutes.js",
+      "lineRange": [
+        14,
+        108
+      ],
+      "summary": "Function registerWhRoutes defined in whRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/scripts/_check_faseca_pic_cols.js",
+      "type": "file",
+      "name": "_check_faseca_pic_cols.js",
+      "filePath": "server/scripts/_check_faseca_pic_cols.js",
+      "summary": "Source file _check_faseca_pic_cols.js in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_test_cust_list.js",
+      "type": "file",
+      "name": "_test_cust_list.js",
+      "filePath": "server/scripts/_test_cust_list.js",
+      "summary": "Source file _test_cust_list.js in the server area of erp-new.",
+      "tags": [
+        "test",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_test_ext_on_pic_body.js",
+      "type": "file",
+      "name": "_test_ext_on_pic_body.js",
+      "filePath": "server/scripts/_test_ext_on_pic_body.js",
+      "summary": "Source file _test_ext_on_pic_body.js in the server area of erp-new.",
+      "tags": [
+        "test",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_test_prdt_create_with_pic.js",
+      "type": "file",
+      "name": "_test_prdt_create_with_pic.js",
+      "filePath": "server/scripts/_test_prdt_create_with_pic.js",
+      "summary": "_test_prdt_create_with_pic.js with 2 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "test",
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/scripts/_test_prdt_create_with_pic.js:savePrdtPic",
+      "type": "function",
+      "name": "savePrdtPic",
+      "filePath": "server/scripts/_test_prdt_create_with_pic.js",
+      "lineRange": [
+        11,
+        51
+      ],
+      "summary": "Function savePrdtPic defined in _test_prdt_create_with_pic.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/scripts/_test_prdt_create_with_pic.js:bindPrdtInputs",
+      "type": "function",
+      "name": "bindPrdtInputs",
+      "filePath": "server/scripts/_test_prdt_create_with_pic.js",
+      "lineRange": [
+        53,
+        80
+      ],
+      "summary": "Function bindPrdtInputs defined in _test_prdt_create_with_pic.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/sqOrdersRoutes.js",
+      "type": "file",
+      "name": "sqOrdersRoutes.js",
+      "filePath": "server/sqOrdersRoutes.js",
+      "summary": "sqOrdersRoutes.js with 4 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/sqOrdersRoutes.js:insertTfSqLine",
+      "type": "function",
+      "name": "insertTfSqLine",
+      "filePath": "server/sqOrdersRoutes.js",
+      "lineRange": [
+        43,
+        69
+      ],
+      "summary": "Function insertTfSqLine defined in sqOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/sqOrdersRoutes.js:registerSqOrdersRoutes",
+      "type": "function",
+      "name": "registerSqOrdersRoutes",
+      "filePath": "server/sqOrdersRoutes.js",
+      "lineRange": [
+        72,
+        312
+      ],
+      "summary": "Function registerSqOrdersRoutes defined in sqOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/sqPoTransferMssql.js",
+      "type": "file",
+      "name": "sqPoTransferMssql.js",
+      "filePath": "server/sqPoTransferMssql.js",
+      "summary": "sqPoTransferMssql.js with 5 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/sqPoTransferMssql.js:reverseSqQtyPo",
+      "type": "function",
+      "name": "reverseSqQtyPo",
+      "filePath": "server/sqPoTransferMssql.js",
+      "lineRange": [
+        6,
+        20
+      ],
+      "summary": "Function reverseSqQtyPo defined in sqPoTransferMssql.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/sqPoTransferMssql.js:assertSqLinesAvailable",
+      "type": "function",
+      "name": "assertSqLinesAvailable",
+      "filePath": "server/sqPoTransferMssql.js",
+      "lineRange": [
+        32,
+        46
+      ],
+      "summary": "Function assertSqLinesAvailable defined in sqPoTransferMssql.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/sqPoTransferMssql.js:insertTfPosLine",
+      "type": "function",
+      "name": "insertTfPosLine",
+      "filePath": "server/sqPoTransferMssql.js",
+      "lineRange": [
+        56,
+        84
+      ],
+      "summary": "Function insertTfPosLine defined in sqPoTransferMssql.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/utils/indxKndResolver.js",
+      "type": "file",
+      "name": "indxKndResolver.js",
+      "filePath": "server/utils/indxKndResolver.js",
+      "summary": "indxKndResolver.js with 2 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/utils/indxKndResolver.js:resolveKndForIdx1",
+      "type": "function",
+      "name": "resolveKndForIdx1",
+      "filePath": "server/utils/indxKndResolver.js",
+      "lineRange": [
+        16,
+        45
+      ],
+      "summary": "Function resolveKndForIdx1 defined in indxKndResolver.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/utils/prdtSaveDefaults.js",
+      "type": "file",
+      "name": "prdtSaveDefaults.js",
+      "filePath": "server/utils/prdtSaveDefaults.js",
+      "summary": "prdtSaveDefaults.js with 10 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/utils/prdtSaveDefaults.js:buildPrdtNamePy",
+      "type": "function",
+      "name": "buildPrdtNamePy",
+      "filePath": "server/utils/prdtSaveDefaults.js",
+      "lineRange": [
+        53,
+        69
+      ],
+      "summary": "Function buildPrdtNamePy defined in prdtSaveDefaults.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/utils/prdtSaveDefaults.js:applyPrdtSaveDefaults",
+      "type": "function",
+      "name": "applyPrdtSaveDefaults",
+      "filePath": "server/utils/prdtSaveDefaults.js",
+      "lineRange": [
+        76,
+        138
+      ],
+      "summary": "Function applyPrdtSaveDefaults defined in prdtSaveDefaults.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/billAuditMeta.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/billAuditMeta.js",
+      "target": "function:server/billAuditMeta.js:billAuditFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/billAuditMeta.js",
+      "target": "function:server/billAuditMeta.js:registerBillAuditRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/billExtFieldHook.js",
+      "target": "file:server/extFieldPersist.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/bomOrdersRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/bomOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/bomOrdersRoutes.js",
+      "target": "function:server/bomOrdersRoutes.js:insertTfBomLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/bomOrdersRoutes.js",
+      "target": "function:server/bomOrdersRoutes.js:mfBomHeadParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/bomOrdersRoutes.js",
+      "target": "function:server/bomOrdersRoutes.js:assertUniqueProductVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/bomOrdersRoutes.js",
+      "target": "function:server/bomOrdersRoutes.js:buildBomTreeNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/bomOrdersRoutes.js",
+      "target": "function:server/bomOrdersRoutes.js:buildBomRecipeTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/bomOrdersRoutes.js",
+      "target": "function:server/bomOrdersRoutes.js:loadBomByProduct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/bomOrdersRoutes.js",
+      "target": "function:server/bomOrdersRoutes.js:registerBomOrdersRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToDept",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToWh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:buildDeptTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToPrdt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:nextPrdNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:buildAreaTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:buildIndxTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToCust",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToSalm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToMfPos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfPos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:nextOsNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:nextPsNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToMfPss",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfPss",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:calcLineAmounts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:sumOrder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:nextSqNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToMfSq",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfSq",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToMfMo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfMo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToMfBom",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfBom",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToMfMl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfMl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToMfMm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfMm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToMfJh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfJh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToMfMp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfMp1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfMp2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:rowToTfMp3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/db.js",
+      "target": "function:server/db.js:normalizeMpLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/auth.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/authMiddleware.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/bomOrdersRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/dbConnectionConfig.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/extField.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/gridConfig.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/jhOrdersRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/mlOrdersRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/mmOrdersRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/moOrdersRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/mpOrdersRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/permissions.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/permissionsRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/printTemplate.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/pswdMssqlAuth.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/repositories/indxRepository.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/areaRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/bilSpcRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/curRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/custRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/deptRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/indxRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/mfPosRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/mfPssRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/prdtRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/salmRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/routes/whRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/index.js",
+      "target": "file:server/sqOrdersRoutes.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/jhOrdersRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/jhOrdersRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/jhOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/jhOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/jhOrdersRoutes.js",
+      "target": "function:server/jhOrdersRoutes.js:mfJhHeadParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/jhOrdersRoutes.js",
+      "target": "function:server/jhOrdersRoutes.js:insertTfJhLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/jhOrdersRoutes.js",
+      "target": "function:server/jhOrdersRoutes.js:applyJhSoMark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/jhOrdersRoutes.js",
+      "target": "function:server/jhOrdersRoutes.js:registerJhOrdersRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mlOrdersRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mlOrdersRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mlOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mlOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mlOrdersRoutes.js",
+      "target": "function:server/mlOrdersRoutes.js:mfMlHeadParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mlOrdersRoutes.js",
+      "target": "function:server/mlOrdersRoutes.js:insertTfMlLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mlOrdersRoutes.js",
+      "target": "function:server/mlOrdersRoutes.js:applyMlWriteback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mlOrdersRoutes.js",
+      "target": "function:server/mlOrdersRoutes.js:registerMlOrdersRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "function:server/mmOrdersRoutes.js:mfMmHeadParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "function:server/mmOrdersRoutes.js:insertTfMmLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "function:server/mmOrdersRoutes.js:aggregateByMo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "function:server/mmOrdersRoutes.js:buildOverDepositWarnings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "function:server/mmOrdersRoutes.js:applyMmWriteback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mmOrdersRoutes.js",
+      "target": "function:server/mmOrdersRoutes.js:registerMmOrdersRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/moOrdersRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/moOrdersRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/moOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/moOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/moOrdersRoutes.js",
+      "target": "function:server/moOrdersRoutes.js:insertTfMoLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/moOrdersRoutes.js",
+      "target": "function:server/moOrdersRoutes.js:mfMoHeadParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/moOrdersRoutes.js",
+      "target": "function:server/moOrdersRoutes.js:registerMoOrdersRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:loadStockInWhs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:loadQtyOnWay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:loadQtyOnPrc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:mfMpHeadParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:insertTfMp1Line",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:insertTfMp2Line",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:insertTfMp3Line",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:applyMpSoMark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:runMpAnalysis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:persistMpBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:updateMpBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mpOrdersRoutes.js",
+      "target": "function:server/mpOrdersRoutes.js:registerMpOrdersRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/printTemplate.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/printTemplate.js",
+      "target": "function:server/printTemplate.js:initPrintTemplateSchema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/printTemplate.js",
+      "target": "function:server/printTemplate.js:rowToTpl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/printTemplate.js",
+      "target": "function:server/printTemplate.js:createTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/printTemplate.js",
+      "target": "function:server/printTemplate.js:updateTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/indxRepository.js",
+      "target": "file:server/encoding.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/indxRepository.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/indxRepository.js",
+      "target": "file:server/repositories/mssqlRow.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/indxRepository.js",
+      "target": "function:server/repositories/indxRepository.js:create",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/indxRepository.js",
+      "target": "function:server/repositories/indxRepository.js:update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlHelpers.js",
+      "target": "file:server/encoding.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/mssqlHelpers.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/mssqlHelpers.js",
+      "target": "function:server/repositories/mssqlHelpers.js:bindInputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlHelpers.js",
+      "target": "function:server/repositories/mssqlHelpers.js:withTransaction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "function:server/repositories/mssqlNextNo.js:nextOsNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "function:server/repositories/mssqlNextNo.js:nextPsNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "function:server/repositories/mssqlNextNo.js:nextSqNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "function:server/repositories/mssqlNextNo.js:nextPrdNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "function:server/repositories/mssqlNextNo.js:nextMoNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "function:server/repositories/mssqlNextNo.js:nextMlNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "function:server/repositories/mssqlNextNo.js:nextMmNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "function:server/repositories/mssqlNextNo.js:nextJhNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlNextNo.js",
+      "target": "function:server/repositories/mssqlNextNo.js:nextMpNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/areaRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/areaRoutes.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/areaRoutes.js",
+      "target": "file:server/repositories/areaRepository.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/areaRoutes.js",
+      "target": "function:server/routes/areaRoutes.js:registerAreaRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/bilSpcRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/bilSpcRoutes.js",
+      "target": "function:server/routes/bilSpcRoutes.js:listBilSpc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/bilSpcRoutes.js",
+      "target": "function:server/routes/bilSpcRoutes.js:isBilSpcReferenced",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/bilSpcRoutes.js",
+      "target": "function:server/routes/bilSpcRoutes.js:registerBilSpcRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/curRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/curRoutes.js",
+      "target": "function:server/routes/curRoutes.js:registerCurRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/custRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/custRoutes.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/custRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/custRoutes.js",
+      "target": "function:server/routes/custRoutes.js:registerCustRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/deptRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/deptRoutes.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/deptRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/deptRoutes.js",
+      "target": "function:server/routes/deptRoutes.js:registerDeptRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/indxRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/indxRoutes.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/indxRoutes.js",
+      "target": "file:server/repositories/indxRepository.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/indxRoutes.js",
+      "target": "file:server/utils/indxKndResolver.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/indxRoutes.js",
+      "target": "function:server/routes/indxRoutes.js:registerIndxRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "file:server/extField.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "file:server/extFieldPersist.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "file:server/sqPoTransferMssql.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "function:server/routes/mfPosRoutes.js:insertTfPosLineSimple",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "function:server/routes/mfPosRoutes.js:mfPosHeadParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "function:server/routes/mfPosRoutes.js:resolveBilFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "function:server/routes/mfPosRoutes.js:registerMfPosRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPosRoutes.js",
+      "target": "function:server/routes/mfPosRoutes.js:registerAllMfPosRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:registerPssAuditRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:mfPssHeadBind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:headBindToParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:lineInputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:insertTfPssLines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:insertSimpleReturnLines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:reverseSaQtyPsOnDelete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:reverseSbQtyRtnOnDelete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:reversePcQtyPsOnDelete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:reversePbQtyRtnOnDelete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:deleteMfPssBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:registerSalesShipmentsRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:registerSalesReturnsRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:registerSalesAllowancesRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:registerMfPssCrud",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:registerPurchaseReceiptExtraRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/mfPssRoutes.js",
+      "target": "function:server/routes/mfPssRoutes.js:registerMfPssRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "file:server/repositories/indxRepository.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "file:server/repositories/prdtPic.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "file:server/utils/indxKndResolver.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "file:server/utils/prdtSaveDefaults.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "function:server/routes/prdtRoutes.js:mapPrdtRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "function:server/routes/prdtRoutes.js:preparePrdtBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "function:server/routes/prdtRoutes.js:bindPrdtInputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "function:server/routes/prdtRoutes.js:listPrdtUnits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/prdtRoutes.js",
+      "target": "function:server/routes/prdtRoutes.js:registerPrdtRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/salmRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/salmRoutes.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/salmRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/salmRoutes.js",
+      "target": "function:server/routes/salmRoutes.js:registerSalmRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/routes/whRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/whRoutes.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/whRoutes.js",
+      "target": "file:server/permissions.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/whRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/routes/whRoutes.js",
+      "target": "function:server/routes/whRoutes.js:registerWhRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/scripts/_check_faseca_pic_cols.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_cust_list.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_cust_list.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_cust_list.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_ext_on_pic_body.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_create_with_pic.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_create_with_pic.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_create_with_pic.js",
+      "target": "file:server/repositories/indxRepository.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_create_with_pic.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_create_with_pic.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_create_with_pic.js",
+      "target": "file:server/repositories/prdtPic.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_create_with_pic.js",
+      "target": "function:server/scripts/_test_prdt_create_with_pic.js:savePrdtPic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_create_with_pic.js",
+      "target": "function:server/scripts/_test_prdt_create_with_pic.js:bindPrdtInputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sqOrdersRoutes.js",
+      "target": "file:server/billAuditMeta.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/sqOrdersRoutes.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/sqOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/sqOrdersRoutes.js",
+      "target": "file:server/repositories/mssqlNextNo.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/sqOrdersRoutes.js",
+      "target": "function:server/sqOrdersRoutes.js:insertTfSqLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sqOrdersRoutes.js",
+      "target": "function:server/sqOrdersRoutes.js:registerSqOrdersRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sqPoTransferMssql.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/sqPoTransferMssql.js",
+      "target": "function:server/sqPoTransferMssql.js:reverseSqQtyPo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sqPoTransferMssql.js",
+      "target": "function:server/sqPoTransferMssql.js:assertSqLinesAvailable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sqPoTransferMssql.js",
+      "target": "function:server/sqPoTransferMssql.js:insertTfPosLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/utils/indxKndResolver.js",
+      "target": "file:server/billExtFieldHook.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/utils/indxKndResolver.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/utils/indxKndResolver.js",
+      "target": "file:server/repositories/indxRepository.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/utils/indxKndResolver.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/utils/indxKndResolver.js",
+      "target": "function:server/utils/indxKndResolver.js:resolveKndForIdx1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/utils/prdtSaveDefaults.js",
+      "target": "file:server/utils/indxKndResolver.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/utils/prdtSaveDefaults.js",
+      "target": "function:server/utils/prdtSaveDefaults.js:buildPrdtNamePy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/utils/prdtSaveDefaults.js",
+      "target": "function:server/utils/prdtSaveDefaults.js:applyPrdtSaveDefaults",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

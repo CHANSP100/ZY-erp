@@ -1,0 +1,399 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "client-vue/src/composables/useLookupDialogColumns.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 130,
+      "nonEmptyLines": 114,
+      "functions": [
+        {
+          "name": "useLookupDialogColumns",
+          "startLine": 10,
+          "endLine": 130,
+          "params": [
+            "settingsKey",
+            "allColumns",
+            "valueKey",
+            "enabled"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useLookupDialogColumns",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "ref",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "ref",
+          "lineNumber": 16
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "reactive",
+          "lineNumber": 18
+        },
+        {
+          "caller": "storageKey",
+          "callee": "getErpUserId",
+          "lineNumber": 26
+        },
+        {
+          "caller": "initColumns",
+          "callee": "localStorage.getItem",
+          "lineNumber": 35
+        },
+        {
+          "caller": "initColumns",
+          "callee": "storageKey",
+          "lineNumber": 35
+        },
+        {
+          "caller": "initColumns",
+          "callee": "JSON.parse",
+          "lineNumber": 36
+        },
+        {
+          "caller": "initColumns",
+          "callee": "cols.map",
+          "lineNumber": 41
+        },
+        {
+          "caller": "initColumns",
+          "callee": "columnStates.value.some",
+          "lineNumber": 50
+        },
+        {
+          "caller": "saveVisibility",
+          "callee": "localStorage.setItem",
+          "lineNumber": 62
+        },
+        {
+          "caller": "saveVisibility",
+          "callee": "storageKey",
+          "lineNumber": 62
+        },
+        {
+          "caller": "saveVisibility",
+          "callee": "JSON.stringify",
+          "lineNumber": 62
+        },
+        {
+          "caller": "toggleColumn",
+          "callee": "columnStates.value.find",
+          "lineNumber": 66
+        },
+        {
+          "caller": "toggleColumn",
+          "callee": "columnStates.value.some",
+          "lineNumber": 69
+        },
+        {
+          "caller": "toggleColumn",
+          "callee": "saveVisibility",
+          "lineNumber": 72
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "computed",
+          "lineNumber": 75
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "columnStates.value.filter",
+          "lineNumber": 75
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "computed",
+          "lineNumber": 77
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "Boolean",
+          "lineNumber": 80
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "columnStates.value.some",
+          "lineNumber": 82
+        },
+        {
+          "caller": "onDocumentClick",
+          "callee": "(e.target as HTMLElement | null)?.closest",
+          "lineNumber": 104
+        },
+        {
+          "caller": "onDocumentClick",
+          "callee": "closeMenus",
+          "lineNumber": 105
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "watch",
+          "lineNumber": 108
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "initColumns",
+          "lineNumber": 110
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "document.addEventListener",
+          "lineNumber": 115
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "onBeforeUnmount",
+          "lineNumber": 116
+        },
+        {
+          "caller": "useLookupDialogColumns",
+          "callee": "document.removeEventListener",
+          "lineNumber": 116
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/lookups/helpers.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 45,
+      "functions": [
+        {
+          "name": "normalizeLookupColumns",
+          "startLine": 33,
+          "endLine": 39,
+          "params": [
+            "columns",
+            "valueKey"
+          ]
+        },
+        {
+          "name": "resolveColumnSettingsKey",
+          "startLine": 41,
+          "endLine": 49,
+          "params": [
+            "preset",
+            "config"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LOOKUP_VALUE_KEY_TABLE",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "LOOKUP_TABLE_KEYS",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "normalizeLookupColumns",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "resolveColumnSettingsKey",
+          "line": 41,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "normalizeLookupColumns",
+          "callee": "columns.map",
+          "lineNumber": 34
+        },
+        {
+          "caller": "resolveColumnSettingsKey",
+          "callee": "vk.toUpperCase",
+          "lineNumber": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/lookups/presets.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 170,
+      "nonEmptyLines": 167,
+      "functions": [
+        {
+          "name": "fetchRow",
+          "startLine": 4,
+          "endLine": 13,
+          "params": [
+            "fn"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LOOKUP_PRESETS",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fetchRow",
+          "callee": "fn",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/lookups/resolve.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 72,
+      "nonEmptyLines": 67,
+      "functions": [
+        {
+          "name": "resolveLookupConfig",
+          "startLine": 5,
+          "endLine": 21,
+          "params": [
+            "preset",
+            "override"
+          ]
+        },
+        {
+          "name": "toLookupDialogBindProps",
+          "startLine": 37,
+          "endLine": 52,
+          "params": [
+            "cfg",
+            "dialogClass"
+          ]
+        },
+        {
+          "name": "getLookupDialogProps",
+          "startLine": 55,
+          "endLine": 62,
+          "params": [
+            "preset",
+            "override"
+          ]
+        },
+        {
+          "name": "getInlineLookupDialogProps",
+          "startLine": 65,
+          "endLine": 72,
+          "params": [
+            "config",
+            "options"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "resolveLookupConfig",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getLookupDialogProps",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "getInlineLookupDialogProps",
+          "line": 65,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "resolveLookupConfig",
+          "callee": "resolveColumnSettingsKey",
+          "lineNumber": 18
+        },
+        {
+          "caller": "resolveLookupConfig",
+          "callee": "normalizeLookupColumns",
+          "lineNumber": 19
+        },
+        {
+          "caller": "toLookupDialogBindProps",
+          "callee": "resolveColumnSettingsKey",
+          "lineNumber": 45
+        },
+        {
+          "caller": "getLookupDialogProps",
+          "callee": "resolveLookupConfig",
+          "lineNumber": 59
+        },
+        {
+          "caller": "getLookupDialogProps",
+          "callee": "toLookupDialogBindProps",
+          "lineNumber": 61
+        },
+        {
+          "caller": "getInlineLookupDialogProps",
+          "callee": "resolveLookupConfig",
+          "lineNumber": 69
+        },
+        {
+          "caller": "getInlineLookupDialogProps",
+          "callee": "toLookupDialogBindProps",
+          "lineNumber": 71
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 3,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/types/lookup.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 48,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

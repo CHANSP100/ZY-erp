@@ -1,0 +1,27 @@
+T Cnt DistTab
+- --- -------
+DICT_TAB 2296 2296
+T Cnt DistTab
+- --- -------
+DICT_FLD 40073 2296
+T Cnt
+- ---
+LWJ_DICT 2296
+T Cnt DistForm
+- --- --------
+DLLLINK 2671 2489
+T Cnt DistBil
+- --- -------
+BIL_LC 224 68
+T Cnt
+- ---
+RPT_DSG 4130
+T Cnt
+- ---
+DATAEX 625
+T Cnt
+- ---
+TABLESRC 80
+T Cnt
+- ---
+DICT_SQL 171

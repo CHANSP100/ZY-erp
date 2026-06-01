@@ -1,0 +1,54 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "client-vue/src/composables/useLookupDialogColumns.ts",
+      "language": "typescript",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/lookups/helpers.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/lookups/presets.ts",
+      "language": "typescript",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/lookups/resolve.ts",
+      "language": "typescript",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/types/lookup.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "client-vue/src/composables/useLookupDialogColumns.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/types/lookup.ts"
+    ],
+    "client-vue/src/config/lookups/helpers.ts": [
+      "client-vue/src/types/lookup.ts"
+    ],
+    "client-vue/src/config/lookups/presets.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/types/lookup.ts"
+    ],
+    "client-vue/src/config/lookups/resolve.ts": [
+      "client-vue/src/config/lookups/helpers.ts",
+      "client-vue/src/config/lookups/presets.ts",
+      "client-vue/src/types/lookup.ts"
+    ],
+    "client-vue/src/types/lookup.ts": []
+  }
+}

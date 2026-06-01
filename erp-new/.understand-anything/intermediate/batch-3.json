@@ -1,0 +1,721 @@
+{
+  "nodes": [
+    {
+      "id": "file:client-vue/src/config/fields/bomBill.ts",
+      "type": "file",
+      "name": "bomBill.ts",
+      "filePath": "client-vue/src/config/fields/bomBill.ts",
+      "summary": "Source file bomBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/bomDetail.ts",
+      "type": "file",
+      "name": "bomDetail.ts",
+      "filePath": "client-vue/src/config/fields/bomDetail.ts",
+      "summary": "Source file bomDetail.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/fasArea.ts",
+      "type": "file",
+      "name": "fasArea.ts",
+      "filePath": "client-vue/src/config/fields/fasArea.ts",
+      "summary": "Source file fasArea.ts in the client-vue area of erp-new.",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/fasCust.ts",
+      "type": "file",
+      "name": "fasCust.ts",
+      "filePath": "client-vue/src/config/fields/fasCust.ts",
+      "summary": "Source file fasCust.ts in the client-vue area of erp-new.",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/fasDept.ts",
+      "type": "file",
+      "name": "fasDept.ts",
+      "filePath": "client-vue/src/config/fields/fasDept.ts",
+      "summary": "Source file fasDept.ts in the client-vue area of erp-new.",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/fasECA.ts",
+      "type": "file",
+      "name": "fasECA.ts",
+      "filePath": "client-vue/src/config/fields/fasECA.ts",
+      "summary": "Source file fasECA.ts in the client-vue area of erp-new.",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/fasIndx.ts",
+      "type": "file",
+      "name": "fasIndx.ts",
+      "filePath": "client-vue/src/config/fields/fasIndx.ts",
+      "summary": "Source file fasIndx.ts in the client-vue area of erp-new.",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/fasSalm.ts",
+      "type": "file",
+      "name": "fasSalm.ts",
+      "filePath": "client-vue/src/config/fields/fasSalm.ts",
+      "summary": "Source file fasSalm.ts in the client-vue area of erp-new.",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/fasWh.ts",
+      "type": "file",
+      "name": "fasWh.ts",
+      "filePath": "client-vue/src/config/fields/fasWh.ts",
+      "summary": "Source file fasWh.ts in the client-vue area of erp-new.",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/invBill.ts",
+      "type": "file",
+      "name": "invBill.ts",
+      "filePath": "client-vue/src/config/fields/invBill.ts",
+      "summary": "Source file invBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/jhBill.ts",
+      "type": "file",
+      "name": "jhBill.ts",
+      "filePath": "client-vue/src/config/fields/jhBill.ts",
+      "summary": "Source file jhBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/mlBill.ts",
+      "type": "file",
+      "name": "mlBill.ts",
+      "filePath": "client-vue/src/config/fields/mlBill.ts",
+      "summary": "Source file mlBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/mmBill.ts",
+      "type": "file",
+      "name": "mmBill.ts",
+      "filePath": "client-vue/src/config/fields/mmBill.ts",
+      "summary": "Source file mmBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/moBill.ts",
+      "type": "file",
+      "name": "moBill.ts",
+      "filePath": "client-vue/src/config/fields/moBill.ts",
+      "summary": "Source file moBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/mpBill.ts",
+      "type": "file",
+      "name": "mpBill.ts",
+      "filePath": "client-vue/src/config/fields/mpBill.ts",
+      "summary": "Source file mpBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/poBill.ts",
+      "type": "file",
+      "name": "poBill.ts",
+      "filePath": "client-vue/src/config/fields/poBill.ts",
+      "summary": "Source file poBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/poDetail.ts",
+      "type": "file",
+      "name": "poDetail.ts",
+      "filePath": "client-vue/src/config/fields/poDetail.ts",
+      "summary": "Source file poDetail.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/soBill.ts",
+      "type": "file",
+      "name": "soBill.ts",
+      "filePath": "client-vue/src/config/fields/soBill.ts",
+      "summary": "Source file soBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/soDetail.ts",
+      "type": "file",
+      "name": "soDetail.ts",
+      "filePath": "client-vue/src/config/fields/soDetail.ts",
+      "summary": "Source file soDetail.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/sqBill.ts",
+      "type": "file",
+      "name": "sqBill.ts",
+      "filePath": "client-vue/src/config/fields/sqBill.ts",
+      "summary": "Source file sqBill.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "client-vue/src/config/fields/types.ts",
+      "summary": "types.ts with 6 function(s) and 0 class(es); exports 6 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/fields/types.ts:pickQuery",
+      "type": "function",
+      "name": "pickQuery",
+      "filePath": "client-vue/src/config/fields/types.ts",
+      "lineRange": [
+        35,
+        37
+      ],
+      "summary": "Function pickQuery defined in types.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/fields/types.ts:pickList",
+      "type": "function",
+      "name": "pickList",
+      "filePath": "client-vue/src/config/fields/types.ts",
+      "lineRange": [
+        39,
+        41
+      ],
+      "summary": "Function pickList defined in types.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/fields/types.ts:pickForm",
+      "type": "function",
+      "name": "pickForm",
+      "filePath": "client-vue/src/config/fields/types.ts",
+      "lineRange": [
+        43,
+        47
+      ],
+      "summary": "Function pickForm defined in types.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/fields/types.ts:labelMap",
+      "type": "function",
+      "name": "labelMap",
+      "filePath": "client-vue/src/config/fields/types.ts",
+      "lineRange": [
+        49,
+        51
+      ],
+      "summary": "Function labelMap defined in types.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/fields/types.ts:findField",
+      "type": "function",
+      "name": "findField",
+      "filePath": "client-vue/src/config/fields/types.ts",
+      "lineRange": [
+        53,
+        55
+      ],
+      "summary": "Function findField defined in types.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/fields/types.ts:chunkFormFields",
+      "type": "function",
+      "name": "chunkFormFields",
+      "filePath": "client-vue/src/config/fields/types.ts",
+      "lineRange": [
+        58,
+        78
+      ],
+      "summary": "Function chunkFormFields defined in types.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "type": "file",
+      "name": "sunlikeSqlExpr.ts",
+      "filePath": "client-vue/src/utils/sunlikeSqlExpr.ts",
+      "summary": "sunlikeSqlExpr.ts with 8 function(s) and 0 class(es); exports 4 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlikeSqlExpr.ts:buildTokens",
+      "type": "function",
+      "name": "buildTokens",
+      "filePath": "client-vue/src/utils/sunlikeSqlExpr.ts",
+      "lineRange": [
+        67,
+        86
+      ],
+      "summary": "Function buildTokens defined in sunlikeSqlExpr.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlikeSqlExpr.ts:getDetailGridMenuMeta",
+      "type": "function",
+      "name": "getDetailGridMenuMeta",
+      "filePath": "client-vue/src/utils/sunlikeSqlExpr.ts",
+      "lineRange": [
+        88,
+        90
+      ],
+      "summary": "Function getDetailGridMenuMeta defined in sunlikeSqlExpr.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlikeSqlExpr.ts:getSunlikeSqlFieldTokens",
+      "type": "function",
+      "name": "getSunlikeSqlFieldTokens",
+      "filePath": "client-vue/src/utils/sunlikeSqlExpr.ts",
+      "lineRange": [
+        92,
+        115
+      ],
+      "summary": "Function getSunlikeSqlFieldTokens defined in sunlikeSqlExpr.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlikeSqlExpr.ts:translateSunlikeSqlExpr",
+      "type": "function",
+      "name": "translateSunlikeSqlExpr",
+      "filePath": "client-vue/src/utils/sunlikeSqlExpr.ts",
+      "lineRange": [
+        126,
+        157
+      ],
+      "summary": "Function translateSunlikeSqlExpr defined in sunlikeSqlExpr.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlikeSqlExpr.ts:filterSunlikeTokens",
+      "type": "function",
+      "name": "filterSunlikeTokens",
+      "filePath": "client-vue/src/utils/sunlikeSqlExpr.ts",
+      "lineRange": [
+        159,
+        169
+      ],
+      "summary": "Function filterSunlikeTokens defined in sunlikeSqlExpr.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:client-vue/src/config/fields/bomBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/bomDetail.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/fasArea.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/fasCust.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/fasDept.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/fasECA.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/fasIndx.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/fasSalm.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/fasWh.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/invBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/jhBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/mlBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/mmBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/moBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/mpBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/poBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/poDetail.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/soBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/soDetail.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/sqBill.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:pickQuery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:pickQuery",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:pickList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:pickList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:pickForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:pickForm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:labelMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:labelMap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:findField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:findField",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:chunkFormFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/fields/types.ts",
+      "target": "function:client-vue/src/config/fields/types.ts:chunkFormFields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "file:client-vue/src/config/fields/poBill.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "file:client-vue/src/config/fields/soBill.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "function:client-vue/src/utils/sunlikeSqlExpr.ts:buildTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "function:client-vue/src/utils/sunlikeSqlExpr.ts:getDetailGridMenuMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "function:client-vue/src/utils/sunlikeSqlExpr.ts:getDetailGridMenuMeta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "function:client-vue/src/utils/sunlikeSqlExpr.ts:getSunlikeSqlFieldTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "function:client-vue/src/utils/sunlikeSqlExpr.ts:getSunlikeSqlFieldTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "function:client-vue/src/utils/sunlikeSqlExpr.ts:translateSunlikeSqlExpr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "function:client-vue/src/utils/sunlikeSqlExpr.ts:translateSunlikeSqlExpr",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "function:client-vue/src/utils/sunlikeSqlExpr.ts:filterSunlikeTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlikeSqlExpr.ts",
+      "target": "function:client-vue/src/utils/sunlikeSqlExpr.ts:filterSunlikeTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

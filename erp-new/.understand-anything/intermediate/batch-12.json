@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "document:client/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "client/README.md",
+      "summary": "Documentation file README.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "client/index.html",
+      "summary": "Source file index.html in the client area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:client/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "client/package.json",
+      "summary": "Configuration file package.json defining build/runtime settings.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:client/tsconfig.app.json",
+      "type": "config",
+      "name": "tsconfig.app.json",
+      "filePath": "client/tsconfig.app.json",
+      "summary": "Configuration file tsconfig.app.json defining build/runtime settings.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:client/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "client/tsconfig.json",
+      "summary": "Configuration file tsconfig.json defining build/runtime settings.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:client/tsconfig.node.json",
+      "type": "config",
+      "name": "tsconfig.node.json",
+      "filePath": "client/tsconfig.node.json",
+      "summary": "Configuration file tsconfig.node.json defining build/runtime settings.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

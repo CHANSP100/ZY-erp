@@ -1,0 +1,1179 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 22,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "client-vue/src/config/fields/bomBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 46,
+      "exports": [
+        {
+          "name": "BOM_BILL_HEAD",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "BOM_BILL_LINE",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_ECF",
+          "line": 44,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/bomDetail.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 29,
+      "exports": [
+        {
+          "name": "BOM_DETAIL_LINE",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_ECF_DETAIL",
+          "line": 27,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/fasArea.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 80,
+      "nonEmptyLines": 76,
+      "exports": [
+        {
+          "name": "FAS_AREA_MAIN",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_AREA",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_AREA_QUERY_MAIN_KEYS",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_AREA_QUERY_MORE_KEYS",
+          "line": 80,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/fasCust.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 38,
+      "nonEmptyLines": 34,
+      "exports": [
+        {
+          "name": "FAS_CUST_MAIN",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_CUST",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_CUST_QUERY_MAIN_KEYS",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_CUST_QUERY_MORE_KEYS",
+          "line": 38,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/fasDept.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 87,
+      "nonEmptyLines": 83,
+      "exports": [
+        {
+          "name": "FAS_DEPT_MAIN",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_DEPT",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_DEPT_QUERY_MAIN_KEYS",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_DEPT_QUERY_MORE_KEYS",
+          "line": 87,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/fasECA.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 46,
+      "exports": [
+        {
+          "name": "FAS_ECA_MAIN",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_ECA_PIC",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_ECA",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_ECA_QUERY_MAIN_KEYS",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_ECA_QUERY_MORE_KEYS",
+          "line": 51,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/fasIndx.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 78,
+      "exports": [
+        {
+          "name": "FAS_INDX_MAIN",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_INDX",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_INDX_QUERY_MAIN_KEYS",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_INDX_QUERY_MORE_KEYS",
+          "line": 82,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/fasSalm.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 31,
+      "exports": [
+        {
+          "name": "FAS_SALM_MAIN",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_SALM",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_SALM_QUERY_MAIN_KEYS",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_SALM_QUERY_MORE_KEYS",
+          "line": 35,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/fasWh.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 22,
+      "exports": [
+        {
+          "name": "FAS_WH_MAIN",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_WH",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_WH_QUERY_MAIN_KEYS",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "FAS_WH_QUERY_MORE_KEYS",
+          "line": 26,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/invBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 111,
+      "nonEmptyLines": 103,
+      "exports": [
+        {
+          "name": "INV_BILL_HEAD",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "INV_BILL_LINE",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "INV_CA",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "INV_CC",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "INV_CB",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "INV_BA",
+          "line": 90,
+          "isDefault": false
+        },
+        {
+          "name": "INV_BB",
+          "line": 98,
+          "isDefault": false
+        },
+        {
+          "name": "INV_BC",
+          "line": 106,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 8,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/jhBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 48,
+      "nonEmptyLines": 45,
+      "exports": [
+        {
+          "name": "JH_BILL_HEAD",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "JH_BILL_LINE",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "MRP_AA",
+          "line": 43,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/mlBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 48,
+      "exports": [
+        {
+          "name": "ML_BILL_HEAD",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "ML_BILL_LINE",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "MRP_AG",
+          "line": 46,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/mmBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 48,
+      "nonEmptyLines": 45,
+      "exports": [
+        {
+          "name": "MM_BILL_HEAD",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "MM_BILL_LINE",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "MRP_AFC",
+          "line": 43,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/moBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 52,
+      "nonEmptyLines": 49,
+      "exports": [
+        {
+          "name": "MO_BILL_HEAD",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "MO_BILL_LINE",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "MRP_AC",
+          "line": 47,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/mpBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 93,
+      "nonEmptyLines": 88,
+      "exports": [
+        {
+          "name": "MP_BILL_HEAD",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "MP_BILL_LINE1",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "MP_BILL_LINE2",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "MP_BILL_LINE3",
+          "line": 65,
+          "isDefault": false
+        },
+        {
+          "name": "MRP_ABA",
+          "line": 86,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/poBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 47,
+      "nonEmptyLines": 44,
+      "exports": [
+        {
+          "name": "PO_BILL_HEAD",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "PO_BILL_LINE",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "INV_AF",
+          "line": 42,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/poDetail.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 33,
+      "exports": [
+        {
+          "name": "PO_DETAIL_LINE",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "INV_AF_DETAIL",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/soBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 48,
+      "nonEmptyLines": 45,
+      "exports": [
+        {
+          "name": "SO_BILL_HEAD",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "SO_BILL_LINE",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "INV_AD",
+          "line": 43,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/soDetail.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 34,
+      "exports": [
+        {
+          "name": "SO_DETAIL_LINE",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "INV_AD_DETAIL",
+          "line": 32,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/sqBill.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 37,
+      "exports": [
+        {
+          "name": "SQ_BILL_HEAD",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "SQ_BILL_LINE",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "INV_AQ",
+          "line": 35,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/config/fields/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 78,
+      "nonEmptyLines": 70,
+      "functions": [
+        {
+          "name": "pickQuery",
+          "startLine": 35,
+          "endLine": 37,
+          "params": [
+            "fields"
+          ]
+        },
+        {
+          "name": "pickList",
+          "startLine": 39,
+          "endLine": 41,
+          "params": [
+            "fields"
+          ]
+        },
+        {
+          "name": "pickForm",
+          "startLine": 43,
+          "endLine": 47,
+          "params": [
+            "fields"
+          ]
+        },
+        {
+          "name": "labelMap",
+          "startLine": 49,
+          "endLine": 51,
+          "params": [
+            "fields"
+          ]
+        },
+        {
+          "name": "findField",
+          "startLine": 53,
+          "endLine": 55,
+          "params": [
+            "fields",
+            "key"
+          ]
+        },
+        {
+          "name": "chunkFormFields",
+          "startLine": 58,
+          "endLine": 78,
+          "params": [
+            "fields",
+            "cols"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "pickQuery",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "pickList",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "pickForm",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "labelMap",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "findField",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "chunkFormFields",
+          "line": 58,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "pickQuery",
+          "callee": "fields.filter((f) => f.query).sort",
+          "lineNumber": 36
+        },
+        {
+          "caller": "pickQuery",
+          "callee": "fields.filter",
+          "lineNumber": 36
+        },
+        {
+          "caller": "pickList",
+          "callee": "fields.filter((f) => f.list).sort",
+          "lineNumber": 40
+        },
+        {
+          "caller": "pickList",
+          "callee": "fields.filter",
+          "lineNumber": 40
+        },
+        {
+          "caller": "pickForm",
+          "callee": "fields\r\n    .filter((f) => f.form && f.widget !== 'hidden')\r\n    .sort",
+          "lineNumber": 44
+        },
+        {
+          "caller": "pickForm",
+          "callee": "fields\r\n    .filter",
+          "lineNumber": 44
+        },
+        {
+          "caller": "labelMap",
+          "callee": "Object.fromEntries",
+          "lineNumber": 50
+        },
+        {
+          "caller": "labelMap",
+          "callee": "fields.map",
+          "lineNumber": 50
+        },
+        {
+          "caller": "findField",
+          "callee": "fields.find",
+          "lineNumber": 54
+        },
+        {
+          "caller": "chunkFormFields",
+          "callee": "out.push",
+          "lineNumber": 64
+        },
+        {
+          "caller": "chunkFormFields",
+          "callee": "out.push",
+          "lineNumber": 67
+        },
+        {
+          "caller": "chunkFormFields",
+          "callee": "row.push",
+          "lineNumber": 70
+        },
+        {
+          "caller": "chunkFormFields",
+          "callee": "out.push",
+          "lineNumber": 72
+        },
+        {
+          "caller": "chunkFormFields",
+          "callee": "out.push",
+          "lineNumber": 76
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/utils/sunlikeSqlExpr.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 169,
+      "nonEmptyLines": 151,
+      "functions": [
+        {
+          "name": "headSqlColumn",
+          "startLine": 56,
+          "endLine": 58,
+          "params": [
+            "f"
+          ]
+        },
+        {
+          "name": "lineSqlColumn",
+          "startLine": 60,
+          "endLine": 65,
+          "params": [
+            "f"
+          ]
+        },
+        {
+          "name": "buildTokens",
+          "startLine": 67,
+          "endLine": 86,
+          "params": [
+            "fields",
+            "prefix",
+            "alias",
+            "tableLabel"
+          ]
+        },
+        {
+          "name": "getDetailGridMenuMeta",
+          "startLine": 88,
+          "endLine": 90,
+          "params": [
+            "menuCode"
+          ]
+        },
+        {
+          "name": "getSunlikeSqlFieldTokens",
+          "startLine": 92,
+          "endLine": 115,
+          "params": [
+            "menuCode"
+          ]
+        },
+        {
+          "name": "tokenMap",
+          "startLine": 117,
+          "endLine": 124,
+          "params": [
+            "menuCode"
+          ]
+        },
+        {
+          "name": "translateSunlikeSqlExpr",
+          "startLine": 126,
+          "endLine": 157,
+          "params": [
+            "src",
+            "menuCode"
+          ]
+        },
+        {
+          "name": "filterSunlikeTokens",
+          "startLine": 159,
+          "endLine": 169,
+          "params": [
+            "menuCode",
+            "query"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getDetailGridMenuMeta",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "getSunlikeSqlFieldTokens",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "translateSunlikeSqlExpr",
+          "line": 126,
+          "isDefault": false
+        },
+        {
+          "name": "filterSunlikeTokens",
+          "line": 159,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildTokens",
+          "callee": "fields\r\n    .filter((f) => f.widget !== 'hidden')\r\n    .map",
+          "lineNumber": 73
+        },
+        {
+          "caller": "buildTokens",
+          "callee": "fields\r\n    .filter",
+          "lineNumber": 73
+        },
+        {
+          "caller": "buildTokens",
+          "callee": "headSqlColumn",
+          "lineNumber": 76
+        },
+        {
+          "caller": "buildTokens",
+          "callee": "lineSqlColumn",
+          "lineNumber": 76
+        },
+        {
+          "caller": "getSunlikeSqlFieldTokens",
+          "callee": "buildTokens",
+          "lineNumber": 98
+        },
+        {
+          "caller": "getSunlikeSqlFieldTokens",
+          "callee": "buildTokens",
+          "lineNumber": 99
+        },
+        {
+          "caller": "getSunlikeSqlFieldTokens",
+          "callee": "buildTokens",
+          "lineNumber": 103
+        },
+        {
+          "caller": "getSunlikeSqlFieldTokens",
+          "callee": "buildTokens",
+          "lineNumber": 107
+        },
+        {
+          "caller": "getSunlikeSqlFieldTokens",
+          "callee": "buildTokens",
+          "lineNumber": 108
+        },
+        {
+          "caller": "getSunlikeSqlFieldTokens",
+          "callee": "buildTokens",
+          "lineNumber": 112
+        },
+        {
+          "caller": "tokenMap",
+          "callee": "getSunlikeSqlFieldTokens",
+          "lineNumber": 119
+        },
+        {
+          "caller": "tokenMap",
+          "callee": "map.set",
+          "lineNumber": 120
+        },
+        {
+          "caller": "tokenMap",
+          "callee": "t.token.toUpperCase",
+          "lineNumber": 120
+        },
+        {
+          "caller": "tokenMap",
+          "callee": "map.set",
+          "lineNumber": 121
+        },
+        {
+          "caller": "tokenMap",
+          "callee": "`${t.prefix}${t.dbField}`.toUpperCase",
+          "lineNumber": 121
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(src || '').trim",
+          "lineNumber": 127
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 127
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "tokenMap",
+          "lineNumber": 130
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 132
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(p).toUpperCase",
+          "lineNumber": 133
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 133
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(field).toUpperCase",
+          "lineNumber": 133
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 133
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "map.get",
+          "lineNumber": 134
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 139
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(p).toUpperCase",
+          "lineNumber": 140
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 140
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(field).toUpperCase",
+          "lineNumber": 140
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 140
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "map.get",
+          "lineNumber": 141
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 146
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 147
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 148
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 149
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 150
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "/^\\s*SELECT\\b/i.test",
+          "lineNumber": 152
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.startsWith",
+          "lineNumber": 152
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "query.trim().toUpperCase",
+          "lineNumber": 160
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "query.trim",
+          "lineNumber": 160
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "getSunlikeSqlFieldTokens",
+          "lineNumber": 161
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "all.filter",
+          "lineNumber": 163
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "t.token.toUpperCase().includes",
+          "lineNumber": 165
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "t.token.toUpperCase",
+          "lineNumber": 165
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "t.dbField.toUpperCase().includes",
+          "lineNumber": 166
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "t.dbField.toUpperCase",
+          "lineNumber": 166
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "t.label.includes",
+          "lineNumber": 167
+        },
+        {
+          "caller": "filterSunlikeTokens",
+          "callee": "query.trim",
+          "lineNumber": 167
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 4,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    }
+  ]
+}

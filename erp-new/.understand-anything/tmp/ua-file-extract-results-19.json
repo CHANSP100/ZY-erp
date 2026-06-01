@@ -1,0 +1,1416 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 11,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "server/env.example",
+      "language": "example",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 13,
+      "metrics": {}
+    },
+    {
+      "path": "server/package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 23,
+      "nonEmptyLines": 23,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "main",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "scripts",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "keywords",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "author",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "license",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "type",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "dependencies",
+          "level": 1,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "server/poOrdersRoutes.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 329,
+      "nonEmptyLines": 311,
+      "functions": [
+        {
+          "name": "registerPoOrdersRoutes",
+          "startLine": 11,
+          "endLine": 327,
+          "params": [
+            "app",
+            "deps"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "app.get",
+          "lineNumber": 24
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.json",
+          "lineNumber": 25
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "nextOsNo",
+          "lineNumber": 25
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "app.get",
+          "lineNumber": 28
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 30
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 30
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare(\r\n        `SELECT DISTINCT m.os_no, m.os_dd, m.cus_os_no, m.rem\r\n         FROM mf_pos m\r\n         JOIN tf_pos t ON t.os_id=? AND t.os_no=m.os_no\r\n         WHERE m.os_id=? AND m.cus_no=?\r\n           AND (COALESCE(t.qty,0) - COALESCE(t.qty_ps,0)) > 0.0001\r\n         ORDER BY m.os_dd DESC, m.os_no DESC`\r\n      )\r\n      .all",
+          "lineNumber": 31
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare",
+          "lineNumber": 31
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 40
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.json",
+          "lineNumber": 41
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "app.get",
+          "lineNumber": 44
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 52
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 56
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 56
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 60
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 60
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 63
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "Math.min",
+          "lineNumber": 63
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "parseInt",
+          "lineNumber": 63
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.json",
+          "lineNumber": 64
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(sql).all(...params).map",
+          "lineNumber": 64
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(sql).all",
+          "lineNumber": 64
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 64
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "app.get",
+          "lineNumber": 67
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "getCustomSqlExprs",
+          "lineNumber": 69
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "customExprs.map((e) => `${e.sql_expr} AS ${e.col_key}`).join",
+          "lineNumber": 71
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "customExprs.map",
+          "lineNumber": 71
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 92
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 92
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 96
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 97
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 101
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 102
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 106
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 106
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 110
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 110
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 114
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 115
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "params.push",
+          "lineNumber": 118
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "Math.min",
+          "lineNumber": 118
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "parseInt",
+          "lineNumber": 118
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "String",
+          "lineNumber": 118
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.json",
+          "lineNumber": 119
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(sql).all",
+          "lineNumber": 119
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 119
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "app.get",
+          "lineNumber": 122
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare(`SELECT * FROM mf_pos WHERE os_id=? AND os_no=?`)\r\n      .get",
+          "lineNumber": 123
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare",
+          "lineNumber": 123
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(404).json",
+          "lineNumber": 126
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 126
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare(\r\n        `SELECT t.*, w.name AS wh_name, p.spc,\r\n          (COALESCE(t.qty,0) - COALESCE(t.qty_ps,0)) AS qty_open\r\n         FROM tf_pos t\r\n         LEFT JOIN my_wh w ON w.wh = t.wh\r\n         LEFT JOIN prdt p ON p.prd_no = t.prd_no\r\n         WHERE t.os_id=? AND t.os_no=?\r\n           AND (COALESCE(t.qty,0) - COALESCE(t.qty_ps,0)) > 0.0001\r\n         ORDER BY t.itm`\r\n      )\r\n      .all(osId, req.params.osNo)\r\n      .map",
+          "lineNumber": 127
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare(\r\n        `SELECT t.*, w.name AS wh_name, p.spc,\r\n          (COALESCE(t.qty,0) - COALESCE(t.qty_ps,0)) AS qty_open\r\n         FROM tf_pos t\r\n         LEFT JOIN my_wh w ON w.wh = t.wh\r\n         LEFT JOIN prdt p ON p.prd_no = t.prd_no\r\n         WHERE t.os_id=? AND t.os_no=?\r\n           AND (COALESCE(t.qty,0) - COALESCE(t.qty_ps,0)) > 0.0001\r\n         ORDER BY t.itm`\r\n      )\r\n      .all",
+          "lineNumber": 127
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare",
+          "lineNumber": 127
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "rowToTfPos",
+          "lineNumber": 140
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.json",
+          "lineNumber": 144
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "rowToMfPos",
+          "lineNumber": 144
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "app.get",
+          "lineNumber": 147
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare(\r\n        `SELECT m.*, c.name AS cus_name FROM mf_pos m\r\n         LEFT JOIN cust c ON c.cus_no = m.cus_no WHERE m.os_id=? AND m.os_no=?`\r\n      )\r\n      .get",
+          "lineNumber": 148
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare",
+          "lineNumber": 148
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(404).json",
+          "lineNumber": 154
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 154
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare(\r\n        `SELECT t.*, w.name AS wh_name, p.spc FROM tf_pos t\r\n         LEFT JOIN my_wh w ON w.wh = t.wh\r\n         LEFT JOIN prdt p ON p.prd_no = t.prd_no\r\n         WHERE t.os_id=? AND t.os_no=? ORDER BY t.itm`\r\n      )\r\n      .all(osId, req.params.osNo)\r\n      .map",
+          "lineNumber": 155
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare(\r\n        `SELECT t.*, w.name AS wh_name, p.spc FROM tf_pos t\r\n         LEFT JOIN my_wh w ON w.wh = t.wh\r\n         LEFT JOIN prdt p ON p.prd_no = t.prd_no\r\n         WHERE t.os_id=? AND t.os_no=? ORDER BY t.itm`\r\n      )\r\n      .all",
+          "lineNumber": 155
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare",
+          "lineNumber": 155
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.json",
+          "lineNumber": 164
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "rowToMfPos",
+          "lineNumber": 164
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "app.post",
+          "lineNumber": 167
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 169
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 169
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 170
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 170
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "nextOsNo",
+          "lineNumber": 172
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare('SELECT 1 FROM mf_pos WHERE os_no = ?').get",
+          "lineNumber": 173
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 173
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(409).json",
+          "lineNumber": 174
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 174
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "lines.map",
+          "lineNumber": 178
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "calcLineAmounts",
+          "lineNumber": 179
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "sumOrder",
+          "lineNumber": 182
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "assertSqLinesAvailable",
+          "lineNumber": 185
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 187
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 187
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.transaction",
+          "lineNumber": 190
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "normalized.some",
+          "lineNumber": 191
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "normalized.find",
+          "lineNumber": 192
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(\r\n        `INSERT INTO mf_pos (os_id, os_no, os_dd, cus_no, use_dep, sal_no, cus_os_no, bil_type, cur_id,\r\n         tax_id, est_dd, rem, cls_mp_id, cls_id, dis_cnt, amtn_net, tax, bil_id, bil_no)\r\n         VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`\r\n      ).run",
+          "lineNumber": 193
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 193
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "new Date().toISOString().slice",
+          "lineNumber": 200
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "new Date().toISOString",
+          "lineNumber": 200
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 218
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "insertTfPosLine",
+          "lineNumber": 223
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "applySqQtyPo",
+          "lineNumber": 225
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "linkSqPoNo",
+          "lineNumber": 226
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "tx",
+          "lineNumber": 228
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare(`SELECT m.*, c.name AS cus_name FROM mf_pos m LEFT JOIN cust c ON c.cus_no=m.cus_no WHERE m.os_no=?`)\r\n      .get",
+          "lineNumber": 230
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare",
+          "lineNumber": 230
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(201).json",
+          "lineNumber": 233
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 233
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "rowToMfPos",
+          "lineNumber": 234
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n        .prepare(`SELECT t.*, w.name AS wh_name, p.spc FROM tf_pos t\r\n          LEFT JOIN my_wh w ON w.wh=t.wh LEFT JOIN prdt p ON p.prd_no=t.prd_no\r\n          WHERE t.os_id=? AND t.os_no=? ORDER BY t.itm`)\r\n        .all(osId, os_no)\r\n        .map",
+          "lineNumber": 235
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n        .prepare(`SELECT t.*, w.name AS wh_name, p.spc FROM tf_pos t\r\n          LEFT JOIN my_wh w ON w.wh=t.wh LEFT JOIN prdt p ON p.prd_no=t.prd_no\r\n          WHERE t.os_id=? AND t.os_no=? ORDER BY t.itm`)\r\n        .all",
+          "lineNumber": 235
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n        .prepare",
+          "lineNumber": 235
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "app.put",
+          "lineNumber": 244
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(`SELECT * FROM mf_pos WHERE os_id=? AND os_no=?`).get",
+          "lineNumber": 245
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 245
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(404).json",
+          "lineNumber": 246
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 246
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 248
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 248
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "lines.map",
+          "lineNumber": 251
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "calcLineAmounts",
+          "lineNumber": 252
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "sumOrder",
+          "lineNumber": 255
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.transaction",
+          "lineNumber": 258
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "reverseSqQtyPo",
+          "lineNumber": 259
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "assertSqLinesAvailable",
+          "lineNumber": 260
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "normalized.some",
+          "lineNumber": 262
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "normalized.find",
+          "lineNumber": 266
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(\r\n          `UPDATE mf_pos SET os_dd=?, cus_no=?, use_dep=?, sal_no=?, cus_os_no=?, bil_type=?, cur_id=?,\r\n         tax_id=?, est_dd=?, rem=?, cls_mp_id=?, cls_id=?, dis_cnt=?, amtn_net=?, tax=?, bil_id=?, bil_no=?\r\n         WHERE os_no=?`\r\n        ).run",
+          "lineNumber": 268
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 268
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(`DELETE FROM tf_pos WHERE os_id=? AND os_no=?`).run",
+          "lineNumber": 292
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 292
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 293
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "insertTfPosLine",
+          "lineNumber": 298
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "applySqQtyPo",
+          "lineNumber": 300
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "linkSqPoNo",
+          "lineNumber": 301
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "tx",
+          "lineNumber": 303
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(400).json",
+          "lineNumber": 305
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 305
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.json",
+          "lineNumber": 307
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "app.delete",
+          "lineNumber": 310
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(`SELECT 1 FROM mf_pos WHERE os_id=? AND os_no=?`).get",
+          "lineNumber": 311
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 311
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(404).json",
+          "lineNumber": 312
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 312
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare(\r\n        `SELECT 1 FROM tf_pos WHERE os_id=? AND os_no=? AND COALESCE(qty_ps,0) > 0.0001 LIMIT 1`\r\n      )\r\n      .get",
+          "lineNumber": 313
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db\r\n      .prepare",
+          "lineNumber": 313
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status(409).json",
+          "lineNumber": 318
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.status",
+          "lineNumber": 318
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.transaction",
+          "lineNumber": 319
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "reverseSqQtyPo",
+          "lineNumber": 320
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(`DELETE FROM tf_pos WHERE os_id=? AND os_no=?`).run",
+          "lineNumber": 321
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 321
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare(`DELETE FROM mf_pos WHERE os_id=? AND os_no=?`).run",
+          "lineNumber": 322
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "db.prepare",
+          "lineNumber": 322
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "tx",
+          "lineNumber": 324
+        },
+        {
+          "caller": "registerPoOrdersRoutes",
+          "callee": "res.json",
+          "lineNumber": 325
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/scripts/_dict_mo_out.txt",
+      "language": "txt",
+      "fileCategory": "docs",
+      "totalLines": 60,
+      "nonEmptyLines": 60,
+      "metrics": {}
+    },
+    {
+      "path": "server/scripts/_gen_mo_mapping.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "mapType",
+          "startLine": 17,
+          "endLine": 24,
+          "params": [
+            "t",
+            "len"
+          ]
+        },
+        {
+          "name": "widget",
+          "startLine": 26,
+          "endLine": 33,
+          "params": [
+            "name",
+            "t"
+          ]
+        },
+        {
+          "name": "parseTable",
+          "startLine": 35,
+          "endLine": 42,
+          "params": [
+            "table"
+          ]
+        },
+        {
+          "name": "tableMd",
+          "startLine": 44,
+          "endLine": 54,
+          "params": [
+            "title",
+            "rows",
+            "currentSet"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "widget",
+          "callee": "name.endsWith",
+          "lineNumber": 31
+        },
+        {
+          "caller": "parseTable",
+          "callee": "lines\r\n    .filter((l) => l.startsWith(`${table}|`))\r\n    .map",
+          "lineNumber": 36
+        },
+        {
+          "caller": "parseTable",
+          "callee": "lines\r\n    .filter",
+          "lineNumber": 36
+        },
+        {
+          "caller": "parseTable",
+          "callee": "l.startsWith",
+          "lineNumber": 37
+        },
+        {
+          "caller": "parseTable",
+          "callee": "l.split",
+          "lineNumber": 39
+        },
+        {
+          "caller": "tableMd",
+          "callee": "rows.filter",
+          "lineNumber": 45
+        },
+        {
+          "caller": "tableMd",
+          "callee": "currentSet.has",
+          "lineNumber": 45
+        },
+        {
+          "caller": "tableMd",
+          "callee": "phase2.forEach",
+          "lineNumber": 49
+        },
+        {
+          "caller": "tableMd",
+          "callee": "['USR', 'CHK_MAN', 'CLS_DATE', 'SYS_DATE', 'LOCK_MAN', 'LOCK_DATE', 'MODIFY_DD', 'MODIFY_MAN', 'PRT_USR', 'PRT_DATE'].includes",
+          "lineNumber": 50
+        },
+        {
+          "caller": "tableMd",
+          "callee": "mapType",
+          "lineNumber": 51
+        },
+        {
+          "caller": "tableMd",
+          "callee": "widget",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/sqPoTransfer.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 83,
+      "nonEmptyLines": 77,
+      "functions": [
+        {
+          "name": "reverseSqQtyPo",
+          "startLine": 4,
+          "endLine": 19,
+          "params": [
+            "db",
+            "osId",
+            "osNo"
+          ]
+        },
+        {
+          "name": "applySqQtyPo",
+          "startLine": 21,
+          "endLine": 27,
+          "params": [
+            "db",
+            "lines"
+          ]
+        },
+        {
+          "name": "assertSqLinesAvailable",
+          "startLine": 29,
+          "endLine": 45,
+          "params": [
+            "db",
+            "lines"
+          ]
+        },
+        {
+          "name": "linkSqPoNo",
+          "startLine": 47,
+          "endLine": 50,
+          "params": [
+            "db",
+            "sqNo",
+            "poNo"
+          ]
+        },
+        {
+          "name": "insertTfPosLine",
+          "startLine": 52,
+          "endLine": 74,
+          "params": [
+            "ins",
+            "osId",
+            "osNo",
+            "ln",
+            "headEstDd"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "reverseSqQtyPo",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT bil_no, bil_itm, qty FROM tf_pos\r\n       WHERE os_id=? AND os_no=? AND bil_id=? AND bil_no IS NOT NULL AND bil_itm IS NOT NULL`\r\n    )\r\n    .all",
+          "lineNumber": 5
+        },
+        {
+          "caller": "reverseSqQtyPo",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 5
+        },
+        {
+          "caller": "reverseSqQtyPo",
+          "callee": "db.prepare",
+          "lineNumber": 11
+        },
+        {
+          "caller": "reverseSqQtyPo",
+          "callee": "Number",
+          "lineNumber": 16
+        },
+        {
+          "caller": "reverseSqQtyPo",
+          "callee": "upd.run",
+          "lineNumber": 17
+        },
+        {
+          "caller": "applySqQtyPo",
+          "callee": "db.prepare",
+          "lineNumber": 22
+        },
+        {
+          "caller": "applySqQtyPo",
+          "callee": "upd.run",
+          "lineNumber": 25
+        },
+        {
+          "caller": "applySqQtyPo",
+          "callee": "Number",
+          "lineNumber": 25
+        },
+        {
+          "caller": "assertSqLinesAvailable",
+          "callee": "db.prepare",
+          "lineNumber": 30
+        },
+        {
+          "caller": "assertSqLinesAvailable",
+          "callee": "get.get",
+          "lineNumber": 35
+        },
+        {
+          "caller": "assertSqLinesAvailable",
+          "callee": "Number",
+          "lineNumber": 39
+        },
+        {
+          "caller": "assertSqLinesAvailable",
+          "callee": "Number",
+          "lineNumber": 39
+        },
+        {
+          "caller": "assertSqLinesAvailable",
+          "callee": "Number",
+          "lineNumber": 40
+        },
+        {
+          "caller": "linkSqPoNo",
+          "callee": "db.prepare(`UPDATE mf_sq SET po_no=? WHERE sq_no=?`).run",
+          "lineNumber": 49
+        },
+        {
+          "caller": "linkSqPoNo",
+          "callee": "db.prepare",
+          "lineNumber": 49
+        },
+        {
+          "caller": "insertTfPosLine",
+          "callee": "ins.run",
+          "lineNumber": 53
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/sunlikePwd.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 97,
+      "nonEmptyLines": 92,
+      "functions": [
+        {
+          "name": "isDbcs",
+          "startLine": 8,
+          "endLine": 10,
+          "params": [
+            "str"
+          ]
+        },
+        {
+          "name": "encodePwd",
+          "startLine": 12,
+          "endLine": 46,
+          "params": [
+            "plain"
+          ]
+        },
+        {
+          "name": "decodePwd",
+          "startLine": 48,
+          "endLine": 91,
+          "params": [
+            "hexStr"
+          ]
+        },
+        {
+          "name": "verifyPwd",
+          "startLine": 93,
+          "endLine": 95,
+          "params": [
+            "plain",
+            "storedHex"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "isDbcs",
+          "callee": "/[^\\x00-\\x7f]/.test",
+          "lineNumber": 9
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "isDbcs",
+          "lineNumber": 14
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.from",
+          "lineNumber": 15
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "enc.push",
+          "lineNumber": 18
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "enc.push",
+          "lineNumber": 20
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "enc.push",
+          "lineNumber": 21
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.from(enc).toString('hex').toUpperCase",
+          "lineNumber": 22
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.from(enc).toString",
+          "lineNumber": 22
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.from",
+          "lineNumber": 22
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.from",
+          "lineNumber": 24
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.concat",
+          "lineNumber": 26
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.from",
+          "lineNumber": 26
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.alloc",
+          "lineNumber": 27
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "out.toString('hex').toUpperCase",
+          "lineNumber": 31
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "out.toString",
+          "lineNumber": 31
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.concat",
+          "lineNumber": 36
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.from",
+          "lineNumber": 36
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "data.subarray",
+          "lineNumber": 39
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "Buffer.alloc",
+          "lineNumber": 41
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "out.toString('hex').toUpperCase",
+          "lineNumber": 45
+        },
+        {
+          "caller": "encodePwd",
+          "callee": "out.toString",
+          "lineNumber": 45
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "String(hexStr || '')\r\n    .trim()\r\n    .toUpperCase",
+          "lineNumber": 49
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "String(hexStr || '')\r\n    .trim",
+          "lineNumber": 49
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "String",
+          "lineNumber": 49
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "Buffer.from",
+          "lineNumber": 53
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "Buffer.alloc",
+          "lineNumber": 55
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "plain.subarray(0, end).toString",
+          "lineNumber": 62
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "plain.subarray",
+          "lineNumber": 62
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "encodePwd",
+          "lineNumber": 63
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "Buffer.alloc",
+          "lineNumber": 72
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "s.subarray",
+          "lineNumber": 77
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "s.toString",
+          "lineNumber": 79
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "encodePwd",
+          "lineNumber": 80
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "c.subarray",
+          "lineNumber": 85
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "Buffer.alloc",
+          "lineNumber": 86
+        },
+        {
+          "caller": "decodePwd",
+          "callee": "plain.toString",
+          "lineNumber": 90
+        },
+        {
+          "caller": "verifyPwd",
+          "callee": "encodePwd",
+          "lineNumber": 94
+        },
+        {
+          "caller": "verifyPwd",
+          "callee": "String(storedHex || '').trim().toUpperCase",
+          "lineNumber": 94
+        },
+        {
+          "caller": "verifyPwd",
+          "callee": "String(storedHex || '').trim",
+          "lineNumber": 94
+        },
+        {
+          "caller": "verifyPwd",
+          "callee": "String",
+          "lineNumber": 94
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/uploads/1779706934207-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "fileCategory": "code",
+      "totalLines": 5016,
+      "nonEmptyLines": 4999,
+      "metrics": {}
+    },
+    {
+      "path": "server/uploads/1779811437163-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "fileCategory": "code",
+      "totalLines": 5016,
+      "nonEmptyLines": 4999,
+      "metrics": {}
+    },
+    {
+      "path": "server/uploads/1779811970340-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "fileCategory": "code",
+      "totalLines": 5016,
+      "nonEmptyLines": 4999,
+      "metrics": {}
+    },
+    {
+      "path": "server/uploads/1779811983099-SQLQuery1.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 46,
+      "nonEmptyLines": 34,
+      "definitions": [
+        {
+          "name": "VIEW_SO",
+          "kind": "view",
+          "fields": [],
+          "startLine": 2,
+          "endLine": 2
+        },
+        {
+          "name": "VIEW_PO",
+          "kind": "view",
+          "fields": [],
+          "startLine": 13,
+          "endLine": 13
+        },
+        {
+          "name": "VIEW_MO",
+          "kind": "view",
+          "fields": [],
+          "startLine": 24,
+          "endLine": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 3
+      }
+    }
+  ]
+}

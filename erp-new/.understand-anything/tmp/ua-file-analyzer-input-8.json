@@ -1,0 +1,59 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "server/extField.js",
+      "language": "javascript",
+      "sizeLines": 264,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/extFieldPersist.js",
+      "language": "javascript",
+      "sizeLines": 300,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/gridConfig.js",
+      "language": "javascript",
+      "sizeLines": 722,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/menuTableRegistry.js",
+      "language": "javascript",
+      "sizeLines": 299,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sunlikeSqlExpr.js",
+      "language": "javascript",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/extField.js": [
+      "server/db.js",
+      "server/gridConfig.js",
+      "server/menuTableRegistry.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/extFieldPersist.js": [
+      "server/extField.js",
+      "server/gridConfig.js",
+      "server/menuTableRegistry.js",
+      "server/repositories/mssqlHelpers.js",
+      "server/sunlikeSqlExpr.js"
+    ],
+    "server/gridConfig.js": [
+      "server/db.js",
+      "server/extField.js",
+      "server/menuTableRegistry.js",
+      "server/permissions.js",
+      "server/sunlikeSqlExpr.js"
+    ],
+    "server/menuTableRegistry.js": [],
+    "server/sunlikeSqlExpr.js": []
+  }
+}

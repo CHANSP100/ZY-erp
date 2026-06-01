@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "file:client-vue/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "client-vue/index.html",
+      "summary": "Source file index.html in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:client-vue/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "client-vue/package.json",
+      "summary": "Configuration file package.json defining build/runtime settings.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:client-vue/tsconfig.app.json",
+      "type": "config",
+      "name": "tsconfig.app.json",
+      "filePath": "client-vue/tsconfig.app.json",
+      "summary": "Configuration file tsconfig.app.json defining build/runtime settings.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:client-vue/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "client-vue/tsconfig.json",
+      "summary": "Configuration file tsconfig.json defining build/runtime settings.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

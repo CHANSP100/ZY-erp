@@ -1,0 +1,3643 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 14,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "client/src/App.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 106,
+      "nonEmptyLines": 100,
+      "functions": [
+        {
+          "name": "AppShell",
+          "startLine": 18,
+          "endLine": 98,
+          "params": []
+        },
+        {
+          "name": "App",
+          "startLine": 100,
+          "endLine": 106,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "App",
+          "line": 100,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AppShell",
+          "callee": "useState",
+          "lineNumber": 19
+        },
+        {
+          "caller": "AppShell",
+          "callee": "useEffect",
+          "lineNumber": 31
+        },
+        {
+          "caller": "AppShell",
+          "callee": "api.health().then",
+          "lineNumber": 32
+        },
+        {
+          "caller": "AppShell",
+          "callee": "api.health",
+          "lineNumber": 32
+        },
+        {
+          "caller": "AppShell",
+          "callee": "setStats",
+          "lineNumber": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 11,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/api.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 292,
+      "nonEmptyLines": 274,
+      "exports": [
+        {
+          "name": "api",
+          "line": 218,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/components/LookupField.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 31,
+      "functions": [
+        {
+          "name": "LookupField",
+          "startLine": 14,
+          "endLine": 33,
+          "params": [
+            "{\r\n  value,\r\n  display,\r\n  placeholder,\r\n  readOnly = true,\r\n  onOpen,\r\n  onChange,\r\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LookupField",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "LookupField",
+          "callee": "onChange",
+          "lineNumber": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/components/LookupModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 75,
+      "nonEmptyLines": 71,
+      "functions": [
+        {
+          "name": "LookupModal",
+          "startLine": 18,
+          "endLine": 75,
+          "params": [
+            "{\r\n  open,\r\n  title,\r\n  width = 640,\r\n  rowKey,\r\n  columns,\r\n  dataSource,\r\n  searchKeys,\r\n  searchPlaceholder = '模糊查询…',\r\n  onCancel,\r\n  onSelect,\r\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LookupModal",
+          "line": 18,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "LookupModal",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "useMemo",
+          "lineNumber": 32
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "q.trim().toLowerCase",
+          "lineNumber": 33
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "q.trim",
+          "lineNumber": 33
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "dataSource.filter",
+          "lineNumber": 35
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "searchKeys.some",
+          "lineNumber": 36
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "String(row[k] ?? '').toLowerCase().includes",
+          "lineNumber": 36
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "String(row[k] ?? '').toLowerCase",
+          "lineNumber": 36
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "String",
+          "lineNumber": 36
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "setQ",
+          "lineNumber": 45
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "onCancel",
+          "lineNumber": 46
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "setQ",
+          "lineNumber": 56
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "onSelect",
+          "lineNumber": 68
+        },
+        {
+          "caller": "LookupModal",
+          "callee": "setQ",
+          "lineNumber": 69
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/main.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 10,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/pages/CustPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 261,
+      "nonEmptyLines": 250,
+      "functions": [
+        {
+          "name": "CustPage",
+          "startLine": 33,
+          "endLine": 261,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "CustPage",
+          "line": 33,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CustPage",
+          "callee": "Form.useForm",
+          "lineNumber": 34
+        },
+        {
+          "caller": "CustPage",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "CustPage",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "CustPage",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "CustPage",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "load",
+          "callee": "Promise.all",
+          "lineNumber": 41
+        },
+        {
+          "caller": "load",
+          "callee": "api.custList",
+          "lineNumber": 41
+        },
+        {
+          "caller": "load",
+          "callee": "api.salmList",
+          "lineNumber": 41
+        },
+        {
+          "caller": "load",
+          "callee": "setItems",
+          "lineNumber": 42
+        },
+        {
+          "caller": "load",
+          "callee": "setSalms",
+          "lineNumber": 43
+        },
+        {
+          "caller": "CustPage",
+          "callee": "useEffect",
+          "lineNumber": 46
+        },
+        {
+          "caller": "CustPage",
+          "callee": "load().catch",
+          "lineNumber": 47
+        },
+        {
+          "caller": "CustPage",
+          "callee": "load",
+          "lineNumber": 47
+        },
+        {
+          "caller": "CustPage",
+          "callee": "message.error",
+          "lineNumber": 47
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.resetFields",
+          "lineNumber": 51
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 52
+        },
+        {
+          "caller": "onNew",
+          "callee": "setEditing",
+          "lineNumber": 53
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.validateFields",
+          "lineNumber": 57
+        },
+        {
+          "caller": "onSave",
+          "callee": "(v.end_dd as unknown as dayjs.Dayjs).format",
+          "lineNumber": 60
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.updateCust",
+          "lineNumber": 64
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 65
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.createCust",
+          "lineNumber": 67
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 68
+        },
+        {
+          "caller": "onSave",
+          "callee": "onNew",
+          "lineNumber": 69
+        },
+        {
+          "caller": "onSave",
+          "callee": "load",
+          "lineNumber": 71
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.error",
+          "lineNumber": 74
+        },
+        {
+          "caller": "onRow",
+          "callee": "setEditing",
+          "lineNumber": 79
+        },
+        {
+          "caller": "onRow",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 80
+        },
+        {
+          "caller": "onRow",
+          "callee": "dayjs",
+          "lineNumber": 82
+        },
+        {
+          "caller": "salDisplay",
+          "callee": "salms.find",
+          "lineNumber": 86
+        },
+        {
+          "caller": "CustPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 122
+        },
+        {
+          "caller": "CustPage",
+          "callee": "form.setFieldValue",
+          "lineNumber": 123
+        },
+        {
+          "caller": "CustPage",
+          "callee": "form.getFieldValue('name')?.slice",
+          "lineNumber": 123
+        },
+        {
+          "caller": "CustPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 123
+        },
+        {
+          "caller": "CustPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 195
+        },
+        {
+          "caller": "CustPage",
+          "callee": "salDisplay",
+          "lineNumber": 196
+        },
+        {
+          "caller": "CustPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 196
+        },
+        {
+          "caller": "CustPage",
+          "callee": "setSalPicker",
+          "lineNumber": 197
+        },
+        {
+          "caller": "CustPage",
+          "callee": "onRow",
+          "lineNumber": 230
+        },
+        {
+          "caller": "CustPage",
+          "callee": "setSalPicker",
+          "lineNumber": 248
+        },
+        {
+          "caller": "CustPage",
+          "callee": "form.setFieldValue",
+          "lineNumber": 250
+        },
+        {
+          "caller": "CustPage",
+          "callee": "setSalPicker",
+          "lineNumber": 251
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/pages/DeptPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 157,
+      "nonEmptyLines": 146,
+      "functions": [
+        {
+          "name": "toDataNodes",
+          "startLine": 19,
+          "endLine": 25,
+          "params": [
+            "nodes"
+          ]
+        },
+        {
+          "name": "DeptPage",
+          "startLine": 27,
+          "endLine": 157,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "DeptPage",
+          "line": 27,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "toDataNodes",
+          "callee": "nodes.map",
+          "lineNumber": 20
+        },
+        {
+          "caller": "toDataNodes",
+          "callee": "toDataNodes",
+          "lineNumber": 23
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "useState",
+          "lineNumber": 31
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "useState",
+          "lineNumber": 32
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "Form.useForm",
+          "lineNumber": 33
+        },
+        {
+          "caller": "load",
+          "callee": "Promise.all",
+          "lineNumber": 36
+        },
+        {
+          "caller": "load",
+          "callee": "api.deptTree",
+          "lineNumber": 36
+        },
+        {
+          "caller": "load",
+          "callee": "api.deptList",
+          "lineNumber": 36
+        },
+        {
+          "caller": "load",
+          "callee": "setTree",
+          "lineNumber": 37
+        },
+        {
+          "caller": "load",
+          "callee": "setList",
+          "lineNumber": 38
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "useEffect",
+          "lineNumber": 41
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "load().catch",
+          "lineNumber": 42
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "load",
+          "lineNumber": 42
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "message.error",
+          "lineNumber": 42
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "list.filter",
+          "lineNumber": 46
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "list.map",
+          "lineNumber": 49
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.resetFields",
+          "lineNumber": 52
+        },
+        {
+          "caller": "onNew",
+          "callee": "setEditing",
+          "lineNumber": 53
+        },
+        {
+          "caller": "onNew",
+          "callee": "setOpen",
+          "lineNumber": 54
+        },
+        {
+          "caller": "onEdit",
+          "callee": "setEditing",
+          "lineNumber": 58
+        },
+        {
+          "caller": "onEdit",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 59
+        },
+        {
+          "caller": "onEdit",
+          "callee": "dayjs",
+          "lineNumber": 61
+        },
+        {
+          "caller": "onEdit",
+          "callee": "setOpen",
+          "lineNumber": 63
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.validateFields",
+          "lineNumber": 67
+        },
+        {
+          "caller": "onSave",
+          "callee": "(v.stop_dd as unknown as dayjs.Dayjs).format",
+          "lineNumber": 70
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.updateDept",
+          "lineNumber": 74
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 75
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.createDept",
+          "lineNumber": 77
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 78
+        },
+        {
+          "caller": "onSave",
+          "callee": "setOpen",
+          "lineNumber": 80
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.resetFields",
+          "lineNumber": 81
+        },
+        {
+          "caller": "onSave",
+          "callee": "setEditing",
+          "lineNumber": 82
+        },
+        {
+          "caller": "onSave",
+          "callee": "load",
+          "lineNumber": 83
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.error",
+          "lineNumber": 86
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "toDataNodes",
+          "lineNumber": 95
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "setSelected",
+          "lineNumber": 96
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "onEdit",
+          "lineNumber": 114
+        },
+        {
+          "caller": "DeptPage",
+          "callee": "setOpen",
+          "lineNumber": 130
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/pages/IndxPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 129,
+      "nonEmptyLines": 120,
+      "functions": [
+        {
+          "name": "toDataNodes",
+          "startLine": 21,
+          "endLine": 27,
+          "params": [
+            "nodes"
+          ]
+        },
+        {
+          "name": "IndxPage",
+          "startLine": 29,
+          "endLine": 129,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "IndxPage",
+          "line": 29,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "toDataNodes",
+          "callee": "nodes.map",
+          "lineNumber": 22
+        },
+        {
+          "caller": "toDataNodes",
+          "callee": "toDataNodes",
+          "lineNumber": 25
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "useState",
+          "lineNumber": 31
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "useState",
+          "lineNumber": 32
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "useState",
+          "lineNumber": 33
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "Form.useForm",
+          "lineNumber": 34
+        },
+        {
+          "caller": "load",
+          "callee": "Promise.all",
+          "lineNumber": 37
+        },
+        {
+          "caller": "load",
+          "callee": "api.indxTree",
+          "lineNumber": 37
+        },
+        {
+          "caller": "load",
+          "callee": "api.indxList",
+          "lineNumber": 37
+        },
+        {
+          "caller": "load",
+          "callee": "setTree",
+          "lineNumber": 38
+        },
+        {
+          "caller": "load",
+          "callee": "setList",
+          "lineNumber": 39
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "useEffect",
+          "lineNumber": 42
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "load().catch",
+          "lineNumber": 43
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "load",
+          "lineNumber": 43
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "message.error",
+          "lineNumber": 43
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "list.filter",
+          "lineNumber": 46
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.validateFields",
+          "lineNumber": 49
+        },
+        {
+          "caller": "onSave",
+          "callee": "(v.stop_dd as unknown as dayjs.Dayjs).format",
+          "lineNumber": 50
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.createIndx",
+          "lineNumber": 52
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 53
+        },
+        {
+          "caller": "onSave",
+          "callee": "setOpen",
+          "lineNumber": 54
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.resetFields",
+          "lineNumber": 55
+        },
+        {
+          "caller": "onSave",
+          "callee": "load",
+          "lineNumber": 56
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.error",
+          "lineNumber": 59
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "list\r\n    .filter((r) => r.idx_no !== '0000000000')\r\n    .map",
+          "lineNumber": 63
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "list\r\n    .filter",
+          "lineNumber": 63
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "toDataNodes",
+          "lineNumber": 72
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "setSelected",
+          "lineNumber": 73
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "setOpen",
+          "lineNumber": 81
+        },
+        {
+          "caller": "IndxPage",
+          "callee": "setOpen",
+          "lineNumber": 102
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/pages/PrdtPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 296,
+      "nonEmptyLines": 284,
+      "functions": [
+        {
+          "name": "PrdtPage",
+          "startLine": 21,
+          "endLine": 296,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "PrdtPage",
+          "line": 21,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PrdtPage",
+          "callee": "Form.useForm",
+          "lineNumber": 22
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "loadBase",
+          "callee": "Promise.all",
+          "lineNumber": 30
+        },
+        {
+          "caller": "loadBase",
+          "callee": "api.indxList",
+          "lineNumber": 31
+        },
+        {
+          "caller": "loadBase",
+          "callee": "api.warehouses",
+          "lineNumber": 32
+        },
+        {
+          "caller": "loadBase",
+          "callee": "api.prdtList",
+          "lineNumber": 33
+        },
+        {
+          "caller": "loadBase",
+          "callee": "setIndxList",
+          "lineNumber": 35
+        },
+        {
+          "caller": "loadBase",
+          "callee": "i.data.filter",
+          "lineNumber": 35
+        },
+        {
+          "caller": "loadBase",
+          "callee": "setWhList",
+          "lineNumber": 36
+        },
+        {
+          "caller": "loadBase",
+          "callee": "setItems",
+          "lineNumber": 37
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "useEffect",
+          "lineNumber": 40
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "loadBase().catch",
+          "lineNumber": 41
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "loadBase",
+          "lineNumber": 41
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "message.error",
+          "lineNumber": 41
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "indxList.map",
+          "lineNumber": 44
+        },
+        {
+          "caller": "onIdx1Change",
+          "callee": "form.setFieldValue",
+          "lineNumber": 50
+        },
+        {
+          "caller": "onIdx1Change",
+          "callee": "api.nextPrdNo",
+          "lineNumber": 53
+        },
+        {
+          "caller": "onIdx1Change",
+          "callee": "form.getFieldValue",
+          "lineNumber": 53
+        },
+        {
+          "caller": "onIdx1Change",
+          "callee": "form.setFieldValue",
+          "lineNumber": 54
+        },
+        {
+          "caller": "onIdx1Change",
+          "callee": "message.warning",
+          "lineNumber": 56
+        },
+        {
+          "caller": "onIdx1Change",
+          "callee": "api.prdtList",
+          "lineNumber": 59
+        },
+        {
+          "caller": "onIdx1Change",
+          "callee": "setItems",
+          "lineNumber": 60
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.validateFields",
+          "lineNumber": 64
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.updatePrdt",
+          "lineNumber": 67
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 68
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.createPrdt",
+          "lineNumber": 70
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 71
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.resetFields",
+          "lineNumber": 72
+        },
+        {
+          "caller": "onSave",
+          "callee": "setEditing",
+          "lineNumber": 73
+        },
+        {
+          "caller": "onSave",
+          "callee": "loadBase",
+          "lineNumber": 75
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.error",
+          "lineNumber": 78
+        },
+        {
+          "caller": "openEdit",
+          "callee": "api.getPrdt",
+          "lineNumber": 83
+        },
+        {
+          "caller": "openEdit",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 84
+        },
+        {
+          "caller": "openEdit",
+          "callee": "setEditing",
+          "lineNumber": 85
+        },
+        {
+          "caller": "uploadPic",
+          "callee": "api.upload",
+          "lineNumber": 89
+        },
+        {
+          "caller": "uploadPic",
+          "callee": "form.setFieldValue",
+          "lineNumber": 90
+        },
+        {
+          "caller": "uploadDoc",
+          "callee": "api.upload",
+          "lineNumber": 95
+        },
+        {
+          "caller": "uploadDoc",
+          "callee": "form.setFieldValue",
+          "lineNumber": 96
+        },
+        {
+          "caller": "uploadDoc",
+          "callee": "message.success",
+          "lineNumber": 97
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 101
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "form.resetFields",
+          "lineNumber": 107
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "setEditing",
+          "lineNumber": 107
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "setPickerOpen",
+          "lineNumber": 126
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 138
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "onIdx1Change",
+          "lineNumber": 139
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "whList.map",
+          "lineNumber": 169
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "document.getElementById('pic-upload')?.click",
+          "lineNumber": 194
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "document.getElementById",
+          "lineNumber": 194
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "uploadPic",
+          "lineNumber": 218
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 228
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 230
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "openEdit",
+          "lineNumber": 256
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "setPickerOpen",
+          "lineNumber": 273
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "onIdx1Change",
+          "lineNumber": 284
+        },
+        {
+          "caller": "PrdtPage",
+          "callee": "setPickerOpen",
+          "lineNumber": 285
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/pages/SalesOrderPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 481,
+      "nonEmptyLines": 457,
+      "functions": [
+        {
+          "name": "newLine",
+          "startLine": 30,
+          "endLine": 48,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "SalesOrderPage",
+          "startLine": 50,
+          "endLine": 481,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SalesOrderPage",
+          "line": 50,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SalesOrderPage",
+          "callee": "Form.useForm",
+          "lineNumber": 51
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 52
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "newLine",
+          "lineNumber": 52
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 53
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 54
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 55
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 56
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 57
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 58
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 59
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 60
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 61
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useState",
+          "lineNumber": 62
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 64
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useMemo",
+          "lineNumber": 66
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "Number",
+          "lineNumber": 70
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "Number",
+          "lineNumber": 71
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "Math.round",
+          "lineNumber": 73
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "Math.round",
+          "lineNumber": 73
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "Math.round",
+          "lineNumber": 73
+        },
+        {
+          "caller": "load",
+          "callee": "Promise.all",
+          "lineNumber": 77
+        },
+        {
+          "caller": "load",
+          "callee": "api.salesOrderList",
+          "lineNumber": 78
+        },
+        {
+          "caller": "load",
+          "callee": "api.custList",
+          "lineNumber": 79
+        },
+        {
+          "caller": "load",
+          "callee": "api.prdtList",
+          "lineNumber": 80
+        },
+        {
+          "caller": "load",
+          "callee": "api.warehouses",
+          "lineNumber": 81
+        },
+        {
+          "caller": "load",
+          "callee": "api.salmList",
+          "lineNumber": 82
+        },
+        {
+          "caller": "load",
+          "callee": "setOrders",
+          "lineNumber": 84
+        },
+        {
+          "caller": "load",
+          "callee": "setCusts",
+          "lineNumber": 85
+        },
+        {
+          "caller": "load",
+          "callee": "setPrdts",
+          "lineNumber": 86
+        },
+        {
+          "caller": "load",
+          "callee": "setWhs",
+          "lineNumber": 87
+        },
+        {
+          "caller": "load",
+          "callee": "setSalms",
+          "lineNumber": 88
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useEffect",
+          "lineNumber": 91
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "load().catch",
+          "lineNumber": 92
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "load",
+          "lineNumber": 92
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "message.error",
+          "lineNumber": 92
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Number",
+          "lineNumber": 96
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Number",
+          "lineNumber": 97
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Number",
+          "lineNumber": 98
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 99
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 103
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 104
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 107
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.resetFields",
+          "lineNumber": 113
+        },
+        {
+          "caller": "onNew",
+          "callee": "api.nextSalesOrderNo",
+          "lineNumber": 114
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 115
+        },
+        {
+          "caller": "onNew",
+          "callee": "dayjs",
+          "lineNumber": 117
+        },
+        {
+          "caller": "onNew",
+          "callee": "dayjs",
+          "lineNumber": 118
+        },
+        {
+          "caller": "onNew",
+          "callee": "setLines",
+          "lineNumber": 122
+        },
+        {
+          "caller": "onNew",
+          "callee": "recalcLine",
+          "lineNumber": 122
+        },
+        {
+          "caller": "onNew",
+          "callee": "newLine",
+          "lineNumber": 122
+        },
+        {
+          "caller": "onNew",
+          "callee": "String",
+          "lineNumber": 122
+        },
+        {
+          "caller": "onNew",
+          "callee": "Date.now",
+          "lineNumber": 122
+        },
+        {
+          "caller": "onNew",
+          "callee": "setEditing",
+          "lineNumber": 123
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "useEffect",
+          "lineNumber": 126
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "onNew().catch",
+          "lineNumber": 127
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "onNew",
+          "lineNumber": 127
+        },
+        {
+          "caller": "applyCust",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 131
+        },
+        {
+          "caller": "custName",
+          "callee": "custs.find",
+          "lineNumber": 139
+        },
+        {
+          "caller": "salName",
+          "callee": "salms.find",
+          "lineNumber": 140
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.validateFields",
+          "lineNumber": 143
+        },
+        {
+          "caller": "onSave",
+          "callee": "(head.os_dd as unknown as dayjs.Dayjs).format",
+          "lineNumber": 147
+        },
+        {
+          "caller": "onSave",
+          "callee": "(head.est_dd as unknown as dayjs.Dayjs).format",
+          "lineNumber": 148
+        },
+        {
+          "caller": "onSave",
+          "callee": "lines.filter((l) => l.prd_no).map",
+          "lineNumber": 152
+        },
+        {
+          "caller": "onSave",
+          "callee": "lines.filter",
+          "lineNumber": 152
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.warning",
+          "lineNumber": 154
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.updateSalesOrder",
+          "lineNumber": 157
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 158
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.createSalesOrder",
+          "lineNumber": 160
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 161
+        },
+        {
+          "caller": "onSave",
+          "callee": "onNew",
+          "lineNumber": 162
+        },
+        {
+          "caller": "onSave",
+          "callee": "load",
+          "lineNumber": 164
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.error",
+          "lineNumber": 167
+        },
+        {
+          "caller": "openOrder",
+          "callee": "api.getSalesOrder",
+          "lineNumber": 172
+        },
+        {
+          "caller": "openOrder",
+          "callee": "setEditing",
+          "lineNumber": 173
+        },
+        {
+          "caller": "openOrder",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 174
+        },
+        {
+          "caller": "openOrder",
+          "callee": "dayjs",
+          "lineNumber": 176
+        },
+        {
+          "caller": "openOrder",
+          "callee": "dayjs",
+          "lineNumber": 177
+        },
+        {
+          "caller": "openOrder",
+          "callee": "setLines",
+          "lineNumber": 181
+        },
+        {
+          "caller": "openOrder",
+          "callee": "data.lines.map",
+          "lineNumber": 182
+        },
+        {
+          "caller": "openOrder",
+          "callee": "recalcLine",
+          "lineNumber": 182
+        },
+        {
+          "caller": "openOrder",
+          "callee": "String",
+          "lineNumber": 182
+        },
+        {
+          "caller": "updateLine",
+          "callee": "setLines",
+          "lineNumber": 187
+        },
+        {
+          "caller": "updateLine",
+          "callee": "recalcLine",
+          "lineNumber": 189
+        },
+        {
+          "caller": "addLine",
+          "callee": "setLines",
+          "lineNumber": 194
+        },
+        {
+          "caller": "addLine",
+          "callee": "recalcLine",
+          "lineNumber": 194
+        },
+        {
+          "caller": "addLine",
+          "callee": "newLine",
+          "lineNumber": 194
+        },
+        {
+          "caller": "addLine",
+          "callee": "String",
+          "lineNumber": 194
+        },
+        {
+          "caller": "addLine",
+          "callee": "Date.now",
+          "lineNumber": 194
+        },
+        {
+          "caller": "pickProduct",
+          "callee": "updateLine",
+          "lineNumber": 198
+        },
+        {
+          "caller": "pickProduct",
+          "callee": "setPrdPicker",
+          "lineNumber": 205
+        },
+        {
+          "caller": "pickProduct",
+          "callee": "setLinePickIdx",
+          "lineNumber": 206
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "custName",
+          "lineNumber": 246
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 246
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setCustPicker",
+          "lineNumber": 247
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "salName",
+          "lineNumber": 270
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 270
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setSalPicker",
+          "lineNumber": 270
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setLines",
+          "lineNumber": 282
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "prev.map",
+          "lineNumber": 282
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "recalcLine",
+          "lineNumber": 282
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 282
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setLinePickIdx",
+          "lineNumber": 327
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setPrdPicker",
+          "lineNumber": 328
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "whs.map",
+          "lineNumber": 347
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "updateLine",
+          "lineNumber": 348
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "updateLine",
+          "lineNumber": 357
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "updateLine",
+          "lineNumber": 366
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "dayjs",
+          "lineNumber": 378
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "updateLine",
+          "lineNumber": 379
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "d?.format",
+          "lineNumber": 379
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "updateLine",
+          "lineNumber": 388
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "openOrder",
+          "lineNumber": 415
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setCustPicker",
+          "lineNumber": 432
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "applyCust",
+          "lineNumber": 434
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setCustPicker",
+          "lineNumber": 435
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setSalPicker",
+          "lineNumber": 450
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "form.setFieldValue",
+          "lineNumber": 452
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setSalPicker",
+          "lineNumber": 453
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setPrdPicker",
+          "lineNumber": 469
+        },
+        {
+          "caller": "SalesOrderPage",
+          "callee": "setLinePickIdx",
+          "lineNumber": 470
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/pages/SalesReturnPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 467,
+      "nonEmptyLines": 443,
+      "functions": [
+        {
+          "name": "newLine",
+          "startLine": 37,
+          "endLine": 55,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "recalcLine",
+          "startLine": 57,
+          "endLine": 72,
+          "params": [
+            "ln",
+            "taxId"
+          ]
+        },
+        {
+          "name": "SalesReturnPage",
+          "startLine": 74,
+          "endLine": 467,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SalesReturnPage",
+          "line": 74,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "recalcLine",
+          "callee": "Number",
+          "lineNumber": 58
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Number",
+          "lineNumber": 59
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Number",
+          "lineNumber": 60
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 61
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 65
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 66
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 69
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "Form.useForm",
+          "lineNumber": 75
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 76
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 77
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 78
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 79
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 80
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 81
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 82
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 83
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 84
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useState",
+          "lineNumber": 85
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 87
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 88
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 89
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useMemo",
+          "lineNumber": 91
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "Number",
+          "lineNumber": 95
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "Number",
+          "lineNumber": 96
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "Math.round",
+          "lineNumber": 99
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "Math.round",
+          "lineNumber": 100
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "Math.round",
+          "lineNumber": 101
+        },
+        {
+          "caller": "load",
+          "callee": "Promise.all",
+          "lineNumber": 106
+        },
+        {
+          "caller": "load",
+          "callee": "api.salesReturnList",
+          "lineNumber": 107
+        },
+        {
+          "caller": "load",
+          "callee": "api.custList",
+          "lineNumber": 108
+        },
+        {
+          "caller": "load",
+          "callee": "api.warehouses",
+          "lineNumber": 109
+        },
+        {
+          "caller": "load",
+          "callee": "api.salmList",
+          "lineNumber": 110
+        },
+        {
+          "caller": "load",
+          "callee": "setReturns",
+          "lineNumber": 112
+        },
+        {
+          "caller": "load",
+          "callee": "setCusts",
+          "lineNumber": 113
+        },
+        {
+          "caller": "load",
+          "callee": "setWhs",
+          "lineNumber": 114
+        },
+        {
+          "caller": "load",
+          "callee": "setSalms",
+          "lineNumber": 115
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useEffect",
+          "lineNumber": 118
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "load().catch",
+          "lineNumber": 119
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "load",
+          "lineNumber": 119
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "message.error",
+          "lineNumber": 119
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.resetFields",
+          "lineNumber": 123
+        },
+        {
+          "caller": "onNew",
+          "callee": "api.nextSalesReturnNo",
+          "lineNumber": 124
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 125
+        },
+        {
+          "caller": "onNew",
+          "callee": "dayjs",
+          "lineNumber": 127
+        },
+        {
+          "caller": "onNew",
+          "callee": "setLines",
+          "lineNumber": 132
+        },
+        {
+          "caller": "onNew",
+          "callee": "setEditing",
+          "lineNumber": 133
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "useEffect",
+          "lineNumber": 136
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "onNew().catch",
+          "lineNumber": 137
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "onNew",
+          "lineNumber": 137
+        },
+        {
+          "caller": "applyCust",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 141
+        },
+        {
+          "caller": "custName",
+          "callee": "custs.find",
+          "lineNumber": 149
+        },
+        {
+          "caller": "salName",
+          "callee": "salms.find",
+          "lineNumber": 150
+        },
+        {
+          "caller": "openSaTransfer",
+          "callee": "form.getFieldValue",
+          "lineNumber": 153
+        },
+        {
+          "caller": "openSaTransfer",
+          "callee": "message.warning",
+          "lineNumber": 154
+        },
+        {
+          "caller": "openSaTransfer",
+          "callee": "api.openSalesShipments",
+          "lineNumber": 155
+        },
+        {
+          "caller": "openSaTransfer",
+          "callee": "String",
+          "lineNumber": 155
+        },
+        {
+          "caller": "openSaTransfer",
+          "callee": "message.info",
+          "lineNumber": 156
+        },
+        {
+          "caller": "openSaTransfer",
+          "callee": "setOpenShipments",
+          "lineNumber": 157
+        },
+        {
+          "caller": "openSaTransfer",
+          "callee": "setSaPicker",
+          "lineNumber": 158
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "api.salesShipmentReturnLines",
+          "lineNumber": 163
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 165
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "setLines",
+          "lineNumber": 176
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "data.lines.map",
+          "lineNumber": 177
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "recalcLine",
+          "lineNumber": 178
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "newLine",
+          "lineNumber": 180
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "String",
+          "lineNumber": 180
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "String",
+          "lineNumber": 181
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "String",
+          "lineNumber": 197
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "setSaPicker",
+          "lineNumber": 201
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "message.success",
+          "lineNumber": 202
+        },
+        {
+          "caller": "transferFromSa",
+          "callee": "message.error",
+          "lineNumber": 204
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.validateFields",
+          "lineNumber": 209
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.warning",
+          "lineNumber": 210
+        },
+        {
+          "caller": "onSave",
+          "callee": "(head.ps_dd as unknown as dayjs.Dayjs).format",
+          "lineNumber": 214
+        },
+        {
+          "caller": "onSave",
+          "callee": "lines.map",
+          "lineNumber": 216
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.updateSalesReturn",
+          "lineNumber": 220
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 221
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.createSalesReturn",
+          "lineNumber": 223
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 224
+        },
+        {
+          "caller": "onSave",
+          "callee": "onNew",
+          "lineNumber": 225
+        },
+        {
+          "caller": "onSave",
+          "callee": "load",
+          "lineNumber": 227
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.error",
+          "lineNumber": 230
+        },
+        {
+          "caller": "openReturn",
+          "callee": "api.getSalesReturn",
+          "lineNumber": 235
+        },
+        {
+          "caller": "openReturn",
+          "callee": "setEditing",
+          "lineNumber": 236
+        },
+        {
+          "caller": "openReturn",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 237
+        },
+        {
+          "caller": "openReturn",
+          "callee": "dayjs",
+          "lineNumber": 239
+        },
+        {
+          "caller": "openReturn",
+          "callee": "setLines",
+          "lineNumber": 241
+        },
+        {
+          "caller": "openReturn",
+          "callee": "data.lines.map",
+          "lineNumber": 241
+        },
+        {
+          "caller": "openReturn",
+          "callee": "recalcLine",
+          "lineNumber": 241
+        },
+        {
+          "caller": "openReturn",
+          "callee": "String",
+          "lineNumber": 241
+        },
+        {
+          "caller": "openReturn",
+          "callee": "String",
+          "lineNumber": 241
+        },
+        {
+          "caller": "updateLine",
+          "callee": "setLines",
+          "lineNumber": 245
+        },
+        {
+          "caller": "updateLine",
+          "callee": "recalcLine",
+          "lineNumber": 247
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "custName",
+          "lineNumber": 294
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "setCustPicker",
+          "lineNumber": 294
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "salName",
+          "lineNumber": 299
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "setSalPicker",
+          "lineNumber": 299
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "setLines",
+          "lineNumber": 318
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "prev.map",
+          "lineNumber": 318
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "recalcLine",
+          "lineNumber": 318
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 318
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "whs.map",
+          "lineNumber": 364
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "updateLine",
+          "lineNumber": 365
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "updateLine",
+          "lineNumber": 374
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "updateLine",
+          "lineNumber": 383
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "openReturn",
+          "lineNumber": 406
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "setCustPicker",
+          "lineNumber": 423
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "applyCust",
+          "lineNumber": 425
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "setCustPicker",
+          "lineNumber": 426
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "setSalPicker",
+          "lineNumber": 440
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "form.setFieldValue",
+          "lineNumber": 442
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "setSalPicker",
+          "lineNumber": 443
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "setSaPicker",
+          "lineNumber": 457
+        },
+        {
+          "caller": "SalesReturnPage",
+          "callee": "transferFromSa",
+          "lineNumber": 458
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/pages/SalesShipmentPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 467,
+      "nonEmptyLines": 443,
+      "functions": [
+        {
+          "name": "newLine",
+          "startLine": 37,
+          "endLine": 55,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "recalcLine",
+          "startLine": 57,
+          "endLine": 72,
+          "params": [
+            "ln",
+            "taxId"
+          ]
+        },
+        {
+          "name": "SalesShipmentPage",
+          "startLine": 74,
+          "endLine": 467,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SalesShipmentPage",
+          "line": 74,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "recalcLine",
+          "callee": "Number",
+          "lineNumber": 58
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Number",
+          "lineNumber": 59
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Number",
+          "lineNumber": 60
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 61
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 65
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 66
+        },
+        {
+          "caller": "recalcLine",
+          "callee": "Math.round",
+          "lineNumber": 69
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "Form.useForm",
+          "lineNumber": 75
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 76
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 77
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 78
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 79
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 80
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 81
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 82
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 83
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 84
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useState",
+          "lineNumber": 85
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 87
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 88
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useMemo",
+          "lineNumber": 90
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "Number",
+          "lineNumber": 94
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "Number",
+          "lineNumber": 95
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "Math.round",
+          "lineNumber": 98
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "Math.round",
+          "lineNumber": 99
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "Math.round",
+          "lineNumber": 100
+        },
+        {
+          "caller": "load",
+          "callee": "Promise.all",
+          "lineNumber": 105
+        },
+        {
+          "caller": "load",
+          "callee": "api.salesShipmentList",
+          "lineNumber": 106
+        },
+        {
+          "caller": "load",
+          "callee": "api.custList",
+          "lineNumber": 107
+        },
+        {
+          "caller": "load",
+          "callee": "api.warehouses",
+          "lineNumber": 108
+        },
+        {
+          "caller": "load",
+          "callee": "api.salmList",
+          "lineNumber": 109
+        },
+        {
+          "caller": "load",
+          "callee": "setShipments",
+          "lineNumber": 111
+        },
+        {
+          "caller": "load",
+          "callee": "setCusts",
+          "lineNumber": 112
+        },
+        {
+          "caller": "load",
+          "callee": "setWhs",
+          "lineNumber": 113
+        },
+        {
+          "caller": "load",
+          "callee": "setSalms",
+          "lineNumber": 114
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useEffect",
+          "lineNumber": 117
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "load().catch",
+          "lineNumber": 118
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "load",
+          "lineNumber": 118
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "message.error",
+          "lineNumber": 118
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.resetFields",
+          "lineNumber": 122
+        },
+        {
+          "caller": "onNew",
+          "callee": "api.nextSalesShipmentNo",
+          "lineNumber": 123
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 124
+        },
+        {
+          "caller": "onNew",
+          "callee": "dayjs",
+          "lineNumber": 126
+        },
+        {
+          "caller": "onNew",
+          "callee": "setLines",
+          "lineNumber": 131
+        },
+        {
+          "caller": "onNew",
+          "callee": "setEditing",
+          "lineNumber": 132
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "useEffect",
+          "lineNumber": 135
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "onNew().catch",
+          "lineNumber": 136
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "onNew",
+          "lineNumber": 136
+        },
+        {
+          "caller": "applyCust",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 140
+        },
+        {
+          "caller": "custName",
+          "callee": "custs.find",
+          "lineNumber": 148
+        },
+        {
+          "caller": "salName",
+          "callee": "salms.find",
+          "lineNumber": 149
+        },
+        {
+          "caller": "openSoTransfer",
+          "callee": "form.getFieldValue",
+          "lineNumber": 152
+        },
+        {
+          "caller": "openSoTransfer",
+          "callee": "message.warning",
+          "lineNumber": 153
+        },
+        {
+          "caller": "openSoTransfer",
+          "callee": "api.openSalesOrders",
+          "lineNumber": 154
+        },
+        {
+          "caller": "openSoTransfer",
+          "callee": "String",
+          "lineNumber": 154
+        },
+        {
+          "caller": "openSoTransfer",
+          "callee": "message.info",
+          "lineNumber": 155
+        },
+        {
+          "caller": "openSoTransfer",
+          "callee": "setOpenOrders",
+          "lineNumber": 156
+        },
+        {
+          "caller": "openSoTransfer",
+          "callee": "setSoPicker",
+          "lineNumber": 157
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "api.salesOrderShipLines",
+          "lineNumber": 162
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 164
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "setLines",
+          "lineNumber": 175
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "data.lines.map",
+          "lineNumber": 176
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "recalcLine",
+          "lineNumber": 177
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "newLine",
+          "lineNumber": 179
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "String",
+          "lineNumber": 179
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "String",
+          "lineNumber": 180
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "String",
+          "lineNumber": 196
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "setSoPicker",
+          "lineNumber": 200
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "message.success",
+          "lineNumber": 201
+        },
+        {
+          "caller": "transferFromSo",
+          "callee": "message.error",
+          "lineNumber": 203
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.validateFields",
+          "lineNumber": 208
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.warning",
+          "lineNumber": 209
+        },
+        {
+          "caller": "onSave",
+          "callee": "(head.ps_dd as unknown as dayjs.Dayjs).format",
+          "lineNumber": 213
+        },
+        {
+          "caller": "onSave",
+          "callee": "lines.map",
+          "lineNumber": 215
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.updateSalesShipment",
+          "lineNumber": 219
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 220
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.createSalesShipment",
+          "lineNumber": 222
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 223
+        },
+        {
+          "caller": "onSave",
+          "callee": "onNew",
+          "lineNumber": 224
+        },
+        {
+          "caller": "onSave",
+          "callee": "load",
+          "lineNumber": 226
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.error",
+          "lineNumber": 229
+        },
+        {
+          "caller": "openShipment",
+          "callee": "api.getSalesShipment",
+          "lineNumber": 234
+        },
+        {
+          "caller": "openShipment",
+          "callee": "setEditing",
+          "lineNumber": 235
+        },
+        {
+          "caller": "openShipment",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 236
+        },
+        {
+          "caller": "openShipment",
+          "callee": "dayjs",
+          "lineNumber": 238
+        },
+        {
+          "caller": "openShipment",
+          "callee": "setLines",
+          "lineNumber": 240
+        },
+        {
+          "caller": "openShipment",
+          "callee": "data.lines.map",
+          "lineNumber": 240
+        },
+        {
+          "caller": "openShipment",
+          "callee": "recalcLine",
+          "lineNumber": 240
+        },
+        {
+          "caller": "openShipment",
+          "callee": "String",
+          "lineNumber": 240
+        },
+        {
+          "caller": "openShipment",
+          "callee": "String",
+          "lineNumber": 240
+        },
+        {
+          "caller": "updateLine",
+          "callee": "setLines",
+          "lineNumber": 244
+        },
+        {
+          "caller": "updateLine",
+          "callee": "recalcLine",
+          "lineNumber": 246
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "custName",
+          "lineNumber": 293
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "setCustPicker",
+          "lineNumber": 293
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "salName",
+          "lineNumber": 298
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 298
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "setSalPicker",
+          "lineNumber": 298
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "setLines",
+          "lineNumber": 317
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "prev.map",
+          "lineNumber": 317
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "recalcLine",
+          "lineNumber": 317
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "form.getFieldValue",
+          "lineNumber": 317
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "whs.map",
+          "lineNumber": 363
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "updateLine",
+          "lineNumber": 364
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "updateLine",
+          "lineNumber": 373
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "updateLine",
+          "lineNumber": 382
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "openShipment",
+          "lineNumber": 406
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "setCustPicker",
+          "lineNumber": 423
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "applyCust",
+          "lineNumber": 425
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "setCustPicker",
+          "lineNumber": 426
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "setSalPicker",
+          "lineNumber": 440
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "form.setFieldValue",
+          "lineNumber": 442
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "setSalPicker",
+          "lineNumber": 443
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "setSoPicker",
+          "lineNumber": 457
+        },
+        {
+          "caller": "SalesShipmentPage",
+          "callee": "transferFromSo",
+          "lineNumber": 458
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/pages/SalmPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 289,
+      "nonEmptyLines": 276,
+      "functions": [
+        {
+          "name": "SalmPage",
+          "startLine": 26,
+          "endLine": 289,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SalmPage",
+          "line": 26,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SalmPage",
+          "callee": "Form.useForm",
+          "lineNumber": 27
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "useState",
+          "lineNumber": 31
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "useState",
+          "lineNumber": 32
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 34
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 35
+        },
+        {
+          "caller": "load",
+          "callee": "Promise.all",
+          "lineNumber": 38
+        },
+        {
+          "caller": "load",
+          "callee": "api.salmList",
+          "lineNumber": 38
+        },
+        {
+          "caller": "load",
+          "callee": "api.deptList",
+          "lineNumber": 38
+        },
+        {
+          "caller": "load",
+          "callee": "setItems",
+          "lineNumber": 39
+        },
+        {
+          "caller": "load",
+          "callee": "setDepts",
+          "lineNumber": 40
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "useEffect",
+          "lineNumber": 43
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "load().catch",
+          "lineNumber": 44
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "load",
+          "lineNumber": 44
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "message.error",
+          "lineNumber": 44
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.resetFields",
+          "lineNumber": 48
+        },
+        {
+          "caller": "onNew",
+          "callee": "setEditing",
+          "lineNumber": 49
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.validateFields",
+          "lineNumber": 53
+        },
+        {
+          "caller": "onSave",
+          "callee": "(v.bth as unknown as dayjs.Dayjs).format",
+          "lineNumber": 56
+        },
+        {
+          "caller": "onSave",
+          "callee": "(v.dut_in_d as unknown as dayjs.Dayjs).format",
+          "lineNumber": 57
+        },
+        {
+          "caller": "onSave",
+          "callee": "(v.dut_ot_d as unknown as dayjs.Dayjs).format",
+          "lineNumber": 58
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.updateSalm",
+          "lineNumber": 62
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 63
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.createSalm",
+          "lineNumber": 65
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 66
+        },
+        {
+          "caller": "onSave",
+          "callee": "onNew",
+          "lineNumber": 67
+        },
+        {
+          "caller": "onSave",
+          "callee": "load",
+          "lineNumber": 69
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.error",
+          "lineNumber": 72
+        },
+        {
+          "caller": "onRow",
+          "callee": "setEditing",
+          "lineNumber": 77
+        },
+        {
+          "caller": "onRow",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 78
+        },
+        {
+          "caller": "onRow",
+          "callee": "dayjs",
+          "lineNumber": 80
+        },
+        {
+          "caller": "onRow",
+          "callee": "dayjs",
+          "lineNumber": 81
+        },
+        {
+          "caller": "onRow",
+          "callee": "dayjs",
+          "lineNumber": 82
+        },
+        {
+          "caller": "deptLabel",
+          "callee": "depts.find",
+          "lineNumber": 87
+        },
+        {
+          "caller": "salLabel",
+          "callee": "items.find",
+          "lineNumber": 92
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "deptLabel",
+          "lineNumber": 156
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "setDeptPicker",
+          "lineNumber": 156
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "salLabel",
+          "lineNumber": 162
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "setUpSalPicker",
+          "lineNumber": 163
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "onRow",
+          "lineNumber": 240
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "setDeptPicker",
+          "lineNumber": 260
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "form.setFieldValue",
+          "lineNumber": 262
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "setDeptPicker",
+          "lineNumber": 263
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "items.filter",
+          "lineNumber": 275
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "setUpSalPicker",
+          "lineNumber": 277
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "form.setFieldValue",
+          "lineNumber": 279
+        },
+        {
+          "caller": "SalmPage",
+          "callee": "setUpSalPicker",
+          "lineNumber": 280
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client/src/pages/WhPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 205,
+      "nonEmptyLines": 194,
+      "functions": [
+        {
+          "name": "WhPage",
+          "startLine": 19,
+          "endLine": 205,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "WhPage",
+          "line": 19,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "WhPage",
+          "callee": "Form.useForm",
+          "lineNumber": 20
+        },
+        {
+          "caller": "WhPage",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "WhPage",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "WhPage",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "WhPage",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "WhPage",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "WhPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 26
+        },
+        {
+          "caller": "WhPage",
+          "callee": "Form.useWatch",
+          "lineNumber": 27
+        },
+        {
+          "caller": "load",
+          "callee": "Promise.all",
+          "lineNumber": 30
+        },
+        {
+          "caller": "load",
+          "callee": "api.whList",
+          "lineNumber": 30
+        },
+        {
+          "caller": "load",
+          "callee": "api.deptList",
+          "lineNumber": 30
+        },
+        {
+          "caller": "load",
+          "callee": "setItems",
+          "lineNumber": 31
+        },
+        {
+          "caller": "load",
+          "callee": "setDepts",
+          "lineNumber": 32
+        },
+        {
+          "caller": "WhPage",
+          "callee": "useEffect",
+          "lineNumber": 35
+        },
+        {
+          "caller": "WhPage",
+          "callee": "load().catch",
+          "lineNumber": 36
+        },
+        {
+          "caller": "WhPage",
+          "callee": "load",
+          "lineNumber": 36
+        },
+        {
+          "caller": "WhPage",
+          "callee": "message.error",
+          "lineNumber": 36
+        },
+        {
+          "caller": "onNew",
+          "callee": "form.resetFields",
+          "lineNumber": 40
+        },
+        {
+          "caller": "onNew",
+          "callee": "setEditing",
+          "lineNumber": 41
+        },
+        {
+          "caller": "onSave",
+          "callee": "form.validateFields",
+          "lineNumber": 45
+        },
+        {
+          "caller": "onSave",
+          "callee": "(v.stop_dd as unknown as dayjs.Dayjs).format",
+          "lineNumber": 48
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.updateWh",
+          "lineNumber": 52
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 53
+        },
+        {
+          "caller": "onSave",
+          "callee": "api.createWh",
+          "lineNumber": 55
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.success",
+          "lineNumber": 56
+        },
+        {
+          "caller": "onSave",
+          "callee": "onNew",
+          "lineNumber": 57
+        },
+        {
+          "caller": "onSave",
+          "callee": "load",
+          "lineNumber": 59
+        },
+        {
+          "caller": "onSave",
+          "callee": "message.error",
+          "lineNumber": 62
+        },
+        {
+          "caller": "onRow",
+          "callee": "setEditing",
+          "lineNumber": 67
+        },
+        {
+          "caller": "onRow",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 68
+        },
+        {
+          "caller": "onRow",
+          "callee": "dayjs",
+          "lineNumber": 70
+        },
+        {
+          "caller": "deptLabel",
+          "callee": "depts.find",
+          "lineNumber": 75
+        },
+        {
+          "caller": "whLabel",
+          "callee": "items.find",
+          "lineNumber": 80
+        },
+        {
+          "caller": "WhPage",
+          "callee": "deptLabel",
+          "lineNumber": 116
+        },
+        {
+          "caller": "WhPage",
+          "callee": "setDeptPicker",
+          "lineNumber": 117
+        },
+        {
+          "caller": "WhPage",
+          "callee": "whLabel",
+          "lineNumber": 124
+        },
+        {
+          "caller": "WhPage",
+          "callee": "setWhPicker",
+          "lineNumber": 125
+        },
+        {
+          "caller": "WhPage",
+          "callee": "onRow",
+          "lineNumber": 158
+        },
+        {
+          "caller": "WhPage",
+          "callee": "setDeptPicker",
+          "lineNumber": 176
+        },
+        {
+          "caller": "WhPage",
+          "callee": "form.setFieldValue",
+          "lineNumber": 178
+        },
+        {
+          "caller": "WhPage",
+          "callee": "setDeptPicker",
+          "lineNumber": 179
+        },
+        {
+          "caller": "WhPage",
+          "callee": "items.filter",
+          "lineNumber": 191
+        },
+        {
+          "caller": "WhPage",
+          "callee": "setWhPicker",
+          "lineNumber": 193
+        },
+        {
+          "caller": "WhPage",
+          "callee": "form.setFieldValue",
+          "lineNumber": 195
+        },
+        {
+          "caller": "WhPage",
+          "callee": "setWhPicker",
+          "lineNumber": 196
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

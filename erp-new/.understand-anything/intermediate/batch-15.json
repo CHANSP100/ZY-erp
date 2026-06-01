@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "file:.cursor/rules/sunlike9-dev01-baseline.mdc",
+      "type": "file",
+      "name": "sunlike9-dev01-baseline.mdc",
+      "filePath": ".cursor/rules/sunlike9-dev01-baseline.mdc",
+      "summary": "Source file sunlike9-dev01-baseline.mdc in the .cursor area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": "Source file .understandignore in the .understand-anything area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/BilSpcEditDialog.vue",
+      "type": "file",
+      "name": "BilSpcEditDialog.vue",
+      "filePath": "client-vue/src/components/BilSpcEditDialog.vue",
+      "summary": "Source file BilSpcEditDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/BilSpcSalesLookupDialog.vue",
+      "type": "file",
+      "name": "BilSpcSalesLookupDialog.vue",
+      "filePath": "client-vue/src/components/BilSpcSalesLookupDialog.vue",
+      "summary": "Source file BilSpcSalesLookupDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/detailGrid/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "client-vue/src/components/erp/detailGrid/index.ts",
+      "summary": "Source file index.ts in the client-vue area of erp-new.",
+      "tags": [
+        "entry-point",
+        "barrel",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/DetailGridHeaderMenu.vue",
+      "type": "file",
+      "name": "DetailGridHeaderMenu.vue",
+      "filePath": "client-vue/src/components/erp/DetailGridHeaderMenu.vue",
+      "summary": "Source file DetailGridHeaderMenu.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpArchiveExtFields.vue",
+      "type": "file",
+      "name": "ErpArchiveExtFields.vue",
+      "filePath": "client-vue/src/components/erp/ErpArchiveExtFields.vue",
+      "summary": "Source file ErpArchiveExtFields.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpBasePage.vue",
+      "type": "file",
+      "name": "ErpBasePage.vue",
+      "filePath": "client-vue/src/components/erp/ErpBasePage.vue",
+      "summary": "Source file ErpBasePage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpBillAuditMeta.vue",
+      "type": "file",
+      "name": "ErpBillAuditMeta.vue",
+      "filePath": "client-vue/src/components/erp/ErpBillAuditMeta.vue",
+      "summary": "Source file ErpBillAuditMeta.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpBillEditDialog.vue",
+      "type": "file",
+      "name": "ErpBillEditDialog.vue",
+      "filePath": "client-vue/src/components/erp/ErpBillEditDialog.vue",
+      "summary": "Source file ErpBillEditDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpBillHeadExtFields.vue",
+      "type": "file",
+      "name": "ErpBillHeadExtFields.vue",
+      "filePath": "client-vue/src/components/erp/ErpBillHeadExtFields.vue",
+      "summary": "Source file ErpBillHeadExtFields.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpBillLineTable.vue",
+      "type": "file",
+      "name": "ErpBillLineTable.vue",
+      "filePath": "client-vue/src/components/erp/ErpBillLineTable.vue",
+      "summary": "Source file ErpBillLineTable.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpBillPage.vue",
+      "type": "file",
+      "name": "ErpBillPage.vue",
+      "filePath": "client-vue/src/components/erp/ErpBillPage.vue",
+      "summary": "Source file ErpBillPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpBillQueryField.vue",
+      "type": "file",
+      "name": "ErpBillQueryField.vue",
+      "filePath": "client-vue/src/components/erp/ErpBillQueryField.vue",
+      "summary": "Source file ErpBillQueryField.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpBillToolbar.vue",
+      "type": "file",
+      "name": "ErpBillToolbar.vue",
+      "filePath": "client-vue/src/components/erp/ErpBillToolbar.vue",
+      "summary": "Source file ErpBillToolbar.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpBillTree.vue",
+      "type": "file",
+      "name": "ErpBillTree.vue",
+      "filePath": "client-vue/src/components/erp/ErpBillTree.vue",
+      "summary": "Source file ErpBillTree.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpCategoryTree.vue",
+      "type": "file",
+      "name": "ErpCategoryTree.vue",
+      "filePath": "client-vue/src/components/erp/ErpCategoryTree.vue",
+      "summary": "Source file ErpCategoryTree.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpDataTable.vue",
+      "type": "file",
+      "name": "ErpDataTable.vue",
+      "filePath": "client-vue/src/components/erp/ErpDataTable.vue",
+      "summary": "Source file ErpDataTable.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpDetailGrid.vue",
+      "type": "file",
+      "name": "ErpDetailGrid.vue",
+      "filePath": "client-vue/src/components/erp/ErpDetailGrid.vue",
+      "summary": "Source file ErpDetailGrid.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpEditDialog.vue",
+      "type": "file",
+      "name": "ErpEditDialog.vue",
+      "filePath": "client-vue/src/components/erp/ErpEditDialog.vue",
+      "summary": "Source file ErpEditDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpEnterNavZone.vue",
+      "type": "file",
+      "name": "ErpEnterNavZone.vue",
+      "filePath": "client-vue/src/components/erp/ErpEnterNavZone.vue",
+      "summary": "Source file ErpEnterNavZone.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpExtFieldZone.vue",
+      "type": "file",
+      "name": "ErpExtFieldZone.vue",
+      "filePath": "client-vue/src/components/erp/ErpExtFieldZone.vue",
+      "summary": "Source file ErpExtFieldZone.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpFormSection.vue",
+      "type": "file",
+      "name": "ErpFormSection.vue",
+      "filePath": "client-vue/src/components/erp/ErpFormSection.vue",
+      "summary": "Source file ErpFormSection.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpGridDesignDialog.vue",
+      "type": "file",
+      "name": "ErpGridDesignDialog.vue",
+      "filePath": "client-vue/src/components/erp/ErpGridDesignDialog.vue",
+      "summary": "Source file ErpGridDesignDialog.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/components/erp/ErpListPage.vue",
+      "type": "file",
+      "name": "ErpListPage.vue",
+      "filePath": "client-vue/src/components/erp/ErpListPage.vue",
+      "summary": "Source file ErpListPage.vue in the client-vue area of erp-new.",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

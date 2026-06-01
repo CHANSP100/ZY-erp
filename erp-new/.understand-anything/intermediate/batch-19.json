@@ -1,0 +1,291 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/env.example",
+      "type": "file",
+      "name": "env.example",
+      "filePath": "server/env.example",
+      "summary": "Source file env.example in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:server/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "server/package.json",
+      "summary": "Configuration file package.json defining build/runtime settings.",
+      "tags": [
+        "configuration",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/poOrdersRoutes.js",
+      "type": "file",
+      "name": "poOrdersRoutes.js",
+      "filePath": "server/poOrdersRoutes.js",
+      "summary": "poOrdersRoutes.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/poOrdersRoutes.js:registerPoOrdersRoutes",
+      "type": "function",
+      "name": "registerPoOrdersRoutes",
+      "filePath": "server/poOrdersRoutes.js",
+      "lineRange": [
+        11,
+        327
+      ],
+      "summary": "Function registerPoOrdersRoutes defined in poOrdersRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:server/scripts/_dict_mo_out.txt",
+      "type": "document",
+      "name": "_dict_mo_out.txt",
+      "filePath": "server/scripts/_dict_mo_out.txt",
+      "summary": "Documentation file _dict_mo_out.txt for the ERP prototype project.",
+      "tags": [
+        "documentation",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_gen_mo_mapping.js",
+      "type": "file",
+      "name": "_gen_mo_mapping.js",
+      "filePath": "server/scripts/_gen_mo_mapping.js",
+      "summary": "_gen_mo_mapping.js with 4 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/scripts/_gen_mo_mapping.js:tableMd",
+      "type": "function",
+      "name": "tableMd",
+      "filePath": "server/scripts/_gen_mo_mapping.js",
+      "lineRange": [
+        44,
+        54
+      ],
+      "summary": "Function tableMd defined in _gen_mo_mapping.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/sqPoTransfer.js",
+      "type": "file",
+      "name": "sqPoTransfer.js",
+      "filePath": "server/sqPoTransfer.js",
+      "summary": "sqPoTransfer.js with 5 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/sqPoTransfer.js:reverseSqQtyPo",
+      "type": "function",
+      "name": "reverseSqQtyPo",
+      "filePath": "server/sqPoTransfer.js",
+      "lineRange": [
+        4,
+        19
+      ],
+      "summary": "Function reverseSqQtyPo defined in sqPoTransfer.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/sqPoTransfer.js:assertSqLinesAvailable",
+      "type": "function",
+      "name": "assertSqLinesAvailable",
+      "filePath": "server/sqPoTransfer.js",
+      "lineRange": [
+        29,
+        45
+      ],
+      "summary": "Function assertSqLinesAvailable defined in sqPoTransfer.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/sqPoTransfer.js:insertTfPosLine",
+      "type": "function",
+      "name": "insertTfPosLine",
+      "filePath": "server/sqPoTransfer.js",
+      "lineRange": [
+        52,
+        74
+      ],
+      "summary": "Function insertTfPosLine defined in sqPoTransfer.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/sunlikePwd.js",
+      "type": "file",
+      "name": "sunlikePwd.js",
+      "filePath": "server/sunlikePwd.js",
+      "summary": "sunlikePwd.js with 4 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/sunlikePwd.js:encodePwd",
+      "type": "function",
+      "name": "encodePwd",
+      "filePath": "server/sunlikePwd.js",
+      "lineRange": [
+        12,
+        46
+      ],
+      "summary": "Function encodePwd defined in sunlikePwd.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/sunlikePwd.js:decodePwd",
+      "type": "function",
+      "name": "decodePwd",
+      "filePath": "server/sunlikePwd.js",
+      "lineRange": [
+        48,
+        91
+      ],
+      "summary": "Function decodePwd defined in sunlikePwd.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/uploads/1779706934207-_________U9__________________1.xlsm",
+      "type": "file",
+      "name": "1779706934207-_________U9__________________1.xlsm",
+      "filePath": "server/uploads/1779706934207-_________U9__________________1.xlsm",
+      "summary": "Source file 1779706934207-_________U9__________________1.xlsm in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/uploads/1779811437163-_________U9__________________1.xlsm",
+      "type": "file",
+      "name": "1779811437163-_________U9__________________1.xlsm",
+      "filePath": "server/uploads/1779811437163-_________U9__________________1.xlsm",
+      "summary": "Source file 1779811437163-_________U9__________________1.xlsm in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/uploads/1779811970340-_________U9__________________1.xlsm",
+      "type": "file",
+      "name": "1779811970340-_________U9__________________1.xlsm",
+      "filePath": "server/uploads/1779811970340-_________U9__________________1.xlsm",
+      "summary": "Source file 1779811970340-_________U9__________________1.xlsm in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:server/uploads/1779811983099-SQLQuery1.sql",
+      "type": "schema",
+      "name": "1779811983099-SQLQuery1.sql",
+      "filePath": "server/uploads/1779811983099-SQLQuery1.sql",
+      "summary": "Source file 1779811983099-SQLQuery1.sql in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/poOrdersRoutes.js",
+      "target": "file:server/sqPoTransfer.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/poOrdersRoutes.js",
+      "target": "function:server/poOrdersRoutes.js:registerPoOrdersRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/scripts/_gen_mo_mapping.js",
+      "target": "function:server/scripts/_gen_mo_mapping.js:tableMd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sqPoTransfer.js",
+      "target": "function:server/sqPoTransfer.js:reverseSqQtyPo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sqPoTransfer.js",
+      "target": "function:server/sqPoTransfer.js:assertSqLinesAvailable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sqPoTransfer.js",
+      "target": "function:server/sqPoTransfer.js:insertTfPosLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sunlikePwd.js",
+      "target": "function:server/sunlikePwd.js:encodePwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sunlikePwd.js",
+      "target": "function:server/sunlikePwd.js:decodePwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

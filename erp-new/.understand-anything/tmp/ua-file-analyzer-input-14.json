@@ -1,0 +1,49 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "docs/15_生产领料_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/16_生产计划_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 56,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/16_缴库单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/17_生产需求分析单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 64,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/DEV_01_SUNLIKE9_核心业务基准规范.md",
+      "language": "markdown",
+      "sizeLines": 118,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/后续资料完善清单.md",
+      "language": "markdown",
+      "sizeLines": 83,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "docs/15_生产领料_功能说明.md": [],
+    "docs/16_生产计划_功能说明.md": [],
+    "docs/16_缴库单_功能说明.md": [],
+    "docs/17_生产需求分析单_功能说明.md": [],
+    "docs/DEV_01_SUNLIKE9_核心业务基准规范.md": [],
+    "docs/后续资料完善清单.md": []
+  }
+}

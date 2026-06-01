@@ -1,0 +1,35 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "client-vue/src/styles/element-variables.scss",
+      "language": "css",
+      "sizeLines": 172,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client-vue/src/styles/erp-ui.scss",
+      "language": "css",
+      "sizeLines": 1064,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client-vue/src/styles/kingdee-order.scss",
+      "language": "css",
+      "sizeLines": 1278,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client-vue/src/styles/login.scss",
+      "language": "css",
+      "sizeLines": 127,
+      "fileCategory": "markup"
+    }
+  ],
+  "batchImportData": {
+    "client-vue/src/styles/element-variables.scss": [],
+    "client-vue/src/styles/erp-ui.scss": [],
+    "client-vue/src/styles/kingdee-order.scss": [],
+    "client-vue/src/styles/login.scss": []
+  }
+}

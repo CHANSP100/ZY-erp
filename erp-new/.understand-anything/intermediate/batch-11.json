@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "file:client-vue/src/styles/element-variables.scss",
+      "type": "file",
+      "name": "element-variables.scss",
+      "filePath": "client-vue/src/styles/element-variables.scss",
+      "summary": "Source file element-variables.scss in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/styles/erp-ui.scss",
+      "type": "file",
+      "name": "erp-ui.scss",
+      "filePath": "client-vue/src/styles/erp-ui.scss",
+      "summary": "Source file erp-ui.scss in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/styles/kingdee-order.scss",
+      "type": "file",
+      "name": "kingdee-order.scss",
+      "filePath": "client-vue/src/styles/kingdee-order.scss",
+      "summary": "Source file kingdee-order.scss in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/styles/login.scss",
+      "type": "file",
+      "name": "login.scss",
+      "filePath": "client-vue/src/styles/login.scss",
+      "summary": "Source file login.scss in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

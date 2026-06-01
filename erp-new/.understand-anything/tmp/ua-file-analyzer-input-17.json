@@ -1,0 +1,184 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "client-vue/src/config/fields/README.md",
+      "language": "markdown",
+      "sizeLines": 34,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "client-vue/src/config/lookups/index.ts",
+      "language": "typescript",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/detailGridFieldKey.ts",
+      "language": "typescript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/exportExcel.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/printRender.ts",
+      "language": "typescript",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/AreaPage.vue",
+      "language": "vue",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/BomFormView.vue",
+      "language": "vue",
+      "sizeLines": 716,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/BomPage.vue",
+      "language": "vue",
+      "sizeLines": 344,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/CustPage.vue",
+      "language": "vue",
+      "sizeLines": 483,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/DeptPage.vue",
+      "language": "vue",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/IndxPage.vue",
+      "language": "vue",
+      "sizeLines": 309,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/LoginPage.vue",
+      "language": "vue",
+      "sizeLines": 294,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ManufacturingOrderFormView.vue",
+      "language": "vue",
+      "sizeLines": 406,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ManufacturingOrderPage.vue",
+      "language": "vue",
+      "sizeLines": 230,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/MaterialIssueFormView.vue",
+      "language": "vue",
+      "sizeLines": 363,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/MaterialIssuePage.vue",
+      "language": "vue",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PermissionSettingsPage.vue",
+      "language": "vue",
+      "sizeLines": 543,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PlaceholderView.vue",
+      "language": "vue",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductionPlanFormView.vue",
+      "language": "vue",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductionPlanPage.vue",
+      "language": "vue",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductionRequirementFormView.vue",
+      "language": "vue",
+      "sizeLines": 341,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductionRequirementPage.vue",
+      "language": "vue",
+      "sizeLines": 244,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductPage.vue",
+      "language": "vue",
+      "sizeLines": 763,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseAllowancePage.vue",
+      "language": "vue",
+      "sizeLines": 736,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseOrderPage.vue",
+      "language": "vue",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "client-vue/src/config/fields/README.md": [],
+    "client-vue/src/config/lookups/index.ts": [],
+    "client-vue/src/utils/detailGridFieldKey.ts": [],
+    "client-vue/src/utils/exportExcel.ts": [],
+    "client-vue/src/utils/printRender.ts": [
+      "client-vue/src/utils/exportExcel.ts"
+    ],
+    "client-vue/src/views/AreaPage.vue": [],
+    "client-vue/src/views/BomFormView.vue": [],
+    "client-vue/src/views/BomPage.vue": [],
+    "client-vue/src/views/CustPage.vue": [],
+    "client-vue/src/views/DeptPage.vue": [],
+    "client-vue/src/views/IndxPage.vue": [],
+    "client-vue/src/views/LoginPage.vue": [],
+    "client-vue/src/views/ManufacturingOrderFormView.vue": [],
+    "client-vue/src/views/ManufacturingOrderPage.vue": [],
+    "client-vue/src/views/MaterialIssueFormView.vue": [],
+    "client-vue/src/views/MaterialIssuePage.vue": [],
+    "client-vue/src/views/PermissionSettingsPage.vue": [],
+    "client-vue/src/views/PlaceholderView.vue": [],
+    "client-vue/src/views/ProductionPlanFormView.vue": [],
+    "client-vue/src/views/ProductionPlanPage.vue": [],
+    "client-vue/src/views/ProductionRequirementFormView.vue": [],
+    "client-vue/src/views/ProductionRequirementPage.vue": [],
+    "client-vue/src/views/ProductPage.vue": [],
+    "client-vue/src/views/PurchaseAllowancePage.vue": [],
+    "client-vue/src/views/PurchaseOrderPage.vue": []
+  }
+}

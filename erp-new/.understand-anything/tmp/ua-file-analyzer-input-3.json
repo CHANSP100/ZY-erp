@@ -1,0 +1,205 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "client-vue/src/config/fields/bomBill.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/bomDetail.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasArea.ts",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasCust.ts",
+      "language": "typescript",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasDept.ts",
+      "language": "typescript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasECA.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasIndx.ts",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasSalm.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasWh.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/invBill.ts",
+      "language": "typescript",
+      "sizeLines": 111,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/jhBill.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/mlBill.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/mmBill.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/moBill.ts",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/mpBill.ts",
+      "language": "typescript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/poBill.ts",
+      "language": "typescript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/poDetail.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/soBill.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/soDetail.ts",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/sqBill.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/types.ts",
+      "language": "typescript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/sunlikeSqlExpr.ts",
+      "language": "typescript",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "client-vue/src/config/fields/bomBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/bomDetail.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasArea.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasCust.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasDept.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasECA.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasIndx.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasSalm.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/fasWh.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/invBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/jhBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/mlBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/mmBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/moBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/mpBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/poBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/poDetail.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/soBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/soDetail.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/sqBill.ts": [
+      "client-vue/src/config/fields/types.ts"
+    ],
+    "client-vue/src/config/fields/types.ts": [],
+    "client-vue/src/utils/sunlikeSqlExpr.ts": [
+      "client-vue/src/config/fields/poBill.ts",
+      "client-vue/src/config/fields/soBill.ts",
+      "client-vue/src/config/fields/types.ts"
+    ]
+  }
+}

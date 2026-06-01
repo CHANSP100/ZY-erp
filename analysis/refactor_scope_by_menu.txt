@@ -1,0 +1,2147 @@
+# Refactor scope: menu-linked tables with data only
+
+menus_total=519 menus_keep=71 menus_drop=448
+tables_keep=44 tables_orphan_with_data=78 (EXCLUDED from refactor)
+
+## KEEP menus (71)
+DrpXH
+FasEA
+FasEB
+FasECA
+FasECB
+FasECF
+FasED
+FixT0
+INVXK
+InvAD
+InvADA
+InvAE
+InvAF
+InvAFC
+InvAG
+InvAQ
+InvBA
+InvBB
+InvBC
+InvCA
+InvCB
+InvCC
+InvDE
+InvDEA
+InvDEB
+InvDEE
+InvGA
+InvGB
+InvGC
+InvGD
+InvGE
+InvHC
+InvHD
+InvXA
+InvXB
+InvXC
+MrpAA
+MrpABA
+MrpAC
+MrpADA
+MrpAFC
+MrpAG
+MrpAGA
+MrpAGG
+MrpAGH
+MrpAGI
+MrpAGJ
+MrpAGK
+MrpAGL
+MrpAGM
+MrpAHJ
+MrpAZ
+MrpBE
+MrpBEA
+MrpBF
+MrpBL
+MrpBLA
+MrpBLB
+MrpBLC
+MrpBLD
+MrpBR
+MrpHSA
+MrpHSC
+OthHZYQD
+POS_CUST
+SebCA
+SebCB
+UP_DEF
+UP_DEFA
+Up_DefB
+WagBA
+
+## DROP menus - all linked tables empty (448)
+ABC
+ATTN06
+ATTN07
+AccAA
+AccAB
+AccAD
+AccAJ
+AccAJ_IFRS
+AccAOA
+AccAP
+AccAT
+AccAU
+AccAV
+AccDA
+AccDA_IFRS
+AccDC
+AccDL
+AccEN1
+AccEO1
+AccGA1
+AccGCJZ
+AccLD
+CRMQA
+CSNIY
+CUST_COMPLAIN
+CardMng
+CustPact
+DRPB1
+DRPB2
+DRPBQ
+DRPCH
+DRPDJ
+DRPDO
+DRPDZ
+DRPEB
+DRPFYSQ
+DRPGW
+DRPHX
+DRPIV
+DRPJF
+DRPOP
+DRPOR
+DRPOY
+DRPRG
+DRPTT
+DRPWL
+DRPYC
+DRPYN
+DrpBH
+DrpCW
+DrpPH
+DrpSCPO
+DrpTJ
+DrpYG
+DrpYH
+DrpYI
+DrpYR
+FASCHKAM
+FASEJ
+FASGYPG
+FASPG
+FIXCHG
+FasCHK37
+FasCHK60
+FasECAG
+FasECN
+FasEH6
+FixAA
+FixAF
+FixAG
+FixAI
+FixAJ
+FixBA
+FixBB
+FixET
+FixPD
+FixQJ
+FixSP
+FixSP_IFRS
+FixYJ
+INV
+INVAO
+INVCBA
+INVEA
+INVEE
+INVEJ
+INVGK
+INVOM
+INVON
+INVTRAD
+INVV5
+INVWW
+INVZQ
+InvAB
+InvABD
+InvABH
+InvAC
+InvADE
+InvAFA
+InvAQC
+InvAQD
+InvBD
+InvBE
+InvBL
+InvBLA
+InvBLB
+InvBM
+InvBMA
+InvBO
+InvBU
+InvBUB
+InvBZ
+InvBZC
+InvCAA
+InvCAD
+InvCAF
+InvCAI
+InvCD
+InvCE
+InvCM
+InvCMA
+InvCMB
+InvCRB
+InvCU
+InvDB
+InvDBA
+InvDBC
+InvDBF
+InvDD
+InvDDA
+InvDDB
+InvDDC
+InvDW
+InvDX
+InvDXB
+InvDY
+InvDZ
+InvFB
+InvFI
+InvFP
+InvFQ
+InvFR
+InvFS
+InvFT
+InvFV
+InvIB
+InvIC
+InvICA
+InvIH
+InvIK
+InvIKA
+InvIO
+InvIZ
+InvJB
+InvJC
+InvJF
+InvKBB
+InvTRDB
+InvTRDC
+InvTRDEA
+InvZX
+MONBC
+MTNBOM
+MTNCF
+MTNKH
+MTNMA
+MTNOB
+MTNOD
+MTNOI
+MTNOT
+MTNOW
+MTNQC
+MTNRR
+MTNRV
+MTNZF
+MTNZI
+MngBA
+MngBC
+MngBDB
+MngBM
+MngCA
+MngCCC
+MojAA1
+MojAC
+MojAD
+MojAEA
+MojAEB
+MojAF
+MojAGA
+MojAGB
+MojAH
+MojAIA
+MojAIB
+MojAJ
+MojAL
+MojAM
+MojAN
+MojAP
+MojBE
+MojBL
+MojBN
+MojBO
+MonA2A
+MonAA
+MonAB
+MonAC
+MonAD
+MonAR
+MonAW
+MonAX
+MonBA
+MonBB
+MonBC
+MonBD
+MonBQA
+MonBR
+MonBT
+MonBZA
+MonBZB
+MonCA
+MonCB
+MonCC41
+MonCC42
+MonCC421
+MonCC45
+MonCJ
+MonCL
+MonCM
+MonDA
+MonDCA
+MonDCB
+MonDCC
+MonDS
+MonDT
+MonDU
+MonExp
+MonExr
+MrpAAA
+MrpACF
+MrpAD
+MrpADY
+MrpAE
+MrpAFD
+MrpAGB
+MrpAGC
+MrpAGE
+MrpAGF
+MrpAGO
+MrpAGP
+MrpAGQ
+MrpAGR
+MrpAGS
+MrpAGT
+MrpAGU
+MrpAGW
+MrpAI
+MrpAIA
+MrpAIB
+MrpAID
+MrpAIE
+MrpAL
+MrpALA
+MrpALC
+MrpAM
+MrpAMA
+MrpANL
+MrpAX
+MrpAZA
+MrpAZC
+MrpAZD
+MrpBB
+MrpBC
+MrpBG
+MrpBH
+MrpBHO
+MrpBJ
+MrpBK
+MrpBN
+MrpBO
+MrpBRA
+MrpBU
+MrpBX
+MrpBY
+MrpCut
+MrpCutB
+MrpECV
+MrpED
+MrpEDA
+MrpEE
+MrpEG
+MrpEL
+MrpEM
+MrpEN
+MrpEO
+MrpEPA
+MrpER
+MrpERW
+MrpEW
+MrpFB
+MrpFC
+MrpFD
+MrpFEC
+MrpFEH
+MrpFEL
+MrpFER
+MrpFGE
+MrpFK
+MrpFL
+MrpFM
+MrpFO
+MrpFP
+MrpFRR
+MrpFU
+MrpFV
+MrpHSB
+MrpKB
+MrpKBD
+MrpKC
+MrpMLPS
+MrpZY
+OTH00309
+OTH00311
+OTH00393
+OTH00407
+OTH00415
+OTHBPG
+OTHBPI
+OTHJHPC
+OthAA
+OthAB
+OthAC
+OthAHCA
+OthAMB
+OthDFNA
+OthDGWD_APS
+OthGGEC6
+OthGSPGA
+OthGSPGB
+OthGSZZDA
+OthHZYQBA
+OthHZYQBB
+OthHZYQBC
+OthMCAD
+OthMCAE
+OthMFDC
+OthMFDD
+OthMFDE
+OthMFDJ
+OthMFEB
+OthMFEC
+OthMFED
+OthNJFSA
+OthNJFSB
+OthSHFJE
+OthSh00003
+OthZSLG_PD
+POS
+POSZT
+PRECUST
+PRJBA
+PosAFB
+PosBC
+PosIJ
+SEBAN1
+SYSCASN
+SYSPRST
+SYSSZ
+SebAA
+SebACA
+SebACB
+SebADA
+SebADB
+SebAEA
+SebAEB
+SebAF
+SebAG
+SebAH
+SebAI
+SebAO
+SebAP
+SebBBD
+SebBBE
+SebBG
+SebBN
+SgtAB
+SgtAC
+SgtAGA1
+SgtAGA2
+SgtAGB1
+SgtAGB2
+SgtAGC1
+SgtAGC2
+SgtAGD1
+SgtAGD2
+SgtAGE1
+SgtAGF1
+SgtAGG1
+SgtAGH1
+SgtAGI1
+SgtAGI2
+SgtAGJ1
+SgtAGJ2
+SgtBA
+SgtBBA
+SgtBCA
+SgtBDA
+SgtBE
+SgtBF
+SgtFA
+SgtFD
+SgtHB
+SgtHD
+SvsAA
+SvsBA
+SvsEA
+TRDAH
+TRDBC
+TRDCD
+TaxAA
+TaxBA
+TaxCA
+TaxDD
+Up_DefC
+WAGDR
+WagAK
+WagAKN
+WagAT
+WagBBB
+WagBC
+WagBJ
+WagBMB
+WagBOA
+WagCB
+WagCCD
+WagCEC
+WagCED
+WagCEE
+WagCEF
+WagCFA
+WagCR
+WagDB
+WagDPA
+WagDV
+WagFI
+WagFR
+WagPJ
+WagTYAA
+WagTyAB
+
+## KEEP tables (44)
+Tbl|Rows|TAB_TITLE
+PRDT|10100|ƷϿ
+TF_BOM|9384|MrpƷϱ
+MF_BOM|5755|MrpƷϱͷ
+TF_IJ|1361|
+TF_MP1|212|治
+TF_POS|93|ɹܶ
+MF_MO|80|Mrpͷ
+TF_PSS|72|///۱
+TF_ML|67|ϵ
+TF_MM0|66|ɿⵥ
+TF_TW|65|ӹ
+TF_MO|59|
+MF_TW|54|ӹͷ
+TF_TB|50|ӹɻص
+MF_TB|49|ӹɻصͷ
+SALM|46|ҵԱϵ
+MF_YG|44|н
+MF_POS|42|ɹܶͷ
+CUST|38|ͻ/̿
+MF_IJ|32|
+MF_PSS|29|ͷ
+TF_SQ|26|빺Ͽ
+MF_ML|18|ϵͷ
+MF_MP|17|/ƻͷ
+MF_MM0|16|ɿⵥͷ
+INDX|15|Ͽ
+TF_CS|12|ҵϸ
+MF_CS|11|
+DEPT|11|Ŵſ
+MF_SQ|10|빺ͷϿ
+MY_WH|9|λ
+TF_BG|5|ɹ/ܶҵ
+MF_BG|5|ɹ/ܶҵͷ
+MF_DA|2|ͷ
+MF_WT|2|йͷ
+UP_DEF|2|
+TF_JH|1|ƻ
+MF_JH|1|ƻͷ
+TF_TC|1|ӹ˻ص
+MF_HJ|1|˼۵ͷϿ
+TF_HJ|1|˼۵Ͽ
+TF_TI|1|ⵥ
+MF_TI|1|ⵥͷ
+MF_TC|1|ӹ˻صͷ
+
+## EXCLUDED orphan tables - have data but no menu in DATAEX (78)
+BILL_PROP_LOG|60687|ֵ춯
+BILL_PROP_BK|46690|
+BILL_PROP|45553|Ͽ
+SPC_PSWD_BK|12200|
+SPC_PSWD|11146|Ƶ
+A_PING_BOM|9843|
+PING|9843|
+PING1|9843|
+REPORTS|6075|
+REPORTS_BK|5975|
+A_PING1|5793|
+LAYOUT|4962|ϢϿ
+LAYOUT_BK|4847|
+TABLESRC|2214|
+BILN|625|ֹ
+TF_MP1_Z|497|
+PRDT1|440|Ʒֲֿ
+PRDT_CUS1|340|Ʒͻ̹
+PRD_HIS_O|296|Ʒʷ۸
+TF_MM0_CASE|261|ɿⵥר
+BILN1|226|ſ
+PRDT_CUS|178|Ʒͻ
+DICT_SQL_DBLOG|151|DICT_SQLˢ¼¼()
+SH_PRDT1|133|δƷֲֿ
+PRD_HIS_I|121|Ʒʷ۸
+TF_MP3|114|Mrp콨
+TF_POS_Z|83|
+SETDEFVALUES|81|ͷλ趨ʼֵ
+TF_PSS_Z|71|
+PRINT_DATA|64|ݴӡϢ¼
+SH_DJ|56|˵ݿ
+SARP|44|Ӧո
+VIR_GRP|44|ȺϿ
+DB_PSWD|42|PSWD DB
+SH_LIST|42|˹ϸ
+SYS_SHOW|37|ϵͳԤ
+TF_MP2|37|ɹƷ
+A_PING|35|
+CUS_WH|24|ͻ/̷ֲֿ
+PRDT_DEL|23|Ʒ-ɾ
+RPT_DSC2|22|ⱨ
+TF_BGHIS|19|ɹ/ܶҵʷ
+DRP_PROP|18|DRP趨
+HYZL|17|ҵݿ
+INDX_CHK|14|
+DEPT_CHK|10|Ź
+MF_SHLC|10|Ʊͷ
+SH_USR|10|Ƶ˿ʹģ
+TF_DA_MO_B|10|ݲϿ
+TF_SHLC|10|Ʊ
+BILD|9|ɾϿ
+PRDT_UT|9|Ʒλ
+CUST_DEL|8|ͻ-ɾ
+MY_W_CHK|8|λ
+CUS_WH_DEL|6|ͳֲ-ɾ
+TF_DA_MO|6|ݿ
+FACE_EXP|5|Զֶιʽ
+BILTYPE_VOH|4|ƾ֤ģ趨Ͽ
+BIL_SPC|4|趨
+FACE_EXP_BK|4|
+FACE_FLD|4|Զֵֶ
+FACE_FLD_BK|4|
+MYSQL|4|Զѯ
+RPT_GRP|4|ⱨϸ
+MF_NEEDFLD|3|ϱ¼ͷ
+SALM_DEL|3|ҵԱ-ɾ
+TF_MO_Z|3|
+TF_NEEDFLD|3|ϱ¼
+YG_MOBILE|3|ԱֻϢ
+IJREASON|2|ԭ˵
+TF_BG1|2|ɹ/ܶҵ(ͷ)
+TF_DA_BG|2|ϸ
+AREA|1|
+CSH_FRO|1|ֽԭ
+DEPT_DEL|1|-ɾ
+INDX1|1|ĿϿ
+PRDT_PIC|1|ƷͼƬ
+TF_BG1HIS|1|ɹ/ܶҵʷ(ͷ)
+
+## Menu detail
+[DROP] ABC
+  MF_DP rows=0 MISSING
+  TF_DP rows=0 MISSING
+[DROP] ATTN06
+  MF_PR rows=0 exists
+  TF_PR rows=0 exists
+[DROP] ATTN07
+  MF_SM rows=0 exists
+  TF_SM rows=0 exists
+[DROP] AccAA
+  VDTL rows=0 exists
+  VHED rows=0 exists
+[DROP] AccAB
+  VDTL rows=0 exists
+  VHED rows=0 exists
+[DROP] AccAD
+  ABGT rows=0 exists
+  ABGT1 rows=0 exists
+[DROP] AccAJ
+  ASHR rows=0 exists
+  ASHR1 rows=0 exists
+[DROP] AccAJ_IFRS
+  ASHR rows=0 exists
+  ASHR1 rows=0 exists
+[DROP] AccAOA
+  VDTL rows=0 exists
+  VHED rows=0 exists
+[DROP] AccAP
+  MF_FT rows=0 exists
+  TF_FT rows=0 exists
+[DROP] AccAT
+  MF_SA_IFRS rows=0 exists
+  TF_SA_IFRS rows=0 exists
+[DROP] AccAU
+  MF_DYSR rows=0 exists
+  TF_DYSR rows=0 exists
+[DROP] AccAV
+  MF_SA_IFRS rows=0 exists
+  TF_SA_IFRS rows=0 exists
+[DROP] AccDA
+  MF_CB rows=0 exists
+  TF_CB rows=0 exists
+[DROP] AccDA_IFRS
+  MF_CB rows=0 exists
+  TF_CB rows=0 exists
+[DROP] AccDC
+  MF_AC rows=0 exists
+  TF_AC rows=0 exists
+[DROP] AccDL
+  MF_HC rows=0 exists
+  TF_HC rows=0 exists
+[DROP] AccEN1
+  BANK rows=0 exists
+[DROP] AccEO1
+  BACC rows=0 exists
+[DROP] AccGA1
+  CASN rows=0 exists
+[DROP] AccGCJZ
+  MF_GC rows=0 exists
+  TF_GC rows=0 exists
+[DROP] AccLD
+  MF_DYHC rows=0 exists
+  TF_DYHC rows=0 exists
+[DROP] CRMQA
+  MF_QA rows=0 exists
+  TF_QA rows=0 exists
+[DROP] CSNIY
+  MF_IQTY rows=0 exists
+  TF_IQTY rows=0 exists
+[DROP] CUST_COMPLAIN
+  KHTS_QA rows=0 exists
+[DROP] CardMng
+  TF_SKTZ rows=0 exists
+[DROP] CustPact
+  CUS_PACT rows=0 exists
+[DROP] DRPB1
+  PRDT_BARCODE rows=0 exists
+[DROP] DRPB2
+  PRDT_BARCODE_BOX rows=0 exists
+[DROP] DRPBQ
+  PRDT_BARBOX_SUB rows=0 MISSING
+  PRDT_BARCODE_BOX rows=0 exists
+[DROP] DRPCH
+  MF_JFCHG rows=0 exists
+  TF_JFCHG rows=0 exists
+[DROP] DRPDJ
+  COUPON rows=0 MISSING
+[DROP] DRPDO
+  MF_DOC rows=0 exists
+[DROP] DRPDZ
+  MF_DTLC rows=0 exists
+  TF_DTLC rows=0 exists
+[DROP] DRPEB
+  MF_EG rows=0 exists
+[DROP] DRPFYSQ
+  MF_FYSQ rows=0 MISSING
+  TF_FYSQ rows=0 MISSING
+[DROP] DRPGW
+  MF_GW rows=0 exists
+  TF_GW rows=0 exists
+[DROP] DRPHX
+  MF_FYHX rows=0 MISSING
+  TF_FYHX rows=0 MISSING
+[DROP] DRPIV
+  CUS_VISIT rows=0 exists
+[DROP] DRPJF
+  MF_JF rows=0 exists
+[DROP] DRPOP
+  MF_PJSQ rows=0 exists
+  TF_PJSQ rows=0 exists
+[DROP] DRPOR
+  MF_PJSQ rows=0 exists
+  TF_PJSQ rows=0 exists
+[DROP] DRPOY
+  MF_DOY rows=0 MISSING
+  TF_DOY rows=0 MISSING
+[DROP] DRPRG
+  MF_RG rows=0 exists
+  TF_RG rows=0 exists
+[DROP] DRPTT
+  MF_TT rows=0 exists
+  TF_TT rows=0 exists
+[DROP] DRPWL
+  MF_WL rows=0 exists
+  TF_WL rows=0 exists
+[DROP] DRPYC
+  MF_DYH rows=0 exists
+  TF_DYH rows=0 exists
+[DROP] DRPYN
+  MF_DYH rows=0 exists
+  TF_DYH rows=0 exists
+[DROP] DrpBH
+  MF_DBH rows=0 MISSING
+  TF_DBH rows=0 MISSING
+[DROP] DrpCW
+  MF_DCW rows=0 MISSING
+  TF_DCW rows=0 MISSING
+[DROP] DrpPH
+  MF_DPH rows=0 MISSING
+  TF_DPH rows=0 MISSING
+[DROP] DrpSCPO
+  MF_SCPO rows=0 exists
+  TF_SCPO rows=0 exists
+[DROP] DrpTJ
+  MF_TJ rows=0 exists
+  TF_TJ rows=0 exists
+[KEEP] DrpXH
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[DROP] DrpYG
+  MF_YD rows=0 exists
+  TF_YD rows=0 exists
+[DROP] DrpYH
+  MF_DYH rows=0 exists
+  TF_DYH rows=0 exists
+[DROP] DrpYI
+  MF_DYH rows=0 exists
+  TF_DYH rows=0 exists
+[DROP] DrpYR
+  MF_DYH rows=0 exists
+  TF_DYH rows=0 exists
+[DROP] FASCHKAM
+  MF_LHMM_SLS rows=0 exists
+  TF_LHMM_SLS rows=0 exists
+[DROP] FASEJ
+  PSWD rows=0 MISSING
+[DROP] FASGYPG
+  MF_GYPG rows=0 exists
+  TF_GYPG rows=0 exists
+[DROP] FASPG
+  MF_PGFA rows=0 exists
+  TF_PGFA rows=0 exists
+[DROP] FIXCHG
+  MF_FCG rows=0 exists
+  TF_FCG rows=0 exists
+[DROP] FasCHK37
+  MF_SJML rows=0 exists
+  TF_SJML rows=0 exists
+[DROP] FasCHK60
+  MF_CH rows=0 exists
+  TF_CH rows=0 exists
+[KEEP] FasEA
+  CUST rows=38 exists
+[KEEP] FasEB
+  SALM rows=46 exists
+[KEEP] FasECA
+  PRDT rows=10100 exists
+[DROP] FasECAG
+  MF_CHG rows=0 exists
+  TF_CHG rows=0 exists
+[KEEP] FasECB
+  MY_WH rows=9 exists
+[KEEP] FasECF
+  MF_BOM rows=5755 exists
+  TF_BOM rows=9384 exists
+[DROP] FasECN
+  PRD_MARK rows=0 exists
+[KEEP] FasED
+  DEPT rows=11 exists
+[DROP] FasEH6
+  ACCN rows=0 exists
+[DROP] FixAA
+  MF_FX rows=0 exists
+  TF_FX rows=0 exists
+[DROP] FixAF
+  MF_SQ_FX rows=0 exists
+  TF_SQ_FX rows=0 exists
+[DROP] FixAG
+  MF_POS_FX rows=0 exists
+  TF_POS_FX rows=0 exists
+[DROP] FixAI
+  MF_FB rows=0 exists
+  TF_FB rows=0 exists
+[DROP] FixAJ
+  MF_FI rows=0 exists
+  TF_FI rows=0 exists
+[DROP] FixBA
+  MF_FX rows=0 exists
+  TF_FX rows=0 exists
+[DROP] FixBB
+  MF_BD rows=0 exists
+  TF_BD rows=0 exists
+[DROP] FixET
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] FixPD
+  MF_PD rows=0 exists
+  TF_PD rows=0 exists
+[DROP] FixQJ
+  MF_QC rows=0 exists
+  TF_QC rows=0 exists
+[DROP] FixSP
+  MF_FX_CF rows=0 exists
+  TF_FX_CF rows=0 exists
+[DROP] FixSP_IFRS
+  MF_FX_CF rows=0 exists
+  TF_FX_CF rows=0 exists
+[KEEP] FixT0
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[DROP] FixYJ
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] INV
+  MF_DTLC rows=0 exists
+  TF_DTLC rows=0 exists
+[DROP] INVAO
+  MF_TBAO rows=0 exists
+  TF_TBAO rows=0 exists
+[DROP] INVCBA
+  MF_DYH rows=0 exists
+  TF_DYH rows=0 exists
+[DROP] INVEA
+  MF_ME rows=0 exists
+  TF_ME rows=0 exists
+[DROP] INVEE
+  MF_ME rows=0 exists
+  TF_ME rows=0 exists
+[DROP] INVEJ
+  MF_ME rows=0 exists
+  TF_ME rows=0 exists
+[DROP] INVGK
+  MF_GK rows=0 exists
+[DROP] INVOM
+  MF_FMOD rows=0 exists
+  TF_FMOD rows=0 exists
+[DROP] INVON
+  MF_FNOD rows=0 exists
+  TF_FNOD rows=0 exists
+[DROP] INVTRAD
+  TRAD_MTH rows=0 exists
+[DROP] INVV5
+  MF_WPE rows=0 MISSING
+  TF_WPE rows=0 MISSING
+[DROP] INVWW
+  MF_POSJB rows=0 exists
+[KEEP] INVXK
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[DROP] INVZQ
+  MF_ZQ rows=0 exists
+  TF_ZQ rows=0 exists
+[DROP] InvAB
+  MF_QTS rows=0 exists
+  TF_QTS rows=0 exists
+[DROP] InvABD
+  MF_QTS rows=0 exists
+  TF_QTS rows=0 exists
+[DROP] InvABH
+  MF_BJFX_ZS rows=0 exists
+  TF_BJFX_ZS rows=0 exists
+[DROP] InvAC
+  MF_QTS rows=0 exists
+  TF_QTS rows=0 exists
+[KEEP] InvAD
+  MF_POS rows=42 exists
+  TF_POS rows=93 exists
+[KEEP] InvADA
+  MF_BG rows=5 exists
+  TF_BG rows=5 exists
+[DROP] InvADE
+  MF_FHJH rows=0 exists
+  TF_FHJH rows=0 exists
+[KEEP] InvAE
+  MF_POS rows=42 exists
+  TF_POS rows=93 exists
+[KEEP] InvAF
+  MF_POS rows=42 exists
+  TF_POS rows=93 exists
+[DROP] InvAFA
+  MF_XQ rows=0 exists
+  TF_XQ rows=0 exists
+[KEEP] InvAFC
+  MF_BG rows=5 exists
+  TF_BG rows=5 exists
+[KEEP] InvAG
+  MF_POS rows=42 exists
+  TF_POS rows=93 exists
+[KEEP] InvAQ
+  MF_SQ rows=10 exists
+  TF_SQ rows=26 exists
+[DROP] InvAQC
+  MF_CHG rows=0 exists
+  TF_CHG rows=0 exists
+[DROP] InvAQD
+  MF_QGHZ rows=0 exists
+  TF_QGHZ rows=0 exists
+[KEEP] InvBA
+  MF_PSS rows=29 exists
+  TF_PSS rows=72 exists
+[KEEP] InvBB
+  MF_PSS rows=29 exists
+  TF_PSS rows=72 exists
+[KEEP] InvBC
+  MF_PSS rows=29 exists
+  TF_PSS rows=72 exists
+[DROP] InvBD
+  MF_BLN rows=0 exists
+  TF_BLN rows=0 exists
+[DROP] InvBE
+  MF_BLN rows=0 exists
+  TF_BLN rows=0 exists
+[DROP] InvBL
+  MF_ZG rows=0 exists
+  TF_ZG rows=0 exists
+[DROP] InvBLA
+  MF_ZG rows=0 exists
+  TF_ZG rows=0 exists
+[DROP] InvBLB
+  MF_ZG rows=0 exists
+  TF_ZG rows=0 exists
+[DROP] InvBM
+  MF_BIL rows=0 exists
+  TF_BIL rows=0 exists
+[DROP] InvBMA
+  MF_BIL rows=0 exists
+  TF_BIL rows=0 exists
+[DROP] InvBO
+  MF_FF rows=0 exists
+  TF_FF rows=0 exists
+[DROP] InvBU
+  MF_SL_NX rows=0 exists
+  TF_SL_NX rows=0 exists
+[DROP] InvBUB
+  MF_SF rows=0 exists
+  TF_SF rows=0 exists
+[DROP] InvBZ
+  MF_LZ1 rows=0 exists
+  TF_LZ1 rows=0 exists
+[DROP] InvBZC
+  MF_LZ1 rows=0 exists
+  TF_LZ1 rows=0 exists
+[KEEP] InvCA
+  MF_PSS rows=29 exists
+  TF_PSS rows=72 exists
+[DROP] InvCAA
+  MF_FA rows=0 exists
+  TF_FA rows=0 exists
+[DROP] InvCAD
+  MF_DW rows=0 exists
+  TF_DW rows=0 exists
+[DROP] InvCAF
+  MF_SHFW rows=0 exists
+  TF_SHFW rows=0 exists
+[DROP] InvCAI
+  MF_YU rows=0 exists
+  TF_YU rows=0 exists
+[KEEP] InvCB
+  MF_PSS rows=29 exists
+  TF_PSS rows=72 exists
+[KEEP] InvCC
+  MF_PSS rows=29 exists
+  TF_PSS rows=72 exists
+[DROP] InvCD
+  MF_BLN rows=0 exists
+  TF_BLN rows=0 exists
+[DROP] InvCE
+  MF_BLN rows=0 exists
+  TF_BLN rows=0 exists
+[DROP] InvCM
+  MF_BIL rows=0 exists
+  TF_BIL rows=0 exists
+[DROP] InvCMA
+  MF_BIL rows=0 exists
+  TF_BIL rows=0 exists
+[DROP] InvCMB
+  MF_BDFP rows=0 exists
+  TF_BDFP rows=0 exists
+[DROP] InvCRB
+  MF_PX rows=0 exists
+  TF_PX rows=0 exists
+[DROP] InvCU
+  MF_FF rows=0 exists
+  TF_FF rows=0 exists
+[DROP] InvDB
+  MF_PT rows=0 exists
+  TF_PT rows=0 exists
+[DROP] InvDBA
+  MF_PT rows=0 exists
+  TF_PT rows=0 exists
+[DROP] InvDBC
+  MF_WI rows=0 exists
+  TF_WI rows=0 exists
+[DROP] InvDBF
+  MF_PT rows=0 exists
+  TF_PT rows=0 exists
+[DROP] InvDD
+  MF_IC rows=0 exists
+  TF_IC rows=0 exists
+[DROP] InvDDA
+  MF_IC rows=0 exists
+  TF_IC rows=0 exists
+[DROP] InvDDB
+  MF_IC rows=0 exists
+  TF_IC rows=0 exists
+[DROP] InvDDC
+  MF_IC rows=0 exists
+  TF_IC rows=0 exists
+[KEEP] InvDE
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[KEEP] InvDEA
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[KEEP] InvDEB
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[KEEP] InvDEE
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[DROP] InvDW
+  MF_PTM rows=0 MISSING
+  TF_PTM rows=0 MISSING
+[DROP] InvDX
+  MF_ID rows=0 exists
+  TF_ID rows=0 exists
+[DROP] InvDXB
+  MF_DS rows=0 exists
+  TF_DS rows=0 exists
+[DROP] InvDY
+  MF_IPW rows=0 exists
+  TF_IPW rows=0 exists
+[DROP] InvDZ
+  MF_IPL rows=0 exists
+  TF_IPL rows=0 exists
+[DROP] InvFB
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] InvFI
+  MF_QC rows=0 exists
+  TF_QC rows=0 exists
+[DROP] InvFP
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] InvFQ
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] InvFR
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] InvFS
+  MF_QC rows=0 exists
+  TF_QC rows=0 exists
+[DROP] InvFT
+  MF_QC rows=0 exists
+  TF_QC rows=0 exists
+[DROP] InvFV
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[KEEP] InvGA
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[KEEP] InvGB
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[KEEP] InvGC
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[KEEP] InvGD
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[KEEP] InvGE
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[KEEP] InvHC
+  MF_HJ rows=1 exists
+  TF_HJ rows=1 exists
+[KEEP] InvHD
+  MF_HJ rows=1 exists
+  TF_HJ rows=1 exists
+[DROP] InvIB
+  MF_CK rows=0 exists
+  TF_CK rows=0 exists
+[DROP] InvIC
+  MF_LZ rows=0 exists
+  TF_LZ rows=0 exists
+[DROP] InvICA
+  MF_PCLZ rows=0 exists
+  TF_PCLZ rows=0 exists
+[DROP] InvIH
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] InvIK
+  MF_LZ rows=0 exists
+  TF_LZ rows=0 exists
+[DROP] InvIKA
+  MF_PCLZ rows=0 exists
+  TF_PCLZ rows=0 exists
+[DROP] InvIO
+  MF_CK rows=0 exists
+  TF_CK rows=0 exists
+[DROP] InvIZ
+  MF_IZ rows=0 exists
+  TF_IZ rows=0 exists
+[DROP] InvJB
+  CARRY rows=0 exists
+[DROP] InvJC
+  MY_XY rows=0 exists
+[DROP] InvJF
+  MF_MAP rows=0 exists
+  TF_MAP rows=0 exists
+[DROP] InvKBB
+  MF_BAR rows=0 exists
+  TF_BAR rows=0 exists
+[DROP] InvTRDB
+  MF_LIST rows=0 exists
+  TF_LIST rows=0 exists
+[DROP] InvTRDC
+  MF_SHIP rows=0 exists
+  TF_SHIP rows=0 exists
+[DROP] InvTRDEA
+  MF_PACK rows=0 exists
+  TF_PACK rows=0 exists
+[KEEP] InvXA
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[KEEP] InvXB
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[KEEP] InvXC
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[DROP] InvZX
+  MF_ZX rows=0 exists
+  TF_ZX rows=0 exists
+[DROP] MONBC
+  MF_CBAC rows=0 exists
+  TF_CBAC rows=0 MISSING
+[DROP] MTNBOM
+  MF_WBOM rows=0 exists
+  TF_WBOM rows=0 exists
+[DROP] MTNCF
+  MF_CB rows=0 exists
+  TF_CB rows=0 exists
+[DROP] MTNKH
+  CUS_PACT rows=0 exists
+  CUS_PACT1 rows=0 exists
+[DROP] MTNMA
+  MF_MA rows=0 exists
+  TF_MA rows=0 exists
+[DROP] MTNOB
+  MF_MFIN rows=0 exists
+  TF_MFIN rows=0 exists
+[DROP] MTNOD
+  MF_MFIN rows=0 exists
+  TF_MFIN rows=0 exists
+[DROP] MTNOI
+  MF_MOUT rows=0 exists
+  TF_MOUT rows=0 exists
+[DROP] MTNOT
+  MF_MOUT rows=0 exists
+  TF_MOUT rows=0 exists
+[DROP] MTNOW
+  MF_MFIN rows=0 exists
+  TF_MFIN rows=0 exists
+[DROP] MTNQC
+  MF_MTNQC rows=0 exists
+  TF_MTNQC rows=0 exists
+[DROP] MTNRR
+  MF_RCV rows=0 exists
+  TF_RCV rows=0 exists
+[DROP] MTNRV
+  MF_RCV rows=0 exists
+  TF_RCV rows=0 exists
+[DROP] MTNZF
+  MF_FBOM rows=0 exists
+  TF_FBOM rows=0 exists
+[DROP] MTNZI
+  MF_IBOM rows=0 exists
+  TF_IBOM rows=0 exists
+[DROP] MngBA
+  TF_KQTZ rows=0 exists
+[DROP] MngBC
+  MF_YT rows=0 exists
+  TF_YT rows=0 exists
+[DROP] MngBDB
+  MF_VC rows=0 exists
+[DROP] MngBM
+  MF_JBSQ rows=0 exists
+  TF_JBSQ rows=0 exists
+[DROP] MngCA
+  TF_KQ rows=0 exists
+[DROP] MngCCC
+  MF_KT rows=0 exists
+  TF_KT rows=0 exists
+[DROP] MojAA1
+  MOLD rows=0 exists
+[DROP] MojAC
+  MF_GR_M rows=0 exists
+  TF_GR_M rows=0 exists
+[DROP] MojAD
+  MF_WJ_M rows=0 exists
+  TF_WJ_M rows=0 exists
+[DROP] MojAEA
+  MF_ST_M rows=0 exists
+  TF_ST_M rows=0 exists
+[DROP] MojAEB
+  MF_ST_M rows=0 exists
+[DROP] MojAF
+  MF_MSC rows=0 exists
+  TF_MSC rows=0 exists
+[DROP] MojAGA
+  MF_WX_M rows=0 exists
+  TF_WX_M rows=0 exists
+[DROP] MojAGB
+  MF_WX_M rows=0 exists
+  TF_WX_M rows=0 exists
+[DROP] MojAH
+  MF_RSC rows=0 exists
+  TF_RSC rows=0 exists
+[DROP] MojAIA
+  MF_RX_M rows=0 exists
+  TF_RX_M rows=0 exists
+[DROP] MojAIB
+  MF_RX_M rows=0 exists
+  TF_RX_M rows=0 exists
+[DROP] MojAJ
+  MF_QY_M rows=0 exists
+  TF_QY_M rows=0 exists
+[DROP] MojAL
+  MF_SQ_FX rows=0 exists
+  TF_SQ_FX rows=0 exists
+[DROP] MojAM
+  MF_POS_FX rows=0 exists
+  TF_POS_FX rows=0 exists
+[DROP] MojAN
+  MF_RK_M rows=0 exists
+  TF_RK_M rows=0 exists
+[DROP] MojAP
+  MF_DB_M rows=0 exists
+  TF_DB_M rows=0 exists
+[DROP] MojBE
+  MF_MJYCBG rows=0 exists
+  TF_MJYCBG rows=0 exists
+[DROP] MojBL
+  MF_TX_M rows=0 exists
+  TF_TX_M rows=0 exists
+[DROP] MojBN
+  MF_MJPT rows=0 exists
+  TF_MJPT rows=0 exists
+[DROP] MojBO
+  MF_MJAA rows=0 exists
+  TF_MJAA rows=0 exists
+[DROP] MonA2A
+  MF_LS rows=0 exists
+  TF_LS rows=0 exists
+[DROP] MonAA
+  TC_MON rows=0 exists
+  TF_MON rows=0 exists
+[DROP] MonAB
+  MF_MON rows=0 exists
+  TF_MON rows=0 exists
+[DROP] MonAC
+  MF_CLS rows=0 exists
+  TF_CLS rows=0 exists
+[DROP] MonAD
+  MF_EXP rows=0 exists
+  TF_EXP rows=0 exists
+[DROP] MonAR
+  FAX_DATA rows=0 exists
+[DROP] MonAW
+  MF_TH rows=0 exists
+  TF_TH rows=0 exists
+[DROP] MonAX
+  TF_CLSML rows=0 exists
+  TF_MONML rows=0 exists
+[DROP] MonBA
+  TC_MON rows=0 exists
+  TF_MON rows=0 exists
+[DROP] MonBB
+  MF_MON rows=0 exists
+  TF_MON rows=0 exists
+[DROP] MonBC
+  MF_CLS rows=0 exists
+  TF_CLS rows=0 exists
+[DROP] MonBD
+  MF_EXP rows=0 exists
+  TF_EXP rows=0 exists
+[DROP] MonBQA
+  MF_LS rows=0 exists
+  TF_LS rows=0 exists
+[DROP] MonBR
+  TF_CLSML rows=0 exists
+  TF_MONML rows=0 exists
+[DROP] MonBT
+  MF_CLS_HK rows=0 exists
+  TF_CLS_HK rows=0 exists
+[DROP] MonBZA
+  MF_DJ rows=0 exists
+  TF_DJ rows=0 exists
+[DROP] MonBZB
+  MF_DJ rows=0 exists
+  TF_DJ rows=0 exists
+[DROP] MonCA
+  MF_CHK rows=0 exists
+  TF_CHK rows=0 exists
+[DROP] MonCB
+  MF_CHK rows=0 exists
+  TF_CHK rows=0 exists
+[DROP] MonCC41
+  MF_TCHK rows=0 exists
+  TF_TCHK rows=0 exists
+[DROP] MonCC42
+  MF_TCHK rows=0 exists
+  TF_TCHK rows=0 exists
+[DROP] MonCC421
+  MF_TCHK rows=0 exists
+  TF_TCHK rows=0 exists
+[DROP] MonCC45
+  MF_TCHK rows=0 exists
+  TF_TCHK rows=0 exists
+[DROP] MonCJ
+  MF_CHK1 rows=0 exists
+  TF_CHK1 rows=0 exists
+[DROP] MonCL
+  MF_KP rows=0 exists
+  TF_KP rows=0 exists
+[DROP] MonCM
+  MF_GM rows=0 exists
+  TF_GM rows=0 exists
+[DROP] MonDA
+  MF_BX rows=0 exists
+  TF_BX rows=0 exists
+[DROP] MonDCA
+  MF_BAC rows=0 exists
+  TF_BAC rows=0 exists
+[DROP] MonDCB
+  MF_BAC rows=0 exists
+  TF_BAC rows=0 exists
+[DROP] MonDCC
+  MF_BDS rows=0 exists
+  TF_BDS rows=0 exists
+[DROP] MonDS
+  MF_JS rows=0 exists
+[DROP] MonDT
+  MF_JK rows=0 exists
+[DROP] MonDU
+  MF_FK rows=0 exists
+  TF_FK rows=0 exists
+[DROP] MonExp
+  MF_EXP rows=0 exists
+  TF_EXP rows=0 exists
+[DROP] MonExr
+  MF_EXP rows=0 exists
+  TF_EXP rows=0 exists
+[KEEP] MrpAA
+  MF_JH rows=1 exists
+  TF_JH rows=1 exists
+[DROP] MrpAAA
+  MF_CHG rows=0 exists
+  TF_CHG rows=0 exists
+[KEEP] MrpABA
+  MF_MP rows=17 exists
+  TF_MP1 rows=212 exists
+[KEEP] MrpAC
+  MF_MO rows=80 exists
+  TF_MO rows=59 exists
+[DROP] MrpACF
+  MF_BJ rows=0 exists
+[DROP] MrpAD
+  MF_MN rows=0 exists
+  TF_MN1 rows=0 exists
+[KEEP] MrpADA
+  MF_DA rows=2 exists
+  TF_DA rows=0 MISSING
+[DROP] MrpADY
+  MF_DS rows=0 exists
+  TF_DS rows=0 exists
+[DROP] MrpAE
+  MF_MC rows=0 exists
+  TF_MC rows=0 exists
+[KEEP] MrpAFC
+  MF_MM0 rows=16 exists
+  TF_MM0 rows=66 exists
+[DROP] MrpAFD
+  MF_BL_FCP rows=0 exists
+  TF_BL_FCP rows=0 exists
+[KEEP] MrpAG
+  MF_ML rows=18 exists
+  TF_ML rows=67 exists
+[KEEP] MrpAGA
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[DROP] MrpAGB
+  MF_LM rows=0 exists
+[DROP] MrpAGC
+  MF_SQD rows=0 exists
+  TF_SQD rows=0 exists
+[DROP] MrpAGE
+  MF_SQD rows=0 exists
+  TF_SQD rows=0 exists
+[DROP] MrpAGF
+  MF_SQD rows=0 exists
+  TF_SQD rows=0 exists
+[KEEP] MrpAGG
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[KEEP] MrpAGH
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[KEEP] MrpAGI
+  MF_ML rows=18 exists
+  TF_ML rows=67 exists
+[KEEP] MrpAGJ
+  MF_ML rows=18 exists
+  TF_ML rows=67 exists
+[KEEP] MrpAGK
+  MF_ML rows=18 exists
+  TF_ML rows=67 exists
+[KEEP] MrpAGL
+  MF_ML rows=18 exists
+  TF_ML rows=67 exists
+[KEEP] MrpAGM
+  MF_ML rows=18 exists
+  TF_ML rows=67 exists
+[DROP] MrpAGO
+  MF_QL rows=0 exists
+  TF_QL rows=0 exists
+[DROP] MrpAGP
+  MF_QL rows=0 exists
+  TF_QL rows=0 exists
+[DROP] MrpAGQ
+  MF_QL rows=0 exists
+  TF_QL rows=0 exists
+[DROP] MrpAGR
+  MF_QL rows=0 exists
+  TF_QL rows=0 exists
+[DROP] MrpAGS
+  MF_QL rows=0 exists
+  TF_QL rows=0 exists
+[DROP] MrpAGT
+  MF_QL rows=0 exists
+  TF_QL rows=0 exists
+[DROP] MrpAGU
+  MF_LQ rows=0 exists
+[DROP] MrpAGW
+  MF_PM rows=0 exists
+  TF_PM rows=0 exists
+[KEEP] MrpAHJ
+  MF_HJ rows=1 exists
+  TF_HJ rows=1 exists
+[DROP] MrpAI
+  MF_ECN rows=0 exists
+  TF_ECN rows=0 MISSING
+[DROP] MrpAIA
+  MF_ECN_GX rows=0 exists
+  TF_ECN_GX rows=0 exists
+[DROP] MrpAIB
+  MF_ECN rows=0 exists
+  TF_ECN rows=0 MISSING
+[DROP] MrpAID
+  MF_ECN_FX rows=0 exists
+  TF_ECN_FX1 rows=0 exists
+[DROP] MrpAIE
+  MF_ECN_GX rows=0 exists
+  TF_ECN_GX rows=0 exists
+[DROP] MrpAL
+  MF_SCPO rows=0 exists
+  TF_SCPO rows=0 exists
+[DROP] MrpALA
+  MF_SCPO1 rows=0 exists
+  TF_SCPO1 rows=0 exists
+[DROP] MrpALC
+  MF_SCPO rows=0 exists
+  TF_SCPO rows=0 exists
+[DROP] MrpAM
+  MF_RM rows=0 exists
+  TF_RM rows=0 exists
+[DROP] MrpAMA
+  MF_RM rows=0 exists
+  TF_RM rows=0 exists
+[DROP] MrpANL
+  MF_NL rows=0 exists
+  TF_NL rows=0 exists
+[DROP] MrpAX
+  MF_BOM_SO rows=0 exists
+  TF_BOM_SO rows=0 exists
+[KEEP] MrpAZ
+  MF_CS rows=11 exists
+  TF_CS rows=12 exists
+[DROP] MrpAZA
+  MF_CG rows=0 exists
+  TF_CG rows=0 exists
+[DROP] MrpAZC
+  MF_CG_FX rows=0 exists
+  TF_CG_FX1 rows=0 exists
+[DROP] MrpAZD
+  MF_OLC rows=0 exists
+  TF_OLC1 rows=0 exists
+[DROP] MrpBB
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] MrpBC
+  MF_MB rows=0 exists
+  TF_MB rows=0 exists
+[KEEP] MrpBE
+  MF_TW rows=54 exists
+  TF_TW rows=65 exists
+[KEEP] MrpBEA
+  MF_WT rows=2 exists
+[KEEP] MrpBF
+  MF_TB rows=49 exists
+  TF_TB rows=50 exists
+[DROP] MrpBG
+  MF_MB rows=0 exists
+  TF_MB rows=0 exists
+[DROP] MrpBH
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] MrpBHO
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] MrpBJ
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] MrpBK
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[KEEP] MrpBL
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[KEEP] MrpBLA
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[KEEP] MrpBLB
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[KEEP] MrpBLC
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[KEEP] MrpBLD
+  MF_TI rows=1 exists
+  TF_TI rows=1 exists
+[DROP] MrpBN
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] MrpBO
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[KEEP] MrpBR
+  MF_TC rows=1 exists
+  TF_TC rows=1 exists
+[DROP] MrpBRA
+  MF_TD rows=0 exists
+  TF_TD rows=0 exists
+[DROP] MrpBU
+  MF_TY rows=0 exists
+  TF_TY rows=0 exists
+[DROP] MrpBX
+  MF_TE rows=0 exists
+  TF_TE rows=0 exists
+[DROP] MrpBY
+  MF_QTFX rows=0 exists
+  TF_QTFX rows=0 exists
+[DROP] MrpCut
+  MF_CUT rows=0 exists
+  TF_CUT rows=0 MISSING
+[DROP] MrpCutB
+  MF_GCB rows=0 MISSING
+  TF_GCB rows=0 MISSING
+[DROP] MrpECV
+  MF_CV rows=0 exists
+  TF_CV rows=0 exists
+[DROP] MrpED
+  MF_ZC rows=0 exists
+  TF_ZC rows=0 exists
+[DROP] MrpEDA
+  MF_ECN_ZC rows=0 exists
+  TF_ECN_ZC rows=0 exists
+[DROP] MrpEE
+  MF_TZ rows=0 exists
+  TF_TZ rows=0 exists
+[DROP] MrpEG
+  MF_WR rows=0 exists
+  TF_WR rows=0 exists
+[DROP] MrpEL
+  MF_MV rows=0 exists
+[DROP] MrpEM
+  MF_MV rows=0 exists
+[DROP] MrpEN
+  MF_SCPG rows=0 exists
+  TF_SCPG rows=0 exists
+[DROP] MrpEO
+  MF_YQ rows=0 exists
+  TF_YQ rows=0 exists
+[DROP] MrpEPA
+  MF_ECN_PA rows=0 exists
+  TF_ECN_PA rows=0 exists
+[DROP] MrpER
+  TZERR rows=0 exists
+[DROP] MrpERW
+  MF_RW rows=0 exists
+  TF_RW2 rows=0 exists
+[DROP] MrpEW
+  MF_WM rows=0 exists
+  TF_WM rows=0 exists
+[DROP] MrpFB
+  MF_MU rows=0 exists
+  TF_MU rows=0 exists
+[DROP] MrpFC
+  MF_MU rows=0 exists
+  TF_MU rows=0 exists
+[DROP] MrpFD
+  MF_MU rows=0 exists
+  TF_MU rows=0 exists
+[DROP] MrpFEC
+  MF_QC_SJ rows=0 exists
+  TF_QC_SJ rows=0 exists
+[DROP] MrpFEH
+  MF_QC_XJ rows=0 exists
+  TF_QC_XJ rows=0 exists
+[DROP] MrpFEL
+  MF_LS_QC rows=0 exists
+  TF_LS_QC rows=0 exists
+[DROP] MrpFER
+  MF_YZ_QC rows=0 exists
+[DROP] MrpFGE
+  MF_QC_PRJ rows=0 exists
+  TF_QC_PRJ rows=0 exists
+[DROP] MrpFK
+  MF_SQC rows=0 exists
+  TF_SQC rows=0 exists
+[DROP] MrpFL
+  MF_QC rows=0 exists
+  TF_QC rows=0 exists
+[DROP] MrpFM
+  MF_QC rows=0 exists
+  TF_QC rows=0 exists
+[DROP] MrpFO
+  MF_QC rows=0 exists
+  TF_QC rows=0 exists
+[DROP] MrpFP
+  MF_MQC rows=0 exists
+  TF_MQC rows=0 exists
+[DROP] MrpFRR
+  KHTS_QA rows=0 exists
+[DROP] MrpFU
+  MF_QC rows=0 exists
+  TF_QC rows=0 exists
+[DROP] MrpFV
+  MF_QC rows=0 exists
+  TF_QC rows=0 exists
+[KEEP] MrpHSA
+  MF_MO rows=80 exists
+  TF_MO rows=59 exists
+[DROP] MrpHSB
+  MF_TZ rows=0 exists
+  TF_TZ rows=0 exists
+[KEEP] MrpHSC
+  MF_TW rows=54 exists
+  TF_TW rows=65 exists
+[DROP] MrpKB
+  BZPZ rows=0 exists
+  BZZL rows=0 exists
+[DROP] MrpKBD
+  BZPD rows=0 exists
+  BZZL rows=0 exists
+[DROP] MrpKC
+  MF_BZ rows=0 exists
+  TF_BZ rows=0 exists
+[DROP] MrpMLPS
+  MF_MLPS rows=0 exists
+[DROP] MrpZY
+  MF_ZY rows=0 exists
+  TF_ZY rows=0 exists
+[DROP] OTH00309
+  ZL_NO rows=0 exists
+[DROP] OTH00311
+  MF_PP rows=0 exists
+  TF_PP rows=0 exists
+[DROP] OTH00393
+  YA_YP rows=0 MISSING
+[DROP] OTH00407
+  MF_RO rows=0 MISSING
+  TF_RO rows=0 MISSING
+[DROP] OTH00415
+  MF_RO rows=0 MISSING
+  TF_RO1 rows=0 MISSING
+[DROP] OTHBPG
+  YA_EXCEP rows=0 MISSING
+[DROP] OTHBPI
+  T rows=0 MISSING
+  YD_COMP rows=0 MISSING
+[DROP] OTHJHPC
+  MF_AJ rows=0 exists
+  TF_AJ rows=0 exists
+[DROP] OthAA
+  MF_NCQ_MC rows=0 exists
+  TF_NCQA_MC rows=0 exists
+[DROP] OthAB
+  MF_NCQ_QT rows=0 exists
+  TF_NCQ_QT1 rows=0 exists
+[DROP] OthAC
+  MF_NCQ_SO rows=0 exists
+  TF_NCQ_SO rows=0 exists
+[DROP] OthAHCA
+  MF_IO rows=0 exists
+  TF_IO rows=0 exists
+[DROP] OthAMB
+  MF_SC_ZG rows=0 exists
+  TF_SC_ZG rows=0 exists
+[DROP] OthDFNA
+  MF_ABGT rows=0 MISSING
+  TF_ABGT rows=0 MISSING
+[DROP] OthDGWD_APS
+  MF_APS_WD rows=0 MISSING
+  TF_APS_WD1 rows=0 MISSING
+[DROP] OthGGEC6
+  XRF_GGEC rows=0 exists
+[DROP] OthGSPGA
+  MF_PG_GS rows=0 exists
+  TF_PG_GS rows=0 exists
+[DROP] OthGSPGB
+  MF_PG_GS rows=0 exists
+  TF_PG_GS rows=0 exists
+[DROP] OthGSZZDA
+  MF_POS_GS rows=0 exists
+  TF_POS_GS rows=0 exists
+[DROP] OthHZYQBA
+  MF_SCJX_HZYQ rows=0 MISSING
+  TF_SCJX_HZYQ rows=0 MISSING
+[DROP] OthHZYQBB
+  MF_SCJX_HZYQ rows=0 MISSING
+  TF_SCJX_HZYQ rows=0 MISSING
+[DROP] OthHZYQBC
+  MF_BOOK_HZYQ rows=0 MISSING
+  TF_BOOK_HZYQ rows=0 MISSING
+[KEEP] OthHZYQD
+  INDX rows=15 exists
+[DROP] OthMCAD
+  MF_ZD_MC rows=0 exists
+  TF_ZDLJ_MC rows=0 exists
+[DROP] OthMCAE
+  MF_GD_MC rows=0 exists
+  TF_GD1_MC rows=0 exists
+[DROP] OthMFDC
+  MF_QCFZC rows=0 exists
+  TF_QCFZC rows=0 exists
+[DROP] OthMFDD
+  MF_QC_XJZC rows=0 MISSING
+  TF_QC_XJZC rows=0 MISSING
+[DROP] OthMFDE
+  MF_QCFZC rows=0 exists
+  TF_QCFZC rows=0 exists
+[DROP] OthMFDJ
+  MF_BG_MOD rows=0 exists
+[DROP] OthMFEB
+  MF_TRIAL rows=0 exists
+  TF_TRIAL rows=0 exists
+[DROP] OthMFEC
+  MF_TRIAL rows=0 exists
+  TF_TRIAL rows=0 exists
+[DROP] OthMFED
+  MF_TRIAL rows=0 exists
+  TF_TRIAL rows=0 exists
+[DROP] OthNJFSA
+  MF_GCYS rows=0 exists
+  TF_GCYS rows=0 exists
+[DROP] OthNJFSB
+  MF_YSTZ rows=0 exists
+  TF_YSTZ rows=0 exists
+[DROP] OthSHFJE
+  MF_FJBJ rows=0 MISSING
+  TF_FJBJ rows=0 MISSING
+[DROP] OthSh00003
+  MF_PINGSO rows=0 MISSING
+[DROP] OthZSLG_PD
+  MF_PD_LG rows=0 MISSING
+  TF_PD_LG1 rows=0 MISSING
+[DROP] POS
+  MF_PBOM rows=0 exists
+  TF_PBOM rows=0 exists
+[DROP] POSZT
+  MF_POSZT rows=0 exists
+  TF_POSZT rows=0 exists
+[KEEP] POS_CUST
+  CUST rows=38 exists
+  POSCARD rows=0 exists
+[DROP] PRECUST
+  PRE_CUST rows=0 exists
+[DROP] PRJBA
+  M_BA rows=0 MISSING
+  TF_BA rows=0 exists
+[DROP] PosAFB
+  POSTK0 rows=0 exists
+  POSTK1 rows=0 MISSING
+[DROP] PosBC
+  POSPOS0 rows=0 exists
+  POSPOS1 rows=0 exists
+[DROP] PosIJ
+  POSMF_IJ rows=0 exists
+  POSTF_IJ rows=0 exists
+[DROP] SEBAN1
+  SEBEI rows=0 exists
+[DROP] SYSCASN
+  CASN rows=0 exists
+[DROP] SYSPRST
+  PROMO rows=0 MISSING
+  PROMO1 rows=0 MISSING
+[DROP] SYSSZ
+  CUST_XYTZ rows=0 exists
+[DROP] SebAA
+  MF_GR_S rows=0 exists
+  TF_GR_S rows=0 exists
+[DROP] SebACA
+  MF_WJ_S rows=0 exists
+  TF_WJ_S rows=0 exists
+[DROP] SebACB
+  MF_WJ_S rows=0 exists
+  TF_WJ_S rows=0 exists
+[DROP] SebADA
+  MF_WX_S rows=0 exists
+  TF_WX_S rows=0 exists
+[DROP] SebADB
+  MF_WX_S rows=0 exists
+  TF_WX_S rows=0 exists
+[DROP] SebAEA
+  MF_RX_S rows=0 exists
+  TF_RX_S rows=0 exists
+[DROP] SebAEB
+  MF_RX_S rows=0 exists
+  TF_RX_S rows=0 exists
+[DROP] SebAF
+  MF_ST_S rows=0 exists
+  TF_ST_S rows=0 exists
+[DROP] SebAG
+  MF_RK_S rows=0 exists
+  TF_RK_S rows=0 exists
+[DROP] SebAH
+  MF_QY_S rows=0 exists
+  TF_QY_S rows=0 exists
+[DROP] SebAI
+  MF_DB_S rows=0 exists
+  TF_DB_S rows=0 exists
+[DROP] SebAO
+  MF_SQ_FX rows=0 exists
+  TF_SQ_FX rows=0 exists
+[DROP] SebAP
+  MF_POS_FX rows=0 exists
+  TF_POS_FX rows=0 exists
+[DROP] SebBBD
+  MF_BYJL rows=0 exists
+  TF_BYJL rows=0 exists
+[DROP] SebBBE
+  MF_SBYCBG rows=0 exists
+  TF_SBYCBG rows=0 exists
+[DROP] SebBG
+  MF_SBPT rows=0 exists
+  TF_SBPT rows=0 exists
+[DROP] SebBN
+  MF_SBAA rows=0 exists
+  TF_SBAA rows=0 exists
+[KEEP] SebCA
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[KEEP] SebCB
+  MF_IJ rows=32 exists
+  TF_IJ rows=1361 exists
+[DROP] SgtAB
+  MF_BOM_SGT rows=0 exists
+  TF_BOM_SGT rows=0 exists
+[DROP] SgtAC
+  MF_EBOM_SGT rows=0 exists
+  TF_EBOM_SGT rows=0 exists
+[DROP] SgtAGA1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGA2
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGB1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGB2
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGC1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGC2
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGD1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGD2
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGE1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGF1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGG1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGH1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGI1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGI2
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGJ1
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtAGJ2
+  MF_ZD rows=0 exists
+  TF_ZD rows=0 exists
+[DROP] SgtBA
+  CNTT_SGT rows=0 exists
+  MF_PL_SGT rows=0 exists
+[DROP] SgtBBA
+  MF_RG_SGT rows=0 exists
+  TF_RG_SGT rows=0 exists
+[DROP] SgtBCA
+  MF_RG_SGT rows=0 exists
+  TF_RG_SGT rows=0 exists
+[DROP] SgtBDA
+  MF_GF_SGT rows=0 exists
+  TF_GF_SGT rows=0 exists
+[DROP] SgtBE
+  MF_LC_SGT rows=0 exists
+  TF_LC_SGT rows=0 exists
+[DROP] SgtBF
+  CNTT_CHG_SGT rows=0 exists
+  MF_PL_CHG_SGT rows=0 exists
+[DROP] SgtFA
+  MF_LCO rows=0 exists
+  TF_LCO rows=0 exists
+[DROP] SgtFD
+  MF_LCR rows=0 exists
+  TF_LCR rows=0 exists
+[DROP] SgtHB
+  LC_CLN rows=0 exists
+[DROP] SgtHD
+  MF_LCR rows=0 exists
+  TF_LCR rows=0 exists
+[DROP] SvsAA
+  MF_INP rows=0 exists
+  TF_INP rows=0 exists
+[DROP] SvsBA
+  MF_MAT rows=0 exists
+  TF_MAT rows=0 exists
+[DROP] SvsEA
+  MF_PG rows=0 exists
+  TF_PG rows=0 exists
+[DROP] TRDAH
+  MF_LCO rows=0 exists
+  TF_LCO rows=0 exists
+[DROP] TRDBC
+  MF_AESC rows=0 exists
+  MF_ZA rows=0 exists
+  TF_AESC rows=0 exists
+  TF_ZA rows=0 exists
+[DROP] TRDCD
+  MF_LCR rows=0 exists
+  TF_LCR rows=0 exists
+[DROP] TaxAA
+  INV_NO rows=0 exists
+  INV_NO1 rows=0 exists
+[DROP] TaxBA
+  MF_SALE rows=0 exists
+[DROP] TaxCA
+  MF_METH rows=0 exists
+[DROP] TaxDD
+  MF_ZERO rows=0 exists
+  TF_ZERO rows=0 exists
+[KEEP] UP_DEF
+  UP_DEF rows=2 exists
+[KEEP] UP_DEFA
+  UP_DEF rows=2 exists
+[KEEP] Up_DefB
+  UP_DEF rows=2 exists
+[DROP] Up_DefC
+  UP_DEF_MOD rows=0 exists
+[DROP] WAGDR
+  MF_TX rows=0 exists
+  TF_TX rows=0 exists
+[DROP] WagAK
+  MF_JJ rows=0 exists
+  TF_JJ rows=0 exists
+[DROP] WagAKN
+  MF_JJN rows=0 exists
+  TF_JJN rows=0 exists
+[DROP] WagAT
+  MF_JB_CALC rows=0 exists
+  TF_JB_CALC rows=0 exists
+[KEEP] WagBA
+  MF_YG rows=44 exists
+[DROP] WagBBB
+  MF_WPQTY rows=0 exists
+  TF_WPQTY rows=0 exists
+[DROP] WagBC
+  MF_TS rows=0 exists
+  TF_TS1 rows=0 exists
+[DROP] WagBJ
+  MF_YGDL rows=0 exists
+  TF_YGDL rows=0 exists
+[DROP] WagBMB
+  MF_VC rows=0 exists
+[DROP] WagBOA
+  MF_CZSQ rows=0 exists
+  TF_CZSQ rows=0 exists
+[DROP] WagCB
+  TF_SZTZ rows=0 exists
+[DROP] WagCCD
+  MF_WQ rows=0 exists
+  TF_WQ rows=0 exists
+[DROP] WagCEC
+  MF_FS rows=0 exists
+[DROP] WagCED
+  MF_FQ rows=0 exists
+  TF_FQ rows=0 exists
+[DROP] WagCEE
+  MF_JX rows=0 exists
+  TF_JX rows=0 exists
+[DROP] WagCEF
+  MF_JY rows=0 exists
+  TF_JY rows=0 exists
+[DROP] WagCFA
+  MF_FJ rows=0 exists
+  TF_FJ rows=0 exists
+[DROP] WagCR
+  MF_YGJZ rows=0 exists
+  TF_YGJZ rows=0 exists
+[DROP] WagDB
+  MF_SV rows=0 exists
+  TF_SV rows=0 exists
+[DROP] WagDPA
+  MF_SHARE1 rows=0 exists
+  TF_SHARE1 rows=0 exists
+[DROP] WagDV
+  MF_TG rows=0 exists
+  TF_TG rows=0 exists
+[DROP] WagFI
+  MF_SJ rows=0 exists
+  TF_SJ rows=0 exists
+[DROP] WagFR
+  MF_CGB rows=0 exists
+  TF_CGB1 rows=0 exists
+[DROP] WagPJ
+  MF_PJ rows=0 exists
+  TF_PJ rows=0 exists
+[DROP] WagTYAA
+  ZCSC_MF rows=0 exists
+[DROP] WagTyAB
+  ZCJJHF_MF rows=0 exists

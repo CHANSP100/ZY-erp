@@ -1,0 +1,254 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".cursor/rules/sunlike9-dev01-baseline.mdc",
+      "language": "mdc",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 26,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 6,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/BilSpcEditDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 186,
+      "nonEmptyLines": 171,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/BilSpcSalesLookupDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 42,
+      "nonEmptyLines": 35,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/detailGrid/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 20,
+      "exports": [
+        {
+          "name": "ErpDetailGrid",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "getDetailGridConfig",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "getDetailGridFallbackColumns",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "registerDetailGrid",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "DETAIL_GRID_REGISTRY",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "DetailGridMenuConfig",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "DetailGridSummary",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "useErpDetailGrid",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/components/erp/DetailGridHeaderMenu.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 53,
+      "nonEmptyLines": 50,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpArchiveExtFields.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 25,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBasePage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 47,
+      "nonEmptyLines": 42,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillAuditMeta.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 37,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillEditDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 45,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillHeadExtFields.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 52,
+      "nonEmptyLines": 22,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillLineTable.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 433,
+      "nonEmptyLines": 396,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 47,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillQueryField.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillToolbar.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 21,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillTree.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 55,
+      "nonEmptyLines": 48,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpCategoryTree.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 54,
+      "nonEmptyLines": 47,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpDataTable.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpDetailGrid.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 312,
+      "nonEmptyLines": 302,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpEditDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 37,
+      "nonEmptyLines": 34,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpEnterNavZone.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 42,
+      "nonEmptyLines": 35,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpExtFieldZone.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 413,
+      "nonEmptyLines": 372,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpFormSection.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 11,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpGridDesignDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 666,
+      "nonEmptyLines": 367,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpListPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 30,
+      "metrics": {}
+    }
+  ]
+}

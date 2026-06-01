@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "document:docs/15_生产领料_功能说明.md",
+      "type": "document",
+      "name": "15_生产领料_功能说明.md",
+      "filePath": "docs/15_生产领料_功能说明.md",
+      "summary": "Documentation file 15_生产领料_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/16_生产计划_功能说明.md",
+      "type": "document",
+      "name": "16_生产计划_功能说明.md",
+      "filePath": "docs/16_生产计划_功能说明.md",
+      "summary": "Documentation file 16_生产计划_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/16_缴库单_功能说明.md",
+      "type": "document",
+      "name": "16_缴库单_功能说明.md",
+      "filePath": "docs/16_缴库单_功能说明.md",
+      "summary": "Documentation file 16_缴库单_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/17_生产需求分析单_功能说明.md",
+      "type": "document",
+      "name": "17_生产需求分析单_功能说明.md",
+      "filePath": "docs/17_生产需求分析单_功能说明.md",
+      "summary": "Documentation file 17_生产需求分析单_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/DEV_01_SUNLIKE9_核心业务基准规范.md",
+      "type": "document",
+      "name": "DEV_01_SUNLIKE9_核心业务基准规范.md",
+      "filePath": "docs/DEV_01_SUNLIKE9_核心业务基准规范.md",
+      "summary": "Documentation file DEV_01_SUNLIKE9_核心业务基准规范.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/后续资料完善清单.md",
+      "type": "document",
+      "name": "后续资料完善清单.md",
+      "filePath": "docs/后续资料完善清单.md",
+      "summary": "Documentation file 后续资料完善清单.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

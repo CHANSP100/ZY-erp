@@ -1,0 +1,1620 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/auth.js",
+      "type": "file",
+      "name": "auth.js",
+      "filePath": "server/auth.js",
+      "summary": "auth.js with 8 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/auth.js:getSession",
+      "type": "function",
+      "name": "getSession",
+      "filePath": "server/auth.js",
+      "lineRange": [
+        21,
+        30
+      ],
+      "summary": "Function getSession defined in auth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/auth.js:finishLogin",
+      "type": "function",
+      "name": "finishLogin",
+      "filePath": "server/auth.js",
+      "lineRange": [
+        36,
+        45
+      ],
+      "summary": "Function finishLogin defined in auth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/auth.js:login",
+      "type": "function",
+      "name": "login",
+      "filePath": "server/auth.js",
+      "lineRange": [
+        54,
+        93
+      ],
+      "summary": "Function login defined in auth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/auth.js:resolveUserFromRequest",
+      "type": "function",
+      "name": "resolveUserFromRequest",
+      "filePath": "server/auth.js",
+      "lineRange": [
+        95,
+        106
+      ],
+      "summary": "Function resolveUserFromRequest defined in auth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/authMiddleware.js",
+      "type": "file",
+      "name": "authMiddleware.js",
+      "filePath": "server/authMiddleware.js",
+      "summary": "authMiddleware.js with 2 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/dbConnectionConfig.js",
+      "type": "file",
+      "name": "dbConnectionConfig.js",
+      "filePath": "server/dbConnectionConfig.js",
+      "summary": "dbConnectionConfig.js with 14 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/dbConnectionConfig.js:normalizeInput",
+      "type": "function",
+      "name": "normalizeInput",
+      "filePath": "server/dbConnectionConfig.js",
+      "lineRange": [
+        31,
+        42
+      ],
+      "summary": "Function normalizeInput defined in dbConnectionConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/dbConnectionConfig.js:loadConfig",
+      "type": "function",
+      "name": "loadConfig",
+      "filePath": "server/dbConnectionConfig.js",
+      "lineRange": [
+        71,
+        98
+      ],
+      "summary": "Function loadConfig defined in dbConnectionConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/dbConnectionConfig.js:getEditorConfig",
+      "type": "function",
+      "name": "getEditorConfig",
+      "filePath": "server/dbConnectionConfig.js",
+      "lineRange": [
+        100,
+        114
+      ],
+      "summary": "Function getEditorConfig defined in dbConnectionConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/dbConnectionConfig.js:toPublicConfig",
+      "type": "function",
+      "name": "toPublicConfig",
+      "filePath": "server/dbConnectionConfig.js",
+      "lineRange": [
+        116,
+        132
+      ],
+      "summary": "Function toPublicConfig defined in dbConnectionConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/dbConnectionConfig.js:buildMssqlConfig",
+      "type": "function",
+      "name": "buildMssqlConfig",
+      "filePath": "server/dbConnectionConfig.js",
+      "lineRange": [
+        134,
+        164
+      ],
+      "summary": "Function buildMssqlConfig defined in dbConnectionConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/dbConnectionConfig.js:formatConnectionError",
+      "type": "function",
+      "name": "formatConnectionError",
+      "filePath": "server/dbConnectionConfig.js",
+      "lineRange": [
+        166,
+        190
+      ],
+      "summary": "Function formatConnectionError defined in dbConnectionConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/dbConnectionConfig.js:testDatabaseConnection",
+      "type": "function",
+      "name": "testDatabaseConnection",
+      "filePath": "server/dbConnectionConfig.js",
+      "lineRange": [
+        192,
+        219
+      ],
+      "summary": "Function testDatabaseConnection defined in dbConnectionConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/dbConnectionConfig.js:testBusinessConnection",
+      "type": "function",
+      "name": "testBusinessConnection",
+      "filePath": "server/dbConnectionConfig.js",
+      "lineRange": [
+        221,
+        230
+      ],
+      "summary": "Function testBusinessConnection defined in dbConnectionConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/dbConnectionConfig.js:saveConfig",
+      "type": "function",
+      "name": "saveConfig",
+      "filePath": "server/dbConnectionConfig.js",
+      "lineRange": [
+        241,
+        263
+      ],
+      "summary": "Function saveConfig defined in dbConnectionConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/encoding.js",
+      "type": "file",
+      "name": "encoding.js",
+      "filePath": "server/encoding.js",
+      "summary": "encoding.js with 4 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/encoding.js:fixZhEncoding",
+      "type": "function",
+      "name": "fixZhEncoding",
+      "filePath": "server/encoding.js",
+      "lineRange": [
+        12,
+        30
+      ],
+      "summary": "Function fixZhEncoding defined in encoding.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/encoding.js:fixRow",
+      "type": "function",
+      "name": "fixRow",
+      "filePath": "server/encoding.js",
+      "lineRange": [
+        33,
+        43
+      ],
+      "summary": "Function fixRow defined in encoding.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/fix_sqlite_encoding.js",
+      "type": "file",
+      "name": "fix_sqlite_encoding.js",
+      "filePath": "server/fix_sqlite_encoding.js",
+      "summary": "fix_sqlite_encoding.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/fix_sqlite_encoding.js:fixTable",
+      "type": "function",
+      "name": "fixTable",
+      "filePath": "server/fix_sqlite_encoding.js",
+      "lineRange": [
+        21,
+        39
+      ],
+      "summary": "Function fixTable defined in fix_sqlite_encoding.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/import_from_db11.js",
+      "type": "file",
+      "name": "import_from_db11.js",
+      "filePath": "server/import_from_db11.js",
+      "summary": "import_from_db11.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/import_from_db11.js:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "server/import_from_db11.js",
+      "lineRange": [
+        19,
+        264
+      ],
+      "summary": "Function main defined in import_from_db11.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/mssqlPool.js",
+      "type": "file",
+      "name": "mssqlPool.js",
+      "filePath": "server/mssqlPool.js",
+      "summary": "mssqlPool.js with 8 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/mssqlPool.js:closePoolEntry",
+      "type": "function",
+      "name": "closePoolEntry",
+      "filePath": "server/mssqlPool.js",
+      "lineRange": [
+        28,
+        38
+      ],
+      "summary": "Function closePoolEntry defined in mssqlPool.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/mssqlPool.js:connectPool",
+      "type": "function",
+      "name": "connectPool",
+      "filePath": "server/mssqlPool.js",
+      "lineRange": [
+        44,
+        61
+      ],
+      "summary": "Function connectPool defined in mssqlPool.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/permissions.js",
+      "type": "file",
+      "name": "permissions.js",
+      "filePath": "server/permissions.js",
+      "summary": "permissions.js with 30 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/permissions.js:initPermissionsSchema",
+      "type": "function",
+      "name": "initPermissionsSchema",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        83,
+        127
+      ],
+      "summary": "Function initPermissionsSchema defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/permissions.js:seedDefaultPermissions",
+      "type": "function",
+      "name": "seedDefaultPermissions",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        129,
+        157
+      ],
+      "summary": "Function seedDefaultPermissions defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:rowToUser",
+      "type": "function",
+      "name": "rowToUser",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        159,
+        174
+      ],
+      "summary": "Function rowToUser defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:listMenuPermissions",
+      "type": "function",
+      "name": "listMenuPermissions",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        192,
+        210
+      ],
+      "summary": "Function listMenuPermissions defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:getPermissionSummary",
+      "type": "function",
+      "name": "getPermissionSummary",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        212,
+        244
+      ],
+      "summary": "Function getPermissionSummary defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:resolveApiPgm",
+      "type": "function",
+      "name": "resolveApiPgm",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        255,
+        267
+      ],
+      "summary": "Function resolveApiPgm defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/permissions.js:apiPermissionGuard",
+      "type": "function",
+      "name": "apiPermissionGuard",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        278,
+        305
+      ],
+      "summary": "Function apiPermissionGuard defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:createUser",
+      "type": "function",
+      "name": "createUser",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        317,
+        342
+      ],
+      "summary": "Function createUser defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:seedUserMenus",
+      "type": "function",
+      "name": "seedUserMenus",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        344,
+        353
+      ],
+      "summary": "Function seedUserMenus defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/permissions.js:updateUser",
+      "type": "function",
+      "name": "updateUser",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        355,
+        381
+      ],
+      "summary": "Function updateUser defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:saveMenuPermissions",
+      "type": "function",
+      "name": "saveMenuPermissions",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        389,
+        412
+      ],
+      "summary": "Function saveMenuPermissions defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:copyMenuPermissions",
+      "type": "function",
+      "name": "copyMenuPermissions",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        414,
+        429
+      ],
+      "summary": "Function copyMenuPermissions defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:saveDeproSet",
+      "type": "function",
+      "name": "saveDeproSet",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        445,
+        461
+      ],
+      "summary": "Function saveDeproSet defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:saveUserWh",
+      "type": "function",
+      "name": "saveUserWh",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        467,
+        478
+      ],
+      "summary": "Function saveUserWh defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/permissions.js:syncUserFromMssql",
+      "type": "function",
+      "name": "syncUserFromMssql",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        499,
+        530
+      ],
+      "summary": "Function syncUserFromMssql defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/permissions.js:syncMenuFromPswd1",
+      "type": "function",
+      "name": "syncMenuFromPswd1",
+      "filePath": "server/permissions.js",
+      "lineRange": [
+        533,
+        553
+      ],
+      "summary": "Function syncMenuFromPswd1 defined in permissions.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/permissionsRoutes.js",
+      "type": "file",
+      "name": "permissionsRoutes.js",
+      "filePath": "server/permissionsRoutes.js",
+      "summary": "permissionsRoutes.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "api-handler",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/permissionsRoutes.js:registerPermissionsRoutes",
+      "type": "function",
+      "name": "registerPermissionsRoutes",
+      "filePath": "server/permissionsRoutes.js",
+      "lineRange": [
+        18,
+        97
+      ],
+      "summary": "Function registerPermissionsRoutes defined in permissionsRoutes.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/pswdMssqlAuth.js",
+      "type": "file",
+      "name": "pswdMssqlAuth.js",
+      "filePath": "server/pswdMssqlAuth.js",
+      "summary": "pswdMssqlAuth.js with 12 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/pswdMssqlAuth.js:isUserExpired",
+      "type": "function",
+      "name": "isUserExpired",
+      "filePath": "server/pswdMssqlAuth.js",
+      "lineRange": [
+        47,
+        57
+      ],
+      "summary": "Function isUserExpired defined in pswdMssqlAuth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/pswdMssqlAuth.js:normalizePswdRow",
+      "type": "function",
+      "name": "normalizePswdRow",
+      "filePath": "server/pswdMssqlAuth.js",
+      "lineRange": [
+        59,
+        76
+      ],
+      "summary": "Function normalizePswdRow defined in pswdMssqlAuth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/pswdMssqlAuth.js:queryPswdUser",
+      "type": "function",
+      "name": "queryPswdUser",
+      "filePath": "server/pswdMssqlAuth.js",
+      "lineRange": [
+        78,
+        121
+      ],
+      "summary": "Function queryPswdUser defined in pswdMssqlAuth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/pswdMssqlAuth.js:fetchPswdUser",
+      "type": "function",
+      "name": "fetchPswdUser",
+      "filePath": "server/pswdMssqlAuth.js",
+      "lineRange": [
+        123,
+        136
+      ],
+      "summary": "Function fetchPswdUser defined in pswdMssqlAuth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/pswdMssqlAuth.js:fetchPswd1Menus",
+      "type": "function",
+      "name": "fetchPswd1Menus",
+      "filePath": "server/pswdMssqlAuth.js",
+      "lineRange": [
+        138,
+        162
+      ],
+      "summary": "Function fetchPswd1Menus defined in pswdMssqlAuth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/pswdMssqlAuth.js:authenticateViaMssql",
+      "type": "function",
+      "name": "authenticateViaMssql",
+      "filePath": "server/pswdMssqlAuth.js",
+      "lineRange": [
+        167,
+        198
+      ],
+      "summary": "Function authenticateViaMssql defined in pswdMssqlAuth.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/repositories/areaRepository.js",
+      "type": "file",
+      "name": "areaRepository.js",
+      "filePath": "server/repositories/areaRepository.js",
+      "summary": "areaRepository.js with 9 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/areaRepository.js:create",
+      "type": "function",
+      "name": "create",
+      "filePath": "server/repositories/areaRepository.js",
+      "lineRange": [
+        61,
+        75
+      ],
+      "summary": "Function create defined in areaRepository.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/repositories/areaRepository.js:update",
+      "type": "function",
+      "name": "update",
+      "filePath": "server/repositories/areaRepository.js",
+      "lineRange": [
+        77,
+        97
+      ],
+      "summary": "Function update defined in areaRepository.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/repositories/mssqlRow.js",
+      "type": "file",
+      "name": "mssqlRow.js",
+      "filePath": "server/repositories/mssqlRow.js",
+      "summary": "mssqlRow.js with 7 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/mssqlRow.js:normalizeIndxRow",
+      "type": "function",
+      "name": "normalizeIndxRow",
+      "filePath": "server/repositories/mssqlRow.js",
+      "lineRange": [
+        9,
+        18
+      ],
+      "summary": "Function normalizeIndxRow defined in mssqlRow.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/repositories/mssqlRow.js:normalizeAreaRow",
+      "type": "function",
+      "name": "normalizeAreaRow",
+      "filePath": "server/repositories/mssqlRow.js",
+      "lineRange": [
+        38,
+        47
+      ],
+      "summary": "Function normalizeAreaRow defined in mssqlRow.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/repositories/prdtPic.js",
+      "type": "file",
+      "name": "prdtPic.js",
+      "filePath": "server/repositories/prdtPic.js",
+      "summary": "prdtPic.js with 6 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/repositories/prdtPic.js:parsePicSaveValue",
+      "type": "function",
+      "name": "parsePicSaveValue",
+      "filePath": "server/repositories/prdtPic.js",
+      "lineRange": [
+        26,
+        38
+      ],
+      "summary": "Function parsePicSaveValue defined in prdtPic.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/repositories/prdtPic.js:savePrdtPic",
+      "type": "function",
+      "name": "savePrdtPic",
+      "filePath": "server/repositories/prdtPic.js",
+      "lineRange": [
+        40,
+        88
+      ],
+      "summary": "Function savePrdtPic defined in prdtPic.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/scripts/_dict_mo.js",
+      "type": "file",
+      "name": "_dict_mo.js",
+      "filePath": "server/scripts/_dict_mo.js",
+      "summary": "_dict_mo.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/scripts/_dict_mo.js:dictFld",
+      "type": "function",
+      "name": "dictFld",
+      "filePath": "server/scripts/_dict_mo.js",
+      "lineRange": [
+        4,
+        19
+      ],
+      "summary": "Function dictFld defined in _dict_mo.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/scripts/_dict_mp23.js",
+      "type": "file",
+      "name": "_dict_mp23.js",
+      "filePath": "server/scripts/_dict_mp23.js",
+      "summary": "_dict_mp23.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/scripts/_dict_mp23.js:dictFld",
+      "type": "function",
+      "name": "dictFld",
+      "filePath": "server/scripts/_dict_mp23.js",
+      "lineRange": [
+        3,
+        13
+      ],
+      "summary": "Function dictFld defined in _dict_mp23.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_probe_face_tables.js",
+      "type": "file",
+      "name": "_probe_face_tables.js",
+      "filePath": "server/scripts/_probe_face_tables.js",
+      "summary": "_probe_face_tables.js with 2 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_probe_mp23.js",
+      "type": "file",
+      "name": "_probe_mp23.js",
+      "filePath": "server/scripts/_probe_mp23.js",
+      "summary": "_probe_mp23.js with 2 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/scripts/_probe_mp23.js:cols",
+      "type": "function",
+      "name": "cols",
+      "filePath": "server/scripts/_probe_mp23.js",
+      "lineRange": [
+        4,
+        15
+      ],
+      "summary": "Function cols defined in _probe_mp23.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_probe_mp23_labels.js",
+      "type": "file",
+      "name": "_probe_mp23_labels.js",
+      "filePath": "server/scripts/_probe_mp23_labels.js",
+      "summary": "_probe_mp23_labels.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_query_faseca_menu.js",
+      "type": "file",
+      "name": "_query_faseca_menu.js",
+      "filePath": "server/scripts/_query_faseca_menu.js",
+      "summary": "Source file _query_faseca_menu.js in the server area of erp-new.",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_test_prdt_pic_save.js",
+      "type": "file",
+      "name": "_test_prdt_pic_save.js",
+      "filePath": "server/scripts/_test_prdt_pic_save.js",
+      "summary": "Source file _test_prdt_pic_save.js in the server area of erp-new.",
+      "tags": [
+        "test",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_test_prdt_pic_tx.js",
+      "type": "file",
+      "name": "_test_prdt_pic_tx.js",
+      "filePath": "server/scripts/_test_prdt_pic_tx.js",
+      "summary": "Source file _test_prdt_pic_tx.js in the server area of erp-new.",
+      "tags": [
+        "test",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/scripts/_test_save_prdt_pic_fn.js",
+      "type": "file",
+      "name": "_test_save_prdt_pic_fn.js",
+      "filePath": "server/scripts/_test_save_prdt_pic_fn.js",
+      "summary": "_test_save_prdt_pic_fn.js with 1 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "test",
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/scripts/_test_save_prdt_pic_fn.js:savePrdtPic",
+      "type": "function",
+      "name": "savePrdtPic",
+      "filePath": "server/scripts/_test_save_prdt_pic_fn.js",
+      "lineRange": [
+        6,
+        54
+      ],
+      "summary": "Function savePrdtPic defined in _test_save_prdt_pic_fn.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/auth.js",
+      "target": "file:server/permissions.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/auth.js",
+      "target": "file:server/pswdMssqlAuth.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/auth.js",
+      "target": "function:server/auth.js:getSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/auth.js",
+      "target": "function:server/auth.js:finishLogin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/auth.js",
+      "target": "function:server/auth.js:login",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/auth.js",
+      "target": "function:server/auth.js:resolveUserFromRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/authMiddleware.js",
+      "target": "file:server/auth.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/dbConnectionConfig.js",
+      "target": "function:server/dbConnectionConfig.js:normalizeInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/dbConnectionConfig.js",
+      "target": "function:server/dbConnectionConfig.js:loadConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/dbConnectionConfig.js",
+      "target": "function:server/dbConnectionConfig.js:getEditorConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/dbConnectionConfig.js",
+      "target": "function:server/dbConnectionConfig.js:toPublicConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/dbConnectionConfig.js",
+      "target": "function:server/dbConnectionConfig.js:buildMssqlConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/dbConnectionConfig.js",
+      "target": "function:server/dbConnectionConfig.js:formatConnectionError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/dbConnectionConfig.js",
+      "target": "function:server/dbConnectionConfig.js:testDatabaseConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/dbConnectionConfig.js",
+      "target": "function:server/dbConnectionConfig.js:testBusinessConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/dbConnectionConfig.js",
+      "target": "function:server/dbConnectionConfig.js:saveConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/encoding.js",
+      "target": "function:server/encoding.js:fixZhEncoding",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/encoding.js",
+      "target": "function:server/encoding.js:fixRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/fix_sqlite_encoding.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/fix_sqlite_encoding.js",
+      "target": "file:server/encoding.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/fix_sqlite_encoding.js",
+      "target": "function:server/fix_sqlite_encoding.js:fixTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/import_from_db11.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/import_from_db11.js",
+      "target": "file:server/encoding.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/import_from_db11.js",
+      "target": "function:server/import_from_db11.js:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mssqlPool.js",
+      "target": "file:server/dbConnectionConfig.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/mssqlPool.js",
+      "target": "function:server/mssqlPool.js:closePoolEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/mssqlPool.js",
+      "target": "function:server/mssqlPool.js:connectPool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:initPermissionsSchema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:seedDefaultPermissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:rowToUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:listMenuPermissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:getPermissionSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:resolveApiPgm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:apiPermissionGuard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:createUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:seedUserMenus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:updateUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:saveMenuPermissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:copyMenuPermissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:saveDeproSet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:saveUserWh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:syncUserFromMssql",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissions.js",
+      "target": "function:server/permissions.js:syncMenuFromPswd1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/permissionsRoutes.js",
+      "target": "file:server/authMiddleware.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/permissionsRoutes.js",
+      "target": "file:server/permissions.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/permissionsRoutes.js",
+      "target": "function:server/permissionsRoutes.js:registerPermissionsRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "file:server/dbConnectionConfig.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "file:server/encoding.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "file:server/permissions.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "function:server/pswdMssqlAuth.js:isUserExpired",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "function:server/pswdMssqlAuth.js:normalizePswdRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "function:server/pswdMssqlAuth.js:queryPswdUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "function:server/pswdMssqlAuth.js:fetchPswdUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "function:server/pswdMssqlAuth.js:fetchPswd1Menus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/pswdMssqlAuth.js",
+      "target": "function:server/pswdMssqlAuth.js:authenticateViaMssql",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/areaRepository.js",
+      "target": "file:server/encoding.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/areaRepository.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/areaRepository.js",
+      "target": "file:server/repositories/mssqlRow.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/areaRepository.js",
+      "target": "function:server/repositories/areaRepository.js:create",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/areaRepository.js",
+      "target": "function:server/repositories/areaRepository.js:update",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlRow.js",
+      "target": "function:server/repositories/mssqlRow.js:normalizeIndxRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/mssqlRow.js",
+      "target": "function:server/repositories/mssqlRow.js:normalizeAreaRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/prdtPic.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/repositories/prdtPic.js",
+      "target": "function:server/repositories/prdtPic.js:parsePicSaveValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/repositories/prdtPic.js",
+      "target": "function:server/repositories/prdtPic.js:savePrdtPic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/scripts/_dict_mo.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_dict_mo.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_dict_mo.js",
+      "target": "function:server/scripts/_dict_mo.js:dictFld",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/scripts/_dict_mp23.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_dict_mp23.js",
+      "target": "function:server/scripts/_dict_mp23.js:dictFld",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/scripts/_probe_face_tables.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_probe_mp23.js",
+      "target": "file:server/dbConnectionConfig.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_probe_mp23.js",
+      "target": "function:server/scripts/_probe_mp23.js:cols",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/scripts/_probe_mp23_labels.js",
+      "target": "file:server/dbConnectionConfig.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_query_faseca_menu.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_pic_save.js",
+      "target": "file:server/mssqlPool.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_pic_save.js",
+      "target": "file:server/repositories/prdtPic.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_pic_tx.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_prdt_pic_tx.js",
+      "target": "file:server/repositories/prdtPic.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_save_prdt_pic_fn.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_save_prdt_pic_fn.js",
+      "target": "file:server/repositories/prdtPic.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/scripts/_test_save_prdt_pic_fn.js",
+      "target": "function:server/scripts/_test_save_prdt_pic_fn.js:savePrdtPic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

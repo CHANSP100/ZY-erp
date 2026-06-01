@@ -1,0 +1,335 @@
+{
+  "nodes": [
+    {
+      "id": "file:client-vue/src/composables/useLookupDialogColumns.ts",
+      "type": "file",
+      "name": "useLookupDialogColumns.ts",
+      "filePath": "client-vue/src/composables/useLookupDialogColumns.ts",
+      "summary": "useLookupDialogColumns.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useLookupDialogColumns.ts:useLookupDialogColumns",
+      "type": "function",
+      "name": "useLookupDialogColumns",
+      "filePath": "client-vue/src/composables/useLookupDialogColumns.ts",
+      "lineRange": [
+        10,
+        130
+      ],
+      "summary": "Function useLookupDialogColumns defined in useLookupDialogColumns.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/config/lookups/helpers.ts",
+      "type": "file",
+      "name": "helpers.ts",
+      "filePath": "client-vue/src/config/lookups/helpers.ts",
+      "summary": "helpers.ts with 2 function(s) and 0 class(es); exports 4 symbol(s).",
+      "tags": [
+        "barrel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/lookups/helpers.ts:normalizeLookupColumns",
+      "type": "function",
+      "name": "normalizeLookupColumns",
+      "filePath": "client-vue/src/config/lookups/helpers.ts",
+      "lineRange": [
+        33,
+        39
+      ],
+      "summary": "Function normalizeLookupColumns defined in helpers.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/lookups/helpers.ts:resolveColumnSettingsKey",
+      "type": "function",
+      "name": "resolveColumnSettingsKey",
+      "filePath": "client-vue/src/config/lookups/helpers.ts",
+      "lineRange": [
+        41,
+        49
+      ],
+      "summary": "Function resolveColumnSettingsKey defined in helpers.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/lookups/presets.ts",
+      "type": "file",
+      "name": "presets.ts",
+      "filePath": "client-vue/src/config/lookups/presets.ts",
+      "summary": "presets.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/lookups/presets.ts:fetchRow",
+      "type": "function",
+      "name": "fetchRow",
+      "filePath": "client-vue/src/config/lookups/presets.ts",
+      "lineRange": [
+        4,
+        13
+      ],
+      "summary": "Function fetchRow defined in presets.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/lookups/resolve.ts",
+      "type": "file",
+      "name": "resolve.ts",
+      "filePath": "client-vue/src/config/lookups/resolve.ts",
+      "summary": "resolve.ts with 4 function(s) and 0 class(es); exports 3 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/config/lookups/resolve.ts:resolveLookupConfig",
+      "type": "function",
+      "name": "resolveLookupConfig",
+      "filePath": "client-vue/src/config/lookups/resolve.ts",
+      "lineRange": [
+        5,
+        21
+      ],
+      "summary": "Function resolveLookupConfig defined in resolve.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/config/lookups/resolve.ts:toLookupDialogBindProps",
+      "type": "function",
+      "name": "toLookupDialogBindProps",
+      "filePath": "client-vue/src/config/lookups/resolve.ts",
+      "lineRange": [
+        37,
+        52
+      ],
+      "summary": "Function toLookupDialogBindProps defined in resolve.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/config/lookups/resolve.ts:getLookupDialogProps",
+      "type": "function",
+      "name": "getLookupDialogProps",
+      "filePath": "client-vue/src/config/lookups/resolve.ts",
+      "lineRange": [
+        55,
+        62
+      ],
+      "summary": "Function getLookupDialogProps defined in resolve.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/lookups/resolve.ts:getInlineLookupDialogProps",
+      "type": "function",
+      "name": "getInlineLookupDialogProps",
+      "filePath": "client-vue/src/config/lookups/resolve.ts",
+      "lineRange": [
+        65,
+        72
+      ],
+      "summary": "Function getInlineLookupDialogProps defined in resolve.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/types/lookup.ts",
+      "type": "file",
+      "name": "lookup.ts",
+      "filePath": "client-vue/src/types/lookup.ts",
+      "summary": "Source file lookup.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:client-vue/src/composables/useLookupDialogColumns.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useLookupDialogColumns.ts",
+      "target": "file:client-vue/src/types/lookup.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useLookupDialogColumns.ts",
+      "target": "function:client-vue/src/composables/useLookupDialogColumns.ts:useLookupDialogColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useLookupDialogColumns.ts",
+      "target": "function:client-vue/src/composables/useLookupDialogColumns.ts:useLookupDialogColumns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/helpers.ts",
+      "target": "file:client-vue/src/types/lookup.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/helpers.ts",
+      "target": "function:client-vue/src/config/lookups/helpers.ts:normalizeLookupColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/helpers.ts",
+      "target": "function:client-vue/src/config/lookups/helpers.ts:normalizeLookupColumns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/helpers.ts",
+      "target": "function:client-vue/src/config/lookups/helpers.ts:resolveColumnSettingsKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/helpers.ts",
+      "target": "function:client-vue/src/config/lookups/helpers.ts:resolveColumnSettingsKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/presets.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/presets.ts",
+      "target": "file:client-vue/src/types/lookup.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/presets.ts",
+      "target": "function:client-vue/src/config/lookups/presets.ts:fetchRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "file:client-vue/src/config/lookups/helpers.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "file:client-vue/src/config/lookups/presets.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "file:client-vue/src/types/lookup.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "function:client-vue/src/config/lookups/resolve.ts:resolveLookupConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "function:client-vue/src/config/lookups/resolve.ts:resolveLookupConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "function:client-vue/src/config/lookups/resolve.ts:toLookupDialogBindProps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "function:client-vue/src/config/lookups/resolve.ts:getLookupDialogProps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "function:client-vue/src/config/lookups/resolve.ts:getLookupDialogProps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "function:client-vue/src/config/lookups/resolve.ts:getInlineLookupDialogProps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/lookups/resolve.ts",
+      "target": "function:client-vue/src/config/lookups/resolve.ts:getInlineLookupDialogProps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

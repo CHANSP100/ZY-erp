@@ -1,0 +1,995 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/extField.js",
+      "type": "file",
+      "name": "extField.js",
+      "filePath": "server/extField.js",
+      "summary": "extField.js with 16 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/extField.js:initExtFieldSchema",
+      "type": "function",
+      "name": "initExtFieldSchema",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        31,
+        42
+      ],
+      "summary": "Function initExtFieldSchema defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extField.js:ensureZTableMssql",
+      "type": "function",
+      "name": "ensureZTableMssql",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        54,
+        69
+      ],
+      "summary": "Function ensureZTableMssql defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extField.js:ensureZTableSqlite",
+      "type": "function",
+      "name": "ensureZTableSqlite",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        71,
+        83
+      ],
+      "summary": "Function ensureZTableSqlite defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extField.js:ensureZTable",
+      "type": "function",
+      "name": "ensureZTable",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        85,
+        102
+      ],
+      "summary": "Function ensureZTable defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extField.js:addZColumnMssql",
+      "type": "function",
+      "name": "addZColumnMssql",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        104,
+        119
+      ],
+      "summary": "Function addZColumnMssql defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extField.js:addZColumn",
+      "type": "function",
+      "name": "addZColumn",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        130,
+        140
+      ],
+      "summary": "Function addZColumn defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extField.js:buildZJoinClause",
+      "type": "function",
+      "name": "buildZJoinClause",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        152,
+        163
+      ],
+      "summary": "Function buildZJoinClause defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extField.js:listDbTables",
+      "type": "function",
+      "name": "listDbTables",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        171,
+        186
+      ],
+      "summary": "Function listDbTables defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extField.js:listDbTableColumns",
+      "type": "function",
+      "name": "listDbTableColumns",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        188,
+        200
+      ],
+      "summary": "Function listDbTableColumns defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extField.js:listTableSelectOptions",
+      "type": "function",
+      "name": "listTableSelectOptions",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        202,
+        236
+      ],
+      "summary": "Function listTableSelectOptions defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extField.js:buildPersistedQueryParts",
+      "type": "function",
+      "name": "buildPersistedQueryParts",
+      "filePath": "server/extField.js",
+      "lineRange": [
+        238,
+        248
+      ],
+      "summary": "Function buildPersistedQueryParts defined in extField.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/extFieldPersist.js",
+      "type": "file",
+      "name": "extFieldPersist.js",
+      "filePath": "server/extFieldPersist.js",
+      "summary": "extFieldPersist.js with 16 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:pickExtValues",
+      "type": "function",
+      "name": "pickExtValues",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        23,
+        37
+      ],
+      "summary": "Function pickExtValues defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:mapZRowToExtFields",
+      "type": "function",
+      "name": "mapZRowToExtFields",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        39,
+        49
+      ],
+      "summary": "Function mapZRowToExtFields defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:evalSqlFieldValue",
+      "type": "function",
+      "name": "evalSqlFieldValue",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        61,
+        99
+      ],
+      "summary": "Function evalSqlFieldValue defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:upsertZRow",
+      "type": "function",
+      "name": "upsertZRow",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        101,
+        124
+      ],
+      "summary": "Function upsertZRow defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:ensureZTableByKeys",
+      "type": "function",
+      "name": "ensureZTableByKeys",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        126,
+        141
+      ],
+      "summary": "Function ensureZTableByKeys defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:loadHeadExtFields",
+      "type": "function",
+      "name": "loadHeadExtFields",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        143,
+        155
+      ],
+      "summary": "Function loadHeadExtFields defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:loadLineExtFields",
+      "type": "function",
+      "name": "loadLineExtFields",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        157,
+        169
+      ],
+      "summary": "Function loadLineExtFields defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:persistHeadExtFields",
+      "type": "function",
+      "name": "persistHeadExtFields",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        171,
+        198
+      ],
+      "summary": "Function persistHeadExtFields defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:persistLineExtFields",
+      "type": "function",
+      "name": "persistLineExtFields",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        200,
+        227
+      ],
+      "summary": "Function persistLineExtFields defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:persistBillExtFields",
+      "type": "function",
+      "name": "persistBillExtFields",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        230,
+        244
+      ],
+      "summary": "Function persistBillExtFields defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:pickHeadKeys",
+      "type": "function",
+      "name": "pickHeadKeys",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        246,
+        260
+      ],
+      "summary": "Function pickHeadKeys defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:pickLineKeys",
+      "type": "function",
+      "name": "pickLineKeys",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        262,
+        274
+      ],
+      "summary": "Function pickLineKeys defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/extFieldPersist.js:attachBillExtFields",
+      "type": "function",
+      "name": "attachBillExtFields",
+      "filePath": "server/extFieldPersist.js",
+      "lineRange": [
+        277,
+        289
+      ],
+      "summary": "Function attachBillExtFields defined in extFieldPersist.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/gridConfig.js",
+      "type": "file",
+      "name": "gridConfig.js",
+      "filePath": "server/gridConfig.js",
+      "summary": "gridConfig.js with 19 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/gridConfig.js:seedMenuColumns",
+      "type": "function",
+      "name": "seedMenuColumns",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        196,
+        217
+      ],
+      "summary": "Function seedMenuColumns defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/gridConfig.js:initGridSchema",
+      "type": "function",
+      "name": "initGridSchema",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        219,
+        312
+      ],
+      "summary": "Function initGridSchema defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/gridConfig.js:getColumns",
+      "type": "function",
+      "name": "getColumns",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        329,
+        366
+      ],
+      "summary": "Function getColumns defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/gridConfig.js:validateSqlExpr",
+      "type": "function",
+      "name": "validateSqlExpr",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        391,
+        401
+      ],
+      "summary": "Function validateSqlExpr defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/gridConfig.js:validateSelectConfig",
+      "type": "function",
+      "name": "validateSelectConfig",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        403,
+        433
+      ],
+      "summary": "Function validateSelectConfig defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/gridConfig.js:addCustomColumn",
+      "type": "function",
+      "name": "addCustomColumn",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        446,
+        546
+      ],
+      "summary": "Function addCustomColumn defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/gridConfig.js:updateCustomColumn",
+      "type": "function",
+      "name": "updateCustomColumn",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        548,
+        632
+      ],
+      "summary": "Function updateCustomColumn defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/gridConfig.js:removeCustomColumn",
+      "type": "function",
+      "name": "removeCustomColumn",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        634,
+        643
+      ],
+      "summary": "Function removeCustomColumn defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/gridConfig.js:reorderColumns",
+      "type": "function",
+      "name": "reorderColumns",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        645,
+        663
+      ],
+      "summary": "Function reorderColumns defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/gridConfig.js:getPersistedGridColumns",
+      "type": "function",
+      "name": "getPersistedGridColumns",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        675,
+        688
+      ],
+      "summary": "Function getPersistedGridColumns defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/gridConfig.js:getMenuGridMeta",
+      "type": "function",
+      "name": "getMenuGridMeta",
+      "filePath": "server/gridConfig.js",
+      "lineRange": [
+        690,
+        699
+      ],
+      "summary": "Function getMenuGridMeta defined in gridConfig.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/menuTableRegistry.js",
+      "type": "file",
+      "name": "menuTableRegistry.js",
+      "filePath": "server/menuTableRegistry.js",
+      "summary": "menuTableRegistry.js with 4 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/sunlikeSqlExpr.js",
+      "type": "file",
+      "name": "sunlikeSqlExpr.js",
+      "filePath": "server/sunlikeSqlExpr.js",
+      "summary": "sunlikeSqlExpr.js with 4 function(s) and 0 class(es); exports 0 symbol(s).",
+      "tags": [
+        "service"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/sunlikeSqlExpr.js:buildMap",
+      "type": "function",
+      "name": "buildMap",
+      "filePath": "server/sunlikeSqlExpr.js",
+      "lineRange": [
+        17,
+        28
+      ],
+      "summary": "Function buildMap defined in sunlikeSqlExpr.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/sunlikeSqlExpr.js:translateSunlikeSqlExpr",
+      "type": "function",
+      "name": "translateSunlikeSqlExpr",
+      "filePath": "server/sunlikeSqlExpr.js",
+      "lineRange": [
+        39,
+        68
+      ],
+      "summary": "Function translateSunlikeSqlExpr defined in sunlikeSqlExpr.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/sunlikeSqlExpr.js:listSunlikeSqlFields",
+      "type": "function",
+      "name": "listSunlikeSqlFields",
+      "filePath": "server/sunlikeSqlExpr.js",
+      "lineRange": [
+        70,
+        83
+      ],
+      "summary": "Function listSunlikeSqlFields defined in sunlikeSqlExpr.js.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/extField.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "file:server/gridConfig.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "file:server/menuTableRegistry.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:initExtFieldSchema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:ensureZTableMssql",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:ensureZTableSqlite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:ensureZTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:addZColumnMssql",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:addZColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:buildZJoinClause",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:listDbTables",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:listDbTableColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:listTableSelectOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extField.js",
+      "target": "function:server/extField.js:buildPersistedQueryParts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "file:server/extField.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "file:server/gridConfig.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "file:server/menuTableRegistry.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "file:server/repositories/mssqlHelpers.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "file:server/sunlikeSqlExpr.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:pickExtValues",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:mapZRowToExtFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:evalSqlFieldValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:upsertZRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:ensureZTableByKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:loadHeadExtFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:loadLineExtFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:persistHeadExtFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:persistLineExtFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:persistBillExtFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:pickHeadKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:pickLineKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/extFieldPersist.js",
+      "target": "function:server/extFieldPersist.js:attachBillExtFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "file:server/db.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "file:server/extField.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "file:server/menuTableRegistry.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "file:server/permissions.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "file:server/sunlikeSqlExpr.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:seedMenuColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:initGridSchema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:getColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:validateSqlExpr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:validateSelectConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:addCustomColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:updateCustomColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:removeCustomColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:reorderColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:getPersistedGridColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/gridConfig.js",
+      "target": "function:server/gridConfig.js:getMenuGridMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sunlikeSqlExpr.js",
+      "target": "function:server/sunlikeSqlExpr.js:buildMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sunlikeSqlExpr.js",
+      "target": "function:server/sunlikeSqlExpr.js:translateSunlikeSqlExpr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/sunlikeSqlExpr.js",
+      "target": "function:server/sunlikeSqlExpr.js:listSunlikeSqlFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+TAB_NAME|TAB_TITLE|BIG5_NAME|ENG_NAME|MODIFIED|ISDEL
+--------|---------|---------|--------|--------|-----
+AAGBL_CUS1.DB|客户订单类别对应库(唐麦)|客戶訂單類別對應庫(唐麥)||T|F
+ABGT.DB|科目预算档|科目預算檔|NULL|F|F
+ABGT_H.DB|科目预算历史库|科目預算歷史庫||T|F
+ABGT_SEI.DB|资金预估金额表|資金預估金額表||T|F
+ABGT1.DB|预算表身档|預算表身檔|NULL|F|F

@@ -1,0 +1,2420 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "server/extField.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 264,
+      "nonEmptyLines": 234,
+      "functions": [
+        {
+          "name": "colKeyToDbField",
+          "startLine": 24,
+          "endLine": 29,
+          "params": [
+            "colKey"
+          ]
+        },
+        {
+          "name": "initExtFieldSchema",
+          "startLine": 31,
+          "endLine": 42,
+          "params": []
+        },
+        {
+          "name": "mssqlTableExists",
+          "startLine": 46,
+          "endLine": 52,
+          "params": [
+            "tableName"
+          ]
+        },
+        {
+          "name": "ensureZTableMssql",
+          "startLine": 54,
+          "endLine": 69,
+          "params": [
+            "zTable",
+            "keys"
+          ]
+        },
+        {
+          "name": "ensureZTableSqlite",
+          "startLine": 71,
+          "endLine": 83,
+          "params": [
+            "zTable",
+            "keys"
+          ]
+        },
+        {
+          "name": "ensureZTable",
+          "startLine": 85,
+          "endLine": 102,
+          "params": [
+            "menuCode",
+            "area"
+          ]
+        },
+        {
+          "name": "addZColumnMssql",
+          "startLine": 104,
+          "endLine": 119,
+          "params": [
+            "zTable",
+            "dbField",
+            "physType",
+            "physLen"
+          ]
+        },
+        {
+          "name": "addZColumnSqlite",
+          "startLine": 121,
+          "endLine": 128,
+          "params": [
+            "zTable",
+            "dbField",
+            "physType"
+          ]
+        },
+        {
+          "name": "addZColumn",
+          "startLine": 130,
+          "endLine": 140,
+          "params": [
+            "menuCode",
+            "area",
+            "colKey",
+            "physType",
+            "physLen"
+          ]
+        },
+        {
+          "name": "getPersistedColumns",
+          "startLine": 142,
+          "endLine": 150,
+          "params": [
+            "menuCode",
+            "area"
+          ]
+        },
+        {
+          "name": "buildZJoinClause",
+          "startLine": 152,
+          "endLine": 163,
+          "params": [
+            "menuCode",
+            "area",
+            "mainAlias"
+          ]
+        },
+        {
+          "name": "buildZSelectCols",
+          "startLine": 165,
+          "endLine": 169,
+          "params": [
+            "cols"
+          ]
+        },
+        {
+          "name": "listDbTables",
+          "startLine": 171,
+          "endLine": 186,
+          "params": []
+        },
+        {
+          "name": "listDbTableColumns",
+          "startLine": 188,
+          "endLine": 200,
+          "params": [
+            "tableName"
+          ]
+        },
+        {
+          "name": "listTableSelectOptions",
+          "startLine": 202,
+          "endLine": 236,
+          "params": [
+            "tableName"
+          ]
+        },
+        {
+          "name": "buildPersistedQueryParts",
+          "startLine": 238,
+          "endLine": 248,
+          "params": [
+            "menuCode",
+            "area"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "colKeyToDbField",
+          "callee": "String(colKey)\r\n    .trim()\r\n    .toUpperCase()\r\n    .replace",
+          "lineNumber": 25
+        },
+        {
+          "caller": "colKeyToDbField",
+          "callee": "String(colKey)\r\n    .trim()\r\n    .toUpperCase",
+          "lineNumber": 25
+        },
+        {
+          "caller": "colKeyToDbField",
+          "callee": "String(colKey)\r\n    .trim",
+          "lineNumber": 25
+        },
+        {
+          "caller": "colKeyToDbField",
+          "callee": "String",
+          "lineNumber": 25
+        },
+        {
+          "caller": "initExtFieldSchema",
+          "callee": "db.exec",
+          "lineNumber": 32
+        },
+        {
+          "caller": "mssqlTableExists",
+          "callee": "queryOne",
+          "lineNumber": 47
+        },
+        {
+          "caller": "mssqlTableExists",
+          "callee": "require('mssql').NVarChar",
+          "lineNumber": 49
+        },
+        {
+          "caller": "mssqlTableExists",
+          "callee": "require",
+          "lineNumber": 49
+        },
+        {
+          "caller": "mssqlTableExists",
+          "callee": "String(tableName).toUpperCase",
+          "lineNumber": 49
+        },
+        {
+          "caller": "mssqlTableExists",
+          "callee": "String",
+          "lineNumber": 49
+        },
+        {
+          "caller": "ensureZTableMssql",
+          "callee": "mssqlTableExists",
+          "lineNumber": 55
+        },
+        {
+          "caller": "ensureZTableMssql",
+          "callee": "keys\r\n    .map((k) => {\r\n      const sqlType =\r\n        k.type === 'int'\r\n          ? 'INT'\r\n          : PHYS_TO_MSSQL.varchar(k.len || 20);\r\n      return `[${k.db}] ${sqlType} NOT NULL`;\r\n    })\r\n    .join",
+          "lineNumber": 58
+        },
+        {
+          "caller": "ensureZTableMssql",
+          "callee": "keys\r\n    .map",
+          "lineNumber": 58
+        },
+        {
+          "caller": "ensureZTableMssql",
+          "callee": "PHYS_TO_MSSQL.varchar",
+          "lineNumber": 63
+        },
+        {
+          "caller": "ensureZTableMssql",
+          "callee": "keys.map((k) => `[${k.db}]`).join",
+          "lineNumber": 67
+        },
+        {
+          "caller": "ensureZTableMssql",
+          "callee": "keys.map",
+          "lineNumber": 67
+        },
+        {
+          "caller": "ensureZTableMssql",
+          "callee": "execSql",
+          "lineNumber": 68
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "db.prepare(`PRAGMA table_info(${zTable})`).all",
+          "lineNumber": 72
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "db.prepare",
+          "lineNumber": 72
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "keys\r\n    .map((k) => {\r\n      const sqlType = k.type === 'int' ? 'INTEGER' : 'TEXT';\r\n      return `${k.db.toLowerCase()} ${sqlType} NOT NULL`;\r\n    })\r\n    .join",
+          "lineNumber": 75
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "keys\r\n    .map",
+          "lineNumber": 75
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "k.db.toLowerCase",
+          "lineNumber": 78
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "keys.map((k) => k.db.toLowerCase()).join",
+          "lineNumber": 81
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "keys.map",
+          "lineNumber": 81
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "k.db.toLowerCase",
+          "lineNumber": 81
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "db.exec",
+          "lineNumber": 82
+        },
+        {
+          "caller": "ensureZTableSqlite",
+          "callee": "zTable.toLowerCase",
+          "lineNumber": 82
+        },
+        {
+          "caller": "ensureZTable",
+          "callee": "resolveArea",
+          "lineNumber": 86
+        },
+        {
+          "caller": "ensureZTable",
+          "callee": "db.prepare(\r\n    `INSERT OR IGNORE INTO erp_ext_z_table (menu_code, grid_area, base_table, z_table)\r\n     VALUES (?, ?, ?, ?)`\r\n  ).run",
+          "lineNumber": 89
+        },
+        {
+          "caller": "ensureZTable",
+          "callee": "db.prepare",
+          "lineNumber": 89
+        },
+        {
+          "caller": "ensureZTable",
+          "callee": "ensureZTableMssql",
+          "lineNumber": 95
+        },
+        {
+          "caller": "ensureZTable",
+          "callee": "console.warn",
+          "lineNumber": 97
+        },
+        {
+          "caller": "ensureZTable",
+          "callee": "ensureZTableSqlite",
+          "lineNumber": 98
+        },
+        {
+          "caller": "addZColumnMssql",
+          "callee": "colKeyToDbField",
+          "lineNumber": 105
+        },
+        {
+          "caller": "addZColumnMssql",
+          "callee": "queryOne",
+          "lineNumber": 106
+        },
+        {
+          "caller": "addZColumnMssql",
+          "callee": "require('mssql').NVarChar",
+          "lineNumber": 110
+        },
+        {
+          "caller": "addZColumnMssql",
+          "callee": "require",
+          "lineNumber": 110
+        },
+        {
+          "caller": "addZColumnMssql",
+          "callee": "require('mssql').NVarChar",
+          "lineNumber": 111
+        },
+        {
+          "caller": "addZColumnMssql",
+          "callee": "require",
+          "lineNumber": 111
+        },
+        {
+          "caller": "addZColumnMssql",
+          "callee": "typeFn",
+          "lineNumber": 117
+        },
+        {
+          "caller": "addZColumnMssql",
+          "callee": "execSql",
+          "lineNumber": 118
+        },
+        {
+          "caller": "addZColumnSqlite",
+          "callee": "zTable.toLowerCase",
+          "lineNumber": 122
+        },
+        {
+          "caller": "addZColumnSqlite",
+          "callee": "dbField.toLowerCase",
+          "lineNumber": 123
+        },
+        {
+          "caller": "addZColumnSqlite",
+          "callee": "db.prepare(`PRAGMA table_info(${table})`).all().map",
+          "lineNumber": 124
+        },
+        {
+          "caller": "addZColumnSqlite",
+          "callee": "db.prepare(`PRAGMA table_info(${table})`).all",
+          "lineNumber": 124
+        },
+        {
+          "caller": "addZColumnSqlite",
+          "callee": "db.prepare",
+          "lineNumber": 124
+        },
+        {
+          "caller": "addZColumnSqlite",
+          "callee": "cols.includes",
+          "lineNumber": 125
+        },
+        {
+          "caller": "addZColumnSqlite",
+          "callee": "db.exec",
+          "lineNumber": 127
+        },
+        {
+          "caller": "addZColumnSqlite",
+          "callee": "typeFn",
+          "lineNumber": 127
+        },
+        {
+          "caller": "addZColumn",
+          "callee": "ensureZTable",
+          "lineNumber": 131
+        },
+        {
+          "caller": "addZColumn",
+          "callee": "colKeyToDbField",
+          "lineNumber": 132
+        },
+        {
+          "caller": "addZColumn",
+          "callee": "addZColumnMssql",
+          "lineNumber": 134
+        },
+        {
+          "caller": "addZColumn",
+          "callee": "console.warn",
+          "lineNumber": 136
+        },
+        {
+          "caller": "addZColumn",
+          "callee": "addZColumnSqlite",
+          "lineNumber": 137
+        },
+        {
+          "caller": "getPersistedColumns",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT * FROM erp_detail_grid_col\r\n       WHERE menu_code = ? AND persist = 1 AND grid_area = ?\r\n       ORDER BY sort_order, col_key`\r\n    )\r\n    .all",
+          "lineNumber": 143
+        },
+        {
+          "caller": "getPersistedColumns",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 143
+        },
+        {
+          "caller": "buildZJoinClause",
+          "callee": "resolveArea",
+          "lineNumber": 153
+        },
+        {
+          "caller": "buildZJoinClause",
+          "callee": "keys\r\n    .map((k) => {\r\n      const mainCol = area === 'line' ? (k.col === 'os_no' ? 'm.os_no' : k.col === 'itm' ? 't.itm' : `t.${k.col}`) : `m.${k.col}`;\r\n      return `${mainCol} = ${zAlias}.[${k.db}]`;\r\n    })\r\n    .join",
+          "lineNumber": 156
+        },
+        {
+          "caller": "buildZJoinClause",
+          "callee": "keys\r\n    .map",
+          "lineNumber": 156
+        },
+        {
+          "caller": "buildZSelectCols",
+          "callee": "cols\r\n    .map((c) => `${zAlias}.[${colKeyToDbField(c.col_key)}] AS ${c.col_key}`)\r\n    .join",
+          "lineNumber": 166
+        },
+        {
+          "caller": "buildZSelectCols",
+          "callee": "cols\r\n    .map",
+          "lineNumber": 166
+        },
+        {
+          "caller": "buildZSelectCols",
+          "callee": "colKeyToDbField",
+          "lineNumber": 167
+        },
+        {
+          "caller": "listDbTables",
+          "callee": "queryAll",
+          "lineNumber": 173
+        },
+        {
+          "caller": "listDbTables",
+          "callee": "rows.map",
+          "lineNumber": 179
+        },
+        {
+          "caller": "listDbTables",
+          "callee": "db\r\n      .prepare(`SELECT name FROM sqlite_master WHERE type IN ('table','view') ORDER BY name`)\r\n      .all",
+          "lineNumber": 181
+        },
+        {
+          "caller": "listDbTables",
+          "callee": "db\r\n      .prepare",
+          "lineNumber": 181
+        },
+        {
+          "caller": "listDbTables",
+          "callee": "tables.map",
+          "lineNumber": 184
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "String(tableName).replace",
+          "lineNumber": 189
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "String",
+          "lineNumber": 189
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "queryAll",
+          "lineNumber": 191
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "require('mssql').NVarChar",
+          "lineNumber": 194
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "require",
+          "lineNumber": 194
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "t.toUpperCase",
+          "lineNumber": 194
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "db.prepare(`PRAGMA table_info(${t.toLowerCase()})`).all",
+          "lineNumber": 197
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "db.prepare",
+          "lineNumber": 197
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "t.toLowerCase",
+          "lineNumber": 197
+        },
+        {
+          "caller": "listDbTableColumns",
+          "callee": "cols.map",
+          "lineNumber": 198
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String(tableName || '')\r\n    .trim()\r\n    .replace",
+          "lineNumber": 203
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String(tableName || '')\r\n    .trim",
+          "lineNumber": 203
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String",
+          "lineNumber": 203
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "listDbTableColumns",
+          "lineNumber": 208
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String(cols[0].name).replace",
+          "lineNumber": 211
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String",
+          "lineNumber": 211
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String(cols[1].name).replace",
+          "lineNumber": 212
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String",
+          "lineNumber": 212
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "Math.min",
+          "lineNumber": 215
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "Math.max",
+          "lineNumber": 215
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "parseInt",
+          "lineNumber": 215
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String",
+          "lineNumber": 215
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "queryAll",
+          "lineNumber": 221
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "rows.map",
+          "lineNumber": 222
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String",
+          "lineNumber": 223
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String",
+          "lineNumber": 224
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "t.toLowerCase",
+          "lineNumber": 228
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "t.toLowerCase",
+          "lineNumber": 229
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "db.prepare(sel).all",
+          "lineNumber": 230
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "db.prepare",
+          "lineNumber": 230
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "rows.map",
+          "lineNumber": 231
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String",
+          "lineNumber": 232
+        },
+        {
+          "caller": "listTableSelectOptions",
+          "callee": "String",
+          "lineNumber": 233
+        },
+        {
+          "caller": "buildPersistedQueryParts",
+          "callee": "require",
+          "lineNumber": 239
+        },
+        {
+          "caller": "buildPersistedQueryParts",
+          "callee": "getPersistedGridColumns",
+          "lineNumber": 240
+        },
+        {
+          "caller": "buildPersistedQueryParts",
+          "callee": "buildZJoinClause",
+          "lineNumber": 242
+        },
+        {
+          "caller": "buildPersistedQueryParts",
+          "callee": "buildZSelectCols",
+          "lineNumber": 243
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 16,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/extFieldPersist.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 300,
+      "nonEmptyLines": 263,
+      "functions": [
+        {
+          "name": "isEmptyVal",
+          "startLine": 10,
+          "endLine": 12,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "bindKeyInputs",
+          "startLine": 14,
+          "endLine": 21,
+          "params": [
+            "keys",
+            "keyValues"
+          ]
+        },
+        {
+          "name": "pickExtValues",
+          "startLine": 23,
+          "endLine": 37,
+          "params": [
+            "menuCode",
+            "area",
+            "src"
+          ]
+        },
+        {
+          "name": "mapZRowToExtFields",
+          "startLine": 39,
+          "endLine": 49,
+          "params": [
+            "menuCode",
+            "area",
+            "zRow"
+          ]
+        },
+        {
+          "name": "validateRequiredFields",
+          "startLine": 51,
+          "endLine": 59,
+          "params": [
+            "menuCode",
+            "area",
+            "values"
+          ]
+        },
+        {
+          "name": "evalSqlFieldValue",
+          "startLine": 61,
+          "endLine": 99,
+          "params": [
+            "menuCode",
+            "area",
+            "sqlExprSrc",
+            "keyValues"
+          ]
+        },
+        {
+          "name": "upsertZRow",
+          "startLine": 101,
+          "endLine": 124,
+          "params": [
+            "zTable",
+            "keys",
+            "keyValues",
+            "data"
+          ]
+        },
+        {
+          "name": "ensureZTableByKeys",
+          "startLine": 126,
+          "endLine": 141,
+          "params": [
+            "zTable",
+            "keys"
+          ]
+        },
+        {
+          "name": "loadHeadExtFields",
+          "startLine": 143,
+          "endLine": 155,
+          "params": [
+            "menuCode",
+            "keyValues"
+          ]
+        },
+        {
+          "name": "loadLineExtFields",
+          "startLine": 157,
+          "endLine": 169,
+          "params": [
+            "menuCode",
+            "keyValues"
+          ]
+        },
+        {
+          "name": "persistHeadExtFields",
+          "startLine": 171,
+          "endLine": 198,
+          "params": [
+            "menuCode",
+            "keyValues",
+            "fieldValues"
+          ]
+        },
+        {
+          "name": "persistLineExtFields",
+          "startLine": 200,
+          "endLine": 227,
+          "params": [
+            "menuCode",
+            "keyValues",
+            "fieldValues"
+          ]
+        },
+        {
+          "name": "persistBillExtFields",
+          "startLine": 230,
+          "endLine": 244,
+          "params": [
+            "menuCode",
+            "body"
+          ]
+        },
+        {
+          "name": "pickHeadKeys",
+          "startLine": 246,
+          "endLine": 260,
+          "params": [
+            "menuCode",
+            "head"
+          ]
+        },
+        {
+          "name": "pickLineKeys",
+          "startLine": 262,
+          "endLine": 274,
+          "params": [
+            "menuCode",
+            "headKeys",
+            "ln"
+          ]
+        },
+        {
+          "name": "attachBillExtFields",
+          "startLine": 277,
+          "endLine": 289,
+          "params": [
+            "menuCode",
+            "head",
+            "lines"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "bindKeyInputs",
+          "callee": "nint",
+          "lineNumber": 18
+        },
+        {
+          "caller": "bindKeyInputs",
+          "callee": "nstr",
+          "lineNumber": 18
+        },
+        {
+          "caller": "pickExtValues",
+          "callee": "getPersistedGridColumns",
+          "lineNumber": 24
+        },
+        {
+          "caller": "pickExtValues",
+          "callee": "Object.prototype.hasOwnProperty.call",
+          "lineNumber": 32
+        },
+        {
+          "caller": "mapZRowToExtFields",
+          "callee": "getPersistedGridColumns",
+          "lineNumber": 41
+        },
+        {
+          "caller": "mapZRowToExtFields",
+          "callee": "colKeyToDbField",
+          "lineNumber": 44
+        },
+        {
+          "caller": "mapZRowToExtFields",
+          "callee": "dbf.toLowerCase",
+          "lineNumber": 45
+        },
+        {
+          "caller": "mapZRowToExtFields",
+          "callee": "col.db_field?.toLowerCase",
+          "lineNumber": 45
+        },
+        {
+          "caller": "validateRequiredFields",
+          "callee": "getPersistedGridColumns(menuCode, area).filter",
+          "lineNumber": 52
+        },
+        {
+          "caller": "validateRequiredFields",
+          "callee": "getPersistedGridColumns",
+          "lineNumber": 52
+        },
+        {
+          "caller": "validateRequiredFields",
+          "callee": "isEmptyVal",
+          "lineNumber": 55
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "String(sqlExprSrc || '').trim",
+          "lineNumber": 62
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "String",
+          "lineNumber": 62
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "src.includes",
+          "lineNumber": 64
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "translateSunlikeSqlExpr",
+          "lineNumber": 64
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "/^\\s*\\(/i.test",
+          "lineNumber": 65
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "resolveArea",
+          "lineNumber": 67
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "resolved.keys\r\n          .map((k) => {\r\n            if (k.col === 'os_no') return 't.OS_NO = @os_no';\r\n            if (k.col === 'sq_no') return 't.SQ_NO = @sq_no';\r\n            if (k.col === 'ps_no') return 't.PS_NO = @ps_no';\r\n            if (k.col === 'itm') return 't.ITM = @itm';\r\n            return `t.[${k.db}] = @${k.col}`;\r\n          })\r\n          .join",
+          "lineNumber": 70
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "resolved.keys\r\n          .map",
+          "lineNumber": 70
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "resolved.keys.map((k) => `m.[${k.db}] = @${k.col}`).join",
+          "lineNumber": 79
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "resolved.keys.map",
+          "lineNumber": 79
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "bindKeyInputs",
+          "lineNumber": 80
+        },
+        {
+          "caller": "evalSqlFieldValue",
+          "callee": "queryOne",
+          "lineNumber": 97
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "Object.keys",
+          "lineNumber": 102
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "ensureZTableByKeys",
+          "lineNumber": 104
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "bindKeyInputs",
+          "lineNumber": 106
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "Object.entries",
+          "lineNumber": 107
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "nstr",
+          "lineNumber": 108
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "keys.map((k) => `[${k.db}] = @${k.col}`).join",
+          "lineNumber": 111
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "keys.map",
+          "lineNumber": 111
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "execSql",
+          "lineNumber": 112
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "Object.keys(data)\r\n      .map((c) => `[${c}] = @d_${c}`)\r\n      .join",
+          "lineNumber": 113
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "Object.keys(data)\r\n      .map",
+          "lineNumber": 113
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "Object.keys",
+          "lineNumber": 113
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "keys.map",
+          "lineNumber": 121
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "Object.keys(data).map",
+          "lineNumber": 121
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "Object.keys",
+          "lineNumber": 121
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "keys.map",
+          "lineNumber": 122
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "Object.keys(data).map",
+          "lineNumber": 122
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "Object.keys",
+          "lineNumber": 122
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "execSql",
+          "lineNumber": 123
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "cols.join",
+          "lineNumber": 123
+        },
+        {
+          "caller": "upsertZRow",
+          "callee": "vals.join",
+          "lineNumber": 123
+        },
+        {
+          "caller": "ensureZTableByKeys",
+          "callee": "queryOne(\r\n    `SELECT 1 AS ok FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = @t`,\r\n    { t: nstr(zTable, 128) }\r\n  ).catch",
+          "lineNumber": 127
+        },
+        {
+          "caller": "ensureZTableByKeys",
+          "callee": "queryOne",
+          "lineNumber": 127
+        },
+        {
+          "caller": "ensureZTableByKeys",
+          "callee": "nstr",
+          "lineNumber": 129
+        },
+        {
+          "caller": "ensureZTableByKeys",
+          "callee": "keys\r\n    .map((k) => {\r\n      const sqlType = k.type === 'int' ? 'INT' : `NVARCHAR(${k.len || 20})`;\r\n      return `[${k.db}] ${sqlType} NOT NULL`;\r\n    })\r\n    .join",
+          "lineNumber": 133
+        },
+        {
+          "caller": "ensureZTableByKeys",
+          "callee": "keys\r\n    .map",
+          "lineNumber": 133
+        },
+        {
+          "caller": "ensureZTableByKeys",
+          "callee": "keys.map((k) => `[${k.db}]`).join",
+          "lineNumber": 139
+        },
+        {
+          "caller": "ensureZTableByKeys",
+          "callee": "keys.map",
+          "lineNumber": 139
+        },
+        {
+          "caller": "ensureZTableByKeys",
+          "callee": "execSql",
+          "lineNumber": 140
+        },
+        {
+          "caller": "loadHeadExtFields",
+          "callee": "getPersistedGridColumns",
+          "lineNumber": 145
+        },
+        {
+          "caller": "loadHeadExtFields",
+          "callee": "resolveArea",
+          "lineNumber": 147
+        },
+        {
+          "caller": "loadHeadExtFields",
+          "callee": "bindKeyInputs",
+          "lineNumber": 148
+        },
+        {
+          "caller": "loadHeadExtFields",
+          "callee": "resolved.keys.map((k) => `[${k.db}] = @${k.col}`).join",
+          "lineNumber": 149
+        },
+        {
+          "caller": "loadHeadExtFields",
+          "callee": "resolved.keys.map",
+          "lineNumber": 149
+        },
+        {
+          "caller": "loadHeadExtFields",
+          "callee": "queryOne",
+          "lineNumber": 150
+        },
+        {
+          "caller": "loadHeadExtFields",
+          "callee": "mapZRowToExtFields",
+          "lineNumber": 151
+        },
+        {
+          "caller": "loadLineExtFields",
+          "callee": "getPersistedGridColumns",
+          "lineNumber": 159
+        },
+        {
+          "caller": "loadLineExtFields",
+          "callee": "resolveArea",
+          "lineNumber": 161
+        },
+        {
+          "caller": "loadLineExtFields",
+          "callee": "bindKeyInputs",
+          "lineNumber": 162
+        },
+        {
+          "caller": "loadLineExtFields",
+          "callee": "resolved.keys.map((k) => `[${k.db}] = @${k.col}`).join",
+          "lineNumber": 163
+        },
+        {
+          "caller": "loadLineExtFields",
+          "callee": "resolved.keys.map",
+          "lineNumber": 163
+        },
+        {
+          "caller": "loadLineExtFields",
+          "callee": "queryOne",
+          "lineNumber": 164
+        },
+        {
+          "caller": "loadLineExtFields",
+          "callee": "mapZRowToExtFields",
+          "lineNumber": 165
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "getPersistedGridColumns",
+          "lineNumber": 172
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "pickExtValues",
+          "lineNumber": 175
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "validateRequiredFields",
+          "lineNumber": 176
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "ensureZTable",
+          "lineNumber": 178
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "resolveArea",
+          "lineNumber": 179
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "evalSqlFieldValue",
+          "lineNumber": 185
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "isEmptyVal",
+          "lineNumber": 187
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "isEmptyVal",
+          "lineNumber": 190
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "colKeyToDbField",
+          "lineNumber": 191
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "Object.keys",
+          "lineNumber": 195
+        },
+        {
+          "caller": "persistHeadExtFields",
+          "callee": "upsertZRow",
+          "lineNumber": 196
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "getPersistedGridColumns",
+          "lineNumber": 201
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "pickExtValues",
+          "lineNumber": 204
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "validateRequiredFields",
+          "lineNumber": 205
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "ensureZTable",
+          "lineNumber": 207
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "resolveArea",
+          "lineNumber": 208
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "evalSqlFieldValue",
+          "lineNumber": 214
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "isEmptyVal",
+          "lineNumber": 216
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "isEmptyVal",
+          "lineNumber": 219
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "colKeyToDbField",
+          "lineNumber": 220
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "Object.keys",
+          "lineNumber": 224
+        },
+        {
+          "caller": "persistLineExtFields",
+          "callee": "upsertZRow",
+          "lineNumber": 225
+        },
+        {
+          "caller": "persistBillExtFields",
+          "callee": "Array.isArray",
+          "lineNumber": 232
+        },
+        {
+          "caller": "persistBillExtFields",
+          "callee": "pickHeadKeys",
+          "lineNumber": 233
+        },
+        {
+          "caller": "persistBillExtFields",
+          "callee": "pickExtValues",
+          "lineNumber": 234
+        },
+        {
+          "caller": "persistBillExtFields",
+          "callee": "persistHeadExtFields",
+          "lineNumber": 236
+        },
+        {
+          "caller": "persistBillExtFields",
+          "callee": "pickLineKeys",
+          "lineNumber": 239
+        },
+        {
+          "caller": "persistBillExtFields",
+          "callee": "pickExtValues",
+          "lineNumber": 241
+        },
+        {
+          "caller": "persistBillExtFields",
+          "callee": "persistLineExtFields",
+          "lineNumber": 242
+        },
+        {
+          "caller": "pickHeadKeys",
+          "callee": "resolveArea",
+          "lineNumber": 247
+        },
+        {
+          "caller": "pickLineKeys",
+          "callee": "resolveArea",
+          "lineNumber": 263
+        },
+        {
+          "caller": "attachBillExtFields",
+          "callee": "pickHeadKeys",
+          "lineNumber": 278
+        },
+        {
+          "caller": "attachBillExtFields",
+          "callee": "loadHeadExtFields",
+          "lineNumber": 279
+        },
+        {
+          "caller": "attachBillExtFields",
+          "callee": "pickLineKeys",
+          "lineNumber": 284
+        },
+        {
+          "caller": "attachBillExtFields",
+          "callee": "loadLineExtFields",
+          "lineNumber": 285
+        },
+        {
+          "caller": "attachBillExtFields",
+          "callee": "mergedLines.push",
+          "lineNumber": 286
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 16,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/gridConfig.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 722,
+      "nonEmptyLines": 659,
+      "functions": [
+        {
+          "name": "seedMenuColumns",
+          "startLine": 196,
+          "endLine": 217,
+          "params": [
+            "menuCode"
+          ]
+        },
+        {
+          "name": "initGridSchema",
+          "startLine": 219,
+          "endLine": 312,
+          "params": []
+        },
+        {
+          "name": "getUser",
+          "startLine": 314,
+          "endLine": 316,
+          "params": [
+            "usrId"
+          ]
+        },
+        {
+          "name": "getUserForLogin",
+          "startLine": 318,
+          "endLine": 320,
+          "params": [
+            "usrId"
+          ]
+        },
+        {
+          "name": "listUsers",
+          "startLine": 322,
+          "endLine": 327,
+          "params": []
+        },
+        {
+          "name": "getColumns",
+          "startLine": 329,
+          "endLine": 366,
+          "params": [
+            "menuCode",
+            "usrId"
+          ]
+        },
+        {
+          "name": "displayFormatToWidget",
+          "startLine": 368,
+          "endLine": 372,
+          "params": [
+            "fmt"
+          ]
+        },
+        {
+          "name": "setGlobalVisibility",
+          "startLine": 374,
+          "endLine": 381,
+          "params": [
+            "menuCode",
+            "colKey",
+            "visible"
+          ]
+        },
+        {
+          "name": "setUserVisibility",
+          "startLine": 383,
+          "endLine": 389,
+          "params": [
+            "menuCode",
+            "usrId",
+            "colKey",
+            "visible"
+          ]
+        },
+        {
+          "name": "validateSqlExpr",
+          "startLine": 391,
+          "endLine": 401,
+          "params": [
+            "expr"
+          ]
+        },
+        {
+          "name": "validateSelectConfig",
+          "startLine": 403,
+          "endLine": 433,
+          "params": [
+            "selectConfig"
+          ]
+        },
+        {
+          "name": "normalizeFieldSource",
+          "startLine": 436,
+          "endLine": 444,
+          "params": [
+            "fieldSource",
+            "isListMode"
+          ]
+        },
+        {
+          "name": "addCustomColumn",
+          "startLine": 446,
+          "endLine": 546,
+          "params": [
+            "menuCode",
+            "payload"
+          ]
+        },
+        {
+          "name": "updateCustomColumn",
+          "startLine": 548,
+          "endLine": 632,
+          "params": [
+            "menuCode",
+            "colKey",
+            "payload"
+          ]
+        },
+        {
+          "name": "removeCustomColumn",
+          "startLine": 634,
+          "endLine": 643,
+          "params": [
+            "menuCode",
+            "colKey"
+          ]
+        },
+        {
+          "name": "reorderColumns",
+          "startLine": 645,
+          "endLine": 663,
+          "params": [
+            "menuCode",
+            "colKeys"
+          ]
+        },
+        {
+          "name": "getCustomSqlExprs",
+          "startLine": 665,
+          "endLine": 673,
+          "params": [
+            "menuCode"
+          ]
+        },
+        {
+          "name": "getPersistedGridColumns",
+          "startLine": 675,
+          "endLine": 688,
+          "params": [
+            "menuCode",
+            "area"
+          ]
+        },
+        {
+          "name": "getMenuGridMeta",
+          "startLine": 690,
+          "endLine": 699,
+          "params": [
+            "menuCode"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "seedMenuColumns",
+          "callee": "db.prepare",
+          "lineNumber": 199
+        },
+        {
+          "caller": "seedMenuColumns",
+          "callee": "ins.run",
+          "lineNumber": 205
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.exec",
+          "lineNumber": 220
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare('PRAGMA table_info(sys_user)').all().map",
+          "lineNumber": 250
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare('PRAGMA table_info(sys_user)').all",
+          "lineNumber": 250
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare",
+          "lineNumber": 250
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "userCols.includes",
+          "lineNumber": 251
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.exec",
+          "lineNumber": 252
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare('SELECT COUNT(*) AS c FROM sys_user').get",
+          "lineNumber": 255
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare",
+          "lineNumber": 255
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare(\r\n      `INSERT INTO sys_user (usr_id, name, is_admin, pwd) VALUES ('admin', '管理员', 1, '123456'), ('user01', '业务员01', 0, '123456')`\r\n    ).run",
+          "lineNumber": 257
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare",
+          "lineNumber": 257
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare(`UPDATE sys_user SET pwd = '123456' WHERE pwd IS NULL OR pwd = ''`).run",
+          "lineNumber": 261
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare",
+          "lineNumber": 261
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "Object.entries",
+          "lineNumber": 264
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "seedMenuColumns",
+          "lineNumber": 265
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.exec",
+          "lineNumber": 282
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare",
+          "lineNumber": 293
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "patchCol.run",
+          "lineNumber": 297
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "db.prepare",
+          "lineNumber": 304
+        },
+        {
+          "caller": "initGridSchema",
+          "callee": "patchLabel.run",
+          "lineNumber": 309
+        },
+        {
+          "caller": "getUser",
+          "callee": "db.prepare('SELECT usr_id, name, is_admin FROM sys_user WHERE usr_id = ?').get",
+          "lineNumber": 315
+        },
+        {
+          "caller": "getUser",
+          "callee": "db.prepare",
+          "lineNumber": 315
+        },
+        {
+          "caller": "getUserForLogin",
+          "callee": "db.prepare('SELECT usr_id, name, is_admin, pwd FROM sys_user WHERE usr_id = ?').get",
+          "lineNumber": 319
+        },
+        {
+          "caller": "getUserForLogin",
+          "callee": "db.prepare",
+          "lineNumber": 319
+        },
+        {
+          "caller": "listUsers",
+          "callee": "db\r\n    .prepare('SELECT usr_id, name, is_admin FROM sys_user ORDER BY is_admin DESC, usr_id')\r\n    .all()\r\n    .map",
+          "lineNumber": 323
+        },
+        {
+          "caller": "listUsers",
+          "callee": "db\r\n    .prepare('SELECT usr_id, name, is_admin FROM sys_user ORDER BY is_admin DESC, usr_id')\r\n    .all",
+          "lineNumber": 323
+        },
+        {
+          "caller": "listUsers",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 323
+        },
+        {
+          "caller": "getColumns",
+          "callee": "seedMenuColumns",
+          "lineNumber": 331
+        },
+        {
+          "caller": "getColumns",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT * FROM erp_detail_grid_col WHERE menu_code = ? ORDER BY sort_order, col_key`\r\n    )\r\n    .all",
+          "lineNumber": 332
+        },
+        {
+          "caller": "getColumns",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 332
+        },
+        {
+          "caller": "getColumns",
+          "callee": "db\r\n    .prepare(`SELECT col_key, visible FROM erp_detail_grid_user_col WHERE menu_code = ? AND usr_id = ?`)\r\n    .all",
+          "lineNumber": 337
+        },
+        {
+          "caller": "getColumns",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 337
+        },
+        {
+          "caller": "getColumns",
+          "callee": "Object.fromEntries",
+          "lineNumber": 340
+        },
+        {
+          "caller": "getColumns",
+          "callee": "userPrefs.map",
+          "lineNumber": 340
+        },
+        {
+          "caller": "getColumns",
+          "callee": "cols.map",
+          "lineNumber": 342
+        },
+        {
+          "caller": "getColumns",
+          "callee": "JSON.parse",
+          "lineNumber": 362
+        },
+        {
+          "caller": "displayFormatToWidget",
+          "callee": "['qty', 'price', 'amount', 'rate'].includes",
+          "lineNumber": 369
+        },
+        {
+          "caller": "setGlobalVisibility",
+          "callee": "db\r\n    .prepare(\r\n      `UPDATE erp_detail_grid_col SET visible_global = ? WHERE menu_code = ? AND col_key = ?`\r\n    )\r\n    .run",
+          "lineNumber": 375
+        },
+        {
+          "caller": "setGlobalVisibility",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 375
+        },
+        {
+          "caller": "setUserVisibility",
+          "callee": "db.prepare(\r\n    `INSERT INTO erp_detail_grid_user_col (usr_id, menu_code, col_key, visible)\r\n     VALUES (?, ?, ?, ?)\r\n     ON CONFLICT(usr_id, menu_code, col_key) DO UPDATE SET visible = excluded.visible`\r\n  ).run",
+          "lineNumber": 384
+        },
+        {
+          "caller": "setUserVisibility",
+          "callee": "db.prepare",
+          "lineNumber": 384
+        },
+        {
+          "caller": "validateSqlExpr",
+          "callee": "String(expr || '').trim",
+          "lineNumber": 392
+        },
+        {
+          "caller": "validateSqlExpr",
+          "callee": "String",
+          "lineNumber": 392
+        },
+        {
+          "caller": "validateSqlExpr",
+          "callee": "s.toUpperCase",
+          "lineNumber": 395
+        },
+        {
+          "caller": "validateSqlExpr",
+          "callee": "upper.includes",
+          "lineNumber": 398
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "JSON.parse",
+          "lineNumber": 405
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "Array.isArray",
+          "lineNumber": 408
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "String(o?.value ?? '').trim",
+          "lineNumber": 410
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "String",
+          "lineNumber": 410
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "String(c.table_name || '').trim",
+          "lineNumber": 416
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "String",
+          "lineNumber": 416
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "String(c.table_name).trim",
+          "lineNumber": 417
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "String",
+          "lineNumber": 417
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "String(c.table_name || '').trim",
+          "lineNumber": 422
+        },
+        {
+          "caller": "validateSelectConfig",
+          "callee": "String",
+          "lineNumber": 422
+        },
+        {
+          "caller": "normalizeFieldSource",
+          "callee": "String(fieldSource || '')\r\n    .trim()\r\n    .toLowerCase",
+          "lineNumber": 438
+        },
+        {
+          "caller": "normalizeFieldSource",
+          "callee": "String(fieldSource || '')\r\n    .trim",
+          "lineNumber": 438
+        },
+        {
+          "caller": "normalizeFieldSource",
+          "callee": "String",
+          "lineNumber": 438
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "/^[a-z][a-z0-9_]{0,31}$/.test",
+          "lineNumber": 464
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "getMenuMeta",
+          "lineNumber": 468
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "normalizeFieldSource",
+          "lineNumber": 471
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "String(sql_expr || '').trim",
+          "lineNumber": 476
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "String",
+          "lineNumber": 476
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "String(sql_expr_src || sql_expr || '').trim",
+          "lineNumber": 477
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "String",
+          "lineNumber": 477
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "srcExpr.includes",
+          "lineNumber": 478
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "translateSunlikeSqlExpr",
+          "lineNumber": 479
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "validateSqlExpr",
+          "lineNumber": 486
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "displayFormatToWidget",
+          "lineNumber": 492
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "validateSelectConfig",
+          "lineNumber": 502
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "colKeyToDbField",
+          "lineNumber": 506
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "addZColumn",
+          "lineNumber": 510
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "db.prepare(`SELECT COALESCE(MAX(sort_order), 0) AS m FROM erp_detail_grid_col WHERE menu_code = ?`).get",
+          "lineNumber": 516
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "db.prepare",
+          "lineNumber": 516
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "db.prepare(\r\n    `INSERT INTO erp_detail_grid_col\r\n      (menu_code, col_key, db_field, label, width, min_width, sort_order, visible_global, is_system,\r\n       sql_expr, sql_expr_src, widget, grid_area, field_source, required, phys_type, phys_len,\r\n       display_format, select_config, z_table, persist)\r\n     VALUES (?, ?, ?, ?, ?, ?, ?, 1, 0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`\r\n  ).run",
+          "lineNumber": 519
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "db.prepare",
+          "lineNumber": 519
+        },
+        {
+          "caller": "addCustomColumn",
+          "callee": "JSON.stringify",
+          "lineNumber": 542
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "db\r\n    .prepare(`SELECT * FROM erp_detail_grid_col WHERE menu_code = ? AND col_key = ?`)\r\n    .get",
+          "lineNumber": 549
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 549
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "normalizeFieldSource",
+          "lineNumber": 571
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "normalizeFieldSource",
+          "lineNumber": 572
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "String(sql_expr !== undefined ? sql_expr : col.sql_expr || '').trim",
+          "lineNumber": 577
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "String",
+          "lineNumber": 577
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "String(\r\n      sql_expr_src !== undefined ? sql_expr_src : col.sql_expr_src || col.sql_expr || ''\r\n    ).trim",
+          "lineNumber": 578
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "String",
+          "lineNumber": 578
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "srcExpr.includes",
+          "lineNumber": 581
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "translateSunlikeSqlExpr",
+          "lineNumber": 582
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "validateSqlExpr",
+          "lineNumber": 589
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "displayFormatToWidget",
+          "lineNumber": 598
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "JSON.parse",
+          "lineNumber": 600
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "validateSelectConfig",
+          "lineNumber": 603
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "db.prepare(\r\n    `UPDATE erp_detail_grid_col SET\r\n       label = ?, width = ?, min_width = ?, sql_expr = ?, sql_expr_src = ?,\r\n       widget = ?, field_source = ?, required = ?, phys_len = ?,\r\n       display_format = ?, select_config = ?\r\n     WHERE menu_code = ? AND col_key = ?`\r\n  ).run",
+          "lineNumber": 611
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "db.prepare",
+          "lineNumber": 611
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "String(label).trim",
+          "lineNumber": 618
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "String",
+          "lineNumber": 618
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "String(label).trim",
+          "lineNumber": 618
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "String",
+          "lineNumber": 618
+        },
+        {
+          "caller": "updateCustomColumn",
+          "callee": "JSON.stringify",
+          "lineNumber": 628
+        },
+        {
+          "caller": "removeCustomColumn",
+          "callee": "db\r\n    .prepare(`SELECT is_system FROM erp_detail_grid_col WHERE menu_code = ? AND col_key = ?`)\r\n    .get",
+          "lineNumber": 635
+        },
+        {
+          "caller": "removeCustomColumn",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 635
+        },
+        {
+          "caller": "removeCustomColumn",
+          "callee": "db.prepare(`DELETE FROM erp_detail_grid_col WHERE menu_code = ? AND col_key = ?`).run",
+          "lineNumber": 640
+        },
+        {
+          "caller": "removeCustomColumn",
+          "callee": "db.prepare",
+          "lineNumber": 640
+        },
+        {
+          "caller": "removeCustomColumn",
+          "callee": "db.prepare(`DELETE FROM erp_detail_grid_user_col WHERE menu_code = ? AND col_key = ?`).run",
+          "lineNumber": 641
+        },
+        {
+          "caller": "removeCustomColumn",
+          "callee": "db.prepare",
+          "lineNumber": 641
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "Array.isArray",
+          "lineNumber": 646
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "colKeys.map",
+          "lineNumber": 646
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "db\r\n    .prepare(`SELECT col_key FROM erp_detail_grid_col WHERE menu_code = ? ORDER BY sort_order, col_key`)\r\n    .all(menuCode)\r\n    .map",
+          "lineNumber": 648
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "db\r\n    .prepare(`SELECT col_key FROM erp_detail_grid_col WHERE menu_code = ? ORDER BY sort_order, col_key`)\r\n    .all",
+          "lineNumber": 648
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 648
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "ordered.includes",
+          "lineNumber": 654
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "ordered.push",
+          "lineNumber": 654
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "db.prepare",
+          "lineNumber": 656
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "db.transaction",
+          "lineNumber": 659
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "all.forEach",
+          "lineNumber": 660
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "stmt.run",
+          "lineNumber": 660
+        },
+        {
+          "caller": "reorderColumns",
+          "callee": "txn",
+          "lineNumber": 662
+        },
+        {
+          "caller": "getCustomSqlExprs",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT col_key, sql_expr FROM erp_detail_grid_col\r\n       WHERE menu_code = ? AND is_system = 0 AND persist = 0\r\n         AND sql_expr IS NOT NULL AND sql_expr != ''`\r\n    )\r\n    .all",
+          "lineNumber": 666
+        },
+        {
+          "caller": "getCustomSqlExprs",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 666
+        },
+        {
+          "caller": "getPersistedGridColumns",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT col_key, db_field, label, z_table, field_source, required, sql_expr, sql_expr_src\r\n       FROM erp_detail_grid_col\r\n       WHERE menu_code = ? AND persist = 1 AND grid_area = ?\r\n       ORDER BY sort_order, col_key`\r\n    )\r\n    .all(menuCode, area)\r\n    .map",
+          "lineNumber": 676
+        },
+        {
+          "caller": "getPersistedGridColumns",
+          "callee": "db\r\n    .prepare(\r\n      `SELECT col_key, db_field, label, z_table, field_source, required, sql_expr, sql_expr_src\r\n       FROM erp_detail_grid_col\r\n       WHERE menu_code = ? AND persist = 1 AND grid_area = ?\r\n       ORDER BY sort_order, col_key`\r\n    )\r\n    .all",
+          "lineNumber": 676
+        },
+        {
+          "caller": "getPersistedGridColumns",
+          "callee": "db\r\n    .prepare",
+          "lineNumber": 676
+        },
+        {
+          "caller": "getMenuGridMeta",
+          "callee": "getMenuMeta",
+          "lineNumber": 691
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 19,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/menuTableRegistry.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 299,
+      "nonEmptyLines": 294,
+      "functions": [
+        {
+          "name": "getMenuMeta",
+          "startLine": 268,
+          "endLine": 274,
+          "params": [
+            "menuCode"
+          ]
+        },
+        {
+          "name": "getAreaTable",
+          "startLine": 276,
+          "endLine": 280,
+          "params": [
+            "menuCode",
+            "area"
+          ]
+        },
+        {
+          "name": "zTableName",
+          "startLine": 282,
+          "endLine": 284,
+          "params": [
+            "baseTable"
+          ]
+        },
+        {
+          "name": "resolveArea",
+          "startLine": 286,
+          "endLine": 291,
+          "params": [
+            "menuCode",
+            "area"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAreaTable",
+          "callee": "getMenuMeta",
+          "lineNumber": 277
+        },
+        {
+          "caller": "zTableName",
+          "callee": "String(baseTable).toUpperCase",
+          "lineNumber": 283
+        },
+        {
+          "caller": "zTableName",
+          "callee": "String",
+          "lineNumber": 283
+        },
+        {
+          "caller": "resolveArea",
+          "callee": "getAreaTable",
+          "lineNumber": 288
+        },
+        {
+          "caller": "resolveArea",
+          "callee": "zTableName",
+          "lineNumber": 290
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/sunlikeSqlExpr.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 85,
+      "nonEmptyLines": 74,
+      "functions": [
+        {
+          "name": "buildMap",
+          "startLine": 17,
+          "endLine": 28,
+          "params": [
+            "headRows",
+            "lineRows"
+          ]
+        },
+        {
+          "name": "getMap",
+          "startLine": 35,
+          "endLine": 37,
+          "params": [
+            "menuCode"
+          ]
+        },
+        {
+          "name": "translateSunlikeSqlExpr",
+          "startLine": 39,
+          "endLine": 68,
+          "params": [
+            "src",
+            "menuCode"
+          ]
+        },
+        {
+          "name": "listSunlikeSqlFields",
+          "startLine": 70,
+          "endLine": 83,
+          "params": [
+            "menuCode"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildMap",
+          "callee": "map.set",
+          "lineNumber": 20
+        },
+        {
+          "caller": "buildMap",
+          "callee": "map.set",
+          "lineNumber": 21
+        },
+        {
+          "caller": "buildMap",
+          "callee": "map.set",
+          "lineNumber": 24
+        },
+        {
+          "caller": "buildMap",
+          "callee": "map.set",
+          "lineNumber": 25
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(src || '').trim",
+          "lineNumber": 40
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 40
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "getMap",
+          "lineNumber": 42
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 44
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(p).toUpperCase",
+          "lineNumber": 45
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 45
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(field).toUpperCase",
+          "lineNumber": 45
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 45
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "map.get",
+          "lineNumber": 46
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 51
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(p).toUpperCase",
+          "lineNumber": 52
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 52
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String(field).toUpperCase",
+          "lineNumber": 52
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "String",
+          "lineNumber": 52
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "map.get",
+          "lineNumber": 53
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 58
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 59
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 60
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 61
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.replace",
+          "lineNumber": 62
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "/^\\s*SELECT\\b/i.test",
+          "lineNumber": 64
+        },
+        {
+          "caller": "translateSunlikeSqlExpr",
+          "callee": "s.startsWith",
+          "lineNumber": 64
+        },
+        {
+          "caller": "listSunlikeSqlFields",
+          "callee": "out.push",
+          "lineNumber": 74
+        },
+        {
+          "caller": "listSunlikeSqlFields",
+          "callee": "out.push",
+          "lineNumber": 79
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    }
+  ]
+}

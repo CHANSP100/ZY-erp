@@ -1,0 +1,1151 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "client-vue/src/components/erp/ErpPrintDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 176,
+      "nonEmptyLines": 163,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpPrintTemplateDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 255,
+      "nonEmptyLines": 237,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryBar.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 37,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryBarField.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryField.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryPanel.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 55,
+      "nonEmptyLines": 49,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpToolBar.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/ExtFieldControl.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 93,
+      "nonEmptyLines": 84,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 20,
+      "exports": [
+        {
+          "name": "ErpBasePage",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ErpBillPage",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ErpBillToolbar",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "ErpBillQueryField",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "ErpBillTree",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "ErpBillTreeNode",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "ErpBillEditDialog",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "ErpBillLineTable",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "ErpListPage",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "ErpQueryBar",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "ErpQueryBarField",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "ErpToolBar",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "ErpCategoryTree",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "ErpCategoryTreeNode",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "ErpDataTable",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "ErpEditDialog",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "ErpQueryPanel",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "ErpQueryField",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "ErpExtFieldZone",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "ErpFormSection",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 20,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/ErpBillLineTable.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 617,
+      "nonEmptyLines": 568,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/ErpBillLineToolbar.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 19,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/ErpKingdeeBillEdit.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 131,
+      "nonEmptyLines": 120,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "exports": [
+        {
+          "name": "ErpKingdeeBillEdit",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ErpBillLineTable",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ErpBillLineToolbar",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "KingdeeBillNavItem",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/components/erp/SunlikeSqlEditor.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 277,
+      "nonEmptyLines": 260,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/lookup/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 16,
+      "exports": [
+        {
+          "name": "LookupField",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "LookupDialog",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "LookupPicker",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "LOOKUP_PRESETS",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "LOOKUP_TABLE_KEYS",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "LOOKUP_VALUE_KEY_TABLE",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "resolveLookupConfig",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getLookupDialogProps",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "getInlineLookupDialogProps",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "normalizeLookupColumns",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "resolveColumnSettingsKey",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "LookupDialogBindProps",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "LookupColumn",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "LookupConfig",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "LookupInteraction",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "LookupPresetKey",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 16,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/components/LookupDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 250,
+      "nonEmptyLines": 226,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/LookupDialogHeaderMenu.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 45,
+      "nonEmptyLines": 42,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/LookupField.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 204,
+      "nonEmptyLines": 181,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/LookupPicker.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 159,
+      "nonEmptyLines": 145,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/PrdtUtEditDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 105,
+      "nonEmptyLines": 94,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/components/PrdtUtLookupDialog.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 36,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/composables/billExtFieldReload.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 10,
+      "functions": [
+        {
+          "name": "useBillExtFieldReload",
+          "startLine": 6,
+          "endLine": 12,
+          "params": [
+            "onReload"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BILL_EXT_FIELD_RELOAD_KEY",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "useBillExtFieldReload",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useBillExtFieldReload",
+          "callee": "inject",
+          "lineNumber": 7
+        },
+        {
+          "caller": "useBillExtFieldReload",
+          "callee": "watch",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useBillExtFieldReload",
+          "callee": "onReload",
+          "lineNumber": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/composables/useBillLineAddRows.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 8,
+      "functions": [
+        {
+          "name": "useBillLineAddRows",
+          "startLine": 2,
+          "endLine": 8,
+          "params": [
+            "addLine"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useBillLineAddRows",
+          "line": 2,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "onAddLines",
+          "callee": "Math.max",
+          "lineNumber": 4
+        },
+        {
+          "caller": "onAddLines",
+          "callee": "Math.floor",
+          "lineNumber": 4
+        },
+        {
+          "caller": "onAddLines",
+          "callee": "addLine",
+          "lineNumber": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/composables/useErpBillEditDelete.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 90,
+      "nonEmptyLines": 83,
+      "functions": [
+        {
+          "name": "useErpBillEditDelete",
+          "startLine": 6,
+          "endLine": 90,
+          "params": [
+            "options"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useErpBillEditDelete",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useErpBillEditDelete",
+          "callee": "ref",
+          "lineNumber": 17
+        },
+        {
+          "caller": "useErpBillEditDelete",
+          "callee": "ref",
+          "lineNumber": 18
+        },
+        {
+          "caller": "useErpBillEditDelete",
+          "callee": "computed",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useErpBillEditDelete",
+          "callee": "options.getBillNo()?.trim",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useErpBillEditDelete",
+          "callee": "options.getBillNo",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useErpBillEditDelete",
+          "callee": "options.list.value.some",
+          "lineNumber": 23
+        },
+        {
+          "caller": "useErpBillEditDelete",
+          "callee": "String",
+          "lineNumber": 23
+        },
+        {
+          "caller": "onToolbarEdit",
+          "callee": "options.getBillNo()?.trim",
+          "lineNumber": 27
+        },
+        {
+          "caller": "onToolbarEdit",
+          "callee": "options.getBillNo",
+          "lineNumber": 27
+        },
+        {
+          "caller": "onToolbarEdit",
+          "callee": "options.list.value.some",
+          "lineNumber": 28
+        },
+        {
+          "caller": "onToolbarEdit",
+          "callee": "String",
+          "lineNumber": 28
+        },
+        {
+          "caller": "onToolbarEdit",
+          "callee": "options.openBill",
+          "lineNumber": 29
+        },
+        {
+          "caller": "onToolbarEdit",
+          "callee": "ElMessage.success",
+          "lineNumber": 30
+        },
+        {
+          "caller": "onToolbarEdit",
+          "callee": "ElMessage.warning",
+          "lineNumber": 34
+        },
+        {
+          "caller": "onPickEdit",
+          "callee": "String(row[options.billNoKey] ?? '').trim",
+          "lineNumber": 41
+        },
+        {
+          "caller": "onPickEdit",
+          "callee": "String",
+          "lineNumber": 41
+        },
+        {
+          "caller": "onPickEdit",
+          "callee": "options.openBill",
+          "lineNumber": 43
+        },
+        {
+          "caller": "onPickEdit",
+          "callee": "ElMessage.success",
+          "lineNumber": 45
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "options.getBillNo()?.trim",
+          "lineNumber": 49
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "options.getBillNo",
+          "lineNumber": 49
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "ElMessage.warning",
+          "lineNumber": 51
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "options.list.value.some",
+          "lineNumber": 54
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "String",
+          "lineNumber": 54
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "ElMessage.warning",
+          "lineNumber": 55
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "ElMessageBox.confirm",
+          "lineNumber": 59
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "options.deleteBill",
+          "lineNumber": 69
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "ElMessage.success",
+          "lineNumber": 70
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "options.resetNew",
+          "lineNumber": 72
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "options.reloadList",
+          "lineNumber": 73
+        },
+        {
+          "caller": "onToolbarDelete",
+          "callee": "ElMessage.error",
+          "lineNumber": 76
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/composables/useFormEnterNav.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 191,
+      "nonEmptyLines": 157,
+      "functions": [
+        {
+          "name": "isVisible",
+          "startLine": 22,
+          "endLine": 27,
+          "params": [
+            "el"
+          ]
+        },
+        {
+          "name": "isDateEnterTarget",
+          "startLine": 29,
+          "endLine": 31,
+          "params": [
+            "el"
+          ]
+        },
+        {
+          "name": "isNavFocusable",
+          "startLine": 33,
+          "endLine": 42,
+          "params": [
+            "el",
+            "root"
+          ]
+        },
+        {
+          "name": "collectEnterNavFocusables",
+          "startLine": 44,
+          "endLine": 48,
+          "params": [
+            "root"
+          ]
+        },
+        {
+          "name": "getTableRow",
+          "startLine": 50,
+          "endLine": 52,
+          "params": [
+            "el"
+          ]
+        },
+        {
+          "name": "focusInput",
+          "startLine": 54,
+          "endLine": 57,
+          "params": [
+            "el"
+          ]
+        },
+        {
+          "name": "isDisabledOption",
+          "startLine": 59,
+          "endLine": 63,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "isLastFocusableInRow",
+          "startLine": 65,
+          "endLine": 70,
+          "params": [
+            "current",
+            "root"
+          ]
+        },
+        {
+          "name": "focusNextInEnterNavZone",
+          "startLine": 73,
+          "endLine": 122,
+          "params": [
+            "current",
+            "jumpOptions"
+          ]
+        },
+        {
+          "name": "isPopperOpen",
+          "startLine": 124,
+          "endLine": 130,
+          "params": [
+            "classPart"
+          ]
+        },
+        {
+          "name": "shouldDeferEnter",
+          "startLine": 132,
+          "endLine": 140,
+          "params": [
+            "target"
+          ]
+        },
+        {
+          "name": "useFormEnterNav",
+          "startLine": 145,
+          "endLine": 191,
+          "params": [
+            "containerRef",
+            "options"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ENTER_NAV_KEY",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "isNavFocusable",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "collectEnterNavFocusables",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "focusNextInEnterNavZone",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "useFormEnterNav",
+          "line": 145,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "isVisible",
+          "callee": "window.getComputedStyle",
+          "lineNumber": 23
+        },
+        {
+          "caller": "isVisible",
+          "callee": "el.getBoundingClientRect",
+          "lineNumber": 25
+        },
+        {
+          "caller": "isDateEnterTarget",
+          "callee": "el.closest",
+          "lineNumber": 30
+        },
+        {
+          "caller": "isNavFocusable",
+          "callee": "root.contains",
+          "lineNumber": 34
+        },
+        {
+          "caller": "isNavFocusable",
+          "callee": "el.closest",
+          "lineNumber": 35
+        },
+        {
+          "caller": "isNavFocusable",
+          "callee": "el.closest",
+          "lineNumber": 36
+        },
+        {
+          "caller": "isNavFocusable",
+          "callee": "isVisible",
+          "lineNumber": 37
+        },
+        {
+          "caller": "isNavFocusable",
+          "callee": "el.closest",
+          "lineNumber": 39
+        },
+        {
+          "caller": "isNavFocusable",
+          "callee": "el.getAttribute",
+          "lineNumber": 40
+        },
+        {
+          "caller": "collectEnterNavFocusables",
+          "callee": "Array.from",
+          "lineNumber": 46
+        },
+        {
+          "caller": "collectEnterNavFocusables",
+          "callee": "root.querySelectorAll",
+          "lineNumber": 46
+        },
+        {
+          "caller": "collectEnterNavFocusables",
+          "callee": "nodes.filter",
+          "lineNumber": 47
+        },
+        {
+          "caller": "collectEnterNavFocusables",
+          "callee": "isNavFocusable",
+          "lineNumber": 47
+        },
+        {
+          "caller": "getTableRow",
+          "callee": "el.closest",
+          "lineNumber": 51
+        },
+        {
+          "caller": "focusInput",
+          "callee": "el.focus",
+          "lineNumber": 55
+        },
+        {
+          "caller": "focusInput",
+          "callee": "(el as HTMLInputElement).select",
+          "lineNumber": 56
+        },
+        {
+          "caller": "isLastFocusableInRow",
+          "callee": "getTableRow",
+          "lineNumber": 66
+        },
+        {
+          "caller": "isLastFocusableInRow",
+          "callee": "collectEnterNavFocusables(root).filter",
+          "lineNumber": 68
+        },
+        {
+          "caller": "isLastFocusableInRow",
+          "callee": "collectEnterNavFocusables",
+          "lineNumber": 68
+        },
+        {
+          "caller": "isLastFocusableInRow",
+          "callee": "row.contains",
+          "lineNumber": 68
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "current.closest",
+          "lineNumber": 77
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "isDisabledOption",
+          "lineNumber": 78
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "collectEnterNavFocusables",
+          "lineNumber": 80
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "list.indexOf",
+          "lineNumber": 81
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "getTableRow",
+          "lineNumber": 85
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "getTableRow",
+          "lineNumber": 86
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "focusInput",
+          "lineNumber": 89
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "isLastFocusableInRow",
+          "lineNumber": 93
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "jumpOptions.onRowLast",
+          "lineNumber": 94
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "nextTick",
+          "lineNumber": 95
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "collectEnterNavFocusables",
+          "lineNumber": 96
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "jumpOptions.focusAfterRowLast",
+          "lineNumber": 97
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "zone.querySelectorAll",
+          "lineNumber": 98
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "after.filter",
+          "lineNumber": 100
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "lastTr.contains",
+          "lineNumber": 100
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "focusInput",
+          "lineNumber": 102
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "focusInput",
+          "lineNumber": 107
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "jumpOptions.onLastField",
+          "lineNumber": 112
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "nextTick",
+          "lineNumber": 113
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "collectEnterNavFocusables",
+          "lineNumber": 114
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "jumpOptions.focusAfterLast",
+          "lineNumber": 115
+        },
+        {
+          "caller": "focusNextInEnterNavZone",
+          "callee": "focusInput",
+          "lineNumber": 117
+        },
+        {
+          "caller": "isPopperOpen",
+          "callee": "document.querySelectorAll",
+          "lineNumber": 125
+        },
+        {
+          "caller": "isPopperOpen",
+          "callee": "p.getAttribute",
+          "lineNumber": 127
+        },
+        {
+          "caller": "shouldDeferEnter",
+          "callee": "target.closest",
+          "lineNumber": 133
+        },
+        {
+          "caller": "shouldDeferEnter",
+          "callee": "target.closest",
+          "lineNumber": 134
+        },
+        {
+          "caller": "shouldDeferEnter",
+          "callee": "isPopperOpen",
+          "lineNumber": 134
+        },
+        {
+          "caller": "shouldDeferEnter",
+          "callee": "target.closest",
+          "lineNumber": 135
+        },
+        {
+          "caller": "shouldDeferEnter",
+          "callee": "isPopperOpen",
+          "lineNumber": 135
+        },
+        {
+          "caller": "shouldDeferEnter",
+          "callee": "target.closest",
+          "lineNumber": 136
+        },
+        {
+          "caller": "shouldDeferEnter",
+          "callee": "document.querySelector",
+          "lineNumber": 136
+        },
+        {
+          "caller": "onKeydown",
+          "callee": "isDisabledOption",
+          "lineNumber": 150
+        },
+        {
+          "caller": "onKeydown",
+          "callee": "root?.contains",
+          "lineNumber": 158
+        },
+        {
+          "caller": "onKeydown",
+          "callee": "target.closest",
+          "lineNumber": 160
+        },
+        {
+          "caller": "onKeydown",
+          "callee": "e.preventDefault",
+          "lineNumber": 164
+        },
+        {
+          "caller": "onKeydown",
+          "callee": "focusNextInEnterNavZone",
+          "lineNumber": 165
+        },
+        {
+          "caller": "onKeydown",
+          "callee": "isDateEnterTarget",
+          "lineNumber": 171
+        },
+        {
+          "caller": "onKeydown",
+          "callee": "shouldDeferEnter",
+          "lineNumber": 173
+        },
+        {
+          "caller": "onKeydown",
+          "callee": "e.preventDefault",
+          "lineNumber": 175
+        },
+        {
+          "caller": "onKeydown",
+          "callee": "focusNextInEnterNavZone",
+          "lineNumber": 176
+        },
+        {
+          "caller": "useFormEnterNav",
+          "callee": "onMounted",
+          "lineNumber": 179
+        },
+        {
+          "caller": "useFormEnterNav",
+          "callee": "containerRef.value?.addEventListener",
+          "lineNumber": 180
+        },
+        {
+          "caller": "useFormEnterNav",
+          "callee": "onUnmounted",
+          "lineNumber": 183
+        },
+        {
+          "caller": "useFormEnterNav",
+          "callee": "containerRef.value?.removeEventListener",
+          "lineNumber": 184
+        },
+        {
+          "caller": "useFormEnterNav",
+          "callee": "focusNextInEnterNavZone",
+          "lineNumber": 188
+        },
+        {
+          "caller": "useFormEnterNav",
+          "callee": "collectEnterNavFocusables",
+          "lineNumber": 189
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 12,
+        "classCount": 0
+      }
+    }
+  ]
+}

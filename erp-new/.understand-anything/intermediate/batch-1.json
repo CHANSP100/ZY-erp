@@ -1,0 +1,4336 @@
+{
+  "nodes": [
+    {
+      "id": "file:client-vue/src/api/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "client-vue/src/api/index.ts",
+      "summary": "index.ts with 5 function(s) and 0 class(es); exports 6 symbol(s).",
+      "tags": [
+        "entry-point"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/api/index.ts:setAuthToken",
+      "type": "function",
+      "name": "setAuthToken",
+      "filePath": "client-vue/src/api/index.ts",
+      "lineRange": [
+        106,
+        108
+      ],
+      "summary": "Function setAuthToken defined in index.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/api/index.ts:getAuthToken",
+      "type": "function",
+      "name": "getAuthToken",
+      "filePath": "client-vue/src/api/index.ts",
+      "lineRange": [
+        110,
+        112
+      ],
+      "summary": "Function getAuthToken defined in index.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/api/index.ts:clearAuth",
+      "type": "function",
+      "name": "clearAuth",
+      "filePath": "client-vue/src/api/index.ts",
+      "lineRange": [
+        114,
+        117
+      ],
+      "summary": "Function clearAuth defined in index.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/api/index.ts:setErpUserId",
+      "type": "function",
+      "name": "setErpUserId",
+      "filePath": "client-vue/src/api/index.ts",
+      "lineRange": [
+        119,
+        121
+      ],
+      "summary": "Function setErpUserId defined in index.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/api/index.ts:getErpUserId",
+      "type": "function",
+      "name": "getErpUserId",
+      "filePath": "client-vue/src/api/index.ts",
+      "lineRange": [
+        123,
+        125
+      ],
+      "summary": "Function getErpUserId defined in index.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/api/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "client-vue/src/api/types.ts",
+      "summary": "Source file types.ts in the client-vue area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/composables/useArchiveExtFields.ts",
+      "type": "file",
+      "name": "useArchiveExtFields.ts",
+      "filePath": "client-vue/src/composables/useArchiveExtFields.ts",
+      "summary": "useArchiveExtFields.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useArchiveExtFields.ts:useArchiveExtFields",
+      "type": "function",
+      "name": "useArchiveExtFields",
+      "filePath": "client-vue/src/composables/useArchiveExtFields.ts",
+      "lineRange": [
+        4,
+        6
+      ],
+      "summary": "Function useArchiveExtFields defined in useArchiveExtFields.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/composables/useAuth.ts",
+      "type": "file",
+      "name": "useAuth.ts",
+      "filePath": "client-vue/src/composables/useAuth.ts",
+      "summary": "useAuth.ts with 5 function(s) and 0 class(es); exports 6 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useAuth.ts:isLoggedIn",
+      "type": "function",
+      "name": "isLoggedIn",
+      "filePath": "client-vue/src/composables/useAuth.ts",
+      "lineRange": [
+        8,
+        10
+      ],
+      "summary": "Function isLoggedIn defined in useAuth.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useAuth.ts:login",
+      "type": "function",
+      "name": "login",
+      "filePath": "client-vue/src/composables/useAuth.ts",
+      "lineRange": [
+        12,
+        19
+      ],
+      "summary": "Function login defined in useAuth.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useAuth.ts:logout",
+      "type": "function",
+      "name": "logout",
+      "filePath": "client-vue/src/composables/useAuth.ts",
+      "lineRange": [
+        21,
+        30
+      ],
+      "summary": "Function logout defined in useAuth.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useAuth.ts:fetchCurrentUser",
+      "type": "function",
+      "name": "fetchCurrentUser",
+      "filePath": "client-vue/src/composables/useAuth.ts",
+      "lineRange": [
+        32,
+        49
+      ],
+      "summary": "Function fetchCurrentUser defined in useAuth.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useAuth.ts:useAuth",
+      "type": "function",
+      "name": "useAuth",
+      "filePath": "client-vue/src/composables/useAuth.ts",
+      "lineRange": [
+        51,
+        60
+      ],
+      "summary": "Function useAuth defined in useAuth.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/composables/useBillLineWhLookup.ts",
+      "type": "file",
+      "name": "useBillLineWhLookup.ts",
+      "filePath": "client-vue/src/composables/useBillLineWhLookup.ts",
+      "summary": "useBillLineWhLookup.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useBillLineWhLookup.ts:useBillLineWhLookup",
+      "type": "function",
+      "name": "useBillLineWhLookup",
+      "filePath": "client-vue/src/composables/useBillLineWhLookup.ts",
+      "lineRange": [
+        7,
+        68
+      ],
+      "summary": "Function useBillLineWhLookup defined in useBillLineWhLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/useBomBill.ts",
+      "type": "file",
+      "name": "useBomBill.ts",
+      "filePath": "client-vue/src/composables/useBomBill.ts",
+      "summary": "useBomBill.ts with 7 function(s) and 0 class(es); exports 2 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useBomBill.ts:lineToUi",
+      "type": "function",
+      "name": "lineToUi",
+      "filePath": "client-vue/src/composables/useBomBill.ts",
+      "lineRange": [
+        47,
+        61
+      ],
+      "summary": "Function lineToUi defined in useBomBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useBomBill.ts:lineToApi",
+      "type": "function",
+      "name": "lineToApi",
+      "filePath": "client-vue/src/composables/useBomBill.ts",
+      "lineRange": [
+        65,
+        81
+      ],
+      "summary": "Function lineToApi defined in useBomBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useBomBill.ts:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client-vue/src/composables/useBomBill.ts",
+      "lineRange": [
+        85,
+        121
+      ],
+      "summary": "Function newLine defined in useBomBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useBomBill.ts:resetHead",
+      "type": "function",
+      "name": "resetHead",
+      "filePath": "client-vue/src/composables/useBomBill.ts",
+      "lineRange": [
+        125,
+        173
+      ],
+      "summary": "Function resetHead defined in useBomBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:client-vue/src/composables/useBomBill.ts:buildBomNo",
+      "type": "function",
+      "name": "buildBomNo",
+      "filePath": "client-vue/src/composables/useBomBill.ts",
+      "lineRange": [
+        187,
+        195
+      ],
+      "summary": "Function buildBomNo defined in useBomBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useBomBill.ts:useBomBill",
+      "type": "function",
+      "name": "useBomBill",
+      "filePath": "client-vue/src/composables/useBomBill.ts",
+      "lineRange": [
+        199,
+        979
+      ],
+      "summary": "Function useBomBill defined in useBomBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "type": "file",
+      "name": "useDetailGridColumnHeader.ts",
+      "filePath": "client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "summary": "useDetailGridColumnHeader.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useDetailGridColumnHeader.ts:useDetailGridColumnHeader",
+      "type": "function",
+      "name": "useDetailGridColumnHeader",
+      "filePath": "client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "lineRange": [
+        19,
+        332
+      ],
+      "summary": "Function useDetailGridColumnHeader defined in useDetailGridColumnHeader.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/useErpDetailGrid.ts",
+      "type": "file",
+      "name": "useErpDetailGrid.ts",
+      "filePath": "client-vue/src/composables/useErpDetailGrid.ts",
+      "summary": "useErpDetailGrid.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useErpDetailGrid.ts:useErpDetailGrid",
+      "type": "function",
+      "name": "useErpDetailGrid",
+      "filePath": "client-vue/src/composables/useErpDetailGrid.ts",
+      "lineRange": [
+        29,
+        719
+      ],
+      "summary": "Function useErpDetailGrid defined in useErpDetailGrid.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/useErpUser.ts",
+      "type": "file",
+      "name": "useErpUser.ts",
+      "filePath": "client-vue/src/composables/useErpUser.ts",
+      "summary": "useErpUser.ts with 3 function(s) and 0 class(es); exports 3 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useErpUser.ts:initErpUser",
+      "type": "function",
+      "name": "initErpUser",
+      "filePath": "client-vue/src/composables/useErpUser.ts",
+      "lineRange": [
+        9,
+        22
+      ],
+      "summary": "Function initErpUser defined in useErpUser.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useErpUser.ts:switchErpUser",
+      "type": "function",
+      "name": "switchErpUser",
+      "filePath": "client-vue/src/composables/useErpUser.ts",
+      "lineRange": [
+        26,
+        30
+      ],
+      "summary": "Function switchErpUser defined in useErpUser.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useErpUser.ts:useErpUser",
+      "type": "function",
+      "name": "useErpUser",
+      "filePath": "client-vue/src/composables/useErpUser.ts",
+      "lineRange": [
+        32,
+        34
+      ],
+      "summary": "Function useErpUser defined in useErpUser.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/composables/useExtFieldColumns.ts",
+      "type": "file",
+      "name": "useExtFieldColumns.ts",
+      "filePath": "client-vue/src/composables/useExtFieldColumns.ts",
+      "summary": "useExtFieldColumns.ts with 2 function(s) and 0 class(es); exports 2 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/useExtFieldColumns.ts:useExtFieldColumns",
+      "type": "function",
+      "name": "useExtFieldColumns",
+      "filePath": "client-vue/src/composables/useExtFieldColumns.ts",
+      "lineRange": [
+        6,
+        42
+      ],
+      "summary": "Function useExtFieldColumns defined in useExtFieldColumns.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useExtFieldColumns.ts:useExtFieldSelectOptions",
+      "type": "function",
+      "name": "useExtFieldSelectOptions",
+      "filePath": "client-vue/src/composables/useExtFieldColumns.ts",
+      "lineRange": [
+        44,
+        73
+      ],
+      "summary": "Function useExtFieldSelectOptions defined in useExtFieldColumns.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:client-vue/src/composables/useManufacturingOrderBill.ts",
+      "type": "file",
+      "name": "useManufacturingOrderBill.ts",
+      "filePath": "client-vue/src/composables/useManufacturingOrderBill.ts",
+      "summary": "useManufacturingOrderBill.ts with 4 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useManufacturingOrderBill.ts:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client-vue/src/composables/useManufacturingOrderBill.ts",
+      "lineRange": [
+        20,
+        37
+      ],
+      "summary": "Function newLine defined in useManufacturingOrderBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useManufacturingOrderBill.ts:useManufacturingOrderBill",
+      "type": "function",
+      "name": "useManufacturingOrderBill",
+      "filePath": "client-vue/src/composables/useManufacturingOrderBill.ts",
+      "lineRange": [
+        49,
+        440
+      ],
+      "summary": "Function useManufacturingOrderBill defined in useManufacturingOrderBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/useMaterialIssueBill.ts",
+      "type": "file",
+      "name": "useMaterialIssueBill.ts",
+      "filePath": "client-vue/src/composables/useMaterialIssueBill.ts",
+      "summary": "useMaterialIssueBill.ts with 4 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useMaterialIssueBill.ts:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client-vue/src/composables/useMaterialIssueBill.ts",
+      "lineRange": [
+        22,
+        40
+      ],
+      "summary": "Function newLine defined in useMaterialIssueBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useMaterialIssueBill.ts:useMaterialIssueBill",
+      "type": "function",
+      "name": "useMaterialIssueBill",
+      "filePath": "client-vue/src/composables/useMaterialIssueBill.ts",
+      "lineRange": [
+        52,
+        481
+      ],
+      "summary": "Function useMaterialIssueBill defined in useMaterialIssueBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/usePermissions.ts",
+      "type": "file",
+      "name": "usePermissions.ts",
+      "filePath": "client-vue/src/composables/usePermissions.ts",
+      "summary": "usePermissions.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/usePermissions.ts:usePermissions",
+      "type": "function",
+      "name": "usePermissions",
+      "filePath": "client-vue/src/composables/usePermissions.ts",
+      "lineRange": [
+        14,
+        60
+      ],
+      "summary": "Function usePermissions defined in usePermissions.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/useProductionPlanBill.ts",
+      "type": "file",
+      "name": "useProductionPlanBill.ts",
+      "filePath": "client-vue/src/composables/useProductionPlanBill.ts",
+      "summary": "useProductionPlanBill.ts with 4 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useProductionPlanBill.ts:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client-vue/src/composables/useProductionPlanBill.ts",
+      "lineRange": [
+        23,
+        43
+      ],
+      "summary": "Function newLine defined in useProductionPlanBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useProductionPlanBill.ts:useProductionPlanBill",
+      "type": "function",
+      "name": "useProductionPlanBill",
+      "filePath": "client-vue/src/composables/useProductionPlanBill.ts",
+      "lineRange": [
+        49,
+        436
+      ],
+      "summary": "Function useProductionPlanBill defined in useProductionPlanBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/useProductionRequirementBill.ts",
+      "type": "file",
+      "name": "useProductionRequirementBill.ts",
+      "filePath": "client-vue/src/composables/useProductionRequirementBill.ts",
+      "summary": "useProductionRequirementBill.ts with 4 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useProductionRequirementBill.ts:newLine1",
+      "type": "function",
+      "name": "newLine1",
+      "filePath": "client-vue/src/composables/useProductionRequirementBill.ts",
+      "lineRange": [
+        25,
+        51
+      ],
+      "summary": "Function newLine1 defined in useProductionRequirementBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useProductionRequirementBill.ts:useProductionRequirementBill",
+      "type": "function",
+      "name": "useProductionRequirementBill",
+      "filePath": "client-vue/src/composables/useProductionRequirementBill.ts",
+      "lineRange": [
+        57,
+        444
+      ],
+      "summary": "Function useProductionRequirementBill defined in useProductionRequirementBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "type": "file",
+      "name": "usePurchaseRequisitionBill.ts",
+      "filePath": "client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "summary": "usePurchaseRequisitionBill.ts with 4 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/usePurchaseRequisitionBill.ts:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "lineRange": [
+        22,
+        36
+      ],
+      "summary": "Function newLine defined in usePurchaseRequisitionBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/composables/usePurchaseRequisitionBill.ts:usePurchaseRequisitionBill",
+      "type": "function",
+      "name": "usePurchaseRequisitionBill",
+      "filePath": "client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "lineRange": [
+        44,
+        394
+      ],
+      "summary": "Function usePurchaseRequisitionBill defined in usePurchaseRequisitionBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "type": "file",
+      "name": "useSalesOrderBill.ts",
+      "filePath": "client-vue/src/composables/useSalesOrderBill.ts",
+      "summary": "useSalesOrderBill.ts with 5 function(s) and 0 class(es); exports 2 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useSalesOrderBill.ts:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client-vue/src/composables/useSalesOrderBill.ts",
+      "lineRange": [
+        36,
+        55
+      ],
+      "summary": "Function newLine defined in useSalesOrderBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useSalesOrderBill.ts:useSalesOrderBill",
+      "type": "function",
+      "name": "useSalesOrderBill",
+      "filePath": "client-vue/src/composables/useSalesOrderBill.ts",
+      "lineRange": [
+        64,
+        730
+      ],
+      "summary": "Function useSalesOrderBill defined in useSalesOrderBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:client-vue/src/composables/useSalesOrderBill.ts:usePurchaseOrderBill",
+      "type": "function",
+      "name": "usePurchaseOrderBill",
+      "filePath": "client-vue/src/composables/useSalesOrderBill.ts",
+      "lineRange": [
+        732,
+        734
+      ],
+      "summary": "Function usePurchaseOrderBill defined in useSalesOrderBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "type": "file",
+      "name": "useWarehouseDepositBill.ts",
+      "filePath": "client-vue/src/composables/useWarehouseDepositBill.ts",
+      "summary": "useWarehouseDepositBill.ts with 4 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useWarehouseDepositBill.ts:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client-vue/src/composables/useWarehouseDepositBill.ts",
+      "lineRange": [
+        24,
+        41
+      ],
+      "summary": "Function newLine defined in useWarehouseDepositBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/composables/useWarehouseDepositBill.ts:useWarehouseDepositBill",
+      "type": "function",
+      "name": "useWarehouseDepositBill",
+      "filePath": "client-vue/src/composables/useWarehouseDepositBill.ts",
+      "lineRange": [
+        52,
+        460
+      ],
+      "summary": "Function useWarehouseDepositBill defined in useWarehouseDepositBill.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client-vue/src/config/detailGridRegistry.ts",
+      "type": "file",
+      "name": "detailGridRegistry.ts",
+      "filePath": "client-vue/src/config/detailGridRegistry.ts",
+      "summary": "detailGridRegistry.ts with 5 function(s) and 0 class(es); exports 5 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/config/detailGridRegistry.ts:getDetailGridFallbackColumns",
+      "type": "function",
+      "name": "getDetailGridFallbackColumns",
+      "filePath": "client-vue/src/config/detailGridRegistry.ts",
+      "lineRange": [
+        385,
+        485
+      ],
+      "summary": "Function getDetailGridFallbackColumns defined in detailGridRegistry.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:client-vue/src/config/detailGridRegistry.ts:getDetailGridConfig",
+      "type": "function",
+      "name": "getDetailGridConfig",
+      "filePath": "client-vue/src/config/detailGridRegistry.ts",
+      "lineRange": [
+        487,
+        496
+      ],
+      "summary": "Function getDetailGridConfig defined in detailGridRegistry.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/detailGridRegistry.ts:registerDetailGrid",
+      "type": "function",
+      "name": "registerDetailGrid",
+      "filePath": "client-vue/src/config/detailGridRegistry.ts",
+      "lineRange": [
+        498,
+        500
+      ],
+      "summary": "Function registerDetailGrid defined in detailGridRegistry.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/detailGridRegistry.ts:defaultFormatDetailCell",
+      "type": "function",
+      "name": "defaultFormatDetailCell",
+      "filePath": "client-vue/src/config/detailGridRegistry.ts",
+      "lineRange": [
+        502,
+        517
+      ],
+      "summary": "Function defaultFormatDetailCell defined in detailGridRegistry.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:client-vue/src/config/fields/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "client-vue/src/config/fields/index.ts",
+      "summary": "Source file index.ts in the client-vue area of erp-new.",
+      "tags": [
+        "entry-point"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/config/prdtTwId.ts",
+      "type": "file",
+      "name": "prdtTwId.ts",
+      "filePath": "client-vue/src/config/prdtTwId.ts",
+      "summary": "prdtTwId.ts with 5 function(s) and 0 class(es); exports 8 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/prdtTwId.ts:isPrdtMaterialKnd",
+      "type": "function",
+      "name": "isPrdtMaterialKnd",
+      "filePath": "client-vue/src/config/prdtTwId.ts",
+      "lineRange": [
+        16,
+        19
+      ],
+      "summary": "Function isPrdtMaterialKnd defined in prdtTwId.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/prdtTwId.ts:isPrdtTwIdVisible",
+      "type": "function",
+      "name": "isPrdtTwIdVisible",
+      "filePath": "client-vue/src/config/prdtTwId.ts",
+      "lineRange": [
+        22,
+        25
+      ],
+      "summary": "Function isPrdtTwIdVisible defined in prdtTwId.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/prdtTwId.ts:isPrdtBomParentKnd",
+      "type": "function",
+      "name": "isPrdtBomParentKnd",
+      "filePath": "client-vue/src/config/prdtTwId.ts",
+      "lineRange": [
+        28,
+        30
+      ],
+      "summary": "Function isPrdtBomParentKnd defined in prdtTwId.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/prdtTwId.ts:isPrdtTwIdReadonly",
+      "type": "function",
+      "name": "isPrdtTwIdReadonly",
+      "filePath": "client-vue/src/config/prdtTwId.ts",
+      "lineRange": [
+        33,
+        35
+      ],
+      "summary": "Function isPrdtTwIdReadonly defined in prdtTwId.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/config/prdtTwId.ts:prdtTwIdLabel",
+      "type": "function",
+      "name": "prdtTwIdLabel",
+      "filePath": "client-vue/src/config/prdtTwId.ts",
+      "lineRange": [
+        37,
+        40
+      ],
+      "summary": "Function prdtTwIdLabel defined in prdtTwId.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/billAudit.ts",
+      "type": "file",
+      "name": "billAudit.ts",
+      "filePath": "client-vue/src/utils/billAudit.ts",
+      "summary": "billAudit.ts with 3 function(s) and 0 class(es); exports 3 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billAudit.ts:isBillAudited",
+      "type": "function",
+      "name": "isBillAudited",
+      "filePath": "client-vue/src/utils/billAudit.ts",
+      "lineRange": [
+        3,
+        5
+      ],
+      "summary": "Function isBillAudited defined in billAudit.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billAudit.ts:applyBillAuditMeta",
+      "type": "function",
+      "name": "applyBillAuditMeta",
+      "filePath": "client-vue/src/utils/billAudit.ts",
+      "lineRange": [
+        7,
+        16
+      ],
+      "summary": "Function applyBillAuditMeta defined in billAudit.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billAudit.ts:clearBillAuditMeta",
+      "type": "function",
+      "name": "clearBillAuditMeta",
+      "filePath": "client-vue/src/utils/billAudit.ts",
+      "lineRange": [
+        18,
+        21
+      ],
+      "summary": "Function clearBillAuditMeta defined in billAudit.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/billExtPayload.ts",
+      "type": "file",
+      "name": "billExtPayload.ts",
+      "filePath": "client-vue/src/utils/billExtPayload.ts",
+      "summary": "billExtPayload.ts with 3 function(s) and 0 class(es); exports 3 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billExtPayload.ts:buildBillSavePayload",
+      "type": "function",
+      "name": "buildBillSavePayload",
+      "filePath": "client-vue/src/utils/billExtPayload.ts",
+      "lineRange": [
+        2,
+        20
+      ],
+      "summary": "Function buildBillSavePayload defined in billExtPayload.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/billExtPayload.ts:buildArchiveSavePayload",
+      "type": "function",
+      "name": "buildArchiveSavePayload",
+      "filePath": "client-vue/src/utils/billExtPayload.ts",
+      "lineRange": [
+        23,
+        28
+      ],
+      "summary": "Function buildArchiveSavePayload defined in billExtPayload.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billExtPayload.ts:mergeLoadedExtFields",
+      "type": "function",
+      "name": "mergeLoadedExtFields",
+      "filePath": "client-vue/src/utils/billExtPayload.ts",
+      "lineRange": [
+        30,
+        33
+      ],
+      "summary": "Function mergeLoadedExtFields defined in billExtPayload.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/billLineCurrLookup.ts",
+      "type": "file",
+      "name": "billLineCurrLookup.ts",
+      "filePath": "client-vue/src/utils/billLineCurrLookup.ts",
+      "summary": "billLineCurrLookup.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLineCurrLookup.ts:resolveCurrByCode",
+      "type": "function",
+      "name": "resolveCurrByCode",
+      "filePath": "client-vue/src/utils/billLineCurrLookup.ts",
+      "lineRange": [
+        4,
+        15
+      ],
+      "summary": "Function resolveCurrByCode defined in billLineCurrLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/billLinePaste.ts",
+      "type": "file",
+      "name": "billLinePaste.ts",
+      "filePath": "client-vue/src/utils/billLinePaste.ts",
+      "summary": "billLinePaste.ts with 9 function(s) and 0 class(es); exports 6 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePaste.ts:parseClipboardGrid",
+      "type": "function",
+      "name": "parseClipboardGrid",
+      "filePath": "client-vue/src/utils/billLinePaste.ts",
+      "lineRange": [
+        14,
+        18
+      ],
+      "summary": "Function parseClipboardGrid defined in billLinePaste.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePaste.ts:isMultiCellClipboard",
+      "type": "function",
+      "name": "isMultiCellClipboard",
+      "filePath": "client-vue/src/utils/billLinePaste.ts",
+      "lineRange": [
+        20,
+        24
+      ],
+      "summary": "Function isMultiCellClipboard defined in billLinePaste.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePaste.ts:pasteColumnsFromFields",
+      "type": "function",
+      "name": "pasteColumnsFromFields",
+      "filePath": "client-vue/src/utils/billLinePaste.ts",
+      "lineRange": [
+        32,
+        38
+      ],
+      "summary": "Function pasteColumnsFromFields defined in billLinePaste.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePaste.ts:pasteColumnsFromBundles",
+      "type": "function",
+      "name": "pasteColumnsFromBundles",
+      "filePath": "client-vue/src/utils/billLinePaste.ts",
+      "lineRange": [
+        40,
+        52
+      ],
+      "summary": "Function pasteColumnsFromBundles defined in billLinePaste.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePaste.ts:buildBillLinePastePatches",
+      "type": "function",
+      "name": "buildBillLinePastePatches",
+      "filePath": "client-vue/src/utils/billLinePaste.ts",
+      "lineRange": [
+        74,
+        105
+      ],
+      "summary": "Function buildBillLinePastePatches defined in billLinePaste.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePaste.ts:countBillLineRowsToAdd",
+      "type": "function",
+      "name": "countBillLineRowsToAdd",
+      "filePath": "client-vue/src/utils/billLinePaste.ts",
+      "lineRange": [
+        107,
+        113
+      ],
+      "summary": "Function countBillLineRowsToAdd defined in billLinePaste.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "type": "file",
+      "name": "billLinePasteLookup.ts",
+      "filePath": "client-vue/src/utils/billLinePasteLookup.ts",
+      "summary": "billLinePasteLookup.ts with 8 function(s) and 0 class(es); exports 4 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePasteLookup.ts:pasteCellKey",
+      "type": "function",
+      "name": "pasteCellKey",
+      "filePath": "client-vue/src/utils/billLinePasteLookup.ts",
+      "lineRange": [
+        26,
+        28
+      ],
+      "summary": "Function pasteCellKey defined in billLinePasteLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePasteLookup.ts:validatePastedLookupBatch",
+      "type": "function",
+      "name": "validatePastedLookupBatch",
+      "filePath": "client-vue/src/utils/billLinePasteLookup.ts",
+      "lineRange": [
+        36,
+        55
+      ],
+      "summary": "Function validatePastedLookupBatch defined in billLinePasteLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePasteLookup.ts:collectPastedLookupCells",
+      "type": "function",
+      "name": "collectPastedLookupCells",
+      "filePath": "client-vue/src/utils/billLinePasteLookup.ts",
+      "lineRange": [
+        65,
+        90
+      ],
+      "summary": "Function collectPastedLookupCells defined in billLinePasteLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePasteLookup.ts:validateProductLookup",
+      "type": "function",
+      "name": "validateProductLookup",
+      "filePath": "client-vue/src/utils/billLinePasteLookup.ts",
+      "lineRange": [
+        92,
+        114
+      ],
+      "summary": "Function validateProductLookup defined in billLinePasteLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePasteLookup.ts:validateWhLookup",
+      "type": "function",
+      "name": "validateWhLookup",
+      "filePath": "client-vue/src/utils/billLinePasteLookup.ts",
+      "lineRange": [
+        116,
+        134
+      ],
+      "summary": "Function validateWhLookup defined in billLinePasteLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePasteLookup.ts:validateExtSelectLookup",
+      "type": "function",
+      "name": "validateExtSelectLookup",
+      "filePath": "client-vue/src/utils/billLinePasteLookup.ts",
+      "lineRange": [
+        136,
+        149
+      ],
+      "summary": "Function validateExtSelectLookup defined in billLinePasteLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLinePasteLookup.ts:validatePastedLookupCell",
+      "type": "function",
+      "name": "validatePastedLookupCell",
+      "filePath": "client-vue/src/utils/billLinePasteLookup.ts",
+      "lineRange": [
+        152,
+        166
+      ],
+      "summary": "Function validatePastedLookupCell defined in billLinePasteLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/billLineProductLookup.ts",
+      "type": "file",
+      "name": "billLineProductLookup.ts",
+      "filePath": "client-vue/src/utils/billLineProductLookup.ts",
+      "summary": "billLineProductLookup.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLineProductLookup.ts:resolveLineProductByCode",
+      "type": "function",
+      "name": "resolveLineProductByCode",
+      "filePath": "client-vue/src/utils/billLineProductLookup.ts",
+      "lineRange": [
+        4,
+        15
+      ],
+      "summary": "Function resolveLineProductByCode defined in billLineProductLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/billLineWhLookup.ts",
+      "type": "file",
+      "name": "billLineWhLookup.ts",
+      "filePath": "client-vue/src/utils/billLineWhLookup.ts",
+      "summary": "billLineWhLookup.ts with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/billLineWhLookup.ts:resolveWhByCode",
+      "type": "function",
+      "name": "resolveWhByCode",
+      "filePath": "client-vue/src/utils/billLineWhLookup.ts",
+      "lineRange": [
+        4,
+        15
+      ],
+      "summary": "Function resolveWhByCode defined in billLineWhLookup.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "type": "file",
+      "name": "extFieldRuntime.ts",
+      "filePath": "client-vue/src/utils/extFieldRuntime.ts",
+      "summary": "extFieldRuntime.ts with 7 function(s) and 0 class(es); exports 7 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/extFieldRuntime.ts:isExtFieldEmpty",
+      "type": "function",
+      "name": "isExtFieldEmpty",
+      "filePath": "client-vue/src/utils/extFieldRuntime.ts",
+      "lineRange": [
+        3,
+        5
+      ],
+      "summary": "Function isExtFieldEmpty defined in extFieldRuntime.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/extFieldRuntime.ts:validateExtRequiredFields",
+      "type": "function",
+      "name": "validateExtRequiredFields",
+      "filePath": "client-vue/src/utils/extFieldRuntime.ts",
+      "lineRange": [
+        8,
+        20
+      ],
+      "summary": "Function validateExtRequiredFields defined in extFieldRuntime.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/extFieldRuntime.ts:resolveSelectConfig",
+      "type": "function",
+      "name": "resolveSelectConfig",
+      "filePath": "client-vue/src/utils/extFieldRuntime.ts",
+      "lineRange": [
+        22,
+        32
+      ],
+      "summary": "Function resolveSelectConfig defined in extFieldRuntime.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/extFieldRuntime.ts:staticSelectOptions",
+      "type": "function",
+      "name": "staticSelectOptions",
+      "filePath": "client-vue/src/utils/extFieldRuntime.ts",
+      "lineRange": [
+        34,
+        38
+      ],
+      "summary": "Function staticSelectOptions defined in extFieldRuntime.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/extFieldRuntime.ts:tableNameForSelect",
+      "type": "function",
+      "name": "tableNameForSelect",
+      "filePath": "client-vue/src/utils/extFieldRuntime.ts",
+      "lineRange": [
+        40,
+        43
+      ],
+      "summary": "Function tableNameForSelect defined in extFieldRuntime.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/extFieldRuntime.ts:lineExtFieldPatch",
+      "type": "function",
+      "name": "lineExtFieldPatch",
+      "filePath": "client-vue/src/utils/extFieldRuntime.ts",
+      "lineRange": [
+        45,
+        52
+      ],
+      "summary": "Function lineExtFieldPatch defined in extFieldRuntime.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/extFieldRuntime.ts:lineExtFieldValue",
+      "type": "function",
+      "name": "lineExtFieldValue",
+      "filePath": "client-vue/src/utils/extFieldRuntime.ts",
+      "lineRange": [
+        54,
+        57
+      ],
+      "summary": "Function lineExtFieldValue defined in extFieldRuntime.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/lookupFilter.ts",
+      "type": "file",
+      "name": "lookupFilter.ts",
+      "filePath": "client-vue/src/utils/lookupFilter.ts",
+      "summary": "lookupFilter.ts with 5 function(s) and 0 class(es); exports 5 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/lookupFilter.ts:filterLookupRows",
+      "type": "function",
+      "name": "filterLookupRows",
+      "filePath": "client-vue/src/utils/lookupFilter.ts",
+      "lineRange": [
+        3,
+        15
+      ],
+      "summary": "Function filterLookupRows defined in lookupFilter.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/lookupFilter.ts:findLookupExactByValueKey",
+      "type": "function",
+      "name": "findLookupExactByValueKey",
+      "filePath": "client-vue/src/utils/lookupFilter.ts",
+      "lineRange": [
+        18,
+        26
+      ],
+      "summary": "Function findLookupExactByValueKey defined in lookupFilter.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/lookupFilter.ts:findLookupExact",
+      "type": "function",
+      "name": "findLookupExact",
+      "filePath": "client-vue/src/utils/lookupFilter.ts",
+      "lineRange": [
+        29,
+        41
+      ],
+      "summary": "Function findLookupExact defined in lookupFilter.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/lookupFilter.ts:formatLookupRowLabel",
+      "type": "function",
+      "name": "formatLookupRowLabel",
+      "filePath": "client-vue/src/utils/lookupFilter.ts",
+      "lineRange": [
+        44,
+        59
+      ],
+      "summary": "Function formatLookupRowLabel defined in lookupFilter.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/lookupFilter.ts:resolveLookupEntry",
+      "type": "function",
+      "name": "resolveLookupEntry",
+      "filePath": "client-vue/src/utils/lookupFilter.ts",
+      "lineRange": [
+        69,
+        94
+      ],
+      "summary": "Function resolveLookupEntry defined in lookupFilter.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:client-vue/src/utils/prdtSavePayload.ts",
+      "type": "file",
+      "name": "prdtSavePayload.ts",
+      "filePath": "client-vue/src/utils/prdtSavePayload.ts",
+      "summary": "prdtSavePayload.ts with 2 function(s) and 0 class(es); exports 2 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/prdtSavePayload.ts:applyPrdtFormDefaults",
+      "type": "function",
+      "name": "applyPrdtFormDefaults",
+      "filePath": "client-vue/src/utils/prdtSavePayload.ts",
+      "lineRange": [
+        11,
+        45
+      ],
+      "summary": "Function applyPrdtFormDefaults defined in prdtSavePayload.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/prdtSavePayload.ts:buildPrdtSavePayload",
+      "type": "function",
+      "name": "buildPrdtSavePayload",
+      "filePath": "client-vue/src/utils/prdtSavePayload.ts",
+      "lineRange": [
+        47,
+        49
+      ],
+      "summary": "Function buildPrdtSavePayload defined in prdtSavePayload.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/soBillStatus.ts",
+      "type": "file",
+      "name": "soBillStatus.ts",
+      "filePath": "client-vue/src/utils/soBillStatus.ts",
+      "summary": "soBillStatus.ts with 2 function(s) and 0 class(es); exports 2 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/soBillStatus.ts:resolveSoBillStatus",
+      "type": "function",
+      "name": "resolveSoBillStatus",
+      "filePath": "client-vue/src/utils/soBillStatus.ts",
+      "lineRange": [
+        8,
+        27
+      ],
+      "summary": "Function resolveSoBillStatus defined in soBillStatus.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/soBillStatus.ts:isSoBillClosed",
+      "type": "function",
+      "name": "isSoBillClosed",
+      "filePath": "client-vue/src/utils/soBillStatus.ts",
+      "lineRange": [
+        29,
+        32
+      ],
+      "summary": "Function isSoBillClosed defined in soBillStatus.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/sunlike.ts",
+      "type": "file",
+      "name": "sunlike.ts",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "summary": "sunlike.ts with 30 function(s) and 0 class(es); exports 32 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:fmtText",
+      "type": "function",
+      "name": "fmtText",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        14,
+        17
+      ],
+      "summary": "Function fmtText defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:fmtNum",
+      "type": "function",
+      "name": "fmtNum",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        20,
+        25
+      ],
+      "summary": "Function fmtNum defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:fmtQty",
+      "type": "function",
+      "name": "fmtQty",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        27,
+        29
+      ],
+      "summary": "Function fmtQty defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:fmtPrice",
+      "type": "function",
+      "name": "fmtPrice",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        31,
+        33
+      ],
+      "summary": "Function fmtPrice defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:isStopYes",
+      "type": "function",
+      "name": "isStopYes",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        36,
+        38
+      ],
+      "summary": "Function isStopYes defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:stopYesLabel",
+      "type": "function",
+      "name": "stopYesLabel",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        40,
+        42
+      ],
+      "summary": "Function stopYesLabel defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:isIndxStopped",
+      "type": "function",
+      "name": "isIndxStopped",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        45,
+        49
+      ],
+      "summary": "Function isIndxStopped defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:todayStr",
+      "type": "function",
+      "name": "todayStr",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        51,
+        57
+      ],
+      "summary": "Function todayStr defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:archiveRowClass",
+      "type": "function",
+      "name": "archiveRowClass",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        60,
+        75
+      ],
+      "summary": "Function archiveRowClass defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:getHierarchyDescendants",
+      "type": "function",
+      "name": "getHierarchyDescendants",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        79,
+        97
+      ],
+      "summary": "Function getHierarchyDescendants defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:collectDeptSubtreeIds",
+      "type": "function",
+      "name": "collectDeptSubtreeIds",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        100,
+        110
+      ],
+      "summary": "Function collectDeptSubtreeIds defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:isValidDeptParent",
+      "type": "function",
+      "name": "isValidDeptParent",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        112,
+        128
+      ],
+      "summary": "Function isValidDeptParent defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:selectableDeptParents",
+      "type": "function",
+      "name": "selectableDeptParents",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        130,
+        143
+      ],
+      "summary": "Function selectableDeptParents defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:hierarchyList",
+      "type": "function",
+      "name": "hierarchyList",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        145,
+        154
+      ],
+      "summary": "Function hierarchyList defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:isValidWhParent",
+      "type": "function",
+      "name": "isValidWhParent",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        156,
+        172
+      ],
+      "summary": "Function isValidWhParent defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:selectableWhParents",
+      "type": "function",
+      "name": "selectableWhParents",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        174,
+        186
+      ],
+      "summary": "Function selectableWhParents defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:collectWhSubtreeIds",
+      "type": "function",
+      "name": "collectWhSubtreeIds",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        189,
+        196
+      ],
+      "summary": "Function collectWhSubtreeIds defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:isValidSalmParent",
+      "type": "function",
+      "name": "isValidSalmParent",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        198,
+        214
+      ],
+      "summary": "Function isValidSalmParent defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:selectableSalmParents",
+      "type": "function",
+      "name": "selectableSalmParents",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        216,
+        230
+      ],
+      "summary": "Function selectableSalmParents defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:getIndxDescendants",
+      "type": "function",
+      "name": "getIndxDescendants",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        233,
+        254
+      ],
+      "summary": "Function getIndxDescendants defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:isValidIndxParent",
+      "type": "function",
+      "name": "isValidIndxParent",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        258,
+        272
+      ],
+      "summary": "Function isValidIndxParent defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:isIndxLeaf",
+      "type": "function",
+      "name": "isIndxLeaf",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        275,
+        282
+      ],
+      "summary": "Function isIndxLeaf defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:selectableIndxParents",
+      "type": "function",
+      "name": "selectableIndxParents",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        285,
+        297
+      ],
+      "summary": "Function selectableIndxParents defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:selectableIndxForProduct",
+      "type": "function",
+      "name": "selectableIndxForProduct",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        300,
+        306
+      ],
+      "summary": "Function selectableIndxForProduct defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:collectIndxSubtreeIds",
+      "type": "function",
+      "name": "collectIndxSubtreeIds",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        309,
+        316
+      ],
+      "summary": "Function collectIndxSubtreeIds defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:getAreaDescendants",
+      "type": "function",
+      "name": "getAreaDescendants",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        320,
+        341
+      ],
+      "summary": "Function getAreaDescendants defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:isValidAreaParent",
+      "type": "function",
+      "name": "isValidAreaParent",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        343,
+        357
+      ],
+      "summary": "Function isValidAreaParent defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:selectableAreaParents",
+      "type": "function",
+      "name": "selectableAreaParents",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        359,
+        371
+      ],
+      "summary": "Function selectableAreaParents defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:collectAreaSubtreeIds",
+      "type": "function",
+      "name": "collectAreaSubtreeIds",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        373,
+        380
+      ],
+      "summary": "Function collectAreaSubtreeIds defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/sunlike.ts:apiErrorMessage",
+      "type": "function",
+      "name": "apiErrorMessage",
+      "filePath": "client-vue/src/utils/sunlike.ts",
+      "lineRange": [
+        382,
+        385
+      ],
+      "summary": "Function apiErrorMessage defined in sunlike.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client-vue/src/utils/tax.ts",
+      "type": "file",
+      "name": "tax.ts",
+      "filePath": "client-vue/src/utils/tax.ts",
+      "summary": "tax.ts with 2 function(s) and 0 class(es); exports 2 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client-vue/src/utils/tax.ts:calcLineAmounts",
+      "type": "function",
+      "name": "calcLineAmounts",
+      "filePath": "client-vue/src/utils/tax.ts",
+      "lineRange": [
+        1,
+        21
+      ],
+      "summary": "Function calcLineAmounts defined in tax.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client-vue/src/utils/tax.ts:sumLines",
+      "type": "function",
+      "name": "sumLines",
+      "filePath": "client-vue/src/utils/tax.ts",
+      "lineRange": [
+        23,
+        37
+      ],
+      "summary": "Function sumLines defined in tax.ts.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:setAuthToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:setAuthToken",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:getAuthToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:getAuthToken",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:clearAuth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:clearAuth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:setErpUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:setErpUserId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:getErpUserId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/api/index.ts",
+      "target": "function:client-vue/src/api/index.ts:getErpUserId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useArchiveExtFields.ts",
+      "target": "file:client-vue/src/composables/useExtFieldColumns.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useArchiveExtFields.ts",
+      "target": "function:client-vue/src/composables/useArchiveExtFields.ts:useArchiveExtFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useArchiveExtFields.ts",
+      "target": "function:client-vue/src/composables/useArchiveExtFields.ts:useArchiveExtFields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:isLoggedIn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:isLoggedIn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:login",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:login",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:logout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:logout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:fetchCurrentUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:fetchCurrentUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:useAuth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useAuth.ts",
+      "target": "function:client-vue/src/composables/useAuth.ts:useAuth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useBillLineWhLookup.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useBillLineWhLookup.ts",
+      "target": "function:client-vue/src/composables/useBillLineWhLookup.ts:useBillLineWhLookup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useBillLineWhLookup.ts",
+      "target": "function:client-vue/src/composables/useBillLineWhLookup.ts:useBillLineWhLookup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "file:client-vue/src/config/detailGridRegistry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "file:client-vue/src/config/fields/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "file:client-vue/src/config/prdtTwId.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "file:client-vue/src/utils/billAudit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "function:client-vue/src/composables/useBomBill.ts:lineToUi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "function:client-vue/src/composables/useBomBill.ts:lineToApi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "function:client-vue/src/composables/useBomBill.ts:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "function:client-vue/src/composables/useBomBill.ts:resetHead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "function:client-vue/src/composables/useBomBill.ts:buildBomNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "function:client-vue/src/composables/useBomBill.ts:buildBomNo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "function:client-vue/src/composables/useBomBill.ts:useBomBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useBomBill.ts",
+      "target": "function:client-vue/src/composables/useBomBill.ts:useBomBill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "target": "file:client-vue/src/composables/useErpUser.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "target": "file:client-vue/src/config/detailGridRegistry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "target": "function:client-vue/src/composables/useDetailGridColumnHeader.ts:useDetailGridColumnHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "target": "function:client-vue/src/composables/useDetailGridColumnHeader.ts:useDetailGridColumnHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpDetailGrid.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpDetailGrid.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpDetailGrid.ts",
+      "target": "file:client-vue/src/composables/useErpUser.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpDetailGrid.ts",
+      "target": "file:client-vue/src/config/detailGridRegistry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpDetailGrid.ts",
+      "target": "function:client-vue/src/composables/useErpDetailGrid.ts:useErpDetailGrid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpDetailGrid.ts",
+      "target": "function:client-vue/src/composables/useErpDetailGrid.ts:useErpDetailGrid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpUser.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpUser.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpUser.ts",
+      "target": "file:client-vue/src/composables/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpUser.ts",
+      "target": "function:client-vue/src/composables/useErpUser.ts:initErpUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpUser.ts",
+      "target": "function:client-vue/src/composables/useErpUser.ts:initErpUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpUser.ts",
+      "target": "function:client-vue/src/composables/useErpUser.ts:switchErpUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpUser.ts",
+      "target": "function:client-vue/src/composables/useErpUser.ts:switchErpUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpUser.ts",
+      "target": "function:client-vue/src/composables/useErpUser.ts:useErpUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useErpUser.ts",
+      "target": "function:client-vue/src/composables/useErpUser.ts:useErpUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useExtFieldColumns.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useExtFieldColumns.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useExtFieldColumns.ts",
+      "target": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useExtFieldColumns.ts",
+      "target": "function:client-vue/src/composables/useExtFieldColumns.ts:useExtFieldColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useExtFieldColumns.ts",
+      "target": "function:client-vue/src/composables/useExtFieldColumns.ts:useExtFieldColumns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useExtFieldColumns.ts",
+      "target": "function:client-vue/src/composables/useExtFieldColumns.ts:useExtFieldSelectOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useExtFieldColumns.ts",
+      "target": "function:client-vue/src/composables/useExtFieldColumns.ts:useExtFieldSelectOptions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useManufacturingOrderBill.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useManufacturingOrderBill.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useManufacturingOrderBill.ts",
+      "target": "file:client-vue/src/config/fields/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useManufacturingOrderBill.ts",
+      "target": "file:client-vue/src/utils/billAudit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useManufacturingOrderBill.ts",
+      "target": "file:client-vue/src/utils/billExtPayload.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useManufacturingOrderBill.ts",
+      "target": "function:client-vue/src/composables/useManufacturingOrderBill.ts:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useManufacturingOrderBill.ts",
+      "target": "function:client-vue/src/composables/useManufacturingOrderBill.ts:useManufacturingOrderBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useManufacturingOrderBill.ts",
+      "target": "function:client-vue/src/composables/useManufacturingOrderBill.ts:useManufacturingOrderBill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useMaterialIssueBill.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useMaterialIssueBill.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useMaterialIssueBill.ts",
+      "target": "file:client-vue/src/config/fields/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useMaterialIssueBill.ts",
+      "target": "file:client-vue/src/utils/billAudit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useMaterialIssueBill.ts",
+      "target": "file:client-vue/src/utils/billExtPayload.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useMaterialIssueBill.ts",
+      "target": "function:client-vue/src/composables/useMaterialIssueBill.ts:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useMaterialIssueBill.ts",
+      "target": "function:client-vue/src/composables/useMaterialIssueBill.ts:useMaterialIssueBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useMaterialIssueBill.ts",
+      "target": "function:client-vue/src/composables/useMaterialIssueBill.ts:useMaterialIssueBill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/usePermissions.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/usePermissions.ts",
+      "target": "file:client-vue/src/composables/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/usePermissions.ts",
+      "target": "file:client-vue/src/config/menuRegistry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/usePermissions.ts",
+      "target": "function:client-vue/src/composables/usePermissions.ts:usePermissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/usePermissions.ts",
+      "target": "function:client-vue/src/composables/usePermissions.ts:usePermissions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionPlanBill.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionPlanBill.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionPlanBill.ts",
+      "target": "file:client-vue/src/config/fields/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionPlanBill.ts",
+      "target": "file:client-vue/src/utils/billAudit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionPlanBill.ts",
+      "target": "file:client-vue/src/utils/billExtPayload.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionPlanBill.ts",
+      "target": "function:client-vue/src/composables/useProductionPlanBill.ts:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionPlanBill.ts",
+      "target": "function:client-vue/src/composables/useProductionPlanBill.ts:useProductionPlanBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionPlanBill.ts",
+      "target": "function:client-vue/src/composables/useProductionPlanBill.ts:useProductionPlanBill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionRequirementBill.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionRequirementBill.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionRequirementBill.ts",
+      "target": "file:client-vue/src/config/fields/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionRequirementBill.ts",
+      "target": "file:client-vue/src/utils/billAudit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionRequirementBill.ts",
+      "target": "function:client-vue/src/composables/useProductionRequirementBill.ts:newLine1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionRequirementBill.ts",
+      "target": "function:client-vue/src/composables/useProductionRequirementBill.ts:useProductionRequirementBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useProductionRequirementBill.ts",
+      "target": "function:client-vue/src/composables/useProductionRequirementBill.ts:useProductionRequirementBill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "target": "file:client-vue/src/config/fields/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "target": "file:client-vue/src/utils/billAudit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "target": "file:client-vue/src/utils/billExtPayload.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "target": "function:client-vue/src/composables/usePurchaseRequisitionBill.ts:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "target": "function:client-vue/src/composables/usePurchaseRequisitionBill.ts:usePurchaseRequisitionBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "target": "function:client-vue/src/composables/usePurchaseRequisitionBill.ts:usePurchaseRequisitionBill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "file:client-vue/src/config/detailGridRegistry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "file:client-vue/src/config/fields/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "file:client-vue/src/utils/billAudit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "file:client-vue/src/utils/soBillStatus.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "file:client-vue/src/utils/tax.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "function:client-vue/src/composables/useSalesOrderBill.ts:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "function:client-vue/src/composables/useSalesOrderBill.ts:useSalesOrderBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "function:client-vue/src/composables/useSalesOrderBill.ts:useSalesOrderBill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "function:client-vue/src/composables/useSalesOrderBill.ts:usePurchaseOrderBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useSalesOrderBill.ts",
+      "target": "function:client-vue/src/composables/useSalesOrderBill.ts:usePurchaseOrderBill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "target": "file:client-vue/src/config/fields/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "target": "file:client-vue/src/utils/billAudit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "target": "file:client-vue/src/utils/billExtPayload.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "target": "file:client-vue/src/utils/sunlike.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "target": "function:client-vue/src/composables/useWarehouseDepositBill.ts:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "target": "function:client-vue/src/composables/useWarehouseDepositBill.ts:useWarehouseDepositBill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/composables/useWarehouseDepositBill.ts",
+      "target": "function:client-vue/src/composables/useWarehouseDepositBill.ts:useWarehouseDepositBill",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "file:client-vue/src/config/fields/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "file:client-vue/src/utils/sunlike.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "function:client-vue/src/config/detailGridRegistry.ts:getDetailGridFallbackColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "function:client-vue/src/config/detailGridRegistry.ts:getDetailGridFallbackColumns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "function:client-vue/src/config/detailGridRegistry.ts:getDetailGridConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "function:client-vue/src/config/detailGridRegistry.ts:getDetailGridConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "function:client-vue/src/config/detailGridRegistry.ts:registerDetailGrid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "function:client-vue/src/config/detailGridRegistry.ts:registerDetailGrid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "function:client-vue/src/config/detailGridRegistry.ts:defaultFormatDetailCell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/detailGridRegistry.ts",
+      "target": "function:client-vue/src/config/detailGridRegistry.ts:defaultFormatDetailCell",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:isPrdtMaterialKnd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:isPrdtMaterialKnd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:isPrdtTwIdVisible",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:isPrdtTwIdVisible",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:isPrdtBomParentKnd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:isPrdtBomParentKnd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:isPrdtTwIdReadonly",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:isPrdtTwIdReadonly",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:prdtTwIdLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/config/prdtTwId.ts",
+      "target": "function:client-vue/src/config/prdtTwId.ts:prdtTwIdLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billAudit.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billAudit.ts",
+      "target": "function:client-vue/src/utils/billAudit.ts:isBillAudited",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billAudit.ts",
+      "target": "function:client-vue/src/utils/billAudit.ts:isBillAudited",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billAudit.ts",
+      "target": "function:client-vue/src/utils/billAudit.ts:applyBillAuditMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billAudit.ts",
+      "target": "function:client-vue/src/utils/billAudit.ts:applyBillAuditMeta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billAudit.ts",
+      "target": "function:client-vue/src/utils/billAudit.ts:clearBillAuditMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billAudit.ts",
+      "target": "function:client-vue/src/utils/billAudit.ts:clearBillAuditMeta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billExtPayload.ts",
+      "target": "function:client-vue/src/utils/billExtPayload.ts:buildBillSavePayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billExtPayload.ts",
+      "target": "function:client-vue/src/utils/billExtPayload.ts:buildBillSavePayload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billExtPayload.ts",
+      "target": "function:client-vue/src/utils/billExtPayload.ts:buildArchiveSavePayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billExtPayload.ts",
+      "target": "function:client-vue/src/utils/billExtPayload.ts:buildArchiveSavePayload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billExtPayload.ts",
+      "target": "function:client-vue/src/utils/billExtPayload.ts:mergeLoadedExtFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billExtPayload.ts",
+      "target": "function:client-vue/src/utils/billExtPayload.ts:mergeLoadedExtFields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLineCurrLookup.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLineCurrLookup.ts",
+      "target": "function:client-vue/src/utils/billLineCurrLookup.ts:resolveCurrByCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLineCurrLookup.ts",
+      "target": "function:client-vue/src/utils/billLineCurrLookup.ts:resolveCurrByCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "file:client-vue/src/config/fields/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:parseClipboardGrid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:parseClipboardGrid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:isMultiCellClipboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:isMultiCellClipboard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:pasteColumnsFromFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:pasteColumnsFromFields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:pasteColumnsFromBundles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:pasteColumnsFromBundles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:buildBillLinePastePatches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:buildBillLinePastePatches",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:countBillLineRowsToAdd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePaste.ts",
+      "target": "function:client-vue/src/utils/billLinePaste.ts:countBillLineRowsToAdd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "file:client-vue/src/utils/billLinePaste.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "file:client-vue/src/utils/lookupFilter.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:pasteCellKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:pasteCellKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:validatePastedLookupBatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:validatePastedLookupBatch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:collectPastedLookupCells",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:collectPastedLookupCells",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:validateProductLookup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:validateWhLookup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:validateExtSelectLookup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:validatePastedLookupCell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLinePasteLookup.ts",
+      "target": "function:client-vue/src/utils/billLinePasteLookup.ts:validatePastedLookupCell",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLineProductLookup.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLineProductLookup.ts",
+      "target": "function:client-vue/src/utils/billLineProductLookup.ts:resolveLineProductByCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLineProductLookup.ts",
+      "target": "function:client-vue/src/utils/billLineProductLookup.ts:resolveLineProductByCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/billLineWhLookup.ts",
+      "target": "file:client-vue/src/api/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/billLineWhLookup.ts",
+      "target": "function:client-vue/src/utils/billLineWhLookup.ts:resolveWhByCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/billLineWhLookup.ts",
+      "target": "function:client-vue/src/utils/billLineWhLookup.ts:resolveWhByCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:isExtFieldEmpty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:isExtFieldEmpty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:validateExtRequiredFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:validateExtRequiredFields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:resolveSelectConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:resolveSelectConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:staticSelectOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:staticSelectOptions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:tableNameForSelect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:tableNameForSelect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:lineExtFieldPatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:lineExtFieldPatch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:lineExtFieldValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/extFieldRuntime.ts",
+      "target": "function:client-vue/src/utils/extFieldRuntime.ts:lineExtFieldValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:filterLookupRows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:filterLookupRows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:findLookupExactByValueKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:findLookupExactByValueKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:findLookupExact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:findLookupExact",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:formatLookupRowLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:formatLookupRowLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:resolveLookupEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/lookupFilter.ts",
+      "target": "function:client-vue/src/utils/lookupFilter.ts:resolveLookupEntry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/prdtSavePayload.ts",
+      "target": "file:client-vue/src/api/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/prdtSavePayload.ts",
+      "target": "file:client-vue/src/config/prdtTwId.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/prdtSavePayload.ts",
+      "target": "file:client-vue/src/utils/billExtPayload.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/prdtSavePayload.ts",
+      "target": "file:client-vue/src/utils/sunlike.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client-vue/src/utils/prdtSavePayload.ts",
+      "target": "function:client-vue/src/utils/prdtSavePayload.ts:applyPrdtFormDefaults",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/prdtSavePayload.ts",
+      "target": "function:client-vue/src/utils/prdtSavePayload.ts:applyPrdtFormDefaults",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/prdtSavePayload.ts",
+      "target": "function:client-vue/src/utils/prdtSavePayload.ts:buildPrdtSavePayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/prdtSavePayload.ts",
+      "target": "function:client-vue/src/utils/prdtSavePayload.ts:buildPrdtSavePayload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/soBillStatus.ts",
+      "target": "function:client-vue/src/utils/soBillStatus.ts:resolveSoBillStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/soBillStatus.ts",
+      "target": "function:client-vue/src/utils/soBillStatus.ts:resolveSoBillStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/soBillStatus.ts",
+      "target": "function:client-vue/src/utils/soBillStatus.ts:isSoBillClosed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/soBillStatus.ts",
+      "target": "function:client-vue/src/utils/soBillStatus.ts:isSoBillClosed",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:fmtText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:fmtText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:fmtNum",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:fmtNum",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:fmtQty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:fmtQty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:fmtPrice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:fmtPrice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isStopYes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isStopYes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:stopYesLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:stopYesLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isIndxStopped",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isIndxStopped",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:todayStr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:todayStr",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:archiveRowClass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:archiveRowClass",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:getHierarchyDescendants",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:collectDeptSubtreeIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:collectDeptSubtreeIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidDeptParent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidDeptParent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableDeptParents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableDeptParents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:hierarchyList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidWhParent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidWhParent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableWhParents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableWhParents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:collectWhSubtreeIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:collectWhSubtreeIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidSalmParent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidSalmParent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableSalmParents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableSalmParents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:getIndxDescendants",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:getIndxDescendants",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidIndxParent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidIndxParent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isIndxLeaf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isIndxLeaf",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableIndxParents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableIndxParents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableIndxForProduct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableIndxForProduct",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:collectIndxSubtreeIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:collectIndxSubtreeIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:getAreaDescendants",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:getAreaDescendants",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidAreaParent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:isValidAreaParent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableAreaParents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:selectableAreaParents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:collectAreaSubtreeIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:collectAreaSubtreeIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:apiErrorMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/sunlike.ts",
+      "target": "function:client-vue/src/utils/sunlike.ts:apiErrorMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/tax.ts",
+      "target": "function:client-vue/src/utils/tax.ts:calcLineAmounts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/tax.ts",
+      "target": "function:client-vue/src/utils/tax.ts:calcLineAmounts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client-vue/src/utils/tax.ts",
+      "target": "function:client-vue/src/utils/tax.ts:sumLines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client-vue/src/utils/tax.ts",
+      "target": "function:client-vue/src/utils/tax.ts:sumLines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# .understandignore
+# Detected dirs
+
+# docs/
+# scripts/
+
+# *.test.*
+# *.spec.*

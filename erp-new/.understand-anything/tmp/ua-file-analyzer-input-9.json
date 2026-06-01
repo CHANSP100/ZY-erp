@@ -1,0 +1,42 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "启动ERP.bat",
+      "language": "batch",
+      "sizeLines": 140,
+      "fileCategory": "script"
+    },
+    {
+      "path": "启动开发.bat",
+      "language": "batch",
+      "sizeLines": 4,
+      "fileCategory": "script"
+    },
+    {
+      "path": "开机启动ERP.bat",
+      "language": "batch",
+      "sizeLines": 69,
+      "fileCategory": "script"
+    }
+  ],
+  "batchImportData": {
+    "README.md": [],
+    "package.json": [],
+    "启动ERP.bat": [],
+    "启动开发.bat": [],
+    "开机启动ERP.bat": []
+  }
+}

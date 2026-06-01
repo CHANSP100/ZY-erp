@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Documentation file README.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "Configuration file package.json defining build/runtime settings.",
+      "tags": [
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:启动ERP.bat",
+      "type": "file",
+      "name": "启动ERP.bat",
+      "filePath": "启动ERP.bat",
+      "summary": "Source file 启动ERP.bat in the 启动ERP.bat area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:启动开发.bat",
+      "type": "file",
+      "name": "启动开发.bat",
+      "filePath": "启动开发.bat",
+      "summary": "Source file 启动开发.bat in the 启动开发.bat area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:开机启动ERP.bat",
+      "type": "file",
+      "name": "开机启动ERP.bat",
+      "filePath": "开机启动ERP.bat",
+      "summary": "Source file 开机启动ERP.bat in the 开机启动ERP.bat area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

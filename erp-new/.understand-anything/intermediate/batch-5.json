@@ -1,0 +1,878 @@
+{
+  "nodes": [
+    {
+      "id": "file:client/src/App.tsx",
+      "type": "file",
+      "name": "App.tsx",
+      "filePath": "client/src/App.tsx",
+      "summary": "App.tsx with 2 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client/src/App.tsx:AppShell",
+      "type": "function",
+      "name": "AppShell",
+      "filePath": "client/src/App.tsx",
+      "lineRange": [
+        18,
+        98
+      ],
+      "summary": "Function AppShell defined in App.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:client/src/App.tsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "client/src/App.tsx",
+      "lineRange": [
+        100,
+        106
+      ],
+      "summary": "Function App defined in App.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client/src/api.ts",
+      "type": "file",
+      "name": "api.ts",
+      "filePath": "client/src/api.ts",
+      "summary": "Source file api.ts in the client area of erp-new.",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client/src/components/LookupField.tsx",
+      "type": "file",
+      "name": "LookupField.tsx",
+      "filePath": "client/src/components/LookupField.tsx",
+      "summary": "LookupField.tsx with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/components/LookupField.tsx:LookupField",
+      "type": "function",
+      "name": "LookupField",
+      "filePath": "client/src/components/LookupField.tsx",
+      "lineRange": [
+        14,
+        33
+      ],
+      "summary": "Function LookupField defined in LookupField.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:client/src/components/LookupModal.tsx",
+      "type": "file",
+      "name": "LookupModal.tsx",
+      "filePath": "client/src/components/LookupModal.tsx",
+      "summary": "LookupModal.tsx with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/components/LookupModal.tsx:LookupModal",
+      "type": "function",
+      "name": "LookupModal",
+      "filePath": "client/src/components/LookupModal.tsx",
+      "lineRange": [
+        18,
+        75
+      ],
+      "summary": "Function LookupModal defined in LookupModal.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client/src/main.tsx",
+      "type": "file",
+      "name": "main.tsx",
+      "filePath": "client/src/main.tsx",
+      "summary": "Source file main.tsx in the client area of erp-new.",
+      "tags": [
+        "entry-point"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:client/src/pages/CustPage.tsx",
+      "type": "file",
+      "name": "CustPage.tsx",
+      "filePath": "client/src/pages/CustPage.tsx",
+      "summary": "CustPage.tsx with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/pages/CustPage.tsx:CustPage",
+      "type": "function",
+      "name": "CustPage",
+      "filePath": "client/src/pages/CustPage.tsx",
+      "lineRange": [
+        33,
+        261
+      ],
+      "summary": "Function CustPage defined in CustPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client/src/pages/DeptPage.tsx",
+      "type": "file",
+      "name": "DeptPage.tsx",
+      "filePath": "client/src/pages/DeptPage.tsx",
+      "summary": "DeptPage.tsx with 2 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/pages/DeptPage.tsx:DeptPage",
+      "type": "function",
+      "name": "DeptPage",
+      "filePath": "client/src/pages/DeptPage.tsx",
+      "lineRange": [
+        27,
+        157
+      ],
+      "summary": "Function DeptPage defined in DeptPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client/src/pages/IndxPage.tsx",
+      "type": "file",
+      "name": "IndxPage.tsx",
+      "filePath": "client/src/pages/IndxPage.tsx",
+      "summary": "IndxPage.tsx with 2 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/pages/IndxPage.tsx:IndxPage",
+      "type": "function",
+      "name": "IndxPage",
+      "filePath": "client/src/pages/IndxPage.tsx",
+      "lineRange": [
+        29,
+        129
+      ],
+      "summary": "Function IndxPage defined in IndxPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client/src/pages/PrdtPage.tsx",
+      "type": "file",
+      "name": "PrdtPage.tsx",
+      "filePath": "client/src/pages/PrdtPage.tsx",
+      "summary": "PrdtPage.tsx with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/pages/PrdtPage.tsx:PrdtPage",
+      "type": "function",
+      "name": "PrdtPage",
+      "filePath": "client/src/pages/PrdtPage.tsx",
+      "lineRange": [
+        21,
+        296
+      ],
+      "summary": "Function PrdtPage defined in PrdtPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client/src/pages/SalesOrderPage.tsx",
+      "type": "file",
+      "name": "SalesOrderPage.tsx",
+      "filePath": "client/src/pages/SalesOrderPage.tsx",
+      "summary": "SalesOrderPage.tsx with 2 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/pages/SalesOrderPage.tsx:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client/src/pages/SalesOrderPage.tsx",
+      "lineRange": [
+        30,
+        48
+      ],
+      "summary": "Function newLine defined in SalesOrderPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client/src/pages/SalesOrderPage.tsx:SalesOrderPage",
+      "type": "function",
+      "name": "SalesOrderPage",
+      "filePath": "client/src/pages/SalesOrderPage.tsx",
+      "lineRange": [
+        50,
+        481
+      ],
+      "summary": "Function SalesOrderPage defined in SalesOrderPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client/src/pages/SalesReturnPage.tsx",
+      "type": "file",
+      "name": "SalesReturnPage.tsx",
+      "filePath": "client/src/pages/SalesReturnPage.tsx",
+      "summary": "SalesReturnPage.tsx with 3 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/pages/SalesReturnPage.tsx:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client/src/pages/SalesReturnPage.tsx",
+      "lineRange": [
+        37,
+        55
+      ],
+      "summary": "Function newLine defined in SalesReturnPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client/src/pages/SalesReturnPage.tsx:recalcLine",
+      "type": "function",
+      "name": "recalcLine",
+      "filePath": "client/src/pages/SalesReturnPage.tsx",
+      "lineRange": [
+        57,
+        72
+      ],
+      "summary": "Function recalcLine defined in SalesReturnPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client/src/pages/SalesReturnPage.tsx:SalesReturnPage",
+      "type": "function",
+      "name": "SalesReturnPage",
+      "filePath": "client/src/pages/SalesReturnPage.tsx",
+      "lineRange": [
+        74,
+        467
+      ],
+      "summary": "Function SalesReturnPage defined in SalesReturnPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client/src/pages/SalesShipmentPage.tsx",
+      "type": "file",
+      "name": "SalesShipmentPage.tsx",
+      "filePath": "client/src/pages/SalesShipmentPage.tsx",
+      "summary": "SalesShipmentPage.tsx with 3 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/pages/SalesShipmentPage.tsx:newLine",
+      "type": "function",
+      "name": "newLine",
+      "filePath": "client/src/pages/SalesShipmentPage.tsx",
+      "lineRange": [
+        37,
+        55
+      ],
+      "summary": "Function newLine defined in SalesShipmentPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client/src/pages/SalesShipmentPage.tsx:recalcLine",
+      "type": "function",
+      "name": "recalcLine",
+      "filePath": "client/src/pages/SalesShipmentPage.tsx",
+      "lineRange": [
+        57,
+        72
+      ],
+      "summary": "Function recalcLine defined in SalesShipmentPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:client/src/pages/SalesShipmentPage.tsx:SalesShipmentPage",
+      "type": "function",
+      "name": "SalesShipmentPage",
+      "filePath": "client/src/pages/SalesShipmentPage.tsx",
+      "lineRange": [
+        74,
+        467
+      ],
+      "summary": "Function SalesShipmentPage defined in SalesShipmentPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client/src/pages/SalmPage.tsx",
+      "type": "file",
+      "name": "SalmPage.tsx",
+      "filePath": "client/src/pages/SalmPage.tsx",
+      "summary": "SalmPage.tsx with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/pages/SalmPage.tsx:SalmPage",
+      "type": "function",
+      "name": "SalmPage",
+      "filePath": "client/src/pages/SalmPage.tsx",
+      "lineRange": [
+        26,
+        289
+      ],
+      "summary": "Function SalmPage defined in SalmPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:client/src/pages/WhPage.tsx",
+      "type": "file",
+      "name": "WhPage.tsx",
+      "filePath": "client/src/pages/WhPage.tsx",
+      "summary": "WhPage.tsx with 1 function(s) and 0 class(es); exports 1 symbol(s).",
+      "tags": [
+        "module"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:client/src/pages/WhPage.tsx:WhPage",
+      "type": "function",
+      "name": "WhPage",
+      "filePath": "client/src/pages/WhPage.tsx",
+      "lineRange": [
+        19,
+        205
+      ],
+      "summary": "Function WhPage defined in WhPage.tsx.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/App.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/pages/CustPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/pages/DeptPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/pages/IndxPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/pages/PrdtPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/pages/SalesOrderPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/pages/SalesReturnPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/pages/SalesShipmentPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/pages/SalmPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "file:client/src/pages/WhPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "function:client/src/App.tsx:AppShell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "function:client/src/App.tsx:App",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/App.tsx",
+      "target": "function:client/src/App.tsx:App",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/components/LookupField.tsx",
+      "target": "function:client/src/components/LookupField.tsx:LookupField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/components/LookupField.tsx",
+      "target": "function:client/src/components/LookupField.tsx:LookupField",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/components/LookupModal.tsx",
+      "target": "function:client/src/components/LookupModal.tsx:LookupModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/components/LookupModal.tsx",
+      "target": "function:client/src/components/LookupModal.tsx:LookupModal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/main.tsx",
+      "target": "file:client/src/App.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/main.tsx",
+      "target": "file:client/src/index.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/CustPage.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/CustPage.tsx",
+      "target": "file:client/src/components/LookupField.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/CustPage.tsx",
+      "target": "file:client/src/components/LookupModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/CustPage.tsx",
+      "target": "function:client/src/pages/CustPage.tsx:CustPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/CustPage.tsx",
+      "target": "function:client/src/pages/CustPage.tsx:CustPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/pages/DeptPage.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/DeptPage.tsx",
+      "target": "function:client/src/pages/DeptPage.tsx:DeptPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/DeptPage.tsx",
+      "target": "function:client/src/pages/DeptPage.tsx:DeptPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/pages/IndxPage.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/IndxPage.tsx",
+      "target": "function:client/src/pages/IndxPage.tsx:IndxPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/IndxPage.tsx",
+      "target": "function:client/src/pages/IndxPage.tsx:IndxPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/pages/PrdtPage.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/PrdtPage.tsx",
+      "target": "function:client/src/pages/PrdtPage.tsx:PrdtPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/PrdtPage.tsx",
+      "target": "function:client/src/pages/PrdtPage.tsx:PrdtPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/pages/SalesOrderPage.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalesOrderPage.tsx",
+      "target": "file:client/src/components/LookupField.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalesOrderPage.tsx",
+      "target": "file:client/src/components/LookupModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalesOrderPage.tsx",
+      "target": "function:client/src/pages/SalesOrderPage.tsx:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/SalesOrderPage.tsx",
+      "target": "function:client/src/pages/SalesOrderPage.tsx:SalesOrderPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/SalesOrderPage.tsx",
+      "target": "function:client/src/pages/SalesOrderPage.tsx:SalesOrderPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/pages/SalesReturnPage.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalesReturnPage.tsx",
+      "target": "file:client/src/components/LookupField.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalesReturnPage.tsx",
+      "target": "file:client/src/components/LookupModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalesReturnPage.tsx",
+      "target": "function:client/src/pages/SalesReturnPage.tsx:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/SalesReturnPage.tsx",
+      "target": "function:client/src/pages/SalesReturnPage.tsx:recalcLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/SalesReturnPage.tsx",
+      "target": "function:client/src/pages/SalesReturnPage.tsx:SalesReturnPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/SalesReturnPage.tsx",
+      "target": "function:client/src/pages/SalesReturnPage.tsx:SalesReturnPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/pages/SalesShipmentPage.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalesShipmentPage.tsx",
+      "target": "file:client/src/components/LookupField.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalesShipmentPage.tsx",
+      "target": "file:client/src/components/LookupModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalesShipmentPage.tsx",
+      "target": "function:client/src/pages/SalesShipmentPage.tsx:newLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/SalesShipmentPage.tsx",
+      "target": "function:client/src/pages/SalesShipmentPage.tsx:recalcLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/SalesShipmentPage.tsx",
+      "target": "function:client/src/pages/SalesShipmentPage.tsx:SalesShipmentPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/SalesShipmentPage.tsx",
+      "target": "function:client/src/pages/SalesShipmentPage.tsx:SalesShipmentPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/pages/SalmPage.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalmPage.tsx",
+      "target": "file:client/src/components/LookupField.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalmPage.tsx",
+      "target": "file:client/src/components/LookupModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/SalmPage.tsx",
+      "target": "function:client/src/pages/SalmPage.tsx:SalmPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/SalmPage.tsx",
+      "target": "function:client/src/pages/SalmPage.tsx:SalmPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:client/src/pages/WhPage.tsx",
+      "target": "file:client/src/api.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/WhPage.tsx",
+      "target": "file:client/src/components/LookupField.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/WhPage.tsx",
+      "target": "file:client/src/components/LookupModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:client/src/pages/WhPage.tsx",
+      "target": "function:client/src/pages/WhPage.tsx:WhPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:client/src/pages/WhPage.tsx",
+      "target": "function:client/src/pages/WhPage.tsx:WhPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

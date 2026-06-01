@@ -1,0 +1,182 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "client-vue/src/views/PurchaseReceiptPage.vue",
+      "language": "vue",
+      "sizeLines": 746,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseRequisitionFormView.vue",
+      "language": "vue",
+      "sizeLines": 345,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseRequisitionPage.vue",
+      "language": "vue",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseReturnPage.vue",
+      "language": "vue",
+      "sizeLines": 736,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesAllowancePage.vue",
+      "language": "vue",
+      "sizeLines": 761,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesOrderFormView.vue",
+      "language": "vue",
+      "sizeLines": 419,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesOrderPage.vue",
+      "language": "vue",
+      "sizeLines": 318,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesReturnPage.vue",
+      "language": "vue",
+      "sizeLines": 761,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesShipmentPage.vue",
+      "language": "vue",
+      "sizeLines": 771,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalmPage.vue",
+      "language": "vue",
+      "sizeLines": 422,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/WarehouseDepositFormView.vue",
+      "language": "vue",
+      "sizeLines": 321,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/WarehouseDepositPage.vue",
+      "language": "vue",
+      "sizeLines": 227,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/WhPage.vue",
+      "language": "vue",
+      "sizeLines": 336,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/vite-env.d.ts",
+      "language": "typescript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/tsconfig.tsbuildinfo",
+      "language": "tsbuildinfo",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/vite.config.ts",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/eslint.config.js",
+      "language": "javascript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/App.css",
+      "language": "css",
+      "sizeLines": 184,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client/src/index.css",
+      "language": "css",
+      "sizeLines": 111,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client/vite.config.ts",
+      "language": "typescript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/write-cursor-rule.cjs",
+      "language": "javascript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/data/db-connection.json",
+      "language": "json",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": "server/data/erp.sqlite",
+      "language": "sqlite",
+      "sizeLines": 944,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/data/erp.sqlite-shm",
+      "language": "sqlite-shm",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/data/erp.sqlite-wal",
+      "language": "sqlite-wal",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "client-vue/src/views/PurchaseReceiptPage.vue": [],
+    "client-vue/src/views/PurchaseRequisitionFormView.vue": [],
+    "client-vue/src/views/PurchaseRequisitionPage.vue": [],
+    "client-vue/src/views/PurchaseReturnPage.vue": [],
+    "client-vue/src/views/SalesAllowancePage.vue": [],
+    "client-vue/src/views/SalesOrderFormView.vue": [],
+    "client-vue/src/views/SalesOrderPage.vue": [],
+    "client-vue/src/views/SalesReturnPage.vue": [],
+    "client-vue/src/views/SalesShipmentPage.vue": [],
+    "client-vue/src/views/SalmPage.vue": [],
+    "client-vue/src/views/WarehouseDepositFormView.vue": [],
+    "client-vue/src/views/WarehouseDepositPage.vue": [],
+    "client-vue/src/views/WhPage.vue": [],
+    "client-vue/src/vite-env.d.ts": [],
+    "client-vue/tsconfig.tsbuildinfo": [],
+    "client-vue/vite.config.ts": [],
+    "client/eslint.config.js": [],
+    "client/src/App.css": [],
+    "client/src/index.css": [],
+    "client/vite.config.ts": [],
+    "scripts/write-cursor-rule.cjs": [],
+    "server/data/db-connection.json": [],
+    "server/data/erp.sqlite": [],
+    "server/data/erp.sqlite-shm": [],
+    "server/data/erp.sqlite-wal": []
+  }
+}

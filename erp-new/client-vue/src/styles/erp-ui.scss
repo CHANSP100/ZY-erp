@@ -1,0 +1,1074 @@
+/* 现代简洁后台 — DEV-04 §12 / §14 */
+
+:root {
+  --erp-primary: #165dff;
+  --erp-primary-hover: #4080ff;
+  --erp-page-bg: #f5f7fa;
+  --erp-card-bg: #ffffff;
+  --erp-card-radius: 8px;
+  --erp-card-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  --erp-border: #e5e6eb;
+  --erp-text: #1d2129;
+  --erp-text-secondary: #4e5969;
+  --erp-text-muted: #86909c;
+  --erp-control-h: 36px;
+  --erp-form-label-w: 120px;
+  --erp-form-control-w: 240px;
+  --erp-query-control-w: 200px;
+  --erp-query-label-w: 72px;
+  --erp-gap: 16px;
+  --erp-page-pad: 24px;
+  --erp-card-gap: 20px;
+  --erp-table-head-bg: #f5f7fa;
+  --erp-row-hover: #f0f7ff;
+  --erp-bill-primary: #165dff;
+  --erp-bill-tree-w: 220px;
+  --erp-bill-btn-h: 32px;
+  --erp-bill-row-h: 40px;
+  --erp-bill-label-w: 72px;
+  --erp-bill-query-w: 160px;
+}
+
+.erp-card {
+  background: var(--erp-card-bg);
+  border-radius: var(--erp-card-radius);
+  box-shadow: var(--erp-card-shadow);
+}
+
+.erp-btn-primary.el-button--primary {
+  --el-button-bg-color: var(--erp-primary);
+  --el-button-border-color: var(--erp-primary);
+  --el-button-hover-bg-color: var(--erp-primary-hover);
+  --el-button-hover-border-color: var(--erp-primary-hover);
+  --el-button-active-bg-color: #0e42d2;
+  --el-button-active-border-color: #0e42d2;
+  height: var(--erp-control-h);
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+.erp-btn-default.el-button {
+  height: var(--erp-control-h);
+  padding: 0 16px;
+  font-size: 14px;
+  color: var(--erp-text-secondary);
+  border-color: var(--erp-border);
+}
+
+.erp-btn-link.el-button.is-link {
+  color: var(--erp-primary);
+  font-size: 13px;
+}
+
+.erp-main {
+  padding: var(--erp-page-pad) !important;
+  background: var(--erp-page-bg) !important;
+}
+
+/* —— 列表页骨架 —— */
+.erp-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 1600px;
+}
+
+.erp-page-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.erp-page-head-text h1 {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--erp-text);
+  letter-spacing: -0.02em;
+}
+
+.erp-page-head-text p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--erp-text-muted);
+}
+
+/* —— 查询面板 —— */
+.erp-query-panel {
+  background: var(--erp-card-bg);
+  border-radius: var(--erp-card-radius);
+  box-shadow: var(--erp-card-shadow);
+  padding: 20px 20px 16px;
+}
+
+.erp-query-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--erp-gap);
+}
+
+.erp-query-grid--more {
+  margin-top: var(--erp-gap);
+  padding-top: var(--erp-gap);
+  border-top: 1px dashed var(--erp-border);
+}
+
+.erp-field label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--erp-text-secondary);
+  line-height: 1.2;
+}
+
+.erp-field-control {
+  width: 100%;
+}
+
+.erp-field-control .el-input__wrapper,
+.erp-field-control .el-select__wrapper {
+  min-height: var(--erp-control-h);
+  border-radius: 6px;
+}
+
+.erp-query-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding-top: 12px;
+}
+
+.erp-query-btns {
+  display: flex;
+  gap: 12px;
+}
+
+/* —— 表格区 —— */
+.erp-table-panel {
+  background: var(--erp-card-bg);
+  border-radius: var(--erp-card-radius);
+  box-shadow: var(--erp-card-shadow);
+  padding: 16px 20px 20px;
+}
+
+.erp-table-panel .el-table {
+  --el-table-border-color: var(--erp-border);
+  --el-table-header-bg-color: var(--erp-table-head-bg);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.erp-table-panel .el-table th.el-table__cell {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--erp-text);
+  background: var(--erp-table-head-bg) !important;
+}
+
+.erp-table-panel .el-table .el-table__row {
+  height: 48px;
+}
+
+.erp-table-panel .el-table .el-table__body tr:hover > td {
+  background: var(--erp-row-hover) !important;
+}
+
+.erp-table-empty {
+  padding: 48px 0;
+  text-align: center;
+  color: var(--erp-text-muted);
+  font-size: 14px;
+}
+
+.erp-table-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.erp-table-total {
+  font-size: 13px;
+  color: var(--erp-text-muted);
+}
+
+.erp-table-total strong {
+  color: var(--erp-primary);
+  font-weight: 600;
+}
+
+/* —— 基础资料页（金蝶云星空） —— */
+.erp-base-page {
+  max-width: none;
+  gap: var(--erp-card-gap);
+  /* 顶栏原高约 42px（树头 padding 12×2 + 标题行）；列间距原 20px */
+  --erp-base-top-bar-h: 21px;
+}
+
+.erp-base-page__head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--erp-gap);
+}
+
+.erp-base-page__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--erp-text);
+}
+
+.erp-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.erp-base-page__body {
+  display: flex;
+  gap: calc(var(--erp-card-gap) / 2);
+  align-items: stretch;
+  min-height: 560px;
+}
+
+.erp-base-page__main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--erp-card-gap);
+}
+
+.erp-base-page__main-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.erp-base-page__main-toolbar .erp-toolbar .erp-btn-primary.el-button--primary {
+  height: var(--erp-base-top-bar-h);
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.erp-query-bar {
+  padding: 20px;
+}
+
+.erp-query-bar-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--erp-gap);
+}
+
+.erp-query-bar-grid--more {
+  margin-top: var(--erp-gap);
+  padding-top: var(--erp-gap);
+  border-top: 1px dashed var(--erp-border);
+}
+
+.erp-query-bar-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.erp-query-bar-field label {
+  flex: 0 0 var(--erp-query-label-w);
+  font-size: 13px;
+  color: var(--erp-text-secondary);
+  text-align: right;
+  line-height: var(--erp-control-h);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.erp-query-bar-control {
+  flex: 1;
+  min-width: 0;
+  max-width: var(--erp-query-control-w);
+}
+
+.erp-query-bar-control .el-input,
+.erp-query-bar-control .el-select {
+  width: 100% !important;
+}
+
+.erp-query-bar-control .el-input__wrapper,
+.erp-query-bar-control .el-select__wrapper {
+  min-height: var(--erp-control-h);
+  border-radius: 4px;
+}
+
+.erp-query-bar-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--erp-gap);
+  padding-top: 12px;
+}
+
+.erp-query-bar-btns {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.erp-category-tree {
+  flex: 0 0 var(--erp-bill-tree-w);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.erp-category-tree__head {
+  padding: 0 16px;
+  height: var(--erp-base-top-bar-h);
+  line-height: var(--erp-base-top-bar-h);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--erp-text);
+  border-bottom: 1px solid var(--erp-border);
+  background: var(--erp-table-head-bg);
+}
+
+.erp-category-tree__body {
+  flex: 1;
+  padding: 8px 4px;
+  overflow: auto;
+}
+
+.erp-category-tree__body .el-tree-node__content {
+  height: 32px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.erp-category-tree__body .el-tree-node.is-current > .el-tree-node__content {
+  background: rgba(22, 93, 255, 0.1);
+  color: var(--erp-primary);
+  font-weight: 500;
+}
+
+.erp-data-table {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px 20px;
+  min-height: 0;
+}
+
+.erp-table-wrap {
+  flex: 1;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.erp-table-wrap .erp-detail-grid {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.erp-table-wrap .erp-detail-grid__table-wrap {
+  flex: 1;
+  min-height: 240px;
+}
+
+.erp-detail-grid__empty {
+  padding: 48px 16px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--erp-text-secondary, #86909c);
+}
+
+.erp-load-error {
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #cb272d;
+  background: #ffece8;
+  border: 1px solid #fbaca3;
+  border-radius: 4px;
+}
+
+.erp-table-wrap .el-table.erp-table {
+  --el-table-border-color: var(--erp-border);
+  --el-table-header-bg-color: var(--erp-table-head-bg);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.erp-table-wrap .el-table.erp-table th.el-table__cell {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--erp-text);
+  background: var(--erp-table-head-bg) !important;
+}
+
+.erp-table-wrap .el-table.erp-table .el-table__body tr:hover > td {
+  background: var(--erp-row-hover) !important;
+}
+
+.erp-table-wrap .el-table.erp-table .erp-row--stopped > td {
+  color: var(--erp-text-muted);
+  background: #f2f3f5 !important;
+}
+
+.erp-table-wrap .el-table.erp-table .erp-row--stopped:hover > td {
+  background: #ebeef2 !important;
+}
+
+.erp-table .erp-row-current-bill > td {
+  background: #fff7e6 !important;
+}
+
+.erp-table .erp-row-current-bill:hover > td {
+  background: #ffe7ba !important;
+}
+
+.erp-data-table__footer {
+  margin-top: 16px;
+}
+
+.erp-edit-dialog.el-dialog {
+  --erp-form-label-w: 100px;
+  --erp-control-h: 32px;
+  border-radius: var(--erp-card-radius);
+  overflow: hidden;
+}
+
+.erp-edit-dialog .el-dialog__header {
+  margin: 0;
+  padding: 14px 18px;
+  background: var(--erp-card-bg);
+  border-bottom: 1px solid #f2f3f5;
+}
+
+.erp-edit-dialog .el-dialog__title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--erp-text);
+}
+
+.erp-edit-dialog .el-dialog__body {
+  padding: 12px 16px;
+  max-height: min(72vh, 680px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #f5f7fa;
+}
+
+.erp-edit-dialog .el-dialog__footer {
+  padding: 10px 18px 14px;
+  background: var(--erp-card-bg);
+  border-top: 1px solid #f2f3f5;
+}
+
+/* 弹窗内分区：白底卡片 + 浅灰分隔 */
+.erp-edit-dialog .erp-form-section {
+  margin-bottom: 10px;
+  padding: 12px 14px 10px;
+  background: var(--erp-card-bg);
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(29, 33, 41, 0.04);
+}
+
+.erp-edit-dialog .erp-form-section + .erp-form-section {
+  border-top: none;
+}
+
+.erp-edit-dialog .erp-form-section-title {
+  margin: 0 0 10px;
+  padding: 0 0 8px;
+  border-left: none;
+  border-bottom: 1px solid #f2f3f5;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--erp-text);
+  line-height: 22px;
+}
+
+.erp-edit-dialog .erp-form-label {
+  text-align: left;
+  padding-right: 6px;
+  line-height: var(--erp-control-h);
+}
+
+.erp-edit-dialog .erp-form-label .req {
+  margin-right: 0;
+  color: #f53f3f;
+}
+
+.erp-edit-dialog .erp-form-control {
+  max-width: none;
+  min-width: 0;
+}
+
+.erp-edit-dialog .erp-form-control .el-input__wrapper,
+.erp-edit-dialog .erp-form-control .el-select__wrapper,
+.erp-edit-dialog .erp-form-control .el-textarea__inner,
+.erp-edit-dialog .lookup-field :deep(.el-input__wrapper) {
+  min-height: var(--erp-control-h);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px var(--erp-border) inset;
+  background: var(--erp-card-bg);
+}
+
+.erp-edit-dialog .erp-form-control .el-input.is-disabled .el-input__wrapper,
+.erp-edit-dialog .erp-form-control .el-input.is-readonly .el-input__wrapper {
+  background: #f7f8fa;
+}
+
+.erp-edit-dialog .lookup-field :deep(.el-input-group__append) {
+  padding: 0;
+  box-shadow: 0 0 0 1px var(--erp-border) inset;
+  background: #fafbfc;
+}
+
+.erp-edit-dialog .lookup-field :deep(.el-input-group__append .el-button) {
+  height: var(--erp-control-h);
+  min-height: var(--erp-control-h);
+  margin: 0;
+  padding: 0 10px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  color: var(--erp-text-secondary);
+}
+
+.erp-edit-dialog .lookup-field :deep(.el-input-group--append > .el-input__wrapper) {
+  border-radius: 4px 0 0 4px;
+}
+
+.erp-edit-dialog .erp-form-control .el-input-number {
+  line-height: var(--erp-control-h);
+}
+
+.erp-edit-dialog .erp-form-control .el-input-number .el-input__wrapper {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.erp-edit-dialog .erp-form-control .el-input-number.is-controls-right .el-input__wrapper {
+  border-radius: 4px 0 0 4px;
+}
+
+.erp-edit-dialog .erp-form-control .el-input-number__decrease,
+.erp-edit-dialog .erp-form-control .el-input-number__increase {
+  width: 28px;
+  background: #fafbfc;
+  border-color: var(--erp-border);
+  color: var(--erp-text-secondary);
+}
+
+.erp-edit-dialog .erp-form-control .el-input-number__decrease:hover,
+.erp-edit-dialog .erp-form-control .el-input-number__increase:hover {
+  color: var(--erp-primary);
+}
+
+.erp-edit-dialog .erp-form-control .el-date-editor.el-input,
+.erp-edit-dialog .erp-form-control .el-date-editor.el-input__wrapper {
+  width: 100%;
+  height: var(--erp-control-h);
+}
+
+.erp-edit-dialog .erp-form-control .el-date-editor .el-input__wrapper {
+  min-height: var(--erp-control-h);
+}
+
+.erp-edit-dialog .erp-edit-form .erp-form-control > .el-form-item {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.erp-edit-dialog .erp-edit-form .erp-form-control > .el-form-item .el-form-item__content {
+  line-height: normal;
+}
+
+.erp-edit-dialog .erp-edit-form .erp-form-control > .el-form-item .el-form-item__error {
+  position: static;
+  padding-top: 2px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #f53f3f;
+}
+
+.erp-edit-dialog .erp-upload-box {
+  width: 100%;
+  max-width: none;
+  height: 96px;
+}
+
+.erp-edit-dialog .erp-upload-hint {
+  color: var(--erp-text-muted);
+  font-size: 12px;
+}
+
+.erp-edit-dialog .erp-upload-link {
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.erp-edit-dialog .erp-upload-link a {
+  color: var(--erp-primary);
+  text-decoration: none;
+}
+
+.erp-edit-dialog .erp-upload-link a:hover {
+  text-decoration: underline;
+}
+
+/* —— 弹窗表单 —— */
+.erp-dialog-modern.el-dialog {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.erp-dialog-modern .el-dialog__header {
+  margin: 0;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--erp-border);
+}
+
+.erp-dialog-modern .el-dialog__title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--erp-text);
+}
+
+.erp-dialog-modern .el-dialog__body {
+  padding: 16px 20px;
+  max-height: min(70vh, 640px);
+  overflow-y: auto;
+}
+
+.erp-dialog-modern .el-dialog__footer {
+  padding: 12px 20px 16px;
+  border-top: 1px solid var(--erp-border);
+}
+
+.erp-form-section {
+  margin-bottom: 8px;
+}
+
+.erp-form-section-title {
+  margin: 0 0 12px;
+  padding-left: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--erp-text);
+  border-left: 3px solid var(--erp-primary);
+}
+
+.erp-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 16px;
+}
+
+.erp-form-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 16px;
+  row-gap: 10px;
+}
+
+.erp-edit-dialog .erp-form-grid--3 {
+  column-gap: 14px;
+  row-gap: 8px;
+}
+
+.erp-form-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.erp-form-item--full {
+  grid-column: 1 / -1;
+}
+
+.erp-form-label {
+  flex: 0 0 var(--erp-form-label-w);
+  padding-right: 8px;
+  line-height: var(--erp-control-h);
+  font-size: 13px;
+  color: var(--erp-text-secondary);
+  text-align: right;
+}
+
+.erp-form-label .req {
+  margin-right: 4px;
+  color: var(--erp-primary);
+}
+
+.erp-form-control {
+  flex: 1;
+  max-width: var(--erp-form-control-w);
+}
+
+.erp-form-control .el-input,
+.erp-form-control .el-select,
+.erp-form-control .el-input-number {
+  width: 100% !important;
+}
+
+.erp-form-control .el-input__wrapper,
+.erp-form-control .el-select__wrapper {
+  min-height: var(--erp-control-h);
+  border-radius: 6px;
+}
+
+.erp-dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.erp-upload-box {
+  width: var(--erp-form-control-w);
+  max-width: 100%;
+  border: 1px dashed var(--erp-border);
+  border-radius: 8px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #fafbfc;
+  transition: border-color 0.2s;
+}
+
+.erp-upload-box:hover {
+  border-color: var(--erp-primary);
+}
+
+.erp-upload-preview {
+  max-height: 100px;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* —— 业务单据页（金蝶云星空风格） —— */
+.erp-bill-page {
+  max-width: none;
+  gap: 0;
+  min-height: calc(100vh - 120px);
+}
+
+.erp-bill-page-head {
+  margin-bottom: 12px;
+}
+
+.erp-bill-page-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.erp-bill-header-card,
+.erp-bill-lines-panel,
+.erp-bill-list-panel {
+  padding: 12px 16px 16px;
+  margin-bottom: 12px;
+}
+
+.erp-bill-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--erp-border);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--erp-text);
+}
+
+.erp-bill-section-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.erp-bill-header-form .el-form-item {
+  margin-bottom: 12px;
+}
+
+.erp-bill-header-form .el-form-item__label {
+  font-size: 13px;
+  color: var(--erp-text-secondary);
+}
+
+.erp-bill-lines-panel .el-table {
+  --el-table-header-bg-color: var(--erp-table-head-bg);
+}
+
+.erp-bill-list-panel__title {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--erp-text);
+}
+
+.erp-bill-list-panel .el-table {
+  --el-table-header-bg-color: var(--erp-table-head-bg);
+}
+
+.erp-bill-totals-wrap {
+  margin-bottom: 12px;
+}
+
+.erp-bill-toolbar-wrap {
+  margin-bottom: 12px;
+}
+
+.erp-bill-toolbar {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--erp-card-bg);
+  border: 1px solid var(--erp-border);
+  border-radius: var(--erp-card-radius);
+  box-shadow: var(--erp-card-shadow);
+  flex-wrap: wrap;
+}
+
+.erp-bill-toolbar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.erp-bill-toolbar-actions .el-button {
+  height: var(--erp-bill-btn-h);
+  padding: 0 14px;
+  font-size: 13px;
+}
+
+.erp-bill-toolbar-query {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+  min-width: 280px;
+}
+
+.erp-bill-toolbar-btns {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.erp-bill-query-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.erp-bill-query-field label {
+  flex-shrink: 0;
+  width: var(--erp-bill-label-w);
+  font-size: 13px;
+  color: var(--erp-text-secondary);
+  text-align: right;
+  line-height: var(--erp-bill-btn-h);
+}
+
+.erp-bill-query-control {
+  width: var(--erp-bill-query-w, 160px);
+}
+
+.erp-bill-query-control .el-input,
+.erp-bill-query-control .el-date-editor {
+  width: 100% !important;
+}
+
+.erp-bill-query-control .el-input__wrapper {
+  min-height: var(--erp-bill-btn-h);
+  border-radius: 4px;
+}
+
+.erp-bill-body {
+  display: flex;
+  flex: 1;
+  gap: 0;
+  min-height: 520px;
+  background: var(--erp-card-bg);
+  border: 1px solid var(--erp-border);
+  border-radius: var(--erp-card-radius);
+  box-shadow: var(--erp-card-shadow);
+  overflow: hidden;
+}
+
+.erp-bill-tree {
+  flex: 0 0 var(--erp-bill-tree-w);
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--erp-border);
+  background: #fafbfc;
+}
+
+.erp-bill-tree-head {
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--erp-text);
+  border-bottom: 1px solid var(--erp-border);
+  background: var(--erp-table-head-bg);
+}
+
+.erp-bill-tree-body {
+  flex: 1;
+  padding: 8px 4px;
+  overflow: auto;
+  background: transparent;
+}
+
+.erp-bill-tree-body .el-tree-node__content {
+  height: 32px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.erp-bill-tree-body .el-tree-node.is-current > .el-tree-node__content {
+  background: rgba(22, 93, 255, 0.1);
+  color: var(--erp-bill-primary);
+  font-weight: 500;
+}
+
+.erp-bill-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.erp-bill-table-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 16px 16px;
+  min-height: 0;
+}
+
+.erp-bill-table-panel .el-table {
+  --el-table-border-color: var(--erp-border);
+  --el-table-header-bg-color: var(--erp-table-head-bg);
+  flex: 1;
+}
+
+.erp-bill-table-panel .el-table th.el-table__cell {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--erp-text);
+  background: var(--erp-table-head-bg) !important;
+  padding: 8px 0;
+}
+
+.erp-bill-table-panel .el-table .el-table__row {
+  height: var(--erp-bill-row-h);
+}
+
+.erp-bill-table-panel .el-table .el-table__body tr:hover > td {
+  background: var(--erp-row-hover) !important;
+}
+
+.erp-bill-table-panel .el-table .el-table__body tr.current-row > td {
+  background: rgba(22, 93, 255, 0.08) !important;
+}
+
+/* —— 单据编辑弹窗 —— */
+.erp-bill-edit-dialog.el-dialog {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.erp-bill-edit-dialog .el-dialog__header {
+  margin: 0;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--erp-border);
+  background: var(--erp-table-head-bg);
+}
+
+.erp-bill-edit-dialog .el-dialog__title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.erp-bill-edit-dialog .el-dialog__body {
+  padding: 16px 20px;
+  max-height: min(78vh, 720px);
+  overflow-y: auto;
+}
+
+.erp-bill-edit-dialog .el-dialog__footer {
+  padding: 12px 20px;
+  border-top: 1px solid var(--erp-border);
+}
+
+.erp-bill-edit-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--erp-border);
+}
+
+.erp-bill-edit-header .el-form-item {
+  margin-bottom: 12px;
+}
+
+.erp-bill-edit-header .el-form-item__label {
+  font-size: 13px;
+  color: var(--erp-text-secondary);
+}
+
+.erp-bill-edit-lines {
+  margin-top: 8px;
+}
+
+.erp-bill-edit-lines .el-table {
+  --el-table-header-bg-color: var(--erp-table-head-bg);
+}
+
+.erp-bill-edit-totals,
+.erp-bill-totals-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--erp-border);
+  font-size: 13px;
+  color: var(--erp-text-secondary);
+}
+
+.erp-bill-edit-totals strong,
+.erp-bill-totals-row strong {
+  color: var(--erp-bill-primary);
+  font-weight: 600;
+}
+
+/* —— 纯列表页 —— */
+.erp-list-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-bottom: 12px;
+}

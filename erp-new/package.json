@@ -1,0 +1,10 @@
+{
+  "name": "erp-new",
+  "private": true,
+  "scripts": {
+    "import-db": "node server/import_from_db11.js",
+    "server": "node server/index.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}

@@ -1,0 +1,6 @@
+Cursor_API:crsr_019e38a95daa73bc39e39310503c32ed57f4c477cf69ca522fd64293faffa4d8
+name:Cursor_Erp
+
+
+crsr_019e38a95daa73bc39e39310503c32ed57f4c477cf69ca522fd64293faffa4d8
+Cursor_Erp  光标_Erp

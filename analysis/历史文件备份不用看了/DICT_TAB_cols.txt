@@ -1,0 +1,14 @@
+COLUMN_NAME DATA_TYPE CHARACTER_MAXIMUM_LENGTH
+----------- --------- ------------------------
+TAB_ALIASE nvarchar 20
+TAB_NAME nvarchar 20
+TAB_TITLE nvarchar 40
+BIG5_NAME nvarchar 40
+ENG_NAME nvarchar 40
+CRE_DATE datetime NULL
+MDI_CRE datetime NULL
+CREATE_BY nvarchar 10
+NOTE nvarchar 20
+MODIFIED varchar 1
+ISDEL varchar 1
+CASE_ID smallint NULL

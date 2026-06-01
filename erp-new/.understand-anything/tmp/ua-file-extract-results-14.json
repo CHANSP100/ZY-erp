@@ -1,0 +1,323 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/15_生产领料_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 31,
+      "nonEmptyLines": 23,
+      "sections": [
+        {
+          "heading": "生产领料（MrpAG）功能说明",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路由与代码",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "业务要点",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "验收清单",
+          "level": 2,
+          "line": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "docs/16_生产计划_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 56,
+      "nonEmptyLines": 41,
+      "sections": [
+        {
+          "heading": "16 生产计划（MrpAA / MF_JH + TF_JH）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路径",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "本期功能",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "API",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "验收清单",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "启动",
+          "level": 2,
+          "line": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "docs/16_缴库单_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 26,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "缴库单（MrpAFC）功能说明",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "业务要点（SUNLIKE 9.0）",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "页面",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "依赖",
+          "level": 2,
+          "line": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "docs/17_生产需求分析单_功能说明.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 64,
+      "nonEmptyLines": 47,
+      "sections": [
+        {
+          "heading": "17 生产需求分析单（MrpABA / MF_MP + TF_MP1 + TF_MP2 + TF_MP3）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "路径",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "本期功能",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "API",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "验收清单",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "启动",
+          "level": 2,
+          "line": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "docs/DEV_01_SUNLIKE9_核心业务基准规范.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 118,
+      "nonEmptyLines": 80,
+      "sections": [
+        {
+          "heading": "SUNLIKE9.0 核心业务基准规范（全套复刻版）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "文档说明",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "一、SUNLIKE9.0 全局系统参数统一规范",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "1. 基础全局参数（固定默认值）",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "2. 库存核心参数（复刻原生机制）",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "3. 单据全局参数",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "二、SUNLIKE9.0 全单据标准流转规范（统一所有业务单据）",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "1. 标准流转顺序（1:1 复刻原生）",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "2. 各状态按钮显隐规则（强制统一）",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "3. 单据核心联动规则（原生独有逻辑）",
+          "level": 3,
+          "line": 65
+        },
+        {
+          "heading": "三、SUNLIKE9.0 字段联动/显隐/只读统一规则",
+          "level": 2,
+          "line": 74
+        },
+        {
+          "heading": "1. 基础档案通用规则（货品、客户、供应商、分类等）",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "2. 单据表头通用联动",
+          "level": 3,
+          "line": 83
+        },
+        {
+          "heading": "3. 单据表体通用联动",
+          "level": 3,
+          "line": 89
+        },
+        {
+          "heading": "4. 全局只读/必填统一规则",
+          "level": 3,
+          "line": 95
+        },
+        {
+          "heading": "四、AI 强制执行万能指令（永久复用）",
+          "level": 2,
+          "line": 103
+        },
+        {
+          "heading": "关联文档",
+          "level": 2,
+          "line": 111
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 17
+      }
+    },
+    {
+      "path": "docs/后续资料完善清单.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 83,
+      "nonEmptyLines": 60,
+      "sections": [
+        {
+          "heading": "后续流程资料 — 建议完善项",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、所有菜单通用（强烈建议）",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "二、中类（`01中类.txt` 可补充）",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "三、货品基础资料（`02货品基础资料.txt` 可补充）",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "四、下一批菜单资料格式（推荐模板）",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "五、技术决策（CONFIRM-05 仍空）",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "六、您可直接验收的地址",
+          "level": 2,
+          "line": 77
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    }
+  ]
+}

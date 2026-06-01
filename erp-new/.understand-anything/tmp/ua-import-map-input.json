@@ -1,0 +1,1787 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "files": [
+    {
+      "path": ".cursor/rules/sunlike9-dev01-baseline.mdc",
+      "language": "mdc",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "开机启动ERP.bat",
+      "language": "batch",
+      "sizeLines": 69,
+      "fileCategory": "script"
+    },
+    {
+      "path": "启动开发.bat",
+      "language": "batch",
+      "sizeLines": 4,
+      "fileCategory": "script"
+    },
+    {
+      "path": "启动ERP.bat",
+      "language": "batch",
+      "sizeLines": 140,
+      "fileCategory": "script"
+    },
+    {
+      "path": "client-vue/index.html",
+      "language": "html",
+      "sizeLines": 12,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client-vue/package.json",
+      "language": "json",
+      "sizeLines": 26,
+      "fileCategory": "config"
+    },
+    {
+      "path": "client-vue/src/api/index.ts",
+      "language": "typescript",
+      "sizeLines": 829,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/api/types.ts",
+      "language": "typescript",
+      "sizeLines": 939,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/App.vue",
+      "language": "vue",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/BilSpcEditDialog.vue",
+      "language": "vue",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/BilSpcSalesLookupDialog.vue",
+      "language": "vue",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/detailGrid/index.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/DetailGridHeaderMenu.vue",
+      "language": "vue",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpArchiveExtFields.vue",
+      "language": "vue",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBasePage.vue",
+      "language": "vue",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillAuditMeta.vue",
+      "language": "vue",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillEditDialog.vue",
+      "language": "vue",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillHeadExtFields.vue",
+      "language": "vue",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillLineTable.vue",
+      "language": "vue",
+      "sizeLines": 433,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillPage.vue",
+      "language": "vue",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillQueryField.vue",
+      "language": "vue",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillToolbar.vue",
+      "language": "vue",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpBillTree.vue",
+      "language": "vue",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpCategoryTree.vue",
+      "language": "vue",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpDataTable.vue",
+      "language": "vue",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpDetailGrid.vue",
+      "language": "vue",
+      "sizeLines": 312,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpEditDialog.vue",
+      "language": "vue",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpEnterNavZone.vue",
+      "language": "vue",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpExtFieldZone.vue",
+      "language": "vue",
+      "sizeLines": 413,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpFormSection.vue",
+      "language": "vue",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpGridDesignDialog.vue",
+      "language": "vue",
+      "sizeLines": 666,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpListPage.vue",
+      "language": "vue",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpPrintDialog.vue",
+      "language": "vue",
+      "sizeLines": 176,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpPrintTemplateDialog.vue",
+      "language": "vue",
+      "sizeLines": 255,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryBar.vue",
+      "language": "vue",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryBarField.vue",
+      "language": "vue",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryField.vue",
+      "language": "vue",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryPanel.vue",
+      "language": "vue",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpToolBar.vue",
+      "language": "vue",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ExtFieldControl.vue",
+      "language": "vue",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/index.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/ErpBillLineTable.vue",
+      "language": "vue",
+      "sizeLines": 617,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/ErpBillLineToolbar.vue",
+      "language": "vue",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/ErpKingdeeBillEdit.vue",
+      "language": "vue",
+      "sizeLines": 131,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/index.ts",
+      "language": "typescript",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/SunlikeSqlEditor.vue",
+      "language": "vue",
+      "sizeLines": 277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/lookup/index.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/LookupDialog.vue",
+      "language": "vue",
+      "sizeLines": 250,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/LookupDialogHeaderMenu.vue",
+      "language": "vue",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/LookupField.vue",
+      "language": "vue",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/LookupPicker.vue",
+      "language": "vue",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/PrdtUtEditDialog.vue",
+      "language": "vue",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/PrdtUtLookupDialog.vue",
+      "language": "vue",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/billExtFieldReload.ts",
+      "language": "typescript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useArchiveExtFields.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useAuth.ts",
+      "language": "typescript",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useBillLineAddRows.ts",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useBillLineWhLookup.ts",
+      "language": "typescript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useBomBill.ts",
+      "language": "typescript",
+      "sizeLines": 980,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "language": "typescript",
+      "sizeLines": 332,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useErpBillEditDelete.ts",
+      "language": "typescript",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useErpDetailGrid.ts",
+      "language": "typescript",
+      "sizeLines": 719,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useErpTabs.ts",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useErpUser.ts",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useExtFieldColumns.ts",
+      "language": "typescript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useFormEnterNav.ts",
+      "language": "typescript",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useLookupDialogColumns.ts",
+      "language": "typescript",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useManufacturingOrderBill.ts",
+      "language": "typescript",
+      "sizeLines": 440,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useMaterialIssueBill.ts",
+      "language": "typescript",
+      "sizeLines": 481,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/usePermissions.ts",
+      "language": "typescript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useProductionPlanBill.ts",
+      "language": "typescript",
+      "sizeLines": 436,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useProductionRequirementBill.ts",
+      "language": "typescript",
+      "sizeLines": 444,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "language": "typescript",
+      "sizeLines": 394,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useSalesOrderBill.ts",
+      "language": "typescript",
+      "sizeLines": 734,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useWarehouseDepositBill.ts",
+      "language": "typescript",
+      "sizeLines": 460,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/detailGridRegistry.ts",
+      "language": "typescript",
+      "sizeLines": 517,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/bomBill.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/bomDetail.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasArea.ts",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasCust.ts",
+      "language": "typescript",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasDept.ts",
+      "language": "typescript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasECA.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasIndx.ts",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasSalm.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/fasWh.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/index.ts",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/invBill.ts",
+      "language": "typescript",
+      "sizeLines": 111,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/jhBill.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/mlBill.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/mmBill.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/moBill.ts",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/mpBill.ts",
+      "language": "typescript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/poBill.ts",
+      "language": "typescript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/poDetail.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/README.md",
+      "language": "markdown",
+      "sizeLines": 34,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "client-vue/src/config/fields/soBill.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/soDetail.ts",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/sqBill.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/fields/types.ts",
+      "language": "typescript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/lookups/helpers.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/lookups/index.ts",
+      "language": "typescript",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/lookups/presets.ts",
+      "language": "typescript",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/lookups/resolve.ts",
+      "language": "typescript",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/menuRegistry.ts",
+      "language": "typescript",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/prdtTwId.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/layouts/MainLayout.vue",
+      "language": "vue",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/main.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/router/index.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/styles/element-variables.scss",
+      "language": "css",
+      "sizeLines": 172,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client-vue/src/styles/erp-ui.scss",
+      "language": "css",
+      "sizeLines": 1064,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client-vue/src/styles/kingdee-order.scss",
+      "language": "css",
+      "sizeLines": 1278,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client-vue/src/styles/login.scss",
+      "language": "css",
+      "sizeLines": 127,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client-vue/src/types/lookup.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billAudit.ts",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billExtPayload.ts",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLineCurrLookup.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLinePaste.ts",
+      "language": "typescript",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLinePasteLookup.ts",
+      "language": "typescript",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLineProductLookup.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/billLineWhLookup.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/detailGridFieldKey.ts",
+      "language": "typescript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/exportExcel.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/extFieldRuntime.ts",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/lookupFilter.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/prdtSavePayload.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/printRender.ts",
+      "language": "typescript",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/soBillStatus.ts",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/sunlike.ts",
+      "language": "typescript",
+      "sizeLines": 388,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/sunlikeSqlExpr.ts",
+      "language": "typescript",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/utils/tax.ts",
+      "language": "typescript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/AreaPage.vue",
+      "language": "vue",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/BomFormView.vue",
+      "language": "vue",
+      "sizeLines": 716,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/BomPage.vue",
+      "language": "vue",
+      "sizeLines": 344,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/CustPage.vue",
+      "language": "vue",
+      "sizeLines": 483,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/DeptPage.vue",
+      "language": "vue",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/IndxPage.vue",
+      "language": "vue",
+      "sizeLines": 309,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/LoginPage.vue",
+      "language": "vue",
+      "sizeLines": 294,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ManufacturingOrderFormView.vue",
+      "language": "vue",
+      "sizeLines": 406,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ManufacturingOrderPage.vue",
+      "language": "vue",
+      "sizeLines": 230,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/MaterialIssueFormView.vue",
+      "language": "vue",
+      "sizeLines": 363,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/MaterialIssuePage.vue",
+      "language": "vue",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PermissionSettingsPage.vue",
+      "language": "vue",
+      "sizeLines": 543,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PlaceholderView.vue",
+      "language": "vue",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductionPlanFormView.vue",
+      "language": "vue",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductionPlanPage.vue",
+      "language": "vue",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductionRequirementFormView.vue",
+      "language": "vue",
+      "sizeLines": 341,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductionRequirementPage.vue",
+      "language": "vue",
+      "sizeLines": 244,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/ProductPage.vue",
+      "language": "vue",
+      "sizeLines": 763,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseAllowancePage.vue",
+      "language": "vue",
+      "sizeLines": 736,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseOrderPage.vue",
+      "language": "vue",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseReceiptPage.vue",
+      "language": "vue",
+      "sizeLines": 746,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseRequisitionFormView.vue",
+      "language": "vue",
+      "sizeLines": 345,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseRequisitionPage.vue",
+      "language": "vue",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/PurchaseReturnPage.vue",
+      "language": "vue",
+      "sizeLines": 736,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesAllowancePage.vue",
+      "language": "vue",
+      "sizeLines": 761,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesOrderFormView.vue",
+      "language": "vue",
+      "sizeLines": 419,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesOrderPage.vue",
+      "language": "vue",
+      "sizeLines": 318,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesReturnPage.vue",
+      "language": "vue",
+      "sizeLines": 761,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalesShipmentPage.vue",
+      "language": "vue",
+      "sizeLines": 771,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/SalmPage.vue",
+      "language": "vue",
+      "sizeLines": 422,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/WarehouseDepositFormView.vue",
+      "language": "vue",
+      "sizeLines": 321,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/WarehouseDepositPage.vue",
+      "language": "vue",
+      "sizeLines": 227,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/views/WhPage.vue",
+      "language": "vue",
+      "sizeLines": 336,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/vite-env.d.ts",
+      "language": "typescript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/tsconfig.app.json",
+      "language": "json",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "client-vue/tsconfig.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "client-vue/tsconfig.tsbuildinfo",
+      "language": "tsbuildinfo",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/vite.config.ts",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/eslint.config.js",
+      "language": "javascript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/index.html",
+      "language": "html",
+      "sizeLines": 13,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client/package.json",
+      "language": "json",
+      "sizeLines": 34,
+      "fileCategory": "config"
+    },
+    {
+      "path": "client/README.md",
+      "language": "markdown",
+      "sizeLines": 73,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "client/src/api.ts",
+      "language": "typescript",
+      "sizeLines": 292,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/App.css",
+      "language": "css",
+      "sizeLines": 184,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client/src/App.tsx",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/components/LookupField.tsx",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/components/LookupModal.tsx",
+      "language": "typescript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/index.css",
+      "language": "css",
+      "sizeLines": 111,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "client/src/main.tsx",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/pages/CustPage.tsx",
+      "language": "typescript",
+      "sizeLines": 261,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/pages/DeptPage.tsx",
+      "language": "typescript",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/pages/IndxPage.tsx",
+      "language": "typescript",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/pages/PrdtPage.tsx",
+      "language": "typescript",
+      "sizeLines": 296,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/pages/SalesOrderPage.tsx",
+      "language": "typescript",
+      "sizeLines": 481,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/pages/SalesReturnPage.tsx",
+      "language": "typescript",
+      "sizeLines": 467,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/pages/SalesShipmentPage.tsx",
+      "language": "typescript",
+      "sizeLines": 467,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/pages/SalmPage.tsx",
+      "language": "typescript",
+      "sizeLines": 289,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/src/pages/WhPage.tsx",
+      "language": "typescript",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client/tsconfig.app.json",
+      "language": "json",
+      "sizeLines": 25,
+      "fileCategory": "config"
+    },
+    {
+      "path": "client/tsconfig.json",
+      "language": "json",
+      "sizeLines": 7,
+      "fileCategory": "config"
+    },
+    {
+      "path": "client/tsconfig.node.json",
+      "language": "json",
+      "sizeLines": 24,
+      "fileCategory": "config"
+    },
+    {
+      "path": "client/vite.config.ts",
+      "language": "typescript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docs/01_中类_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/02_货品_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 24,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/02_货品基础资料_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/02_客户供应商区域_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 24,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/03_客户厂商_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 34,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/04_受订单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 27,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/05_销货单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 28,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/06_部门_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/06_销货折让_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 21,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/07_仓库_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 32,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/08_销货退回_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 28,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/09_进货单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/09_员工_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 24,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/10_进货退回_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/11_进货折让_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/11_请购单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/12_采购单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/12_权限设置_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/13_扩展字段与_Z表_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 46,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/14_BOM物料配方输入_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 41,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/15_生产领料_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/16_缴库单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/16_生产计划_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 56,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/17_生产需求分析单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 64,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/后续资料完善清单.md",
+      "language": "markdown",
+      "sizeLines": 83,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/DEV_01_SUNLIKE9_核心业务基准规范.md",
+      "language": "markdown",
+      "sizeLines": 118,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "scripts/write-cursor-rule.cjs",
+      "language": "javascript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/auth.js",
+      "language": "javascript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/authMiddleware.js",
+      "language": "javascript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/billAuditMeta.js",
+      "language": "javascript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/billExtFieldHook.js",
+      "language": "javascript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/bomOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 513,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/data/db-connection.json",
+      "language": "json",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": "server/data/erp.sqlite",
+      "language": "sqlite",
+      "sizeLines": 944,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/data/erp.sqlite-shm",
+      "language": "sqlite-shm",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/data/erp.sqlite-wal",
+      "language": "sqlite-wal",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/db.js",
+      "language": "javascript",
+      "sizeLines": 1284,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/dbConnectionConfig.js",
+      "language": "javascript",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/encoding.js",
+      "language": "javascript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/env.example",
+      "language": "example",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/extField.js",
+      "language": "javascript",
+      "sizeLines": 264,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/extFieldPersist.js",
+      "language": "javascript",
+      "sizeLines": 300,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/fix_sqlite_encoding.js",
+      "language": "javascript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/gridConfig.js",
+      "language": "javascript",
+      "sizeLines": 722,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/import_from_db11.js",
+      "language": "javascript",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/index.js",
+      "language": "javascript",
+      "sizeLines": 405,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/jhOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 409,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/menuTableRegistry.js",
+      "language": "javascript",
+      "sizeLines": 299,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/mlOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 384,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/mmOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 393,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/moOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 372,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/mpOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 730,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/mssqlPool.js",
+      "language": "javascript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/package.json",
+      "language": "json",
+      "sizeLines": 23,
+      "fileCategory": "config"
+    },
+    {
+      "path": "server/permissions.js",
+      "language": "javascript",
+      "sizeLines": 583,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/permissionsRoutes.js",
+      "language": "javascript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/poOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/printTemplate.js",
+      "language": "javascript",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/pswdMssqlAuth.js",
+      "language": "javascript",
+      "sizeLines": 207,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/areaRepository.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/indxRepository.js",
+      "language": "javascript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/mssqlHelpers.js",
+      "language": "javascript",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/mssqlNextNo.js",
+      "language": "javascript",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/mssqlRow.js",
+      "language": "javascript",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/prdtPic.js",
+      "language": "javascript",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/areaRoutes.js",
+      "language": "javascript",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/bilSpcRoutes.js",
+      "language": "javascript",
+      "sizeLines": 146,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/curRoutes.js",
+      "language": "javascript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/custRoutes.js",
+      "language": "javascript",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/deptRoutes.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/indxRoutes.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/mfPosRoutes.js",
+      "language": "javascript",
+      "sizeLines": 499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/mfPssRoutes.js",
+      "language": "javascript",
+      "sizeLines": 1277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/prdtRoutes.js",
+      "language": "javascript",
+      "sizeLines": 384,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/salmRoutes.js",
+      "language": "javascript",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/routes/whRoutes.js",
+      "language": "javascript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_check_faseca_pic_cols.js",
+      "language": "javascript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_dict_mo_out.txt",
+      "language": "txt",
+      "sizeLines": 59,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/scripts/_dict_mo.js",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_dict_mp23.js",
+      "language": "javascript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_gen_mo_mapping.js",
+      "language": "javascript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_probe_face_tables.js",
+      "language": "javascript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_probe_mp23_labels.js",
+      "language": "javascript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_probe_mp23.js",
+      "language": "javascript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_query_faseca_menu.js",
+      "language": "javascript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_cust_list.js",
+      "language": "javascript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_ext_on_pic_body.js",
+      "language": "javascript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_prdt_create_with_pic.js",
+      "language": "javascript",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_prdt_pic_save.js",
+      "language": "javascript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_prdt_pic_tx.js",
+      "language": "javascript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_save_prdt_pic_fn.js",
+      "language": "javascript",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sqOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 314,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sqPoTransfer.js",
+      "language": "javascript",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sqPoTransferMssql.js",
+      "language": "javascript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sunlikePwd.js",
+      "language": "javascript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/sunlikeSqlExpr.js",
+      "language": "javascript",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/uploads/1779706934207-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "sizeLines": 5015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/uploads/1779811437163-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "sizeLines": 5015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/uploads/1779811970340-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "sizeLines": 5015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/uploads/1779811983099-SQLQuery1.sql",
+      "language": "sql",
+      "sizeLines": 46,
+      "fileCategory": "data"
+    },
+    {
+      "path": "server/utils/indxKndResolver.js",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/utils/prdtSaveDefaults.js",
+      "language": "javascript",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    }
+  ]
+}

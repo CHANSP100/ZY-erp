@@ -1,0 +1,182 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "client-vue/src/components/erp/ErpPrintDialog.vue",
+      "language": "vue",
+      "sizeLines": 176,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpPrintTemplateDialog.vue",
+      "language": "vue",
+      "sizeLines": 255,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryBar.vue",
+      "language": "vue",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryBarField.vue",
+      "language": "vue",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryField.vue",
+      "language": "vue",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpQueryPanel.vue",
+      "language": "vue",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ErpToolBar.vue",
+      "language": "vue",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/ExtFieldControl.vue",
+      "language": "vue",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/index.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/ErpBillLineTable.vue",
+      "language": "vue",
+      "sizeLines": 617,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/ErpBillLineToolbar.vue",
+      "language": "vue",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/ErpKingdeeBillEdit.vue",
+      "language": "vue",
+      "sizeLines": 131,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/kingdee/index.ts",
+      "language": "typescript",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/erp/SunlikeSqlEditor.vue",
+      "language": "vue",
+      "sizeLines": 277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/lookup/index.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/LookupDialog.vue",
+      "language": "vue",
+      "sizeLines": 250,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/LookupDialogHeaderMenu.vue",
+      "language": "vue",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/LookupField.vue",
+      "language": "vue",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/LookupPicker.vue",
+      "language": "vue",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/PrdtUtEditDialog.vue",
+      "language": "vue",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/components/PrdtUtLookupDialog.vue",
+      "language": "vue",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/billExtFieldReload.ts",
+      "language": "typescript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useBillLineAddRows.ts",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useErpBillEditDelete.ts",
+      "language": "typescript",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useFormEnterNav.ts",
+      "language": "typescript",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "client-vue/src/components/erp/ErpPrintDialog.vue": [],
+    "client-vue/src/components/erp/ErpPrintTemplateDialog.vue": [],
+    "client-vue/src/components/erp/ErpQueryBar.vue": [],
+    "client-vue/src/components/erp/ErpQueryBarField.vue": [],
+    "client-vue/src/components/erp/ErpQueryField.vue": [],
+    "client-vue/src/components/erp/ErpQueryPanel.vue": [],
+    "client-vue/src/components/erp/ErpToolBar.vue": [],
+    "client-vue/src/components/erp/ExtFieldControl.vue": [],
+    "client-vue/src/components/erp/index.ts": [],
+    "client-vue/src/components/erp/kingdee/ErpBillLineTable.vue": [],
+    "client-vue/src/components/erp/kingdee/ErpBillLineToolbar.vue": [],
+    "client-vue/src/components/erp/kingdee/ErpKingdeeBillEdit.vue": [],
+    "client-vue/src/components/erp/kingdee/index.ts": [],
+    "client-vue/src/components/erp/SunlikeSqlEditor.vue": [],
+    "client-vue/src/components/lookup/index.ts": [],
+    "client-vue/src/components/LookupDialog.vue": [],
+    "client-vue/src/components/LookupDialogHeaderMenu.vue": [],
+    "client-vue/src/components/LookupField.vue": [],
+    "client-vue/src/components/LookupPicker.vue": [],
+    "client-vue/src/components/PrdtUtEditDialog.vue": [],
+    "client-vue/src/components/PrdtUtLookupDialog.vue": [],
+    "client-vue/src/composables/billExtFieldReload.ts": [],
+    "client-vue/src/composables/useBillLineAddRows.ts": [],
+    "client-vue/src/composables/useErpBillEditDelete.ts": [],
+    "client-vue/src/composables/useFormEnterNav.ts": []
+  }
+}

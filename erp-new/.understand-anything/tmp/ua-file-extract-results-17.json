@@ -1,0 +1,862 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "client-vue/src/config/fields/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 34,
+      "nonEmptyLines": 27,
+      "sections": [
+        {
+          "heading": "字段配置（与对照表对齐）",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "修改流程",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "字段项说明",
+          "level": 2,
+          "line": 20
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "client-vue/src/config/lookups/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "exports": [
+        {
+          "name": "LOOKUP_PRESETS",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "resolveLookupConfig",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "getLookupDialogProps",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "getInlineLookupDialogProps",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "LookupDialogBindProps",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "LOOKUP_TABLE_KEYS",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "LOOKUP_VALUE_KEY_TABLE",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "normalizeLookupColumns",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "resolveColumnSettingsKey",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 9,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/utils/detailGridFieldKey.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 22,
+      "nonEmptyLines": 20,
+      "functions": [
+        {
+          "name": "resolveLineFieldKey",
+          "startLine": 7,
+          "endLine": 13,
+          "params": [
+            "colKey",
+            "fieldKeys"
+          ]
+        },
+        {
+          "name": "isBillLineGridColumn",
+          "startLine": 16,
+          "endLine": 22,
+          "params": [
+            "col",
+            "fieldKeys"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "resolveLineFieldKey",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "isBillLineGridColumn",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "resolveLineFieldKey",
+          "callee": "fieldKeys.has",
+          "lineNumber": 12
+        },
+        {
+          "caller": "isBillLineGridColumn",
+          "callee": "resolveLineFieldKey",
+          "lineNumber": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/utils/exportExcel.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 94,
+      "nonEmptyLines": 87,
+      "functions": [
+        {
+          "name": "escapeHtml",
+          "startLine": 6,
+          "endLine": 12,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "exportRowsToExcel",
+          "startLine": 15,
+          "endLine": 38,
+          "params": [
+            "opts"
+          ]
+        },
+        {
+          "name": "buildPrintTableHtml",
+          "startLine": 40,
+          "endLine": 49,
+          "params": [
+            "columns",
+            "rows"
+          ]
+        },
+        {
+          "name": "renderPrintHtml",
+          "startLine": 52,
+          "endLine": 65,
+          "params": [
+            "templateContent",
+            "vars"
+          ]
+        },
+        {
+          "name": "openPrintPreview",
+          "startLine": 73,
+          "endLine": 94,
+          "params": [
+            "htmlBody",
+            "title"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "escapeHtml",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "exportRowsToExcel",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "buildPrintTableHtml",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "renderPrintHtml",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "PRINTER_OPTIONS",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "openPrintPreview",
+          "line": 73,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "escapeHtml",
+          "callee": "String(s ?? '')\r\n    .replace(/&/g, '&amp;')\r\n    .replace(/</g, '&lt;')\r\n    .replace(/>/g, '&gt;')\r\n    .replace",
+          "lineNumber": 7
+        },
+        {
+          "caller": "escapeHtml",
+          "callee": "String(s ?? '')\r\n    .replace(/&/g, '&amp;')\r\n    .replace(/</g, '&lt;')\r\n    .replace",
+          "lineNumber": 7
+        },
+        {
+          "caller": "escapeHtml",
+          "callee": "String(s ?? '')\r\n    .replace(/&/g, '&amp;')\r\n    .replace",
+          "lineNumber": 7
+        },
+        {
+          "caller": "escapeHtml",
+          "callee": "String(s ?? '')\r\n    .replace",
+          "lineNumber": 7
+        },
+        {
+          "caller": "escapeHtml",
+          "callee": "String",
+          "lineNumber": 7
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "opts.columns.map((c) => `<th>${escapeHtml(c.label)}</th>`).join",
+          "lineNumber": 20
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "opts.columns.map",
+          "lineNumber": 20
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "escapeHtml",
+          "lineNumber": 20
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "opts.rows\r\n    .map((row) => {\r\n      const tds = opts.columns\r\n        .map((c) => `<td>${escapeHtml(row[c.key] ?? '')}</td>`)\r\n        .join('');\r\n      return `<tr>${tds}</tr>`;\r\n    })\r\n    .join",
+          "lineNumber": 21
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "opts.rows\r\n    .map",
+          "lineNumber": 21
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "opts.columns\r\n        .map((c) => `<td>${escapeHtml(row[c.key] ?? '')}</td>`)\r\n        .join",
+          "lineNumber": 23
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "opts.columns\r\n        .map",
+          "lineNumber": 23
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "escapeHtml",
+          "lineNumber": 24
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "URL.createObjectURL",
+          "lineNumber": 32
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "document.createElement",
+          "lineNumber": 33
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "a.click",
+          "lineNumber": 36
+        },
+        {
+          "caller": "exportRowsToExcel",
+          "callee": "URL.revokeObjectURL",
+          "lineNumber": 37
+        },
+        {
+          "caller": "buildPrintTableHtml",
+          "callee": "columns.map((c) => `<th>${escapeHtml(c.label)}</th>`).join",
+          "lineNumber": 41
+        },
+        {
+          "caller": "buildPrintTableHtml",
+          "callee": "columns.map",
+          "lineNumber": 41
+        },
+        {
+          "caller": "buildPrintTableHtml",
+          "callee": "escapeHtml",
+          "lineNumber": 41
+        },
+        {
+          "caller": "buildPrintTableHtml",
+          "callee": "rows\r\n    .map((row) => {\r\n      const tds = columns.map((c) => `<td>${escapeHtml(row[c.key] ?? '')}</td>`).join('');\r\n      return `<tr>${tds}</tr>`;\r\n    })\r\n    .join",
+          "lineNumber": 42
+        },
+        {
+          "caller": "buildPrintTableHtml",
+          "callee": "rows\r\n    .map",
+          "lineNumber": 42
+        },
+        {
+          "caller": "buildPrintTableHtml",
+          "callee": "columns.map((c) => `<td>${escapeHtml(row[c.key] ?? '')}</td>`).join",
+          "lineNumber": 44
+        },
+        {
+          "caller": "buildPrintTableHtml",
+          "callee": "columns.map",
+          "lineNumber": 44
+        },
+        {
+          "caller": "buildPrintTableHtml",
+          "callee": "escapeHtml",
+          "lineNumber": 44
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "html.replace",
+          "lineNumber": 57
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "escapeHtml",
+          "lineNumber": 57
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "html.replace",
+          "lineNumber": 58
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "escapeHtml",
+          "lineNumber": 58
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "html.replace",
+          "lineNumber": 59
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "escapeHtml",
+          "lineNumber": 59
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "html.replace",
+          "lineNumber": 60
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "html.replace",
+          "lineNumber": 61
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "html.replace",
+          "lineNumber": 62
+        },
+        {
+          "caller": "renderPrintHtml",
+          "callee": "html.replace",
+          "lineNumber": 63
+        },
+        {
+          "caller": "openPrintPreview",
+          "callee": "window.open",
+          "lineNumber": 74
+        },
+        {
+          "caller": "openPrintPreview",
+          "callee": "win.document.write",
+          "lineNumber": 76
+        },
+        {
+          "caller": "openPrintPreview",
+          "callee": "escapeHtml",
+          "lineNumber": 76
+        },
+        {
+          "caller": "openPrintPreview",
+          "callee": "win.document.close",
+          "lineNumber": 90
+        },
+        {
+          "caller": "openPrintPreview",
+          "callee": "win.focus",
+          "lineNumber": 91
+        },
+        {
+          "caller": "openPrintPreview",
+          "callee": "setTimeout",
+          "lineNumber": 92
+        },
+        {
+          "caller": "openPrintPreview",
+          "callee": "win.print",
+          "lineNumber": 92
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/utils/printRender.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 88,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "inferDocNoFromRows",
+          "startLine": 22,
+          "endLine": 30,
+          "params": [
+            "rows"
+          ]
+        },
+        {
+          "name": "resolveQrcodeText",
+          "startLine": 32,
+          "endLine": 37,
+          "params": [
+            "vars",
+            "rows"
+          ]
+        },
+        {
+          "name": "buildQrcodeImgHtml",
+          "startLine": 39,
+          "endLine": 54,
+          "params": [
+            "text",
+            "size"
+          ]
+        },
+        {
+          "name": "replaceIfPresent",
+          "startLine": 56,
+          "endLine": 59,
+          "params": [
+            "html",
+            "token",
+            "value"
+          ]
+        },
+        {
+          "name": "renderPrintHtmlAsync",
+          "startLine": 62,
+          "endLine": 86,
+          "params": [
+            "templateContent",
+            "vars",
+            "opts"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PRINT_TEMPLATE_PLACEHOLDERS",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "inferDocNoFromRows",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "resolveQrcodeText",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "buildQrcodeImgHtml",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "renderPrintHtmlAsync",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "ExportColumn",
+          "line": 88,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "inferDocNoFromRows",
+          "callee": "String(row[key] ?? '').trim",
+          "lineNumber": 26
+        },
+        {
+          "caller": "inferDocNoFromRows",
+          "callee": "String",
+          "lineNumber": 26
+        },
+        {
+          "caller": "resolveQrcodeText",
+          "callee": "String(vars.qrcode_text ?? vars.doc_no ?? '').trim",
+          "lineNumber": 33
+        },
+        {
+          "caller": "resolveQrcodeText",
+          "callee": "String",
+          "lineNumber": 33
+        },
+        {
+          "caller": "resolveQrcodeText",
+          "callee": "inferDocNoFromRows",
+          "lineNumber": 35
+        },
+        {
+          "caller": "buildQrcodeImgHtml",
+          "callee": "String(text ?? '').trim",
+          "lineNumber": 40
+        },
+        {
+          "caller": "buildQrcodeImgHtml",
+          "callee": "String",
+          "lineNumber": 40
+        },
+        {
+          "caller": "buildQrcodeImgHtml",
+          "callee": "QRCode.toDataURL",
+          "lineNumber": 45
+        },
+        {
+          "caller": "buildQrcodeImgHtml",
+          "callee": "escapeHtml",
+          "lineNumber": 52
+        },
+        {
+          "caller": "replaceIfPresent",
+          "callee": "html.includes",
+          "lineNumber": 57
+        },
+        {
+          "caller": "replaceIfPresent",
+          "callee": "html.split(token).join",
+          "lineNumber": 58
+        },
+        {
+          "caller": "replaceIfPresent",
+          "callee": "html.split",
+          "lineNumber": 58
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "resolveQrcodeText",
+          "lineNumber": 68
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "String(vars.doc_no ?? '').trim",
+          "lineNumber": 69
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "String",
+          "lineNumber": 69
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "inferDocNoFromRows",
+          "lineNumber": 69
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "replaceIfPresent",
+          "lineNumber": 71
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "escapeHtml",
+          "lineNumber": 71
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "replaceIfPresent",
+          "lineNumber": 72
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "escapeHtml",
+          "lineNumber": 72
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "replaceIfPresent",
+          "lineNumber": 73
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "escapeHtml",
+          "lineNumber": 73
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "replaceIfPresent",
+          "lineNumber": 74
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "replaceIfPresent",
+          "lineNumber": 75
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "escapeHtml",
+          "lineNumber": 75
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "replaceIfPresent",
+          "lineNumber": 76
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "escapeHtml",
+          "lineNumber": 76
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "html.includes",
+          "lineNumber": 78
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "buildQrcodeImgHtml",
+          "lineNumber": 80
+        },
+        {
+          "caller": "renderPrintHtmlAsync",
+          "callee": "replaceIfPresent",
+          "lineNumber": 82
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 6,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "client-vue/src/views/AreaPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 310,
+      "nonEmptyLines": 285,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/BomFormView.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 716,
+      "nonEmptyLines": 376,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/BomPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 344,
+      "nonEmptyLines": 320,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/CustPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 483,
+      "nonEmptyLines": 454,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/DeptPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 301,
+      "nonEmptyLines": 276,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/IndxPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 309,
+      "nonEmptyLines": 285,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/LoginPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 294,
+      "nonEmptyLines": 276,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/ManufacturingOrderFormView.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 406,
+      "nonEmptyLines": 387,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/ManufacturingOrderPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 230,
+      "nonEmptyLines": 215,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/MaterialIssueFormView.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 363,
+      "nonEmptyLines": 345,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/MaterialIssuePage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 236,
+      "nonEmptyLines": 221,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/PermissionSettingsPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 543,
+      "nonEmptyLines": 511,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/PlaceholderView.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 19,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/ProductionPlanFormView.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 356,
+      "nonEmptyLines": 341,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/ProductionPlanPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 239,
+      "nonEmptyLines": 223,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/ProductionRequirementFormView.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 341,
+      "nonEmptyLines": 323,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/ProductionRequirementPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 244,
+      "nonEmptyLines": 228,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/ProductPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 763,
+      "nonEmptyLines": 723,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/PurchaseAllowancePage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 736,
+      "nonEmptyLines": 691,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/views/PurchaseOrderPage.vue",
+      "language": "vue",
+      "fileCategory": "code",
+      "totalLines": 356,
+      "nonEmptyLines": 337,
+      "metrics": {}
+    }
+  ]
+}

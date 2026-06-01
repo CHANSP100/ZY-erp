@@ -1,0 +1,2585 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor",
+  "files": [
+    {
+      "path": ".cursor/rules/sunlike9-dev01-baseline.mdc",
+      "language": "mdc",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".cursorignore",
+      "language": "unknown",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "旧ERP文件/01中类.txt",
+      "language": "txt",
+      "sizeLines": 0,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "旧ERP文件/02货品基础资料.txt",
+      "language": "txt",
+      "sizeLines": 96,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "旧ERP文件/03客户厂商资料.txt",
+      "language": "txt",
+      "sizeLines": 47,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "旧ERP文件/04受订单.txt",
+      "language": "txt",
+      "sizeLines": 211,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "旧ERP文件/05销货单.txt",
+      "language": "txt",
+      "sizeLines": 35,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "旧ERP文件/截图/单据/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "旧ERP文件/截图/基础资料/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "旧ERP文件/逆向关键资料.md",
+      "language": "markdown",
+      "sizeLines": 74,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "旧ERP文件/启动开发.bat",
+      "language": "batch",
+      "sizeLines": 27,
+      "fileCategory": "script"
+    },
+    {
+      "path": "旧ERP文件/ERP_Forms_List.md",
+      "language": "markdown",
+      "sizeLines": 78,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "旧ERP文件/Thumbs.db",
+      "language": "db",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Agents.md",
+      "language": "markdown",
+      "sizeLines": 157,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/菜单中文名对照表_保留71项.md",
+      "language": "markdown",
+      "sizeLines": 76,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/菜单字段对照总表_待确认.md",
+      "language": "markdown",
+      "sizeLines": 601,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/_prdt_snip.txt",
+      "language": "txt",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/00_开工前确认清单.md",
+      "language": "markdown",
+      "sizeLines": 76,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/01_dict_tab_list.txt",
+      "language": "txt",
+      "sizeLines": 2298,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/01_sunsystem_overview.sql",
+      "language": "sql",
+      "sizeLines": 22,
+      "fileCategory": "data"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/02_tables_in_sunsystem.txt",
+      "language": "txt",
+      "sizeLines": 2,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/02_tablesrc_raw.txt",
+      "language": "txt",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/03_dataex_bills.txt",
+      "language": "txt",
+      "sizeLines": 627,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/04_bil_lc_rules.txt",
+      "language": "txt",
+      "sizeLines": 226,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/05_tables_in_dataex.txt",
+      "language": "txt",
+      "sizeLines": 631,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/06_reports_summary.txt",
+      "language": "txt",
+      "sizeLines": 412,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/07_dlllink_summary.txt",
+      "language": "txt",
+      "sizeLines": 25,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/08_bills_with_tables.txt",
+      "language": "txt",
+      "sizeLines": 578,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/09_sys_vs_biz_counts.txt",
+      "language": "txt",
+      "sizeLines": 9,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/10_active_tables_from_meta.txt",
+      "language": "txt",
+      "sizeLines": 604,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/菜单模糊查询_含货维护.txt",
+      "language": "txt",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/前端视觉 & 开发规范.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/全局唯一标准化总纲文档.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/设计规范文档.md",
+      "language": "markdown",
+      "sizeLines": 10,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/all_columns.txt",
+      "language": "txt",
+      "sizeLines": 1135,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/build_master.py",
+      "language": "python",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/comp_tablesrc.txt",
+      "language": "txt",
+      "sizeLines": 27,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/CONFIRM_01_重构范围与规则.md",
+      "language": "markdown",
+      "sizeLines": 52,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/CONFIRM_02_菜单确认表.csv",
+      "language": "csv",
+      "sizeLines": 72,
+      "fileCategory": "data"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/CONFIRM_02_菜单确认表.md",
+      "language": "markdown",
+      "sizeLines": 93,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/CONFIRM_03_数据表确认表.csv",
+      "language": "csv",
+      "sizeLines": 45,
+      "fileCategory": "data"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/CONFIRM_03_数据表确认表.md",
+      "language": "markdown",
+      "sizeLines": 53,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/CONFIRM_04_仍需您提供的资料.md",
+      "language": "markdown",
+      "sizeLines": 56,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/CONFIRM_05_新系统与验收.md",
+      "language": "markdown",
+      "sizeLines": 56,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/crack_pwd5.py",
+      "language": "python",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/dataex_menu_tables_full.txt",
+      "language": "txt",
+      "sizeLines": 578,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_all_tables_rowcount.txt",
+      "language": "txt",
+      "sizeLines": 2232,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_crossref_active_meta.txt",
+      "language": "txt",
+      "sizeLines": 612,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_data_not_in_active_meta.txt",
+      "language": "txt",
+      "sizeLines": 70,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_empty_tables.txt",
+      "language": "txt",
+      "sizeLines": 2110,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_keep_fields.txt",
+      "language": "txt",
+      "sizeLines": 38986,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_keep_list_with_titles.txt",
+      "language": "txt",
+      "sizeLines": 122,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_object_counts.txt",
+      "language": "txt",
+      "sizeLines": 6,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_row_empty_check.sql",
+      "language": "sql",
+      "sizeLines": 883,
+      "fileCategory": "data"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_row_empty_stats.txt",
+      "language": "txt",
+      "sizeLines": 46,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_summary_buckets.txt",
+      "language": "txt",
+      "sizeLines": 4,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/db11_tables_with_data.txt",
+      "language": "txt",
+      "sizeLines": 124,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/dict_stats.txt",
+      "language": "txt",
+      "sizeLines": 10,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/DICT_TAB_cols.txt",
+      "language": "txt",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/export_dict_fld44.py",
+      "language": "python",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/foreign_keys.txt",
+      "language": "txt",
+      "sizeLines": 8,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/gen_backlog.py",
+      "language": "python",
+      "sizeLines": 383,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/gen_confirm_docs.py",
+      "language": "python",
+      "sizeLines": 458,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/gen_empty_row_sql.py",
+      "language": "python",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/gen_field_mapping_docs.py",
+      "language": "python",
+      "sizeLines": 1139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/gen_master_menu_spec.py",
+      "language": "python",
+      "sizeLines": 336,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/key_counts.txt",
+      "language": "txt",
+      "sizeLines": 27,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/key_tables_cols.txt",
+      "language": "txt",
+      "sizeLines": 82,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/LWJ_DICT.txt",
+      "language": "txt",
+      "sizeLines": 10,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/menu_rem_all.txt",
+      "language": "txt",
+      "sizeLines": 627,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/menu_table_links.txt",
+      "language": "txt",
+      "sizeLines": 974,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/README.md",
+      "language": "markdown",
+      "sizeLines": 87,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/refactor_master_menus.md",
+      "language": "markdown",
+      "sizeLines": 74,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/refactor_master_tables.md",
+      "language": "markdown",
+      "sizeLines": 49,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/run_empty_row_check.py",
+      "language": "python",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/sample_DICT_TAB.txt",
+      "language": "txt",
+      "sizeLines": 4,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/sample_dict_tab2.txt",
+      "language": "txt",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/SUNLIKE_PSWD_加解密.sql",
+      "language": "sql",
+      "sizeLines": 275,
+      "fileCategory": "data"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/sunlike_pwd.py",
+      "language": "python",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/tables_rowcount.txt",
+      "language": "txt",
+      "sizeLines": 96,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/tmp_dlllink_sample.txt",
+      "language": "txt",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/历史文件备份不用看了/tmp_fld_sample.txt",
+      "language": "txt",
+      "sizeLines": 11,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/部门.md",
+      "language": "markdown",
+      "sizeLines": 83,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/采购单.md",
+      "language": "markdown",
+      "sizeLines": 412,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/仓库.md",
+      "language": "markdown",
+      "sizeLines": 85,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/货品.md",
+      "language": "markdown",
+      "sizeLines": 283,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/缴库单.md",
+      "language": "markdown",
+      "sizeLines": 208,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/进货单.md",
+      "language": "markdown",
+      "sizeLines": 506,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/进货退回.md",
+      "language": "markdown",
+      "sizeLines": 499,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/进货折让.md",
+      "language": "markdown",
+      "sizeLines": 506,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/客户厂商.md",
+      "language": "markdown",
+      "sizeLines": 236,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/客户供应商区域.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/请购单.md",
+      "language": "markdown",
+      "sizeLines": 216,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/权限设置.md",
+      "language": "markdown",
+      "sizeLines": 247,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/生产计划.md",
+      "language": "markdown",
+      "sizeLines": 222,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/生产领料.md",
+      "language": "markdown",
+      "sizeLines": 216,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/生产需求分析单.md",
+      "language": "markdown",
+      "sizeLines": 293,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/受订单.md",
+      "language": "markdown",
+      "sizeLines": 405,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/销货单.md",
+      "language": "markdown",
+      "sizeLines": 506,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/销货退回.md",
+      "language": "markdown",
+      "sizeLines": 501,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/销货折让.md",
+      "language": "markdown",
+      "sizeLines": 506,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/员工.md",
+      "language": "markdown",
+      "sizeLines": 133,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/制令单.md",
+      "language": "markdown",
+      "sizeLines": 196,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/中类.md",
+      "language": "markdown",
+      "sizeLines": 72,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/BOM物料配方输入.md",
+      "language": "markdown",
+      "sizeLines": 91,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/字段对照/README.md",
+      "language": "markdown",
+      "sizeLines": 59,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/BACKLOG_菜单开发清单.md",
+      "language": "markdown",
+      "sizeLines": 119,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/CONFIRM_06_开发方案确认表.md",
+      "language": "markdown",
+      "sizeLines": 89,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/DEV_00_开发方案总纲.md",
+      "language": "markdown",
+      "sizeLines": 236,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/DEV_01_单菜单开发规范.md",
+      "language": "markdown",
+      "sizeLines": 148,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/DEV_02_字段对照表规范与模板.md",
+      "language": "markdown",
+      "sizeLines": 203,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/DEV_03_技术实现规范.md",
+      "language": "markdown",
+      "sizeLines": 143,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/DEV_04_前端视觉与交互规范.md",
+      "language": "markdown",
+      "sizeLines": 436,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/DEV_05_进销单据链_九单验收索引.md",
+      "language": "markdown",
+      "sizeLines": 72,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/DEV_06_权限设置_方案说明.md",
+      "language": "markdown",
+      "sizeLines": 209,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/DEV_07_扩展字段与_Z表_方案说明.md",
+      "language": "markdown",
+      "sizeLines": 129,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/dict_fld_keep44.txt",
+      "language": "txt",
+      "sizeLines": 3283,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/ERP流程确认/00_说明.md",
+      "language": "markdown",
+      "sizeLines": 57,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/ERP流程确认/模板_00_步骤说明.md",
+      "language": "markdown",
+      "sizeLines": 21,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/keep_tables_44.txt",
+      "language": "txt",
+      "sizeLines": 43,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/PLAN_总体规划.md",
+      "language": "markdown",
+      "sizeLines": 117,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/refactor_scope_by_menu.txt",
+      "language": "txt",
+      "sizeLines": 2146,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/screenshot_manifest.json",
+      "language": "json",
+      "sizeLines": 76,
+      "fileCategory": "config"
+    },
+    {
+      "path": "analysis/STD/01_全局字段字典_销售链.md",
+      "language": "markdown",
+      "sizeLines": 52,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/STD/02_全局菜单与路由规范.md",
+      "language": "markdown",
+      "sizeLines": 44,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/STD/03_单据类别Lookup规范_BIL_SPC.md",
+      "language": "markdown",
+      "sizeLines": 234,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/STD/README.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "analysis/SUNLIKE_PSWD_加解密.sql",
+      "language": "sql",
+      "sizeLines": 275,
+      "fileCategory": "data"
+    },
+    {
+      "path": "CODEX_HANDOVER.md",
+      "language": "markdown",
+      "sizeLines": 310,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Cursor_APIcrsr_019e38a95daa73bc39e3.txt",
+      "language": "txt",
+      "sizeLines": 5,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/.cursor/rules/sunlike9-dev01-baseline.mdc",
+      "language": "mdc",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/开机启动ERP.bat",
+      "language": "batch",
+      "sizeLines": 69,
+      "fileCategory": "script"
+    },
+    {
+      "path": "erp-new/启动开发.bat",
+      "language": "batch",
+      "sizeLines": 4,
+      "fileCategory": "script"
+    },
+    {
+      "path": "erp-new/启动ERP.bat",
+      "language": "batch",
+      "sizeLines": 140,
+      "fileCategory": "script"
+    },
+    {
+      "path": "erp-new/client-vue/index.html",
+      "language": "html",
+      "sizeLines": 12,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "erp-new/client-vue/package.json",
+      "language": "json",
+      "sizeLines": 26,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/client-vue/src/api/index.ts",
+      "language": "typescript",
+      "sizeLines": 829,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/api/types.ts",
+      "language": "typescript",
+      "sizeLines": 939,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/App.vue",
+      "language": "vue",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/BilSpcEditDialog.vue",
+      "language": "vue",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/BilSpcSalesLookupDialog.vue",
+      "language": "vue",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/detailGrid/index.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/DetailGridHeaderMenu.vue",
+      "language": "vue",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpArchiveExtFields.vue",
+      "language": "vue",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpBasePage.vue",
+      "language": "vue",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpBillAuditMeta.vue",
+      "language": "vue",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpBillEditDialog.vue",
+      "language": "vue",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpBillHeadExtFields.vue",
+      "language": "vue",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpBillLineTable.vue",
+      "language": "vue",
+      "sizeLines": 433,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpBillPage.vue",
+      "language": "vue",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpBillQueryField.vue",
+      "language": "vue",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpBillToolbar.vue",
+      "language": "vue",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpBillTree.vue",
+      "language": "vue",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpCategoryTree.vue",
+      "language": "vue",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpDataTable.vue",
+      "language": "vue",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpDetailGrid.vue",
+      "language": "vue",
+      "sizeLines": 312,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpEditDialog.vue",
+      "language": "vue",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpEnterNavZone.vue",
+      "language": "vue",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpExtFieldZone.vue",
+      "language": "vue",
+      "sizeLines": 413,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpFormSection.vue",
+      "language": "vue",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpGridDesignDialog.vue",
+      "language": "vue",
+      "sizeLines": 666,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpListPage.vue",
+      "language": "vue",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpPrintDialog.vue",
+      "language": "vue",
+      "sizeLines": 176,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpPrintTemplateDialog.vue",
+      "language": "vue",
+      "sizeLines": 255,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpQueryBar.vue",
+      "language": "vue",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpQueryBarField.vue",
+      "language": "vue",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpQueryField.vue",
+      "language": "vue",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpQueryPanel.vue",
+      "language": "vue",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ErpToolBar.vue",
+      "language": "vue",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/ExtFieldControl.vue",
+      "language": "vue",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/index.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/kingdee/ErpBillLineTable.vue",
+      "language": "vue",
+      "sizeLines": 617,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/kingdee/ErpBillLineToolbar.vue",
+      "language": "vue",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/kingdee/ErpKingdeeBillEdit.vue",
+      "language": "vue",
+      "sizeLines": 131,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/kingdee/index.ts",
+      "language": "typescript",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/erp/SunlikeSqlEditor.vue",
+      "language": "vue",
+      "sizeLines": 277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/lookup/index.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/LookupDialog.vue",
+      "language": "vue",
+      "sizeLines": 250,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/LookupDialogHeaderMenu.vue",
+      "language": "vue",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/LookupField.vue",
+      "language": "vue",
+      "sizeLines": 204,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/LookupPicker.vue",
+      "language": "vue",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/PrdtUtEditDialog.vue",
+      "language": "vue",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/components/PrdtUtLookupDialog.vue",
+      "language": "vue",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/billExtFieldReload.ts",
+      "language": "typescript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useArchiveExtFields.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useAuth.ts",
+      "language": "typescript",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useBillLineAddRows.ts",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useBillLineWhLookup.ts",
+      "language": "typescript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useBomBill.ts",
+      "language": "typescript",
+      "sizeLines": 980,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useDetailGridColumnHeader.ts",
+      "language": "typescript",
+      "sizeLines": 332,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useErpBillEditDelete.ts",
+      "language": "typescript",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useErpDetailGrid.ts",
+      "language": "typescript",
+      "sizeLines": 719,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useErpTabs.ts",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useErpUser.ts",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useExtFieldColumns.ts",
+      "language": "typescript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useFormEnterNav.ts",
+      "language": "typescript",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useLookupDialogColumns.ts",
+      "language": "typescript",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useManufacturingOrderBill.ts",
+      "language": "typescript",
+      "sizeLines": 440,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useMaterialIssueBill.ts",
+      "language": "typescript",
+      "sizeLines": 481,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/usePermissions.ts",
+      "language": "typescript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useProductionPlanBill.ts",
+      "language": "typescript",
+      "sizeLines": 436,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useProductionRequirementBill.ts",
+      "language": "typescript",
+      "sizeLines": 444,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/usePurchaseRequisitionBill.ts",
+      "language": "typescript",
+      "sizeLines": 394,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useSalesOrderBill.ts",
+      "language": "typescript",
+      "sizeLines": 734,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/composables/useWarehouseDepositBill.ts",
+      "language": "typescript",
+      "sizeLines": 460,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/detailGridRegistry.ts",
+      "language": "typescript",
+      "sizeLines": 517,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/bomBill.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/bomDetail.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/fasArea.ts",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/fasCust.ts",
+      "language": "typescript",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/fasDept.ts",
+      "language": "typescript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/fasECA.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/fasIndx.ts",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/fasSalm.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/fasWh.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/index.ts",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/invBill.ts",
+      "language": "typescript",
+      "sizeLines": 111,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/jhBill.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/mlBill.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/mmBill.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/moBill.ts",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/mpBill.ts",
+      "language": "typescript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/poBill.ts",
+      "language": "typescript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/poDetail.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/README.md",
+      "language": "markdown",
+      "sizeLines": 34,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/soBill.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/soDetail.ts",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/sqBill.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/fields/types.ts",
+      "language": "typescript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/lookups/helpers.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/lookups/index.ts",
+      "language": "typescript",
+      "sizeLines": 4,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/lookups/presets.ts",
+      "language": "typescript",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/lookups/resolve.ts",
+      "language": "typescript",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/menuRegistry.ts",
+      "language": "typescript",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/config/prdtTwId.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/layouts/MainLayout.vue",
+      "language": "vue",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/main.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/router/index.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/styles/element-variables.scss",
+      "language": "css",
+      "sizeLines": 172,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "erp-new/client-vue/src/styles/erp-ui.scss",
+      "language": "css",
+      "sizeLines": 1064,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "erp-new/client-vue/src/styles/kingdee-order.scss",
+      "language": "css",
+      "sizeLines": 1278,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "erp-new/client-vue/src/styles/login.scss",
+      "language": "css",
+      "sizeLines": 127,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "erp-new/client-vue/src/types/lookup.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/billAudit.ts",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/billExtPayload.ts",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/billLineCurrLookup.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/billLinePaste.ts",
+      "language": "typescript",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/billLinePasteLookup.ts",
+      "language": "typescript",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/billLineProductLookup.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/billLineWhLookup.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/detailGridFieldKey.ts",
+      "language": "typescript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/exportExcel.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/extFieldRuntime.ts",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/lookupFilter.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/prdtSavePayload.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/printRender.ts",
+      "language": "typescript",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/soBillStatus.ts",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/sunlike.ts",
+      "language": "typescript",
+      "sizeLines": 388,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/sunlikeSqlExpr.ts",
+      "language": "typescript",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/utils/tax.ts",
+      "language": "typescript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/AreaPage.vue",
+      "language": "vue",
+      "sizeLines": 310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/BomFormView.vue",
+      "language": "vue",
+      "sizeLines": 716,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/BomPage.vue",
+      "language": "vue",
+      "sizeLines": 344,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/CustPage.vue",
+      "language": "vue",
+      "sizeLines": 483,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/DeptPage.vue",
+      "language": "vue",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/IndxPage.vue",
+      "language": "vue",
+      "sizeLines": 309,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/LoginPage.vue",
+      "language": "vue",
+      "sizeLines": 294,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/ManufacturingOrderFormView.vue",
+      "language": "vue",
+      "sizeLines": 406,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/ManufacturingOrderPage.vue",
+      "language": "vue",
+      "sizeLines": 230,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/MaterialIssueFormView.vue",
+      "language": "vue",
+      "sizeLines": 363,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/MaterialIssuePage.vue",
+      "language": "vue",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/PermissionSettingsPage.vue",
+      "language": "vue",
+      "sizeLines": 543,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/PlaceholderView.vue",
+      "language": "vue",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/ProductionPlanFormView.vue",
+      "language": "vue",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/ProductionPlanPage.vue",
+      "language": "vue",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/ProductionRequirementFormView.vue",
+      "language": "vue",
+      "sizeLines": 341,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/ProductionRequirementPage.vue",
+      "language": "vue",
+      "sizeLines": 244,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/ProductPage.vue",
+      "language": "vue",
+      "sizeLines": 763,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/PurchaseAllowancePage.vue",
+      "language": "vue",
+      "sizeLines": 736,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/PurchaseOrderPage.vue",
+      "language": "vue",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/PurchaseReceiptPage.vue",
+      "language": "vue",
+      "sizeLines": 746,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/PurchaseRequisitionFormView.vue",
+      "language": "vue",
+      "sizeLines": 345,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/PurchaseRequisitionPage.vue",
+      "language": "vue",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/PurchaseReturnPage.vue",
+      "language": "vue",
+      "sizeLines": 736,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/SalesAllowancePage.vue",
+      "language": "vue",
+      "sizeLines": 761,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/SalesOrderFormView.vue",
+      "language": "vue",
+      "sizeLines": 419,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/SalesOrderPage.vue",
+      "language": "vue",
+      "sizeLines": 318,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/SalesReturnPage.vue",
+      "language": "vue",
+      "sizeLines": 761,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/SalesShipmentPage.vue",
+      "language": "vue",
+      "sizeLines": 771,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/SalmPage.vue",
+      "language": "vue",
+      "sizeLines": 422,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/WarehouseDepositFormView.vue",
+      "language": "vue",
+      "sizeLines": 321,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/WarehouseDepositPage.vue",
+      "language": "vue",
+      "sizeLines": 227,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/views/WhPage.vue",
+      "language": "vue",
+      "sizeLines": 336,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/src/vite-env.d.ts",
+      "language": "typescript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/tsconfig.app.json",
+      "language": "json",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/client-vue/tsconfig.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/client-vue/tsconfig.tsbuildinfo",
+      "language": "tsbuildinfo",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client-vue/vite.config.ts",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/eslint.config.js",
+      "language": "javascript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/index.html",
+      "language": "html",
+      "sizeLines": 13,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "erp-new/client/package.json",
+      "language": "json",
+      "sizeLines": 34,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/client/README.md",
+      "language": "markdown",
+      "sizeLines": 73,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/client/src/api.ts",
+      "language": "typescript",
+      "sizeLines": 292,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/App.css",
+      "language": "css",
+      "sizeLines": 184,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "erp-new/client/src/App.tsx",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/components/LookupField.tsx",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/components/LookupModal.tsx",
+      "language": "typescript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/index.css",
+      "language": "css",
+      "sizeLines": 111,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "erp-new/client/src/main.tsx",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/pages/CustPage.tsx",
+      "language": "typescript",
+      "sizeLines": 261,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/pages/DeptPage.tsx",
+      "language": "typescript",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/pages/IndxPage.tsx",
+      "language": "typescript",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/pages/PrdtPage.tsx",
+      "language": "typescript",
+      "sizeLines": 296,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/pages/SalesOrderPage.tsx",
+      "language": "typescript",
+      "sizeLines": 481,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/pages/SalesReturnPage.tsx",
+      "language": "typescript",
+      "sizeLines": 467,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/pages/SalesShipmentPage.tsx",
+      "language": "typescript",
+      "sizeLines": 467,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/pages/SalmPage.tsx",
+      "language": "typescript",
+      "sizeLines": 289,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/src/pages/WhPage.tsx",
+      "language": "typescript",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/client/tsconfig.app.json",
+      "language": "json",
+      "sizeLines": 25,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/client/tsconfig.json",
+      "language": "json",
+      "sizeLines": 7,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/client/tsconfig.node.json",
+      "language": "json",
+      "sizeLines": 24,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/client/vite.config.ts",
+      "language": "typescript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/docs/01_中类_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/02_货品_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 24,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/02_货品基础资料_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/02_客户供应商区域_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 24,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/03_客户厂商_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 34,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/04_受订单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 27,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/05_销货单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 28,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/06_部门_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/06_销货折让_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 21,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/07_仓库_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 32,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/08_销货退回_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 28,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/09_进货单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 22,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/09_员工_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 24,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/10_进货退回_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/11_进货折让_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/11_请购单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/12_采购单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 23,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/12_权限设置_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/13_扩展字段与_Z表_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 46,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/14_BOM物料配方输入_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 41,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/15_生产领料_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 31,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/16_缴库单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 26,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/16_生产计划_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 56,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/17_生产需求分析单_功能说明.md",
+      "language": "markdown",
+      "sizeLines": 64,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/后续资料完善清单.md",
+      "language": "markdown",
+      "sizeLines": 83,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/docs/DEV_01_SUNLIKE9_核心业务基准规范.md",
+      "language": "markdown",
+      "sizeLines": 118,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/package.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/README.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/scripts/write-cursor-rule.cjs",
+      "language": "javascript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/auth.js",
+      "language": "javascript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/authMiddleware.js",
+      "language": "javascript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/billAuditMeta.js",
+      "language": "javascript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/billExtFieldHook.js",
+      "language": "javascript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/bomOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 513,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/data/db-connection.json",
+      "language": "json",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/server/data/erp.sqlite",
+      "language": "sqlite",
+      "sizeLines": 944,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/data/erp.sqlite-shm",
+      "language": "sqlite-shm",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/data/erp.sqlite-wal",
+      "language": "sqlite-wal",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/db.js",
+      "language": "javascript",
+      "sizeLines": 1284,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/dbConnectionConfig.js",
+      "language": "javascript",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/encoding.js",
+      "language": "javascript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/env.example",
+      "language": "example",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/extField.js",
+      "language": "javascript",
+      "sizeLines": 264,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/extFieldPersist.js",
+      "language": "javascript",
+      "sizeLines": 300,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/fix_sqlite_encoding.js",
+      "language": "javascript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/gridConfig.js",
+      "language": "javascript",
+      "sizeLines": 722,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/import_from_db11.js",
+      "language": "javascript",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/index.js",
+      "language": "javascript",
+      "sizeLines": 405,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/jhOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 409,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/menuTableRegistry.js",
+      "language": "javascript",
+      "sizeLines": 299,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/mlOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 384,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/mmOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 393,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/moOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 372,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/mpOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 730,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/mssqlPool.js",
+      "language": "javascript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/package.json",
+      "language": "json",
+      "sizeLines": 23,
+      "fileCategory": "config"
+    },
+    {
+      "path": "erp-new/server/permissions.js",
+      "language": "javascript",
+      "sizeLines": 583,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/permissionsRoutes.js",
+      "language": "javascript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/poOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/printTemplate.js",
+      "language": "javascript",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/pswdMssqlAuth.js",
+      "language": "javascript",
+      "sizeLines": 207,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/repositories/areaRepository.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/repositories/indxRepository.js",
+      "language": "javascript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/repositories/mssqlHelpers.js",
+      "language": "javascript",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/repositories/mssqlNextNo.js",
+      "language": "javascript",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/repositories/mssqlRow.js",
+      "language": "javascript",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/repositories/prdtPic.js",
+      "language": "javascript",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/areaRoutes.js",
+      "language": "javascript",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/bilSpcRoutes.js",
+      "language": "javascript",
+      "sizeLines": 146,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/curRoutes.js",
+      "language": "javascript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/custRoutes.js",
+      "language": "javascript",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/deptRoutes.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/indxRoutes.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/mfPosRoutes.js",
+      "language": "javascript",
+      "sizeLines": 499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/mfPssRoutes.js",
+      "language": "javascript",
+      "sizeLines": 1277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/prdtRoutes.js",
+      "language": "javascript",
+      "sizeLines": 384,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/salmRoutes.js",
+      "language": "javascript",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/routes/whRoutes.js",
+      "language": "javascript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_check_faseca_pic_cols.js",
+      "language": "javascript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_dict_mo_out.txt",
+      "language": "txt",
+      "sizeLines": 59,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "erp-new/server/scripts/_dict_mo.js",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_dict_mp23.js",
+      "language": "javascript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_gen_mo_mapping.js",
+      "language": "javascript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_probe_face_tables.js",
+      "language": "javascript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_probe_mp23_labels.js",
+      "language": "javascript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_probe_mp23.js",
+      "language": "javascript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_query_faseca_menu.js",
+      "language": "javascript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_test_cust_list.js",
+      "language": "javascript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_test_ext_on_pic_body.js",
+      "language": "javascript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_test_prdt_create_with_pic.js",
+      "language": "javascript",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_test_prdt_pic_save.js",
+      "language": "javascript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_test_prdt_pic_tx.js",
+      "language": "javascript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/scripts/_test_save_prdt_pic_fn.js",
+      "language": "javascript",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/sqOrdersRoutes.js",
+      "language": "javascript",
+      "sizeLines": 314,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/sqPoTransfer.js",
+      "language": "javascript",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/sqPoTransferMssql.js",
+      "language": "javascript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/sunlikePwd.js",
+      "language": "javascript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/sunlikeSqlExpr.js",
+      "language": "javascript",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/uploads/1779706934207-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "sizeLines": 5015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/uploads/1779811437163-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "sizeLines": 5015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/uploads/1779811970340-_________U9__________________1.xlsm",
+      "language": "xlsm",
+      "sizeLines": 5015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/uploads/1779811983099-SQLQuery1.sql",
+      "language": "sql",
+      "sizeLines": 46,
+      "fileCategory": "data"
+    },
+    {
+      "path": "erp-new/server/utils/indxKndResolver.js",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "erp-new/server/utils/prdtSaveDefaults.js",
+      "language": "javascript",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "Project_Brain.md",
+      "language": "markdown",
+      "sizeLines": 140,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Project_Status.md",
+      "language": "markdown",
+      "sizeLines": 157,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "TEST.TXT",
+      "language": "txt",
+      "sizeLines": 1,
+      "fileCategory": "docs"
+    }
+  ]
+}

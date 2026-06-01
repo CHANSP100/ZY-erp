@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "document:docs/01_中类_功能说明.md",
+      "type": "document",
+      "name": "01_中类_功能说明.md",
+      "filePath": "docs/01_中类_功能说明.md",
+      "summary": "Documentation file 01_中类_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/02_客户供应商区域_功能说明.md",
+      "type": "document",
+      "name": "02_客户供应商区域_功能说明.md",
+      "filePath": "docs/02_客户供应商区域_功能说明.md",
+      "summary": "Documentation file 02_客户供应商区域_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/02_货品_功能说明.md",
+      "type": "document",
+      "name": "02_货品_功能说明.md",
+      "filePath": "docs/02_货品_功能说明.md",
+      "summary": "Documentation file 02_货品_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/02_货品基础资料_功能说明.md",
+      "type": "document",
+      "name": "02_货品基础资料_功能说明.md",
+      "filePath": "docs/02_货品基础资料_功能说明.md",
+      "summary": "Documentation file 02_货品基础资料_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/03_客户厂商_功能说明.md",
+      "type": "document",
+      "name": "03_客户厂商_功能说明.md",
+      "filePath": "docs/03_客户厂商_功能说明.md",
+      "summary": "Documentation file 03_客户厂商_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/04_受订单_功能说明.md",
+      "type": "document",
+      "name": "04_受订单_功能说明.md",
+      "filePath": "docs/04_受订单_功能说明.md",
+      "summary": "Documentation file 04_受订单_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/05_销货单_功能说明.md",
+      "type": "document",
+      "name": "05_销货单_功能说明.md",
+      "filePath": "docs/05_销货单_功能说明.md",
+      "summary": "Documentation file 05_销货单_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/06_部门_功能说明.md",
+      "type": "document",
+      "name": "06_部门_功能说明.md",
+      "filePath": "docs/06_部门_功能说明.md",
+      "summary": "Documentation file 06_部门_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/06_销货折让_功能说明.md",
+      "type": "document",
+      "name": "06_销货折让_功能说明.md",
+      "filePath": "docs/06_销货折让_功能说明.md",
+      "summary": "Documentation file 06_销货折让_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/07_仓库_功能说明.md",
+      "type": "document",
+      "name": "07_仓库_功能说明.md",
+      "filePath": "docs/07_仓库_功能说明.md",
+      "summary": "Documentation file 07_仓库_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/08_销货退回_功能说明.md",
+      "type": "document",
+      "name": "08_销货退回_功能说明.md",
+      "filePath": "docs/08_销货退回_功能说明.md",
+      "summary": "Documentation file 08_销货退回_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/09_员工_功能说明.md",
+      "type": "document",
+      "name": "09_员工_功能说明.md",
+      "filePath": "docs/09_员工_功能说明.md",
+      "summary": "Documentation file 09_员工_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/09_进货单_功能说明.md",
+      "type": "document",
+      "name": "09_进货单_功能说明.md",
+      "filePath": "docs/09_进货单_功能说明.md",
+      "summary": "Documentation file 09_进货单_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/10_进货退回_功能说明.md",
+      "type": "document",
+      "name": "10_进货退回_功能说明.md",
+      "filePath": "docs/10_进货退回_功能说明.md",
+      "summary": "Documentation file 10_进货退回_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/11_请购单_功能说明.md",
+      "type": "document",
+      "name": "11_请购单_功能说明.md",
+      "filePath": "docs/11_请购单_功能说明.md",
+      "summary": "Documentation file 11_请购单_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/11_进货折让_功能说明.md",
+      "type": "document",
+      "name": "11_进货折让_功能说明.md",
+      "filePath": "docs/11_进货折让_功能说明.md",
+      "summary": "Documentation file 11_进货折让_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/12_权限设置_功能说明.md",
+      "type": "document",
+      "name": "12_权限设置_功能说明.md",
+      "filePath": "docs/12_权限设置_功能说明.md",
+      "summary": "Documentation file 12_权限设置_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/12_采购单_功能说明.md",
+      "type": "document",
+      "name": "12_采购单_功能说明.md",
+      "filePath": "docs/12_采购单_功能说明.md",
+      "summary": "Documentation file 12_采购单_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/13_扩展字段与_Z表_功能说明.md",
+      "type": "document",
+      "name": "13_扩展字段与_Z表_功能说明.md",
+      "filePath": "docs/13_扩展字段与_Z表_功能说明.md",
+      "summary": "Documentation file 13_扩展字段与_Z表_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/14_BOM物料配方输入_功能说明.md",
+      "type": "document",
+      "name": "14_BOM物料配方输入_功能说明.md",
+      "filePath": "docs/14_BOM物料配方输入_功能说明.md",
+      "summary": "Documentation file 14_BOM物料配方输入_功能说明.md for the ERP prototype project.",
+      "tags": [
+        "documentation"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

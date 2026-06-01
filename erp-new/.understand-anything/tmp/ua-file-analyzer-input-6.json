@@ -1,0 +1,63 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "client-vue/src/App.vue",
+      "language": "vue",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/composables/useErpTabs.ts",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/config/menuRegistry.ts",
+      "language": "typescript",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/layouts/MainLayout.vue",
+      "language": "vue",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/main.ts",
+      "language": "typescript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "client-vue/src/router/index.ts",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "client-vue/src/App.vue": [],
+    "client-vue/src/composables/useErpTabs.ts": [
+      "client-vue/src/config/menuRegistry.ts"
+    ],
+    "client-vue/src/config/menuRegistry.ts": [],
+    "client-vue/src/layouts/MainLayout.vue": [],
+    "client-vue/src/main.ts": [
+      "client-vue/src/App.vue",
+      "client-vue/src/router/index.ts",
+      "client-vue/src/styles/element-variables.scss",
+      "client-vue/src/styles/erp-ui.scss",
+      "client-vue/src/styles/kingdee-order.scss",
+      "client-vue/src/styles/login.scss"
+    ],
+    "client-vue/src/router/index.ts": [
+      "client-vue/src/api/index.ts",
+      "client-vue/src/composables/useAuth.ts",
+      "client-vue/src/config/menuRegistry.ts",
+      "client-vue/src/layouts/MainLayout.vue"
+    ]
+  }
+}

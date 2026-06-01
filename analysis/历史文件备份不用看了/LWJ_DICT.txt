@@ -1,0 +1,10 @@
+COLUMN_NAME
+-----------
+Tab_Name
+Tab_Name
+--------
+AAGBL_CUS1.DB
+ABGT.DB
+ABGT1.DB
+ABGT1_H.DB
+ABGT_H.DB

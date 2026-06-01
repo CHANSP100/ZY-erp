@@ -1,0 +1,39 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "client-vue/src/styles/element-variables.scss",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 172,
+      "nonEmptyLines": 152,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/styles/erp-ui.scss",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 1064,
+      "nonEmptyLines": 900,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/styles/kingdee-order.scss",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 1278,
+      "nonEmptyLines": 1085,
+      "metrics": {}
+    },
+    {
+      "path": "client-vue/src/styles/login.scss",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 127,
+      "nonEmptyLines": 113,
+      "metrics": {}
+    }
+  ]
+}

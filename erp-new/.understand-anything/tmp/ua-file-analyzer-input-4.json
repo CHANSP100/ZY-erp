@@ -1,0 +1,212 @@
+{
+  "projectRoot": "C:/Users/admin/Desktop/cursor/erp-new",
+  "batchFiles": [
+    {
+      "path": "server/auth.js",
+      "language": "javascript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/authMiddleware.js",
+      "language": "javascript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/dbConnectionConfig.js",
+      "language": "javascript",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/encoding.js",
+      "language": "javascript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/fix_sqlite_encoding.js",
+      "language": "javascript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/import_from_db11.js",
+      "language": "javascript",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/mssqlPool.js",
+      "language": "javascript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/permissions.js",
+      "language": "javascript",
+      "sizeLines": 583,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/permissionsRoutes.js",
+      "language": "javascript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/pswdMssqlAuth.js",
+      "language": "javascript",
+      "sizeLines": 207,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/areaRepository.js",
+      "language": "javascript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/mssqlRow.js",
+      "language": "javascript",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/repositories/prdtPic.js",
+      "language": "javascript",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_dict_mo.js",
+      "language": "javascript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_dict_mp23.js",
+      "language": "javascript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_probe_face_tables.js",
+      "language": "javascript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_probe_mp23.js",
+      "language": "javascript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_probe_mp23_labels.js",
+      "language": "javascript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_query_faseca_menu.js",
+      "language": "javascript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_prdt_pic_save.js",
+      "language": "javascript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_prdt_pic_tx.js",
+      "language": "javascript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/scripts/_test_save_prdt_pic_fn.js",
+      "language": "javascript",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/auth.js": [
+      "server/permissions.js",
+      "server/pswdMssqlAuth.js"
+    ],
+    "server/authMiddleware.js": [
+      "server/auth.js"
+    ],
+    "server/dbConnectionConfig.js": [],
+    "server/encoding.js": [],
+    "server/fix_sqlite_encoding.js": [
+      "server/db.js",
+      "server/encoding.js"
+    ],
+    "server/import_from_db11.js": [
+      "server/db.js",
+      "server/encoding.js"
+    ],
+    "server/mssqlPool.js": [
+      "server/dbConnectionConfig.js"
+    ],
+    "server/permissions.js": [
+      "server/db.js"
+    ],
+    "server/permissionsRoutes.js": [
+      "server/authMiddleware.js",
+      "server/permissions.js"
+    ],
+    "server/pswdMssqlAuth.js": [
+      "server/dbConnectionConfig.js",
+      "server/encoding.js",
+      "server/mssqlPool.js",
+      "server/permissions.js"
+    ],
+    "server/repositories/areaRepository.js": [
+      "server/encoding.js",
+      "server/mssqlPool.js",
+      "server/repositories/mssqlRow.js"
+    ],
+    "server/repositories/mssqlRow.js": [],
+    "server/repositories/prdtPic.js": [
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/scripts/_dict_mo.js": [
+      "server/mssqlPool.js",
+      "server/repositories/mssqlHelpers.js"
+    ],
+    "server/scripts/_dict_mp23.js": [
+      "server/mssqlPool.js"
+    ],
+    "server/scripts/_probe_face_tables.js": [
+      "server/mssqlPool.js"
+    ],
+    "server/scripts/_probe_mp23.js": [
+      "server/dbConnectionConfig.js"
+    ],
+    "server/scripts/_probe_mp23_labels.js": [
+      "server/dbConnectionConfig.js"
+    ],
+    "server/scripts/_query_faseca_menu.js": [
+      "server/mssqlPool.js"
+    ],
+    "server/scripts/_test_prdt_pic_save.js": [
+      "server/mssqlPool.js",
+      "server/repositories/prdtPic.js"
+    ],
+    "server/scripts/_test_prdt_pic_tx.js": [
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/prdtPic.js"
+    ],
+    "server/scripts/_test_save_prdt_pic_fn.js": [
+      "server/repositories/mssqlHelpers.js",
+      "server/repositories/prdtPic.js"
+    ]
+  }
+}

@@ -1,0 +1,898 @@
+{
+  "scriptCompleted": true,
+  "stats": {
+    "filesScanned": 430,
+    "filesWithImports": 123,
+    "totalEdges": 335
+  },
+  "importMap": {
+    ".cursor/rules/sunlike9-dev01-baseline.mdc": [],
+    ".cursorignore": [],
+    ".understand-anything/.understandignore": [],
+    "旧ERP文件/01中类.txt": [],
+    "旧ERP文件/02货品基础资料.txt": [],
+    "旧ERP文件/03客户厂商资料.txt": [],
+    "旧ERP文件/04受订单.txt": [],
+    "旧ERP文件/05销货单.txt": [],
+    "旧ERP文件/截图/单据/.gitkeep": [],
+    "旧ERP文件/截图/基础资料/.gitkeep": [],
+    "旧ERP文件/逆向关键资料.md": [],
+    "旧ERP文件/启动开发.bat": [],
+    "旧ERP文件/ERP_Forms_List.md": [],
+    "旧ERP文件/Thumbs.db": [],
+    "Agents.md": [],
+    "analysis/菜单中文名对照表_保留71项.md": [],
+    "analysis/菜单字段对照总表_待确认.md": [],
+    "analysis/历史文件备份不用看了/_prdt_snip.txt": [],
+    "analysis/历史文件备份不用看了/00_开工前确认清单.md": [],
+    "analysis/历史文件备份不用看了/01_dict_tab_list.txt": [],
+    "analysis/历史文件备份不用看了/01_sunsystem_overview.sql": [],
+    "analysis/历史文件备份不用看了/02_tables_in_sunsystem.txt": [],
+    "analysis/历史文件备份不用看了/02_tablesrc_raw.txt": [],
+    "analysis/历史文件备份不用看了/03_dataex_bills.txt": [],
+    "analysis/历史文件备份不用看了/04_bil_lc_rules.txt": [],
+    "analysis/历史文件备份不用看了/05_tables_in_dataex.txt": [],
+    "analysis/历史文件备份不用看了/06_reports_summary.txt": [],
+    "analysis/历史文件备份不用看了/07_dlllink_summary.txt": [],
+    "analysis/历史文件备份不用看了/08_bills_with_tables.txt": [],
+    "analysis/历史文件备份不用看了/09_sys_vs_biz_counts.txt": [],
+    "analysis/历史文件备份不用看了/10_active_tables_from_meta.txt": [],
+    "analysis/历史文件备份不用看了/菜单模糊查询_含货维护.txt": [],
+    "analysis/历史文件备份不用看了/前端视觉 & 开发规范.md": [],
+    "analysis/历史文件备份不用看了/全局唯一标准化总纲文档.md": [],
+    "analysis/历史文件备份不用看了/设计规范文档.md": [],
+    "analysis/历史文件备份不用看了/all_columns.txt": [],
+    "analysis/历史文件备份不用看了/build_master.py": [],
+    "analysis/历史文件备份不用看了/comp_tablesrc.txt": [],
+    "analysis/历史文件备份不用看了/CONFIRM_01_重构范围与规则.md": [],
+    "analysis/历史文件备份不用看了/CONFIRM_02_菜单确认表.csv": [],
+    "analysis/历史文件备份不用看了/CONFIRM_02_菜单确认表.md": [],
+    "analysis/历史文件备份不用看了/CONFIRM_03_数据表确认表.csv": [],
+    "analysis/历史文件备份不用看了/CONFIRM_03_数据表确认表.md": [],
+    "analysis/历史文件备份不用看了/CONFIRM_04_仍需您提供的资料.md": [],
+    "analysis/历史文件备份不用看了/CONFIRM_05_新系统与验收.md": [],
+    "analysis/历史文件备份不用看了/crack_pwd5.py": [],
+    "analysis/历史文件备份不用看了/dataex_menu_tables_full.txt": [],
+    "analysis/历史文件备份不用看了/db11_all_tables_rowcount.txt": [],
+    "analysis/历史文件备份不用看了/db11_crossref_active_meta.txt": [],
+    "analysis/历史文件备份不用看了/db11_data_not_in_active_meta.txt": [],
+    "analysis/历史文件备份不用看了/db11_empty_tables.txt": [],
+    "analysis/历史文件备份不用看了/db11_keep_fields.txt": [],
+    "analysis/历史文件备份不用看了/db11_keep_list_with_titles.txt": [],
+    "analysis/历史文件备份不用看了/db11_object_counts.txt": [],
+    "analysis/历史文件备份不用看了/db11_row_empty_check.sql": [],
+    "analysis/历史文件备份不用看了/db11_row_empty_stats.txt": [],
+    "analysis/历史文件备份不用看了/db11_summary_buckets.txt": [],
+    "analysis/历史文件备份不用看了/db11_tables_with_data.txt": [],
+    "analysis/历史文件备份不用看了/dict_stats.txt": [],
+    "analysis/历史文件备份不用看了/DICT_TAB_cols.txt": [],
+    "analysis/历史文件备份不用看了/export_dict_fld44.py": [],
+    "analysis/历史文件备份不用看了/foreign_keys.txt": [],
+    "analysis/历史文件备份不用看了/gen_backlog.py": [],
+    "analysis/历史文件备份不用看了/gen_confirm_docs.py": [],
+    "analysis/历史文件备份不用看了/gen_empty_row_sql.py": [],
+    "analysis/历史文件备份不用看了/gen_field_mapping_docs.py": [],
+    "analysis/历史文件备份不用看了/gen_master_menu_spec.py": [
+      "analysis/历史文件备份不用看了/gen_field_mapping_docs.py"
+    ],
+    "analysis/历史文件备份不用看了/key_counts.txt": [],
+    "analysis/历史文件备份不用看了/key_tables_cols.txt": [],
+    "analysis/历史文件备份不用看了/LWJ_DICT.txt": [],
+    "analysis/历史文件备份不用看了/menu_rem_all.txt": [],
+    "analysis/历史文件备份不用看了/menu_table_links.txt": [],
+    "analysis/历史文件备份不用看了/README.md": [],
+    "analysis/历史文件备份不用看了/refactor_master_menus.md": [],
+    "analysis/历史文件备份不用看了/refactor_master_tables.md": [],
+    "analysis/历史文件备份不用看了/run_empty_row_check.py": [],
+    "analysis/历史文件备份不用看了/sample_DICT_TAB.txt": [],
+    "analysis/历史文件备份不用看了/sample_dict_tab2.txt": [],
+    "analysis/历史文件备份不用看了/SUNLIKE_PSWD_加解密.sql": [],
+    "analysis/历史文件备份不用看了/sunlike_pwd.py": [],
+    "analysis/历史文件备份不用看了/tables_rowcount.txt": [],
+    "analysis/历史文件备份不用看了/tmp_dlllink_sample.txt": [],
+    "analysis/历史文件备份不用看了/tmp_fld_sample.txt": [],
+    "analysis/字段对照/部门.md": [],
+    "analysis/字段对照/采购单.md": [],
+    "analysis/字段对照/仓库.md": [],
+    "analysis/字段对照/货品.md": [],
+    "analysis/字段对照/缴库单.md": [],
+    "analysis/字段对照/进货单.md": [],
+    "analysis/字段对照/进货退回.md": [],
+    "analysis/字段对照/进货折让.md": [],
+    "analysis/字段对照/客户厂商.md": [],
+    "analysis/字段对照/客户供应商区域.md": [],
+    "analysis/字段对照/请购单.md": [],
+    "analysis/字段对照/权限设置.md": [],
+    "analysis/字段对照/生产计划.md": [],
+    "analysis/字段对照/生产领料.md": [],
+    "analysis/字段对照/生产需求分析单.md": [],
+    "analysis/字段对照/受订单.md": [],
+    "analysis/字段对照/销货单.md": [],
+    "analysis/字段对照/销货退回.md": [],
+    "analysis/字段对照/销货折让.md": [],
+    "analysis/字段对照/员工.md": [],
+    "analysis/字段对照/制令单.md": [],
+    "analysis/字段对照/中类.md": [],
+    "analysis/字段对照/BOM物料配方输入.md": [],
+    "analysis/字段对照/README.md": [],
+    "analysis/BACKLOG_菜单开发清单.md": [],
+    "analysis/CONFIRM_06_开发方案确认表.md": [],
+    "analysis/DEV_00_开发方案总纲.md": [],
+    "analysis/DEV_01_单菜单开发规范.md": [],
+    "analysis/DEV_02_字段对照表规范与模板.md": [],
+    "analysis/DEV_03_技术实现规范.md": [],
+    "analysis/DEV_04_前端视觉与交互规范.md": [],
+    "analysis/DEV_05_进销单据链_九单验收索引.md": [],
+    "analysis/DEV_06_权限设置_方案说明.md": [],
+    "analysis/DEV_07_扩展字段与_Z表_方案说明.md": [],
+    "analysis/dict_fld_keep44.txt": [],
+    "analysis/ERP流程确认/00_说明.md": [],
+    "analysis/ERP流程确认/模板_00_步骤说明.md": [],
+    "analysis/keep_tables_44.txt": [],
+    "analysis/PLAN_总体规划.md": [],
+    "analysis/refactor_scope_by_menu.txt": [],
+    "analysis/screenshot_manifest.json": [],
+    "analysis/STD/01_全局字段字典_销售链.md": [],
+    "analysis/STD/02_全局菜单与路由规范.md": [],
+    "analysis/STD/03_单据类别Lookup规范_BIL_SPC.md": [],
+    "analysis/STD/README.md": [],
+    "analysis/SUNLIKE_PSWD_加解密.sql": [],
+    "CODEX_HANDOVER.md": [],
+    "Cursor_APIcrsr_019e38a95daa73bc39e3.txt": [],
+    "erp-new/.cursor/rules/sunlike9-dev01-baseline.mdc": [],
+    "erp-new/开机启动ERP.bat": [],
+    "erp-new/启动开发.bat": [],
+    "erp-new/启动ERP.bat": [],
+    "erp-new/client-vue/index.html": [],
+    "erp-new/client-vue/package.json": [],
+    "erp-new/client-vue/src/api/index.ts": [
+      "erp-new/client-vue/src/api/types.ts"
+    ],
+    "erp-new/client-vue/src/api/types.ts": [],
+    "erp-new/client-vue/src/App.vue": [],
+    "erp-new/client-vue/src/components/BilSpcEditDialog.vue": [],
+    "erp-new/client-vue/src/components/BilSpcSalesLookupDialog.vue": [],
+    "erp-new/client-vue/src/components/erp/detailGrid/index.ts": [],
+    "erp-new/client-vue/src/components/erp/DetailGridHeaderMenu.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpArchiveExtFields.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpBasePage.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpBillAuditMeta.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpBillEditDialog.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpBillHeadExtFields.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpBillLineTable.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpBillPage.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpBillQueryField.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpBillToolbar.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpBillTree.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpCategoryTree.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpDataTable.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpDetailGrid.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpEditDialog.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpEnterNavZone.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpExtFieldZone.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpFormSection.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpGridDesignDialog.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpListPage.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpPrintDialog.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpPrintTemplateDialog.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpQueryBar.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpQueryBarField.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpQueryField.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpQueryPanel.vue": [],
+    "erp-new/client-vue/src/components/erp/ErpToolBar.vue": [],
+    "erp-new/client-vue/src/components/erp/ExtFieldControl.vue": [],
+    "erp-new/client-vue/src/components/erp/index.ts": [],
+    "erp-new/client-vue/src/components/erp/kingdee/ErpBillLineTable.vue": [],
+    "erp-new/client-vue/src/components/erp/kingdee/ErpBillLineToolbar.vue": [],
+    "erp-new/client-vue/src/components/erp/kingdee/ErpKingdeeBillEdit.vue": [],
+    "erp-new/client-vue/src/components/erp/kingdee/index.ts": [],
+    "erp-new/client-vue/src/components/erp/SunlikeSqlEditor.vue": [],
+    "erp-new/client-vue/src/components/lookup/index.ts": [],
+    "erp-new/client-vue/src/components/LookupDialog.vue": [],
+    "erp-new/client-vue/src/components/LookupDialogHeaderMenu.vue": [],
+    "erp-new/client-vue/src/components/LookupField.vue": [],
+    "erp-new/client-vue/src/components/LookupPicker.vue": [],
+    "erp-new/client-vue/src/components/PrdtUtEditDialog.vue": [],
+    "erp-new/client-vue/src/components/PrdtUtLookupDialog.vue": [],
+    "erp-new/client-vue/src/composables/billExtFieldReload.ts": [],
+    "erp-new/client-vue/src/composables/useArchiveExtFields.ts": [
+      "erp-new/client-vue/src/composables/useExtFieldColumns.ts"
+    ],
+    "erp-new/client-vue/src/composables/useAuth.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts"
+    ],
+    "erp-new/client-vue/src/composables/useBillLineAddRows.ts": [],
+    "erp-new/client-vue/src/composables/useBillLineWhLookup.ts": [
+      "erp-new/client-vue/src/api/index.ts"
+    ],
+    "erp-new/client-vue/src/composables/useBomBill.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/detailGridRegistry.ts",
+      "erp-new/client-vue/src/config/fields/index.ts",
+      "erp-new/client-vue/src/config/prdtTwId.ts",
+      "erp-new/client-vue/src/utils/billAudit.ts"
+    ],
+    "erp-new/client-vue/src/composables/useDetailGridColumnHeader.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/composables/useErpUser.ts",
+      "erp-new/client-vue/src/config/detailGridRegistry.ts"
+    ],
+    "erp-new/client-vue/src/composables/useErpBillEditDelete.ts": [],
+    "erp-new/client-vue/src/composables/useErpDetailGrid.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/composables/useErpUser.ts",
+      "erp-new/client-vue/src/config/detailGridRegistry.ts"
+    ],
+    "erp-new/client-vue/src/composables/useErpTabs.ts": [
+      "erp-new/client-vue/src/config/menuRegistry.ts"
+    ],
+    "erp-new/client-vue/src/composables/useErpUser.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/composables/useAuth.ts"
+    ],
+    "erp-new/client-vue/src/composables/useExtFieldColumns.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/utils/extFieldRuntime.ts"
+    ],
+    "erp-new/client-vue/src/composables/useFormEnterNav.ts": [],
+    "erp-new/client-vue/src/composables/useLookupDialogColumns.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/types/lookup.ts"
+    ],
+    "erp-new/client-vue/src/composables/useManufacturingOrderBill.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/fields/index.ts",
+      "erp-new/client-vue/src/utils/billAudit.ts",
+      "erp-new/client-vue/src/utils/billExtPayload.ts"
+    ],
+    "erp-new/client-vue/src/composables/useMaterialIssueBill.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/fields/index.ts",
+      "erp-new/client-vue/src/utils/billAudit.ts",
+      "erp-new/client-vue/src/utils/billExtPayload.ts"
+    ],
+    "erp-new/client-vue/src/composables/usePermissions.ts": [
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/composables/useAuth.ts",
+      "erp-new/client-vue/src/config/menuRegistry.ts"
+    ],
+    "erp-new/client-vue/src/composables/useProductionPlanBill.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/fields/index.ts",
+      "erp-new/client-vue/src/utils/billAudit.ts",
+      "erp-new/client-vue/src/utils/billExtPayload.ts"
+    ],
+    "erp-new/client-vue/src/composables/useProductionRequirementBill.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/fields/index.ts",
+      "erp-new/client-vue/src/utils/billAudit.ts"
+    ],
+    "erp-new/client-vue/src/composables/usePurchaseRequisitionBill.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/fields/index.ts",
+      "erp-new/client-vue/src/utils/billAudit.ts",
+      "erp-new/client-vue/src/utils/billExtPayload.ts"
+    ],
+    "erp-new/client-vue/src/composables/useSalesOrderBill.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/detailGridRegistry.ts",
+      "erp-new/client-vue/src/config/fields/index.ts",
+      "erp-new/client-vue/src/utils/billAudit.ts",
+      "erp-new/client-vue/src/utils/soBillStatus.ts",
+      "erp-new/client-vue/src/utils/tax.ts"
+    ],
+    "erp-new/client-vue/src/composables/useWarehouseDepositBill.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/fields/index.ts",
+      "erp-new/client-vue/src/utils/billAudit.ts",
+      "erp-new/client-vue/src/utils/billExtPayload.ts",
+      "erp-new/client-vue/src/utils/sunlike.ts"
+    ],
+    "erp-new/client-vue/src/config/detailGridRegistry.ts": [
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/fields/index.ts",
+      "erp-new/client-vue/src/utils/sunlike.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/bomBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/bomDetail.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/fasArea.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/fasCust.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/fasDept.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/fasECA.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/fasIndx.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/fasSalm.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/fasWh.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/index.ts": [],
+    "erp-new/client-vue/src/config/fields/invBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/jhBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/mlBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/mmBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/moBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/mpBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/poBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/poDetail.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/README.md": [],
+    "erp-new/client-vue/src/config/fields/soBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/soDetail.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/sqBill.ts": [
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/config/fields/types.ts": [],
+    "erp-new/client-vue/src/config/lookups/helpers.ts": [
+      "erp-new/client-vue/src/types/lookup.ts"
+    ],
+    "erp-new/client-vue/src/config/lookups/index.ts": [],
+    "erp-new/client-vue/src/config/lookups/presets.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/types/lookup.ts"
+    ],
+    "erp-new/client-vue/src/config/lookups/resolve.ts": [
+      "erp-new/client-vue/src/config/lookups/helpers.ts",
+      "erp-new/client-vue/src/config/lookups/presets.ts",
+      "erp-new/client-vue/src/types/lookup.ts"
+    ],
+    "erp-new/client-vue/src/config/menuRegistry.ts": [],
+    "erp-new/client-vue/src/config/prdtTwId.ts": [],
+    "erp-new/client-vue/src/layouts/MainLayout.vue": [],
+    "erp-new/client-vue/src/main.ts": [
+      "erp-new/client-vue/src/App.vue",
+      "erp-new/client-vue/src/router/index.ts",
+      "erp-new/client-vue/src/styles/element-variables.scss",
+      "erp-new/client-vue/src/styles/erp-ui.scss",
+      "erp-new/client-vue/src/styles/kingdee-order.scss",
+      "erp-new/client-vue/src/styles/login.scss"
+    ],
+    "erp-new/client-vue/src/router/index.ts": [
+      "erp-new/client-vue/src/api/index.ts",
+      "erp-new/client-vue/src/composables/useAuth.ts",
+      "erp-new/client-vue/src/config/menuRegistry.ts",
+      "erp-new/client-vue/src/layouts/MainLayout.vue"
+    ],
+    "erp-new/client-vue/src/styles/element-variables.scss": [],
+    "erp-new/client-vue/src/styles/erp-ui.scss": [],
+    "erp-new/client-vue/src/styles/kingdee-order.scss": [],
+    "erp-new/client-vue/src/styles/login.scss": [],
+    "erp-new/client-vue/src/types/lookup.ts": [],
+    "erp-new/client-vue/src/utils/billAudit.ts": [
+      "erp-new/client-vue/src/api/types.ts"
+    ],
+    "erp-new/client-vue/src/utils/billExtPayload.ts": [],
+    "erp-new/client-vue/src/utils/billLineCurrLookup.ts": [
+      "erp-new/client-vue/src/api/index.ts"
+    ],
+    "erp-new/client-vue/src/utils/billLinePaste.ts": [
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/fields/types.ts",
+      "erp-new/client-vue/src/utils/extFieldRuntime.ts"
+    ],
+    "erp-new/client-vue/src/utils/billLinePasteLookup.ts": [
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/utils/billLinePaste.ts",
+      "erp-new/client-vue/src/utils/extFieldRuntime.ts",
+      "erp-new/client-vue/src/utils/lookupFilter.ts"
+    ],
+    "erp-new/client-vue/src/utils/billLineProductLookup.ts": [
+      "erp-new/client-vue/src/api/index.ts"
+    ],
+    "erp-new/client-vue/src/utils/billLineWhLookup.ts": [
+      "erp-new/client-vue/src/api/index.ts"
+    ],
+    "erp-new/client-vue/src/utils/detailGridFieldKey.ts": [],
+    "erp-new/client-vue/src/utils/exportExcel.ts": [],
+    "erp-new/client-vue/src/utils/extFieldRuntime.ts": [
+      "erp-new/client-vue/src/api/types.ts"
+    ],
+    "erp-new/client-vue/src/utils/lookupFilter.ts": [],
+    "erp-new/client-vue/src/utils/prdtSavePayload.ts": [
+      "erp-new/client-vue/src/api/types.ts",
+      "erp-new/client-vue/src/config/prdtTwId.ts",
+      "erp-new/client-vue/src/utils/billExtPayload.ts",
+      "erp-new/client-vue/src/utils/sunlike.ts"
+    ],
+    "erp-new/client-vue/src/utils/printRender.ts": [
+      "erp-new/client-vue/src/utils/exportExcel.ts"
+    ],
+    "erp-new/client-vue/src/utils/soBillStatus.ts": [],
+    "erp-new/client-vue/src/utils/sunlike.ts": [],
+    "erp-new/client-vue/src/utils/sunlikeSqlExpr.ts": [
+      "erp-new/client-vue/src/config/fields/poBill.ts",
+      "erp-new/client-vue/src/config/fields/soBill.ts",
+      "erp-new/client-vue/src/config/fields/types.ts"
+    ],
+    "erp-new/client-vue/src/utils/tax.ts": [],
+    "erp-new/client-vue/src/views/AreaPage.vue": [],
+    "erp-new/client-vue/src/views/BomFormView.vue": [],
+    "erp-new/client-vue/src/views/BomPage.vue": [],
+    "erp-new/client-vue/src/views/CustPage.vue": [],
+    "erp-new/client-vue/src/views/DeptPage.vue": [],
+    "erp-new/client-vue/src/views/IndxPage.vue": [],
+    "erp-new/client-vue/src/views/LoginPage.vue": [],
+    "erp-new/client-vue/src/views/ManufacturingOrderFormView.vue": [],
+    "erp-new/client-vue/src/views/ManufacturingOrderPage.vue": [],
+    "erp-new/client-vue/src/views/MaterialIssueFormView.vue": [],
+    "erp-new/client-vue/src/views/MaterialIssuePage.vue": [],
+    "erp-new/client-vue/src/views/PermissionSettingsPage.vue": [],
+    "erp-new/client-vue/src/views/PlaceholderView.vue": [],
+    "erp-new/client-vue/src/views/ProductionPlanFormView.vue": [],
+    "erp-new/client-vue/src/views/ProductionPlanPage.vue": [],
+    "erp-new/client-vue/src/views/ProductionRequirementFormView.vue": [],
+    "erp-new/client-vue/src/views/ProductionRequirementPage.vue": [],
+    "erp-new/client-vue/src/views/ProductPage.vue": [],
+    "erp-new/client-vue/src/views/PurchaseAllowancePage.vue": [],
+    "erp-new/client-vue/src/views/PurchaseOrderPage.vue": [],
+    "erp-new/client-vue/src/views/PurchaseReceiptPage.vue": [],
+    "erp-new/client-vue/src/views/PurchaseRequisitionFormView.vue": [],
+    "erp-new/client-vue/src/views/PurchaseRequisitionPage.vue": [],
+    "erp-new/client-vue/src/views/PurchaseReturnPage.vue": [],
+    "erp-new/client-vue/src/views/SalesAllowancePage.vue": [],
+    "erp-new/client-vue/src/views/SalesOrderFormView.vue": [],
+    "erp-new/client-vue/src/views/SalesOrderPage.vue": [],
+    "erp-new/client-vue/src/views/SalesReturnPage.vue": [],
+    "erp-new/client-vue/src/views/SalesShipmentPage.vue": [],
+    "erp-new/client-vue/src/views/SalmPage.vue": [],
+    "erp-new/client-vue/src/views/WarehouseDepositFormView.vue": [],
+    "erp-new/client-vue/src/views/WarehouseDepositPage.vue": [],
+    "erp-new/client-vue/src/views/WhPage.vue": [],
+    "erp-new/client-vue/src/vite-env.d.ts": [],
+    "erp-new/client-vue/tsconfig.app.json": [],
+    "erp-new/client-vue/tsconfig.json": [],
+    "erp-new/client-vue/tsconfig.tsbuildinfo": [],
+    "erp-new/client-vue/vite.config.ts": [],
+    "erp-new/client/eslint.config.js": [],
+    "erp-new/client/index.html": [],
+    "erp-new/client/package.json": [],
+    "erp-new/client/README.md": [],
+    "erp-new/client/src/api.ts": [],
+    "erp-new/client/src/App.css": [],
+    "erp-new/client/src/App.tsx": [
+      "erp-new/client/src/api.ts",
+      "erp-new/client/src/App.css",
+      "erp-new/client/src/pages/CustPage.tsx",
+      "erp-new/client/src/pages/DeptPage.tsx",
+      "erp-new/client/src/pages/IndxPage.tsx",
+      "erp-new/client/src/pages/PrdtPage.tsx",
+      "erp-new/client/src/pages/SalesOrderPage.tsx",
+      "erp-new/client/src/pages/SalesReturnPage.tsx",
+      "erp-new/client/src/pages/SalesShipmentPage.tsx",
+      "erp-new/client/src/pages/SalmPage.tsx",
+      "erp-new/client/src/pages/WhPage.tsx"
+    ],
+    "erp-new/client/src/components/LookupField.tsx": [],
+    "erp-new/client/src/components/LookupModal.tsx": [],
+    "erp-new/client/src/index.css": [],
+    "erp-new/client/src/main.tsx": [
+      "erp-new/client/src/App.tsx",
+      "erp-new/client/src/index.css"
+    ],
+    "erp-new/client/src/pages/CustPage.tsx": [
+      "erp-new/client/src/api.ts",
+      "erp-new/client/src/components/LookupField.tsx",
+      "erp-new/client/src/components/LookupModal.tsx"
+    ],
+    "erp-new/client/src/pages/DeptPage.tsx": [
+      "erp-new/client/src/api.ts"
+    ],
+    "erp-new/client/src/pages/IndxPage.tsx": [
+      "erp-new/client/src/api.ts"
+    ],
+    "erp-new/client/src/pages/PrdtPage.tsx": [
+      "erp-new/client/src/api.ts"
+    ],
+    "erp-new/client/src/pages/SalesOrderPage.tsx": [
+      "erp-new/client/src/api.ts",
+      "erp-new/client/src/components/LookupField.tsx",
+      "erp-new/client/src/components/LookupModal.tsx"
+    ],
+    "erp-new/client/src/pages/SalesReturnPage.tsx": [
+      "erp-new/client/src/api.ts",
+      "erp-new/client/src/components/LookupField.tsx",
+      "erp-new/client/src/components/LookupModal.tsx"
+    ],
+    "erp-new/client/src/pages/SalesShipmentPage.tsx": [
+      "erp-new/client/src/api.ts",
+      "erp-new/client/src/components/LookupField.tsx",
+      "erp-new/client/src/components/LookupModal.tsx"
+    ],
+    "erp-new/client/src/pages/SalmPage.tsx": [
+      "erp-new/client/src/api.ts",
+      "erp-new/client/src/components/LookupField.tsx",
+      "erp-new/client/src/components/LookupModal.tsx"
+    ],
+    "erp-new/client/src/pages/WhPage.tsx": [
+      "erp-new/client/src/api.ts",
+      "erp-new/client/src/components/LookupField.tsx",
+      "erp-new/client/src/components/LookupModal.tsx"
+    ],
+    "erp-new/client/tsconfig.app.json": [],
+    "erp-new/client/tsconfig.json": [],
+    "erp-new/client/tsconfig.node.json": [],
+    "erp-new/client/vite.config.ts": [],
+    "erp-new/docs/01_中类_功能说明.md": [],
+    "erp-new/docs/02_货品_功能说明.md": [],
+    "erp-new/docs/02_货品基础资料_功能说明.md": [],
+    "erp-new/docs/02_客户供应商区域_功能说明.md": [],
+    "erp-new/docs/03_客户厂商_功能说明.md": [],
+    "erp-new/docs/04_受订单_功能说明.md": [],
+    "erp-new/docs/05_销货单_功能说明.md": [],
+    "erp-new/docs/06_部门_功能说明.md": [],
+    "erp-new/docs/06_销货折让_功能说明.md": [],
+    "erp-new/docs/07_仓库_功能说明.md": [],
+    "erp-new/docs/08_销货退回_功能说明.md": [],
+    "erp-new/docs/09_进货单_功能说明.md": [],
+    "erp-new/docs/09_员工_功能说明.md": [],
+    "erp-new/docs/10_进货退回_功能说明.md": [],
+    "erp-new/docs/11_进货折让_功能说明.md": [],
+    "erp-new/docs/11_请购单_功能说明.md": [],
+    "erp-new/docs/12_采购单_功能说明.md": [],
+    "erp-new/docs/12_权限设置_功能说明.md": [],
+    "erp-new/docs/13_扩展字段与_Z表_功能说明.md": [],
+    "erp-new/docs/14_BOM物料配方输入_功能说明.md": [],
+    "erp-new/docs/15_生产领料_功能说明.md": [],
+    "erp-new/docs/16_缴库单_功能说明.md": [],
+    "erp-new/docs/16_生产计划_功能说明.md": [],
+    "erp-new/docs/17_生产需求分析单_功能说明.md": [],
+    "erp-new/docs/后续资料完善清单.md": [],
+    "erp-new/docs/DEV_01_SUNLIKE9_核心业务基准规范.md": [],
+    "erp-new/package.json": [],
+    "erp-new/README.md": [],
+    "erp-new/scripts/write-cursor-rule.cjs": [],
+    "erp-new/server/auth.js": [
+      "erp-new/server/permissions.js",
+      "erp-new/server/pswdMssqlAuth.js"
+    ],
+    "erp-new/server/authMiddleware.js": [
+      "erp-new/server/auth.js"
+    ],
+    "erp-new/server/billAuditMeta.js": [
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/billExtFieldHook.js": [
+      "erp-new/server/extFieldPersist.js"
+    ],
+    "erp-new/server/bomOrdersRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/data/db-connection.json": [],
+    "erp-new/server/data/erp.sqlite": [],
+    "erp-new/server/data/erp.sqlite-shm": [],
+    "erp-new/server/data/erp.sqlite-wal": [],
+    "erp-new/server/db.js": [
+      "erp-new/server/billAuditMeta.js"
+    ],
+    "erp-new/server/dbConnectionConfig.js": [],
+    "erp-new/server/encoding.js": [],
+    "erp-new/server/env.example": [],
+    "erp-new/server/extField.js": [
+      "erp-new/server/db.js",
+      "erp-new/server/gridConfig.js",
+      "erp-new/server/menuTableRegistry.js",
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/extFieldPersist.js": [
+      "erp-new/server/extField.js",
+      "erp-new/server/gridConfig.js",
+      "erp-new/server/menuTableRegistry.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/sunlikeSqlExpr.js"
+    ],
+    "erp-new/server/fix_sqlite_encoding.js": [
+      "erp-new/server/db.js",
+      "erp-new/server/encoding.js"
+    ],
+    "erp-new/server/gridConfig.js": [
+      "erp-new/server/db.js",
+      "erp-new/server/extField.js",
+      "erp-new/server/menuTableRegistry.js",
+      "erp-new/server/permissions.js",
+      "erp-new/server/sunlikeSqlExpr.js"
+    ],
+    "erp-new/server/import_from_db11.js": [
+      "erp-new/server/db.js",
+      "erp-new/server/encoding.js"
+    ],
+    "erp-new/server/index.js": [
+      "erp-new/server/auth.js",
+      "erp-new/server/authMiddleware.js",
+      "erp-new/server/bomOrdersRoutes.js",
+      "erp-new/server/db.js",
+      "erp-new/server/dbConnectionConfig.js",
+      "erp-new/server/extField.js",
+      "erp-new/server/gridConfig.js",
+      "erp-new/server/jhOrdersRoutes.js",
+      "erp-new/server/mlOrdersRoutes.js",
+      "erp-new/server/mmOrdersRoutes.js",
+      "erp-new/server/moOrdersRoutes.js",
+      "erp-new/server/mpOrdersRoutes.js",
+      "erp-new/server/mssqlPool.js",
+      "erp-new/server/permissions.js",
+      "erp-new/server/permissionsRoutes.js",
+      "erp-new/server/printTemplate.js",
+      "erp-new/server/pswdMssqlAuth.js",
+      "erp-new/server/repositories/indxRepository.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/routes/areaRoutes.js",
+      "erp-new/server/routes/bilSpcRoutes.js",
+      "erp-new/server/routes/curRoutes.js",
+      "erp-new/server/routes/custRoutes.js",
+      "erp-new/server/routes/deptRoutes.js",
+      "erp-new/server/routes/indxRoutes.js",
+      "erp-new/server/routes/mfPosRoutes.js",
+      "erp-new/server/routes/mfPssRoutes.js",
+      "erp-new/server/routes/prdtRoutes.js",
+      "erp-new/server/routes/salmRoutes.js",
+      "erp-new/server/routes/whRoutes.js",
+      "erp-new/server/sqOrdersRoutes.js"
+    ],
+    "erp-new/server/jhOrdersRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js"
+    ],
+    "erp-new/server/menuTableRegistry.js": [],
+    "erp-new/server/mlOrdersRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js"
+    ],
+    "erp-new/server/mmOrdersRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js"
+    ],
+    "erp-new/server/moOrdersRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js"
+    ],
+    "erp-new/server/mpOrdersRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js"
+    ],
+    "erp-new/server/mssqlPool.js": [
+      "erp-new/server/dbConnectionConfig.js"
+    ],
+    "erp-new/server/package.json": [],
+    "erp-new/server/permissions.js": [
+      "erp-new/server/db.js"
+    ],
+    "erp-new/server/permissionsRoutes.js": [
+      "erp-new/server/authMiddleware.js",
+      "erp-new/server/permissions.js"
+    ],
+    "erp-new/server/poOrdersRoutes.js": [
+      "erp-new/server/sqPoTransfer.js"
+    ],
+    "erp-new/server/printTemplate.js": [
+      "erp-new/server/db.js"
+    ],
+    "erp-new/server/pswdMssqlAuth.js": [
+      "erp-new/server/dbConnectionConfig.js",
+      "erp-new/server/encoding.js",
+      "erp-new/server/mssqlPool.js",
+      "erp-new/server/permissions.js"
+    ],
+    "erp-new/server/repositories/areaRepository.js": [
+      "erp-new/server/encoding.js",
+      "erp-new/server/mssqlPool.js",
+      "erp-new/server/repositories/mssqlRow.js"
+    ],
+    "erp-new/server/repositories/indxRepository.js": [
+      "erp-new/server/encoding.js",
+      "erp-new/server/mssqlPool.js",
+      "erp-new/server/repositories/mssqlRow.js"
+    ],
+    "erp-new/server/repositories/mssqlHelpers.js": [
+      "erp-new/server/encoding.js",
+      "erp-new/server/mssqlPool.js"
+    ],
+    "erp-new/server/repositories/mssqlNextNo.js": [
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/repositories/mssqlRow.js": [],
+    "erp-new/server/repositories/prdtPic.js": [
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/routes/areaRoutes.js": [
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/areaRepository.js"
+    ],
+    "erp-new/server/routes/bilSpcRoutes.js": [
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/routes/curRoutes.js": [
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/routes/custRoutes.js": [
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/routes/deptRoutes.js": [
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/routes/indxRoutes.js": [
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/indxRepository.js",
+      "erp-new/server/utils/indxKndResolver.js"
+    ],
+    "erp-new/server/routes/mfPosRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/extField.js",
+      "erp-new/server/extFieldPersist.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js",
+      "erp-new/server/sqPoTransferMssql.js"
+    ],
+    "erp-new/server/routes/mfPssRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js"
+    ],
+    "erp-new/server/routes/prdtRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/indxRepository.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js",
+      "erp-new/server/repositories/prdtPic.js",
+      "erp-new/server/utils/indxKndResolver.js",
+      "erp-new/server/utils/prdtSaveDefaults.js"
+    ],
+    "erp-new/server/routes/salmRoutes.js": [
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/routes/whRoutes.js": [
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/permissions.js",
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/scripts/_check_faseca_pic_cols.js": [
+      "erp-new/server/db.js"
+    ],
+    "erp-new/server/scripts/_dict_mo_out.txt": [],
+    "erp-new/server/scripts/_dict_mo.js": [
+      "erp-new/server/mssqlPool.js",
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/scripts/_dict_mp23.js": [
+      "erp-new/server/mssqlPool.js"
+    ],
+    "erp-new/server/scripts/_gen_mo_mapping.js": [],
+    "erp-new/server/scripts/_probe_face_tables.js": [
+      "erp-new/server/mssqlPool.js"
+    ],
+    "erp-new/server/scripts/_probe_mp23_labels.js": [
+      "erp-new/server/dbConnectionConfig.js"
+    ],
+    "erp-new/server/scripts/_probe_mp23.js": [
+      "erp-new/server/dbConnectionConfig.js"
+    ],
+    "erp-new/server/scripts/_query_faseca_menu.js": [
+      "erp-new/server/mssqlPool.js"
+    ],
+    "erp-new/server/scripts/_test_cust_list.js": [
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/scripts/_test_ext_on_pic_body.js": [
+      "erp-new/server/billExtFieldHook.js"
+    ],
+    "erp-new/server/scripts/_test_prdt_create_with_pic.js": [
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/indxRepository.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js",
+      "erp-new/server/repositories/prdtPic.js"
+    ],
+    "erp-new/server/scripts/_test_prdt_pic_save.js": [
+      "erp-new/server/mssqlPool.js",
+      "erp-new/server/repositories/prdtPic.js"
+    ],
+    "erp-new/server/scripts/_test_prdt_pic_tx.js": [
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/prdtPic.js"
+    ],
+    "erp-new/server/scripts/_test_save_prdt_pic_fn.js": [
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/prdtPic.js"
+    ],
+    "erp-new/server/sqOrdersRoutes.js": [
+      "erp-new/server/billAuditMeta.js",
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/repositories/mssqlHelpers.js",
+      "erp-new/server/repositories/mssqlNextNo.js"
+    ],
+    "erp-new/server/sqPoTransfer.js": [],
+    "erp-new/server/sqPoTransferMssql.js": [
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/sunlikePwd.js": [],
+    "erp-new/server/sunlikeSqlExpr.js": [],
+    "erp-new/server/uploads/1779706934207-_________U9__________________1.xlsm": [],
+    "erp-new/server/uploads/1779811437163-_________U9__________________1.xlsm": [],
+    "erp-new/server/uploads/1779811970340-_________U9__________________1.xlsm": [],
+    "erp-new/server/uploads/1779811983099-SQLQuery1.sql": [],
+    "erp-new/server/utils/indxKndResolver.js": [
+      "erp-new/server/billExtFieldHook.js",
+      "erp-new/server/db.js",
+      "erp-new/server/repositories/indxRepository.js",
+      "erp-new/server/repositories/mssqlHelpers.js"
+    ],
+    "erp-new/server/utils/prdtSaveDefaults.js": [
+      "erp-new/server/utils/indxKndResolver.js"
+    ],
+    "Project_Brain.md": [],
+    "Project_Status.md": [],
+    "TEST.TXT": []
+  }
+}
