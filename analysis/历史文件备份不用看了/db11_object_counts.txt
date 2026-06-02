@@ -1,6 +1,0 @@
-TableCount
-----------
-2230
-ViewCount
----------
-14

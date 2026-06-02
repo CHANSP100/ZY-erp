@@ -1,5 +1,0 @@
-MENU_NAME FORM_NAME MOD_NAME LINK_TYPE
---------- --------- -------- ---------
-SAC AccAaForm Acc BILL
-SAU AccAAAForm Acc BILL
-SACB AccAABForm Acc 

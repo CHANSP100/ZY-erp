@@ -1,4 +1,0 @@
-Bucket Tables TotalRows
------- ------ ---------
-empty 2108 0
-has_data 122 267849
