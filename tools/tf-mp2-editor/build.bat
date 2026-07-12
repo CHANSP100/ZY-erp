@@ -2,33 +2,34 @@
 chcp 65001 >nul
 cd /d "%~dp0"
 
-echo === TF_MP2 视图维护工具 - 打包 EXE ===
+echo === TF_MP2 视图维护工具 (C#) - 编译 EXE ===
 
-where python >nul 2>&1
+where dotnet >nul 2>&1
 if errorlevel 1 (
-  echo 未找到 Python，请先安装 Python 3.10+ 并勾选 "Add to PATH"
+  echo 未找到 .NET SDK，请安装 .NET 8 SDK：
+  echo https://dotnet.microsoft.com/download/dotnet/8.0
   pause
   exit /b 1
 )
 
-python -m pip install -r requirements.txt
-if errorlevel 1 (
-  echo 依赖安装失败
-  pause
-  exit /b 1
-)
+dotnet restore TfMp2Editor.sln
+if errorlevel 1 goto :fail
 
-pyinstaller --noconfirm --clean --onefile --windowed ^
-  --name "TF_MP2视图维护" ^
-  app.py
+dotnet publish TfMp2Editor\TfMp2Editor.csproj -c Release -r win-x64 --self-contained true ^
+  -p:PublishSingleFile=true ^
+  -p:IncludeNativeLibrariesForSelfExtract=true ^
+  -p:EnableCompressionInSingleFile=true ^
+  -o publish
 
-if errorlevel 1 (
-  echo 打包失败
-  pause
-  exit /b 1
-)
+if errorlevel 1 goto :fail
 
 echo.
-echo 成功：dist\TF_MP2视图维护.exe
-echo 首次运行需本机已安装 SQL Server ODBC 驱动（ODBC Driver 17/18 for SQL Server）
+echo 成功：publish\TF_MP2视图维护.exe
+echo 可将 publish 目录下 exe 单独拷贝到其他 Windows 电脑运行（无需安装 .NET 运行时）
 pause
+exit /b 0
+
+:fail
+echo 编译失败
+pause
+exit /b 1

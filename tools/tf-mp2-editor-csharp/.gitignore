@@ -1,6 +1,0 @@
-bin/
-obj/
-publish/
-login_config.json
-*.user
-.vs/
