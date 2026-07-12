@@ -47,7 +47,7 @@ dotnet run --project TfMp2Editor\TfMp2Editor.csproj
 | 用途 | 候选列名 |
 |------|----------|
 | 分析单号下拉 | `分析单号`、`MP_NO` |
-| 订单号下拉 | `订单号`、`SO_NO` |
+| 订单号下拉 | `OS_NO`、`订单号`、`SO_NO` |
 | 关联键 | `MP_NO`、`ITM` |
 | 选择框 | `PRD_NO_CHG` |
 

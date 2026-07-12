@@ -18,8 +18,8 @@ DEFAULTS = {
 }
 
 # 视图下拉字段名（优先中文列名，否则回退物理字段）
-MP_NO_CANDIDATES = ('分析单号', 'MP_NO', 'mp_no')
-SO_NO_CANDIDATES = ('订单号', 'SO_NO', 'so_no')
+MP_NO_CANDIDATES = ('MP_NO', '分析单号', 'mp_no')
+SO_NO_CANDIDATES = ('OS_NO', '订单号', 'SO_NO', 'so_no')
 KEY_MP_NO = 'MP_NO'
 KEY_ITM = 'ITM'
 CHK_FIELD = 'PRD_NO_CHG'

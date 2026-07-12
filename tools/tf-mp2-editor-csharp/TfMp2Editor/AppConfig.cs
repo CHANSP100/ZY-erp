@@ -10,8 +10,8 @@ internal static class AppConstants
     public const string KeyItm = "ITM";
     public const string ChkColumnName = "__CHK__";
 
-    public static readonly string[] MpNoCandidates = { "分析单号", "MP_NO", "mp_no" };
-    public static readonly string[] SoNoCandidates = { "订单号", "SO_NO", "so_no" };
+    public static readonly string[] MpNoCandidates = { "MP_NO", "分析单号", "mp_no" };
+    public static readonly string[] SoNoCandidates = { "OS_NO", "订单号", "SO_NO", "so_no" };
 }
 
 internal sealed class DbConfig
